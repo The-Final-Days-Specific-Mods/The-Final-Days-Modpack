@@ -1,0 +1,849 @@
+module Base
+{
+        item PlagueMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Lamprey,
+		ClothingItem = PlagueMask,
+		BodyLocation = Eyes,
+		Icon = PlagueMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = PlagueMask_WorldItem
+	}
+        item ClownMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Clown,
+		ClothingItem = ClownMask,
+		BodyLocation = Eyes,
+		Icon = ClownMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = ClownMask_WorldItem
+	}
+        item VendettaMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Vendetta (Placeholder),
+		ClothingItem = VendettaMask,
+		BodyLocation = Eyes,
+		Icon = VendettaMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = VendettaMask_WorldItem
+	}
+        item OniMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Oni,
+		ClothingItem = OniMask,
+		BodyLocation = Eyes,
+		Icon = OniMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = OniMask_WorldItem
+	}
+        item PogoFullMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Pogo,
+		ClothingItem = PogoFullMask,
+		BodyLocation = Hat,
+		Icon = PogoFullMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = PogoFullMask_WorldItem
+	}
+        item SamuraiHalfMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Samurai Half,
+		ClothingItem = SamuraiHalfMask,
+		BodyLocation = Eyes,
+		Icon = SamuraiHalfMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = SamuraiHalfMask_WorldItem
+	}
+        item GatorMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Gator,
+		ClothingItem = GatorMask,
+		BodyLocation = Eyes,
+		Icon = GatorMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = GatorMask_WorldItem
+	}
+        item VaultBoyMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Vault Boy,
+		ClothingItem = VaultBoyMask,
+		BodyLocation = Hat,
+		Icon = VaultBoyMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = VaultBoyMask_WorldItem
+	}
+        item FeelsGoodManMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - FeelsGoodMan,
+		ClothingItem = FeelsGoodManMask,
+		BodyLocation = Hat,
+		Icon = FeelsGoodManMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = FeelsGoodManMask_WorldItem
+	}
+        item ForestMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Forest,
+		ClothingItem = ForestMask,
+		BodyLocation = Eyes,
+		Icon = ForestMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = ForestMask_WorldItem
+	}
+        item RichardMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Richard,
+		ClothingItem = RichardMask,
+		BodyLocation = Hat,
+		Icon = RichardMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = RichardMask_WorldItem
+	}
+        item KitsuneMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Kitsune,
+		ClothingItem = KitsuneMask,
+		BodyLocation = Eyes,
+		Icon = KitsuneMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = KitsuneMask_WorldItem
+	}
+        item MarkVI
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - MarkVI,
+		ClothingItem = MarkVI,
+		BodyLocation = Hat,
+		Icon = MarkVI,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = MarkVI_WorldItem
+	}
+        item FoxCatMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Fox Cat,
+		ClothingItem = FoxCatMask,
+		BodyLocation = Eyes,
+		Icon = FoxCatMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = FoxCatMask_WorldItem
+	}
+        item WoodenMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Wooden,
+		ClothingItem = WoodenMask,
+		BodyLocation = Eyes,
+		Icon = WoodenMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = WoodenMask_WorldItem
+	}
+        item HannyaMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Hannya,
+		ClothingItem = HannyaMask,
+		BodyLocation = Eyes,
+		Icon = HannyaMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HannyaMask_WorldItem
+	}
+        item RedOniMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Red Oni,
+		ClothingItem = RedOniMask,
+		BodyLocation = Eyes,
+		Icon = RedOniMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = RedOniMask_WorldItem
+	}
+        item SkullMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Skull,
+		ClothingItem = SkullMask,
+		BodyLocation = Eyes,
+		Icon = SkullMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = SkullMask_WorldItem
+	}
+        item DallasMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Dallas,
+		ClothingItem = DallasMask,
+		BodyLocation = Eyes,
+		Icon = DallasMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = DallasMask_WorldItem
+	}
+        item PaperBagMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Paper Bag,
+		ClothingItem = PaperBagMask,
+		BodyLocation = Hat,
+		Icon = PaperBagMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = PaperBagMask_WorldItem
+	}
+        item NoveltyBearMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Novelty Bear,
+		ClothingItem = NoveltyBearMask,
+		BodyLocation = Hat,
+		Icon = NoveltyBearMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = NoveltyBearMask_WorldItem
+	}
+        item NoveltyGhoulMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Novelty Ghoul,
+		ClothingItem = NoveltyGhoulMask,
+		BodyLocation = Hat,
+		Icon = NoveltyGhoulMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = NoveltyGhoulMask_WorldItem
+	}
+        item SteampunkMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Steampunk,
+		ClothingItem = SteampunkMask,
+		BodyLocation = Eyes,
+		Icon = SteampunkMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = SteampunkMask_WorldItem
+	}
+        item NeonShades
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Neon Shades,
+		ClothingItem = NeonShades,
+		BodyLocation = Eyes,
+		Icon = NeonShades,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = NeonShades_WorldItem
+	}
+        item KenaMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Kena,
+		ClothingItem = KenaMask,
+		BodyLocation = Eyes,
+		Icon = KenaMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = KenaMask_WorldItem
+	}
+        item HappyMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Happy,
+		ClothingItem = HappyMask,
+		BodyLocation = Eyes,
+		Icon = HappyMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HappyMask_WorldItem
+	}
+        item PlagueLeatherMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Plague Leather,
+		ClothingItem = PlagueLeatherMask,
+		BodyLocation = Eyes,
+		Icon = PlagueLeatherMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = PlagueLeatherMask_WorldItem
+	}
+        item DovahkiinMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Dovahkiin,
+		ClothingItem = DovahkiinMask,
+		BodyLocation = Hat,
+		Icon = DovahkiinMask,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = DovahkiinMask_WorldItem
+	}
+        item ThorHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Thor Helmet,
+		ClothingItem = ThorHelmet,
+		BodyLocation = Hat,
+		Icon = ThorHelmet,
+		BloodLocation = Head,
+		CanHaveHoles = false,
+        BiteDefense = 0,
+        ScratchDefense = 0,
+        ChanceToFall = 0,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        WorldStaticModel = ThorHelmet_WorldItem
+	}
+        item DevilMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Devil,
+		ClothingItem = DevilMask,
+		BodyLocation = Eyes,
+		Icon = DevilMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = DevilMask_WorldItem
+	}
+        item TikiMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Tiki,
+		ClothingItem = TikiMask,
+		BodyLocation = Eyes,
+		Icon = TikiMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = TikiMask_WorldItem
+	}
+        item HoundHelm
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Hound,
+		ClothingItem = HoundHelm,
+		BodyLocation = Hat,
+		Icon = HoundHelm,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HoundHelm_WorldItem
+	}
+        item BlightedBeakMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Blighted Beak,
+		ClothingItem = BlightedBeakMask,
+		BodyLocation = Eyes,
+		Icon = BlightedBeakMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = BlightedBeakMask_WorldItem
+	}
+        item WarningSign
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Warning Sign,
+		ClothingItem = WarningSign,
+		BodyLocation = Eyes,
+		Icon = WarningSign,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = WarningSign_WorldItem
+	}
+        item PopSpaceHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Pop Space,
+		ClothingItem = PopSpaceHelmet,
+		BodyLocation = Hat,
+		Icon = PopSpaceHelmet,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = PopSpaceHelmet_WorldItem
+	}
+        item CadianHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Cadian,
+		ClothingItem = CadianHelmet,
+		BodyLocation = Hat,
+		Icon = CadianHelmet,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = CadianHelmet_WorldItem
+	}
+        item HornedHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Horned,
+		ClothingItem = HornedHelmet,
+		BodyLocation = Hat,
+		Icon = HornedHelmet,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HornedHelmet_WorldItem
+	}
+        item BJBlazkowicz
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - BJBlazkowicz,
+		ClothingItem = BJBlazkowicz,
+		BodyLocation = Hat,
+		Icon = BJBlazkowicz,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = BJBlazkowicz_WorldItem
+	}
+        item AnubisMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Anubis,
+		ClothingItem = AnubisMask,
+		BodyLocation = Hat,
+		Icon = AnubisMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = AnubisMask_WorldItem
+	}
+        item MokujinMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Mokujin,
+		ClothingItem = MokujinMask,
+		BodyLocation = Hat,
+		Icon = MokujinMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = MokujinMask_WorldItem
+	}
+        item MistAnbuMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Mist Anbu,
+		ClothingItem = MistAnbuMask,
+		BodyLocation = Eyes,
+		Icon = MistAnbuMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = MistAnbuMask_WorldItem
+	}
+        item AsianMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Asian,
+		ClothingItem = AsianMask,
+		BodyLocation = Eyes,
+		Icon = AsianMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = AsianMask_WorldItem
+	}
+        item Doge
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Doge,
+		ClothingItem = Doge,
+		BodyLocation = Hat,
+		Icon = Doge,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Doge_WorldItem
+	}
+        item PeanutButterJellyHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Peanut Butter Jelly Hat,
+		ClothingItem = PeanutButterJellyHat,
+		BodyLocation = Hat,
+		Icon = PeanutButterJellyHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = PeanutButterJellyHat_WorldItem
+	}
+        item Chocobo
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Chocobo,
+		ClothingItem = Chocobo,
+		BodyLocation = Hat,
+		Icon = Chocobo,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Chocobo_WorldItem
+	}
+        item FrogHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Frog Hat,
+		ClothingItem = FrogHat,
+		BodyLocation = Hat,
+		Icon = FrogHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = FrogHat_WorldItem
+	}
+        item BlackBambooHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Black Bamboo,
+		ClothingItem = BlackBambooHat,
+		BodyLocation = Hat,
+		Icon = BlackBambooHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = BlackBambooHat_WorldItem
+	}
+        item ChumBucket
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Chum Bucket,
+		ClothingItem = ChumBucket,
+		BodyLocation = Hat,
+		Icon = ChumBucket,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = ChumBucket_WorldItem
+	}
+        item PirateHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Pirate Hat,
+		ClothingItem = PirateHat,
+		BodyLocation = Hat,
+		Icon = PirateHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = PirateHat_WorldItem
+	}
+        item TopHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Top Hat,
+		ClothingItem = TopHat,
+		BodyLocation = Hat,
+		Icon = TopHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = TopHat_WorldItem
+	}
+        item HazmatHelm
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Hazzie,
+		ClothingItem = HazmatHelm,
+		BodyLocation = Hat,
+		Icon = HazmatHelm,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HazmatHelm_WorldItem
+	}
+        item Predator
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Predator,
+		ClothingItem = Predator,
+		BodyLocation = Hat,
+		Icon = Predator,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Predator_WorldItem
+	}
+        item Gunslinger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Gunslinger,
+		ClothingItem = Gunslinger,
+		BodyLocation = Hat,
+		Icon = Gunslinger,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Gunslinger_WorldItem
+	}
+        item HorseMask
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Horse,
+		ClothingItem = HorseMask,
+		BodyLocation = Hat,
+		Icon = HorseMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = HorseMask_WorldItem
+	}
+        item Cyberman
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Cyberman,
+		ClothingItem = Cyberman,
+		BodyLocation = Hat,
+		Icon = Cyberman,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Cyberman_WorldItem
+	}
+        item Bender
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Bender,
+		ClothingItem = Bender,
+		BodyLocation = Hat,
+		Icon = Bender,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Benders_WorldItem
+	}
+        item UshankaHat
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Ushanka,
+		ClothingItem = UshankaHat,
+		BodyLocation = Hat,
+		Icon = UshankaHat,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = UshankaHat_WorldItem
+	}
+        item ShogunHelmet
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Shogun,
+		ClothingItem = ShogunHelmet,
+		BodyLocation = Hat,
+		Icon = ShogunHelmet,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = ShogunHelmet_WorldItem
+	}
+        item Toady
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Toady,
+		ClothingItem = Toady,
+		BodyLocation = Eyes,
+		Icon = Toady,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Toady_WorldItem
+	}
+        item ToadyReaper
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Toady Reaper,
+		ClothingItem = ToadyReaper,
+		BodyLocation = Eyes,
+		Icon = ToadyReaper,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = ToadyReaper_WorldItem
+	}
+        item SubtleDisguise
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Subtle Disguise,
+		ClothingItem = SubtleDisguise,
+		BodyLocation = Eyes,
+		Icon = SubtleDisguise,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = SubtleDisguise_WorldItem
+	}
+        item Sombrero
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = CHG - Sombrero,
+		ClothingItem = Sombrero,
+		BodyLocation = Hat,
+		Icon = Sombrero,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 20,
+                WorldStaticModel = Sombrero_WorldItem
+	}
+}

@@ -1,0 +1,17 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item KitchenTongs
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   KitchenTongs,
+        Icon	=	Tongs,
+	  WorldStaticModel = KitchenTongs,
+    }
+
+}

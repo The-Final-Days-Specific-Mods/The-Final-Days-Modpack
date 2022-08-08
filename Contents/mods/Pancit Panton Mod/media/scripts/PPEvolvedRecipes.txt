@@ -1,0 +1,23 @@
+module Base {
+
+    evolvedrecipe PancitPot
+    {
+        BaseItem:ChowMeinWaterPot,
+        MaxItems:2,
+        ResultItem:pancit.PancitPot,
+        Cookable:true,
+        CanAddSpicesEmpty:true,
+        Name:Prepare Pancit Panton,
+    }
+
+    evolvedrecipe PancitPan
+    {
+        BaseItem:ChowMeinWaterPan,
+        MaxItems:2,
+        ResultItem:pancit.PancitPan,
+        Cookable:true,
+        CanAddSpicesEmpty:true,
+        Name:Prepare Pancit Panton,
+    }
+
+}

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadioData>
+  <RootInfo>
+    <SourceFile>Radio</SourceFile>
+    <FileGUID>f46591d4-cd38-4085-a6d8-40ce5c989d38</FileGUID>
+    <Version>0</Version>
+  </RootInfo>
+  <Voices>
+    <VoiceEntry ID="f5a22182-da6a-4561-800e-117c9c4ef8df">
+      <FinalColor r="255" g="128" b="64" />
+    </VoiceEntry>
+    <VoiceEntry ID="0b58cbfc-a896-49c1-b664-580cbcecd0a0">
+      <FinalColor r="128" g="0" b="255" />
+    </VoiceEntry>
+    <VoiceEntry ID="ea3203a5-3831-4316-9ac7-3cbf20fe6069">
+      <FinalColor r="0" g="0" b="255" />
+    </VoiceEntry>
+  </Voices>
+  <Adverts>
+    <ScriptEntry ID="4874e838-4fde-451a-b666-18f43baae40f" name="ICU Adverts" startdelay="0" timestampmode="Static" loopmin="1" loopmax="1">
+      <ExitOptions />
+      <BroadcastEntry ID="ba8213d1-ccf5-43a7-a150-5805168a1c83" timestamp="0" endstamp="360" type="ActivateBroadcast" day="0" advertCat="none" isSegment="true">
+        <LineEntry ID="b9b9278f-83b0-47c8-afb1-8475f147e070" r="0" g="0" b="255">Did you know?</LineEntry>
+        <LineEntry ID="946b98c8-795e-422e-98d5-4ad6de1e497e" r="0" g="0" b="255">That across the world there are more than two million channels?</LineEntry>
+        <LineEntry ID="666864d3-b9ba-4501-b016-8a6bb4c446a3" r="0" g="0" b="255">How do you know which ones to watch?</LineEntry>
+        <LineEntry ID="babfdf7d-8b0e-4195-8091-07ff1bc09e56" r="0" g="0" b="255">Well have no fear, your solution is here</LineEntry>
+        <LineEntry ID="48a1be3e-59fd-432c-980a-205be70dc99e" r="0" g="0" b="255">A collection of broadcasters from the north west of England</LineEntry>
+        <LineEntry ID="f738d7d2-5e1b-4a8b-86c4-38141a789ed3" r="0" g="0" b="255">have created a one stop shop for all of your viewing needs</LineEntry>
+        <LineEntry ID="e18b2e84-9396-4d78-a38b-f066d53a0134" r="0" g="0" b="255">Introducing</LineEntry>
+        <LineEntry ID="e4d35bbe-c2f9-4a13-9e0f-134adeb5a0ce" r="0" g="0" b="255">ICE CREAM UPLOADS</LineEntry>
+        <LineEntry ID="4c91e8f4-fe85-4b4a-8539-5d1bb2a47df5" r="0" g="0" b="255">The coolest channel in the world that you've never heard of!</LineEntry>
+        <LineEntry ID="3f72f3d8-2e2e-4d83-9652-4d32c2206f74" r="0" g="0" b="255">Whilst most channels give you exclusive access to exclusive compeitions</LineEntry>
+        <LineEntry ID="4c17ed39-ce9d-4d36-b268-cac2c8bdc949" r="0" g="0" b="255">ICU goes much further than that!</LineEntry>
+        <LineEntry ID="37d64590-2abf-4016-a1e7-0a14e12542b4" r="0" g="0" b="255">All viewers get access to the all new giveaways</LineEntry>
+        <LineEntry ID="704b34e4-9948-4626-97de-fdc1ee154515" r="0" g="0" b="255">and can visit the ICU Studio located in Monmouth County to experience our studio tour.</LineEntry>
+        <LineEntry ID="c791c071-35ec-4e45-8d9b-4ec1f38fe15a" r="0" g="0" b="255">Here you can speak to our broadcasters and join in our competitions each and every month!</LineEntry>
+        <LineEntry ID="d54007ea-5a7d-4c3d-899e-0eb75157261e" r="0" g="0" b="255">We'll also shout you out on your birthday, but wait, there's more!</LineEntry>
+        <LineEntry ID="ca012969-62fb-4e04-85fb-cb17b294d96e" r="0" g="0" b="255">You can get access to the all new games review room just by visiting us with a special coupon! </LineEntry>
+        <LineEntry ID="b967bbb9-c96c-499c-883e-5b2def7b4fd7" r="0" g="0" b="255">We appreciate you tuning into our shows both on television and the radio.</LineEntry>
+        <LineEntry ID="ec34f2f6-63d0-4a21-a487-f0edcd684c82" r="0" g="0" b="255">If you're looking for a broadcaster that makes you feel all warm and fuzzy inside then </LineEntry>
+        <LineEntry ID="45f06220-eb85-4904-b8d4-60f94aee3acf" r="0" g="0" b="255">ICU is the one for you.</LineEntry>
+      </BroadcastEntry>
+    </ScriptEntry>
+  </Adverts>
+  <Channels>
+    <ChannelEntry ID="cef2461d-dd3c-4fd9-9c04-ace0f3c14af3" name="IceCream Uploads" cat="Radio" freq="97700" startscript="Day0">
+      <ScriptEntry ID="2fd6d7c7-6bc1-4607-9b56-99c11bc83057" name="Day0" startdelay="0" timestampmode="Static" loopmin="1" loopmax="1">
+        <ExitOptions>
+          <ExitOption chance="100" script="Day0" delay="0" />
+        </ExitOptions>
+        <BroadcastEntry ID="bded94f8-1c3d-4ebe-b624-bdf184a68241" timestamp="0" endstamp="900" type="ActivateBroadcast" day="0" advertCat="4874e838-4fde-451a-b666-18f43baae40f" isSegment="false">
+          <LineEntry ID="369a9dda-0f97-464f-b2d6-bea76e2dd2ce" r="255" g="128" b="64"></LineEntry>
+        </BroadcastEntry>
+        <BroadcastEntry ID="dbf59d53-27b4-4445-ad3d-d2d7e96edfa6" timestamp="900" endstamp="1800" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false">
+          <LineEntry ID="f0a736e0-7f3d-4d7b-ae01-1ecb544576f6" r="128" g="0" b="255" codes="ANG+1">How are we doing, welcome to IceCream Uploads. </LineEntry>
+          <LineEntry ID="60bae671-ddd0-4de4-94bd-3680600a8d8b" r="128" g="0" b="255">My name is Graham Day and I'm joined by the man that we call Bibby</LineEntry>
+          <LineEntry ID="9b05d88e-df45-474f-9c83-59fe13bb6bd9" r="255" g="128" b="64">That's me! That is me.</LineEntry>
+          <LineEntry ID="29959e78-6efe-4c14-94e6-48418b9013cb" r="128" g="0" b="255">Welcome to the show, I hope you are all good.</LineEntry>
+          <LineEntry ID="829a5bad-617f-42ec-9235-672edb805030" r="255" g="128" b="64">It's nice to be back from my golf trip.</LineEntry>
+          <LineEntry ID="2dcea920-de96-4be0-8a5e-885ce28dc45f" r="128" g="0" b="255">How was that?</LineEntry>
+          <LineEntry ID="8ef244d8-e90a-4ef5-b75c-53b1936286b9" r="255" g="128" b="64" codes="STS+1">It was good, I enjoyed it, although one crazy guy tried to bite me.</LineEntry>
+          <LineEntry ID="0fc51666-04d1-4e4d-8b9e-46fb42050b26" r="128" g="0" b="255" codes="UHP-2,ANG+1">Well, you are irresistible obviously.</LineEntry>
+          <LineEntry ID="15d9e91c-1fcb-49cd-a23a-1b1a12de37c9" r="255" g="128" b="64">Moving on, onto the Scoop.</LineEntry>
+          <LineEntry ID="338aaa26-138f-4109-903c-da2d8ecd7289" r="128" g="0" b="255">Today we're talking about the newest game out on the market!</LineEntry>
+          <LineEntry ID="79b18bca-0365-4570-8060-540b1d1074aa" r="255" g="128" b="64" codes="BOR-2">Jay and Silent Bob the arcade?</LineEntry>
+          <LineEntry ID="e852f004-a56d-4ac4-a45b-351d4840aa75" r="128" g="0" b="255">That's right! As I've been told the new arcade cabinet is already out and...</LineEntry>
+          <LineEntry ID="a064957b-e1f5-4e39-94e9-136b3ec01ba4" r="128" g="0" b="255">in Monmouth County!</LineEntry>
+          <LineEntry ID="9f218a9c-ef53-4c7a-a986-1171dbc80889" r="255" g="128" b="64">Where can we play it?</LineEntry>
+          <LineEntry ID="e76d1106-fc37-468d-b153-0c2e1569c041" r="128" g="0" b="255" codes="MOR+1">If you head on over to the Mallrats Mall you'll find that Comic Toast has it in it's store!</LineEntry>
+          <LineEntry ID="c7692ad7-599e-44ac-ba43-c1d0a0253922" r="255" g="128" b="64">Love it, I'll have to get myself over there soon!</LineEntry>
+          <LineEntry ID="05b439f7-a6a0-4e1e-9100-8f48d0691515" r="128" g="0" b="255">Make sure you do.</LineEntry>
+          <LineEntry ID="a945a206-09a2-468c-8905-ac3a3358e7f4" r="255" g="128" b="64">Well, that's all we have time for today but we'll be back again tomorrow.</LineEntry>
+        </BroadcastEntry>
+      </ScriptEntry>
+    </ChannelEntry>
+    <ChannelEntry ID="2c030d09-e5d0-41a0-8993-53a32b0e4a81" name="ICU TV" cat="Television" freq="269" startscript="script">
+      <ScriptEntry ID="d980065b-90bc-49d9-a12d-c250b4681300" name="script" startdelay="0" timestampmode="Static" loopmin="1" loopmax="1">
+        <ExitOptions>
+          <ExitOption chance="0" script="script" delay="0" />
+        </ExitOptions>
+        <BroadcastEntry ID="7323dcc7-6dd3-4a72-8c1c-b2046598b00b" timestamp="0" endstamp="660" type="ActivateBroadcast" day="0" advertCat="none" isSegment="false" />
+      </ScriptEntry>
+    </ChannelEntry>
+  </Channels>
+</RadioData>

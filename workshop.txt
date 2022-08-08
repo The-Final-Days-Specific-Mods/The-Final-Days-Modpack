@@ -1,0 +1,6 @@
+version=1
+id=2843794030
+title= The Final Days Modpack PH (Season 2)
+description=All credit goes to the creator of each modpack.
+tags=Build 41;Multiplayer
+visibility=unlisted

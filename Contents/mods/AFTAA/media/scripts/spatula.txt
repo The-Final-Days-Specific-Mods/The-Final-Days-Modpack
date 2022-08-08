@@ -1,0 +1,17 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item Spatula
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Spatula,
+        Icon	=	Spatula,
+	  WorldStaticModel = Spatula,
+    }
+
+}

@@ -1,0 +1,11 @@
+Sandbox_EN = {
+	Sandbox_CreepySounds = "Creepy Sounds",
+	Sandbox_CreepySounds_HourStart = "Creepy Sounds Starting Hour",
+	Sandbox_CreepySounds_HourStart_tooltip = "Starting hour would the creepy sounds will play.",
+	
+	Sandbox_CreepySounds_HourEnd = "Creepy Sounds Ending Hour",
+	Sandbox_CreepySounds_HourEnd_tooltip = "Ending hour would the creepy counds will play.",
+
+	Sandbox_CreepySounds_Chance = "Random Creepy Sounds Chance",
+	Sandbox_CreepySounds_Chance_tooltip = "The random chance to play a creepy sound."
+}

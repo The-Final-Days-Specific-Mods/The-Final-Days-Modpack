@@ -1,0 +1,9 @@
+module Base
+{
+        model Toady_WorldItem
+    {
+        mesh = WorldItems/Toady_WorldItem,
+        texture = Toady,
+        scale = 1,
+    }
+}

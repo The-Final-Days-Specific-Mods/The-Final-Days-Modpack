@@ -1,0 +1,20 @@
+﻿Recipe_FR = {
+
+	-- MRE XIII (1993) - Meal Ready to Eat MOD
+	-- French translation by Kindouh
+
+	Recipe_Apply_Cheese_spread = "Ajouter Fromage ・tartiner",
+	Recipe_Apply_Jelly = "Ajouter Confiture",
+	Recipe_Apply_Peanut_Butter = "Ajouter Beurre de cacahu鑼e",
+	Recipe_Heat_with_a_heater = "Chauffer avec une source de chaleur",
+	Recipe_Insert_hot_sauce = "Ajouter Sauce piquante",
+	Recipe_Make_Cuppa = "Verser dans une tasse",
+	Recipe_Open_MRE_Accessory_Packet = "Ouvrir le paquet d'accessoires MRE",
+	Recipe_Open_MRE_Box = "Ouvrir Bo羡e MRE",
+	Recipe_Open_MRE_package = "Ouvrir le paquet MRE",
+	Recipe_Place_MRE_in_Box = "Mettre le MRE dans une Bo羡e",
+	Recipe_Pour_water = "Ajouter Eau",
+	Recipe_Put_of_MRE_box_on_pallet = "Mettre la bo羡e MRE sur la palette
+	Recipe_Remove_MRE_box_from_pallet = "Retirer la bo羡e MRE de la palette,"
+
+}

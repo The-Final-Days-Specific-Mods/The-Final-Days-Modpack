@@ -1,0 +1,9 @@
+module Base
+{
+        model Doge_WorldItem
+    {
+        mesh = WorldItems/Doge_WorldItem,
+        texture = Doge,
+        scale = 1,
+    }
+}

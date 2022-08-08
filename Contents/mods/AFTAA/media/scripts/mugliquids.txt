@@ -1,0 +1,273 @@
+module Base 
+{
+    imports 
+    {
+        Base
+    }
+	item WaterMug
+	{
+	    DisplayCategory = Water,
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	Mug of Water,
+		ReplaceOnDeplete	=	Mugl,
+		ReplaceOnUseOn	=	WaterSource-WaterMug,
+		Icon	=	Mugl,
+		IsCookable	=	TRUE,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = WaterMug,
+		EatType = Mug,
+		WorldStaticModel = WaterMug,
+	}
+
+	item WaterMugRed
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	Mug of Water,
+		ReplaceOnDeplete	=	MugRed,
+		ReplaceOnUseOn	=	WaterSource-WaterMugRed,
+		Icon	=	MugRed,
+		IsCookable	=	TRUE,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = WaterMugRed,
+		EatType = Mug,
+		WorldStaticModel = WaterMugRed,
+	}
+
+	item WaterMugWhite
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	Mug of Water,
+		ReplaceOnDeplete	=	MugWhite,
+		ReplaceOnUseOn	=	WaterSource-WaterMugWhite,
+		Icon	=	MugWhite,
+		IsCookable	=	TRUE,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = WaterMugWhite,
+		EatType = Mug,
+		WorldStaticModel = WaterMugWhite,
+	}
+
+	item WaterMugSpiffo
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	0.8,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	1,
+		DisplayName	=	Mug of Water,
+		ReplaceOnDeplete	=	MugSpiffo,
+		ReplaceOnUseOn	=	WaterSource-WaterMugSpiffo,
+		Icon	=	MugSpiffo,
+		IsCookable	=	TRUE,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = WaterMugSpiffo,
+		EatType = Mug,
+		WorldStaticModel = WaterMugSpiffo,
+	}
+
+   item HotDrink
+    {
+        DisplayCategory = Food,
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=	Hot Drink,
+        Icon	=	MugFulll,
+        IsCookable	=	    true,
+        MinutesToBurn   =   50,
+        MinutesToCook   =   10,
+        UnhappyChange   =   -10,
+        ThirstChange    =   -20,
+        ReplaceOnUse    =   Mugl,
+        CustomContextMenu	=  Drink,
+		CustomEatSound = DrinkingFromMug,
+        GoodHot = true,
+        StaticModel = HotDrinkMug,
+        WorldStaticModel = HotDrinkMug,
+    }
+    item HotDrinkRed
+    {
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=	Hot Drink,
+        Icon	=	MugRedFull,
+        IsCookable	=	    true,
+        MinutesToBurn   =   50,
+        MinutesToCook   =   10,
+        UnhappyChange   =   -10,
+        ThirstChange    =   -20,
+        ReplaceOnUse    =   MugRed,
+        CustomContextMenu	=  Drink,
+		CustomEatSound = DrinkingFromCan,
+        GoodHot = true,
+        StaticModel = HotDrinkMugRed,
+        WorldStaticModel = HotDrinkMugRed,
+    }
+    item ColdDrinkRed
+	{
+	    FatigueChange	=	0,
+        HungerChange	=	-5,
+      	Weight	=	1,
+        Type	=	Food,
+        UnhappyChange	=	-5,
+        ThirstChange	=	-50,
+        DisplayName	=	Cold Cuppa,
+        StressChange	=	0,
+        ReplaceOnUse	=	MugRed,
+        Icon	=	MugRedFull,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCan,
+        Carbohydrates = 0.75,
+        Proteins = 0.12,
+        Lipids = 0,
+        Calories = 4,
+        CantBeFrozen = TRUE,
+        StaticModel = HotDrinkMugRed,
+        WorldStaticModel = HotDrinkMugRed,
+	}
+    item HotDrinkWhite
+    {
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=	Hot Drink,
+        Icon	=	MugWhiteFull,
+        IsCookable	=	    true,
+        MinutesToBurn   =   50,
+        MinutesToCook   =   10,
+        UnhappyChange   =   -10,
+        ThirstChange    =   -20,
+        ReplaceOnUse    =   MugWhite,
+        CustomContextMenu	=  Drink,
+        CustomEatSound = DrinkingFromCan,
+        GoodHot = true,
+        StaticModel = HotDrinkMugWhite,
+        WorldStaticModel = HotDrinkMugWhite,
+    }
+    item ColdDrinkWhite
+	{
+	    FatigueChange	=	0,
+        HungerChange	=	-5,
+      	Weight	=	1,
+        Type	=	Food,
+        UnhappyChange	=	-5,
+        ThirstChange	=	-50,
+        DisplayName	=	Cold Cuppa,
+        StressChange	=	0,
+        ReplaceOnUse	=	MugWhite,
+        Icon	=	MugWhiteFull,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCan,
+        Carbohydrates = 0.75,
+        Proteins = 0.12,
+        Lipids = 0,
+        Calories = 4,
+        CantBeFrozen = TRUE,
+        StaticModel = HotDrinkMugWhite,
+        WorldStaticModel = HotDrinkMugWhite,
+	}
+    item HotDrinkSpiffo
+    {
+        Weight	=	0.5,
+        Type	=	Food,
+        DisplayName	=	Hot Drink,
+        Icon	=	MugSpiffoFull,
+        IsCookable	=	    true,
+        MinutesToBurn   =   50,
+        MinutesToCook   =   10,
+        UnhappyChange   =   -10,
+        ThirstChange    =   -20,
+        ReplaceOnUse    =   MugSpiffo,
+        CustomContextMenu	=  Drink,
+        CustomEatSound = DrinkingFromCan,
+        GoodHot = true,
+        StaticModel = HotDrinkMugYellowSpiffo,
+        WorldStaticModel = HotDrinkMugYellowSpiffo,
+    }
+    item ColdDrinkSpiffo
+	{
+	    FatigueChange	=	0,
+        HungerChange	=	-5,
+      	Weight	=	1,
+        Type	=	Food,
+        UnhappyChange	=	-5,
+        ThirstChange	=	-50,
+        DisplayName	=	Cold Cuppa,
+        StressChange	=	0,
+        ReplaceOnUse	=	MugSpiffo,
+        Icon	=	MugSpiffoFull,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromCan,
+        Carbohydrates = 0.75,
+        Proteins = 0.12,
+        Lipids = 0,
+        Calories = 4,
+        CantBeFrozen = TRUE,
+        StaticModel = HotDrinkMugYellowSpiffo,
+        WorldStaticModel = HotDrinkMugYellowSpiffo,
+	}
+
+    /* Mug Icon Fix */
+
+    item MugRed
+	{
+	    DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Red Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugRed,
+		Icon	=	MugRed,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugRed,
+		WorldStaticModel = MugRed,
+	}
+    item MugWhite
+	{
+		DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty White Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugWhite,
+		Icon	=	MugWhite,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugWhite,
+		WorldStaticModel = MugWhite,
+	}
+    item MugSpiffo
+	{
+		DisplayCategory = Cooking,
+		Weight	=	0.2,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Spiffo Mug,
+		ReplaceOnUseOn	=	WaterSource-WaterMugSpiffo,
+		Icon	=	MugSpiffo,
+		RainFactor = 0.2,
+		Tooltip = Tooltip_item_RainFromGround,
+		StaticModel = MugSpiffo,
+		WorldStaticModel = MugSpiffo,
+	}
+
+}

@@ -1,0 +1,8 @@
+Farming_CS = {
+  -- vegetables name (type of seed)
+  Farming_Beets = "Øepa",
+  Farming_Cauliflowers = "Kvìták",
+  Farming_Corn = "Kukuøice",
+  Farming_Lemongrass = "Citronová tráva",
+  Farming_Wheat = "Pšenice",
+}

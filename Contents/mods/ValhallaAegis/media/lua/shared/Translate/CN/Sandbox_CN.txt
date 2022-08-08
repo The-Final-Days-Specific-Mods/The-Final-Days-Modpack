@@ -1,0 +1,63 @@
+Sandbox_CN = {
+	Sandbox_ValhallaAegis = "Valhalla | Common",
+	Sandbox_ValhallaMP = "Valhalla | Museum mode (ignores CP)",
+	Sandbox_ValhallaVO = "Valhalla | Vehicle ownership",
+	Sandbox_ValhallaCP = "Valhalla | Container protection",
+
+	Sandbox_VA_EnableContainerProtection = "Enable container protection",
+	Sandbox_VA_EnableContainerProtection_tooltip = "This will protect containers outside of safehouses from scrapping and destruction.",
+
+	Sandbox_VA_EnableSHClaimThrottling = "Enable safehouse destruction timer",
+	Sandbox_VA_EnableSHClaimThrottling_tooltip = "Starts a timer on safehouse claim. When the time is up, the player can destroy stuff in that house. This is to prevent 'safehouse claim / destruction / unclaim / claim the next house' loophole.",
+
+	Sandbox_VA_SHDestructionTimerMin = "Time until destruction is allowed (IRL minutes)",
+
+	Sandbox_VA_EnableSHOwnerCheck = "Enable safehouse owner check for destruction",
+	Sandbox_VA_EnableSHOwnerCheck_tooltip = "Check if the user trying to destroy or scrap is the owner of the safehouse. Currently not recommended as the game often forgets safehouse owners.",
+
+	Sandbox_VA_EnableVehicleOwnership = "Enable vehicle ownership",
+	Sandbox_VA_EnableVehicleOwnership_tooltip = "Allows players to claim vehicles by standing next to them and using the 'Manage vehicles' menu. Has a few admin tools for claims to help with the daily vehicle problems that plague MP right now.",
+
+	Sandbox_VA_VehicleOwnershipClaimNo = "Allowed vehicles per player",
+
+	Sandbox_VA_EnableItemTransferProtection = "Enable item transfer protection",
+	Sandbox_VA_EnableItemTransferProtection_tooltip = "Currently only blocks transfer of ATM items",
+
+	Sandbox_VA_EnableEventCoordinationTools = "Enable event coordination toolkit",
+	Sandbox_VA_EnableEventCoordinationTools_tooltip = "Every non restricted user gets a new context menu entry to help with event coordination. This includes weather controls, a player focused teleport menu and item / zombie spawning. It's a shortcut for various debug and admin functions to enable lower rank staff to coordinate events properly.",
+
+    Sandbox_VA_EnableTrapSetLogging = "Log and announce players setting G.E.A.R. traps",
+    Sandbox_VA_EnableTrapSetKicking = "Kick players after setting G.E.A.R. traps",
+
+    Sandbox_VA_EnableMovPickupLogging = "Log pickup actions of movables around the map",
+    Sandbox_VA_EnableMovPickupLogging_tooltip = "Log can be checked by standing where the pickup happened and checking for pickups in the admin context menu",
+
+    Sandbox_VA_AllowPastOwnerReclaim = "Allow past owners to reclaim vehicles",
+
+    Sandbox_VA_AllowVehicleManageFromCell = "Allow cell wide vehicle management",
+    Sandbox_VA_AllowVehicleManageFromCell_tooltip = "Depending on the amount of vehicles loaded in a player cell this could be coupled with performance issues when opening the context menu. If it does not work, disable this option and send me a message.",
+
+    Sandbox_VA_AllowVehicleReleaseAfterDays = "Allow USERS to release claimed vehicles after x IRL days of owner inactivity",
+    Sandbox_VA_AllowVehicleReleaseAfterDays_tooltip = "The owner activity has to have been logged already by this mod",
+
+	Sandbox_VA_SanitizeFilenamesForWindows = "Sanitize server side filenames for Windows OS",
+	Sandbox_VA_SanitizeFilenamesForWindows_tooltip = "If you have usernames with special chars and get errors in the console try enabling this. Could lead to people losing their claim menu, but the vehicles themselves remember. Just tell the users to stand next to them and they will get reclaimed.",
+
+    Sandbox_VA_AllowVehicleWindowSmashing = "Allow smashing of claimed vehicles' windows",
+
+	Sandbox_VA_AllowContainerPickup = "Allow pickup of containers outside safehouses",
+	Sandbox_VA_AllowVehicleTowing = "Allow towing of claimed vehicles",
+
+	Sandbox_VA_AllowDoorAndTrunkAccess = "Allow opening doors / trunks on claimed vehicles",
+	Sandbox_VA_AllowDoorAndTrunkAccess_tooltip = "People can still steal from open doors, just not open them. This replaces the need for people to lock trunks. This is also allowed for people with interior access",
+	Sandbox_VA_AllowSiphonGas = "Allow siphoning gas from claimed vehicles",
+	Sandbox_VA_AllowSiphonGas_tooltip = "This is also allowed for people with mechanics access. Adding fuel is allowed for everybody.",
+	Sandbox_VA_BlockedItemsForTransfer = "Item IDs blocked from transfers (comma separated)",
+	Sandbox_VA_AllowStealingFromVehicleContainers = "Allow stealing from vehicle containers",
+	Sandbox_VA_AllowStealingFromVehicleContainers_tooltip = "This still allows for placing items into seats / trunks. Everybody can put items in, but only owners and people allowed for interior access can take them out.",
+
+    Sandbox_VA_BlockAllPickups = "Block ALL movable pickups (NO exceptions)",
+    Sandbox_VA_BlockAllPickups_tooltip = "This option supersedes all container protection settings. Includes every piece of furniture, floor or window that can be picked up with the pick up cursor.",
+    Sandbox_VA_BlockAllDisassembly = "Block ALL movable disassembly (NO exceptions)",
+    Sandbox_VA_BlockAllDisassembly_tooltip = "This option supersedes all container protection settings.",
+}

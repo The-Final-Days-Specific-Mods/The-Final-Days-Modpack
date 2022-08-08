@@ -1,0 +1,31 @@
+module LongBladeFixes
+{
+	imports
+	{
+		Base
+	}
+	
+	recipe Craft Machete
+	{
+	   MetalBar,
+	   LeatherStrips=2,
+	   UnusableWood=1,
+	   
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   Result:Machete,
+	   Sound:PZ_FoodSwoosh,
+	   SkillRequired:LongBlade=1,
+	   Time:300.0,
+	   Category:Welding,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+	
+    fixing Fix Katana
+    {
+       Require : Katana,
+
+       Fixer : Katana; LongBlade=6,
+       Fixer : MetalBar=1; MetalWelding=8,
+    }
+}

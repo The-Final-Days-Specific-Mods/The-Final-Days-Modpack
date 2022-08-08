@@ -1,0 +1,9 @@
+module Base
+{
+        model MokujinMask_WorldItem
+    {
+        mesh = WorldItems/MokujinMask_WorldItem,
+        texture = MokujinMask,
+        scale = 1,
+    }
+}

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- define trimChoices so you will be able to trim your beard to those types (none is always available  -->
+<!-- note: all level udner your current beard will be available to trim (no need to define BeardOnly for "Full" or "Long" for example -->
+<!-- Level will determine the next step for your beard to grow -->
+<!-- when growing we take all the next level of beardStyles and check for the one with the growReference, setup only one! -->
+<beardStyles>
+	<style>
+		<name>ChinLong</name>
+		<model>skinned/beards/bob_beard_chinlong</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Chin</trimChoices>
+		<trimChoices>PointyChin</trimChoices>
+	</style>
+	<style>
+		<name>ChinSquare</name>
+		<model>skinned/beards/bob_beard_chinsquare</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Chin</trimChoices>
+		<trimChoices>PointyChin</trimChoices>
+	</style>
+	<style>
+		<name>ChinSquareLong</name>
+		<model>skinned/beards/bob_beard_chinsquarelong</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Chin</trimChoices>
+		<trimChoices>PointyChin</trimChoices>
+		<trimChoices>ChinSquare</trimChoices>
+	</style>
+	<style>
+		<name>ChinstrapThin</name>
+		<model>skinned/beards/bob_beard_chinstrapthin</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Chin</trimChoices>
+	</style>
+	<style>
+		<name>Hollywoodian</name>
+		<model>skinned/beards/bob_beard_Hollywoodian</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Moustache</trimChoices>
+		<trimChoices>Chin</trimChoices>
+		<trimChoices>Horseshoe</trimChoices>
+		<trimChoices>PointyChin</trimChoices>
+	</style>
+	<style>
+		<name>Horseshoe</name>
+		<model>skinned/beards/bob_beard_Horseshoe</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Moustache</trimChoices>
+	</style>
+	<style>
+		<name>Lemmy</name>
+		<model>skinned/beards/bob_beard_lemmy</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+		<trimChoices>Chops</trimChoices>
+		<trimChoices>Horseshoe</trimChoices>
+		<trimChoices>Moustache</trimChoices>
+	</style>
+	<style>
+		<name>SoulPatch</name>
+		<model>skinned/beards/bob_beard_soulpatch</model>
+		<texture>F_Hair_White</texture>
+		<level>1</level>
+	</style>
+</beardStyles>

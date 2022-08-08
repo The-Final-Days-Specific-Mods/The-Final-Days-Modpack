@@ -1,0 +1,52 @@
+module Base {
+
+    model PancitPantonOriginal
+    {
+        mesh = WorldItems/PancitPantonPack,
+        texture = WorldItems/PP_Texture_Original,
+        scale = 0.4,
+    }
+
+    model PancitPantonSpicy
+    {
+        mesh = WorldItems/PancitPantonPack,
+        texture = WorldItems/PP_Texture_Spicy,
+        scale = 0.4,
+    }
+
+    model PancitPantonCalamansi
+    {
+        mesh = WorldItems/PancitPantonPack,
+        texture = WorldItems/PP_Texture_Calamansi,
+        scale = 0.4,
+    }
+
+    model PancitPantonChilimansi
+    {
+        mesh = WorldItems/PancitPantonPack,
+        texture = WorldItems/PP_Texture_Chilimansi,
+        scale = 0.4,
+    }
+
+    model PancitPantonSweetSpicy
+    {
+        mesh = WorldItems/PancitPantonPack,
+        texture = WorldItems/PP_Texture_SweetSpicy,
+        scale = 0.4,
+    }
+
+    model ChowMeinNoodles
+    {
+        mesh = WorldItems/ChowMeinNoodles,
+        texture = WorldItems/DryRamenNoodles,
+        scale = 0.4,
+    }
+
+    model PancitPantonFlavoring
+    {
+        mesh = WorldItems/PancitPantonFlavoring,
+        texture = WorldItems/PP_Texture_Flavoring,
+        scale = 0.4,
+    }
+
+}

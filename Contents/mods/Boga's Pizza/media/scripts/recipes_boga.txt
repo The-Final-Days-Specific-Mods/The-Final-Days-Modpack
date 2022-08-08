@@ -1,0 +1,486 @@
+module BogaPizza
+{
+
+    recipe Make Pizza Dough
+    {
+       keep RollingPin,
+       Water=2,
+       Flour=1,
+       Salt;1,
+       Sugar;1,
+       Yeast,
+
+       Result:PizzaDough,
+       NeedToBeLearn:false,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Pizza Dough 
+    		{
+			PizzaDough,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaDoughSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaDoughSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make Marinara
+    {
+       EmptyJar=1,
+       CannedTomatoOpen=1,
+       Butter;1,
+       Salt;1,
+       Sugar;1,
+       Onion;1,
+
+       Result:Marinara=1,
+       NeedToBeLearn:false,
+       OnCreate:recipe_Marinara,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make White Sauce
+    {
+       EmptyJar=1,
+       Milk=1,
+       Butter;1,
+       Salt;1,
+       Onion;1,
+       Cheese;1,
+
+       Result:WhiteSauce=1,
+       NeedToBeLearn:false,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Make BBQ Sauce
+    {
+       EmptyJar=1,
+       CannedTomatoOpen=1,
+       Mustard;1,
+       Salt;1,
+       Sugar;1,
+       Onion;1,
+
+       Result:BBQSauce=1,
+       OnCreate:recipe_BBQSauce,
+       NeedToBeLearn:false,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+
+    recipe Make Sauced Pizza
+    {
+       PizzaDough,
+       Marinara,
+
+       Result:PizzaSauced,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaSauced,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Sauced Pizza
+    		{
+			PizzaSauced,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaSaucedSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaSaucedSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make BBQ Sauced Pizza
+    {
+       PizzaDough,
+       BBQSauce,
+
+       Result:PizzaBBQSauced,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaBBQauced,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice BBQ Sauced Pizza
+    		{
+			PizzaBBQSauced,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaBBQSaucedSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaBBQSaucedSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make White Sauced Pizza
+    {
+       PizzaDough,
+       WhiteSauce,
+
+       Result:PizzaWhiteSauced,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaWhiteauced,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice White Sauced Pizza
+    		{
+			PizzaWhiteSauced,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaWhiteSaucedSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaWhiteSaucedSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Make Cheese Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+
+       Result:PizzaCheese,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaCheese,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Cheese Pizza
+    		{
+			PizzaCheese,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaCheeseSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaCheeseSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Make Etna Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       NdujaSausageSlice=5,
+       BaconBits,
+       ChiliPepper,
+
+       Result:PizzaEtna,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaEtna,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Etna Pizza
+    		{
+			PizzaEtna,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaEtnaSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaEtnaSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Make Hawaiian Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       HamSlice=2,
+       DicedPineapple=5,
+
+       Result:PizzaHawaii,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaHawaii,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Hawaiian Pizza
+    		{
+			PizzaHawaii,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaHawaiiSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaHawaiiSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make Pineapple Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       DicedPineapple=5,
+
+       Result:PizzaHawaii,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaHawaii,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Pineapple Pizza
+    		{
+			PizzaPineapple,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaPineappleSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaPineappleSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make Ham & Mushroom Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       HamSlice=2,
+       MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7=1,
+
+       Result:PizzaHamMushroom,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaHamMushroom,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Ham & Mushroom Pizza
+    		{
+			PizzaHamMushroom,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaHamMushroomSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaHamMushroomSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make Seafood Pizza
+    {
+       PizzaDough,
+       WhiteSauce,
+       Cheese,
+       Bass/Pike/Perch/Catfish/Sunfish/Trout/CannedSardinesOpen,
+
+       Result:PizzaSeafood,
+       NeedToBeLearn:false,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Seafood Pizza
+    		{
+			PizzaSeafood,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaSeafoodSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaSeafoodSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+    recipe Make Nduja Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       NdujaSausageSlice=5,
+
+       Result:PizzaNduja,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaNduja,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Nduja Pizza
+    		{
+			PizzaNduja,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaNdujaSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaNdujaSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Make Pepperoni Pizza
+    {
+       PizzaDough,
+       Marinara,
+       Cheese,
+       Pepperoni=2,
+
+       Result:PizzaNduja,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaNduja,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Pepperoni Pizza
+    		{
+			PizzaPepperoni,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaPepperoniSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaPepperoniSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Make Rum Ham Pizza
+    {
+       PizzaDough,
+       BBQSauce,
+       Cheese,
+       DicedPineapple=5,
+       RumHamSlice=5,
+
+       Result:PizzaRumHam,
+       NeedToBeLearn:false,
+       OnCreate:recipe_PizzaRumHam,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    		recipe Slice Rum Ham Pizza
+    		{
+			PizzaRumHam,
+			keep BreadKnife/ButterKnife/Chainsaw/HandAxe/HuntingKnife/Katana/KitchenKnife/LetterOpener/Machete/MeatCleaver/Scalpel/Scissors/FlintKnife/WoodAxe/AxeStone,
+    
+
+       			Result:PizzaRumHamSlice=6,
+       			NeedToBeLearn:false,
+       			OnCreate:recipe_PizzaRumHamSlice,
+       			Time:50.0,
+       			Category:Cooking,
+       			OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    		}
+
+
+    recipe Slice Nduja Sausage
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        NdujaSausage,
+
+        Result:NdujaSausageSlice=10,
+        OnCreate:Recipe.OnCreate.NdujaSausageSlice,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Diced Pineapple
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        Pineapple,
+
+        Result:DicedPineapple=10,
+        OnCreate:Recipe.OnCreate.DicedPineapple,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Rum Ham
+    {
+        Ham,
+        RumFull,
+
+        Result:RumHam,
+        OnCreate:Recipe.OnCreate.RumHam,
+	Sound:RumHam,
+        Time:250.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Slice Rum Ham
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        RumHam,
+
+        Result:RumHamSlice=10,
+        OnCreate:Recipe.OnCreate.RumHamSlice,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+}

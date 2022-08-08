@@ -1,0 +1,31 @@
+module MonmouthClothing
+{
+    item Shorts_ShortsFraz
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Fraz's Shorts,
+        ClothingItem = Shorts_ShortsFraz,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = FrazShorts,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Trousers_Jay
+    {
+       DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Jay's Joggers,
+        ClothingItem = Trousers_Jay,
+        BodyLocation = Pants,
+        Icon = JaysJoggers_Icon,
+        BloodLocation = Trousers,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+	}
+}

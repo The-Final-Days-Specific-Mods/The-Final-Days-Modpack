@@ -1,0 +1,352 @@
+module Base
+
+{
+
+item Bag_Schoolbag_VV
+ {
+  DisplayCategory = Bag,
+        WeightReduction	=	60,
+        Weight	=	1,
+        Type	=	Container,
+        Capacity	=	15,
+        DisplayName	=	School Bag,
+        IconsForTexture = Backpack_Black;Backpack_Blue;Backpack_Spiffo,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_SchoolBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.97,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
+        WorldStaticModel = SchoolBag_Ground,
+ 		AttachmentsProvided = Sling,
+     }
+	 
+item Bag_GolfBag_VV
+    {
+        Type	=	Container,
+        WeightReduction	=	65,
+        Weight	=	1.2,
+        Capacity	=	18,
+        DisplayName	= Golf Bag,
+        IconsForTexture = GolfBag_Blue;GolfBag_Green;GolfBag_Red;GolfBag_Purple,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_GolfBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.95,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_GolfBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GolfBag_RHand holdingbagright,
+        WorldStaticModel = GolfBag_Ground,
+		AttachmentsProvided = Sling,
+    }
+	
+item Bag_WeaponBag_VV
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Duffel Bag,
+        ClothingItem = Bag_WeaponBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	65,
+        Weight	=	1,
+        Capacity	=	18,
+        Icon	=	Duffelbag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        RunSpeedModifier = 0.95,
+        CanHaveHoles = false,
+        ReplaceInSecondHand = Bag_DuffelBag_LHandTINT holdingbagleft,
+        ReplaceInPrimaryHand = Bag_DuffelBag_RHandTINT holdingbagright,
+        WorldStaticModel = DuffelBag_Ground,
+		AttachmentsProvided = SlingAlt3,
+    }
+	
+item Bag_NormalHikingBag_VV
+    {
+        DisplayCategory = Bag,
+        WeightReduction	=	70,
+        Weight	=	1.2,
+        Type	=	Container,
+        Capacity	=	20,
+        DisplayName	=	Hiking Bag,
+        IconsForTexture	=	Hiking_Blue;Hiking_Green;Hiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_HikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.96,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_HikingBag_RHand holdingbagright,
+        WorldStaticModel = HikingBag_Ground,
+		AttachmentsProvided = Sling,
+    }
+	
+item Bag_BigHikingBag_VV
+    {
+        DisplayCategory = Bag,
+        WeightReduction	=	80,
+        Weight	=	1.5,
+        Type	=	Container,
+        Capacity	=	22,
+        DisplayName	=	Big Hiking Bag,
+        IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_BigHikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.95,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_BigHikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_BigHikingBag_RHand holdingbagright,
+        WorldStaticModel = BigHikingBag_Ground,
+		AttachmentsProvided = Sling,
+    }
+
+item Bag_SurvivorBag_VV
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Large Backpack,
+        ClothingItem = Bag_SurvivorBag,
+        CanBeEquipped = Back,
+        WeightReduction	=	85,
+        Weight	=	2,
+        Capacity	=	27,
+        Icon	=	AliceBag,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+		AttachmentsProvided = Sling,
+    }
+
+item Bag_ALICEpack_Army_VV
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Military Backpack,
+        ClothingItem = Bag_ALICEpack_Army,
+        CanBeEquipped = Back,
+        WeightReduction	=	87,
+        Weight	=	2,
+        Capacity	=	28,
+        Icon	=	AliceBag_Camo,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.94,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+		AttachmentsProvided = Sling,
+    }
+
+
+
+
+
+
+
+
+
+		
+recipe Attach Weapon to School Bag
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_Schoolbag,
+        Result:Bag_Schoolbag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Attach Weapon to Golf Bag
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_GolfBag,
+        Result:Bag_GolfBag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Attach Weapon to Duffel Bag
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_WeaponBag/Bag_InmateEscapedBag/Bag_MoneyBag/Bag_WorkerBag/Bag_DuffelBag/Bag_DuffelBagTINT/Bag_ShotgunDblSawnoffBag/Bag_ShotgunBag/Bag_ShotgunSawnoffBag/Bag_ShotgunDblBag,
+        Result:Bag_WeaponBag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+recipe Attach Weapon to Hiking Bag
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_NormalHikingBag,
+        Result:Bag_NormalHikingBag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Attach Weapon to Big Hiking Bag
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_BigHikingBag,
+        Result:Bag_BigHikingBag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+recipe Attach Weapon to Large Backpack
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_SurvivorBag/Bag_ALICEpack,
+        Result:Bag_SurvivorBag_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }		
+
+recipe Attach Weapon to Military Backpack
+    {
+	RippedSheets/LeatherStrips/DenimStrips=2,
+        Bag_ALICEpack_Army,
+        Result:Bag_ALICEpack_Army_VV,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_Schoolbag_VV,
+        Result:Bag_Schoolbag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_GolfBag_VV,
+        Result:Bag_GolfBag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_WeaponBag_VV,
+        Result:Bag_WeaponBag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_NormalHikingBag_VV,
+        Result:Bag_NormalHikingBag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+	
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_BigHikingBag_VV,
+        Result:Bag_BigHikingBag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_SurvivorBag_VV,
+        Result:Bag_SurvivorBag,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }		
+
+recipe Remove Weapon Slot
+    {
+	keep Machete/Katana/HuntingKnife/FlintKnife/Scissors/Scalpel/KitchenKnife/,
+        Bag_ALICEpack_Army_VV,
+        Result:Bag_ALICEpack_Army,
+        Time:200.0,
+        AnimNode:RipSheets,
+        Category:Survivalist,
+		OnCreate:RemoveBackPack,
+    }
+
+
+
+	
+}

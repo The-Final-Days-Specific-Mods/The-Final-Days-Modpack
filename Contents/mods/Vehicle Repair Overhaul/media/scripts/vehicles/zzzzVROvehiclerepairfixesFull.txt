@@ -1,0 +1,1576 @@
+module Base
+{
+/******* VRO *******/
+/************************ Contents remove fix recipes from other mods and Base ************************/
+/************************ Thanks to Trealak aka Tread for the solution ************************/
+
+	fixing Fix Gas Tank Welding
+	{
+	   Require : 
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Gas Tank
+	{
+	   Require : 
+	   ConditionModifier : 0.7,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+	fixing Fix Trailer Welding
+	{
+		Require : 
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 1.2,
+
+		Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+		Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	   Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Trunk
+	{
+	   Require : 
+	   ConditionModifier : 0.7,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+	fixing Fix Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+	
+	    fixing Fix Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix Trunk Lid Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix Trunk Lid
+	{
+       Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix Door Welding
+	{
+	   Require : 
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	   Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Door
+	{
+	   Require : 
+	   ConditionModifier : 0.7,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+    fixing Fix Glove box
+	{
+	   Require : 
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+	fixing Fix Glove Box Welding
+	{
+		Require :
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 10.0,
+
+		Fixer : SmallSheetMetal=1; MetalWelding=1;Mechanics=1,
+	}
+	
+    fixing Fix Car seat
+	{
+	   Require : 
+	   ConditionModifier : 0.8,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+	
+/************************ Tread's Water Tank Trucks - remove fix recipes ************************/
+	
+	fixing Fix TruckBed Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix TruckBed
+	{
+	   Require : 
+	   ConditionModifier : 0.7,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+	
+/************************ Viperel's Vehicle Spare Parts - remove fix recipes ************************/
+	
+	fixing fix Brake
+	{
+	   Require : 
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+       Fixer : SmallSheetMetal=1; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+
+	}
+	
+	fixing Fix Muffler Welding
+	{
+	   Require : 
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.70,
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Suspension Welding
+	{
+	   Require : 
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.70,
+       Fixer : MetalBar=1; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Windshield
+	{
+	   Require : 
+	   ConditionModifier : 0.55,
+       Fixer : Tarp=1,
+       Fixer : Glue=2,
+	}
+
+	fixing Fix Car seat
+	{
+	   Require : 
+	   ConditionModifier : 0.8,
+	   GlobalItem : Needle,
+	   Fixer : Sheet=1; Tailoring=1,
+	}
+
+	fixing Fix Cycle seat
+	{
+	   Require : 
+	   ConditionModifier : 0.8,
+	   GlobalItem : Needle,
+	   Fixer : Sheet=1; Tailoring=1,
+	}
+
+
+	fixing fix Brake
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+       Fixer : SmallSheetMetal=1; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+
+	}
+
+	fixing Fix Muffler Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.70,
+       Fixer : SmallSheetMetal; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Suspension Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.70,
+       Fixer : MetalBar=1; MetalWelding=3;Mechanics=2,
+	   Fixer : ScrapMetal=6; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Cycle seat
+	{
+	   Require :
+	   ConditionModifier : 0.8,
+	   GlobalItem : Needle,
+	   Fixer : Sheet=1; Tailoring=1,
+	}
+
+/************************ Military Vehicle Parts ************************/
+	
+		fixing Fix 67commando Door Welding
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=5,
+    	   ConditionModifier : 1.2,
+
+           Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+    	}
+
+    	fixing Fix 67commando Door
+    	{
+    	   Require :
+    	   ConditionModifier : 0.4,
+
+           Fixer : DuctTape=2;Mechanics=3,
+           Fixer : Glue=2;Mechanics=3,
+    	}
+
+    	fixing Fix 67commando Viewport
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=5,
+    	   ConditionModifier : 2.0,
+
+           Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=4,
+    	}
+
+    	fixing Fix Tire
+    	{
+    	   Require :
+    	   ConditionModifier : 0.45,
+
+           Fixer : DuctTape=2;Mechanics=2,
+    	}
+
+    	fixing Fix Tire 1
+    	{
+    	   Require :
+    	   ConditionModifier : 0.45,
+
+           Fixer : Glue=2;Mechanics=2,
+    	}
+	
+	fixing Fix 67commandoT50 Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix 67commandoT50 Door
+	{
+	   Require :
+	   ConditionModifier : 0.4,
+
+       Fixer : DuctTape=2;Mechanics=3,
+       Fixer : Glue=2;Mechanics=3,
+	}
+	
+	fixing Fix 67commandoT50 Viewport
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+	   
+	   
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+/************************ KI5 military and Cadillac ************************/
+
+    fixing Fix ECTO1 Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Reinforced Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix ECTO1 Seat 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix ECTO1 Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Roofrack Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix ECTO1 Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Trunk Lid Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix ECTO1 Trunk Lid
+	{
+       Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix ECTO1 Armor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=10,
+       ConditionModifier : 0.6,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+    }
+
+	fixing Fix V100Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix V101Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+       Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix Car M998seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix Car M998seat 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix M998Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M998Roofrack Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M998Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix M998Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M998Trunk Lid Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M998Trunk Lid
+	{
+       Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M998Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M998Bullbar Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+	fixing Fix M998BackCover Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+	fixing Fix M998TrunkBarrier Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M101A3Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=7,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M998Trunk Lid Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=7,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M101A3Trunk Lid
+	{
+       Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M101A3Cover Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=6,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M101A3Tarp
+	{
+	   Require :
+	   ConditionModifier : 0.8,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+    fixing Fix Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+       Fixer : DuctTape=2;Mechanics=2,
+	}
+
+	fixing Fix Tire 1
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+       Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix P19ARoofHatch Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix P19ABigTrunk Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix P19ASmallTrunk Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+    
+	fixing Fix M12Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+       Fixer : DuctTape=2;Mechanics=2,
+	}
+
+	fixing Fix M12Tire 1
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+       Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix Car M12 Seat
+	{
+	   Require :
+	   ConditionModifier : 0.8,
+
+       Fixer : DuctTape=2;Mechanics=1,
+       Fixer : Glue=2;Mechanics=1,
+	}
+
+	fixing Fix M12Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M12Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    fixing Fix M12Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M12Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+    fixing Fix ArmorBullbar Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+
+       Sound : WeldFix,
+    }
+
+     fixing Fix ArmorFront Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+
+       Sound : WeldFix,
+    }
+
+    fixing Fix ArmorRear Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+
+       Sound : WeldFix,
+    }
+
+    fixing Fix ArmorDoor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+
+       Sound : WeldFix,
+    }
+
+  fixing Fix Mega Trunk Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=10,
+       ConditionModifier : 1.1,
+
+       Fixer : SheetMetal=2; MetalWelding=4;Mechanics=3,
+       Fixer : SmallSheetMetal=8; MetalWelding=4;Mechanics=3,
+    }
+
+    fixing Fix M113 Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix M113 Door
+	{
+	   Require :
+	   ConditionModifier : 0.4,
+
+       Fixer : DuctTape=2;Mechanics=3,
+       Fixer : Glue=2;Mechanics=3,
+	}
+
+    fixing Fix M113 Glove box
+	{
+	   Require :
+
+       Fixer : DuctTape=2;Mechanics=4,
+       Fixer : Glue=2;Mechanics=4,
+	}
+
+	fixing Fix M113 Periscope
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 2.0,
+
+
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=4,
+	}
+
+	fixing Fix M113 Suspension
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=6,
+	}
+
+	fixing Fix M113 Brake
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=6,
+	}
+
+   fixing Fix Moto Gas Tank Welding
+    {
+        Require :
+        GlobalItem : BlowTorch=5,
+        ConditionModifier : 1.2,
+
+        Fixer : SheetMetal; MetalWelding=3;Mechanics=4,
+        Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=4,
+    }
+
+    fixing Fix Moto Muffler Welding
+    {
+        Require :
+        GlobalItem : BlowTorch=5,
+        ConditionModifier : 1.2,
+
+        Fixer : SheetMetal; MetalWelding=3;Mechanics=4,
+        Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=4,
+    }
+
+    fixing Fix Moto seat
+    {
+        Require :
+        ConditionModifier : 0.8,
+
+        Fixer : DuctTape=2;Mechanics=1,
+        Fixer : Glue=2;Mechanics=2,
+    }
+
+    fixing Fix Trailer Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+	   Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+	   Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+    fixing Fix V100Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix V102Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix Car M151A2seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix Car M151A2seat 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix M151A2Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M151A2Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix M151A2Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M151A2Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M151A2Bumper Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+	fixing Fix M151A2CabArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M151A2Barrier Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M151A2WindshieldArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix BigTank Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=7,
+    }
+
+    fixing Fix V100Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix V103Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix V103Axle
+	{
+	   Require :
+	   ConditionModifier : 0.35,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix Car M35A2seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix Car M35A2seat 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix M35A2Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M35A2Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix M35A2Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M35A2Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M35A2Flatbed Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.1,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M35A2Bumper Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.1,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M35A2Grille Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.1,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M35A2Tailgate Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix M35A2Tailgate
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	 fixing Fix M35A2hardcab Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+	fixing Fix Car M35A2softcab
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix Car M35A2softcab 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix M151A2WindshieldArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M151A2DoorArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix W460 Normal Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix W460 Wide Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix W460 Seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix W460 Seat 1
+	{
+	   Require :
+	   GlobalItem : Needle=1,
+	   ConditionModifier : 1.1,
+
+       Fixer : Thread=1;Tailoring=3,
+	}
+
+	fixing Fix W460 Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix W460 Roofrack Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix W460 Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+    	fixing Fix W460 Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix W460 Trunk Lid Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix W460 Trunk Lid
+	{
+       Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix W460 Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix W460 Bullbar Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M923Axle
+	{
+	   Require :
+	   ConditionModifier : 0.35,
+
+	   Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix Car M923seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix M923Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M923Hood Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix M923Hood
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M923Gunport
+	{
+	   Require :
+	   GlobalItem : Screws=4,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=3,
+	}
+
+	fixing Fix M923Stakes
+	{
+	   Require :
+	   GlobalItem : Plank=4,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix M923Door Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix M923Bumper Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 0.6,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix StorageDoor Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix StorageDoor
+	{
+	   Require :
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	 fixing Fix M923hardcab Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+	fixing Fix Car M923softcab
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+	fixing Fix M923WindshieldArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M923DoorArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M923GuntruckArmor Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix M923SpareMount Welding
+    {
+       Require :
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix Land Cruiser Door Armor
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix Land Cruiser Windshield
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix Land Cruiser Bullbar
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix Fire Coach Door Armor
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix Fire Coach Windshield
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix Fire Coach Window Armor
+    	{
+    	   Require :
+    	   GlobalItem : BlowTorch=3,
+    	   ConditionModifier : 1.5,
+
+           Fixer : SheetMetal; MetalWelding=2;Mechanics=2,
+           Fixer : SmallSheetMetal=2; MetalWelding=2;Mechanics=2,
+    	}
+
+    fixing Fix KZ1K GasTank Welding
+		{
+		   Require :
+		   GlobalItem : BlowTorch=5,
+		   ConditionModifier : 1.2,
+
+	      Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+	      Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+		}
+
+	fixing Fix KZ1K Trunk Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+      Fixer : SheetMetal; MetalWelding=3;Mechanics=2,
+      Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix KZ1K TrunkLid Welding
+    {
+      Require :
+      GlobalItem : BlowTorch=5,
+      ConditionModifier : 1.2,
+
+      Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+      Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix KZ1K TrunkLid
+	{
+      Require :
+	   GlobalItem : Screws=4,
+	   ConditionModifier : 0.5,
+
+      Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix KZ1K Tire
+	{
+	   Require :
+	   ConditionModifier : 0.45,
+
+      Fixer : DuctTape=2;Mechanics=2,
+      Fixer : Glue=2;Mechanics=2,
+	}
+
+	fixing Fix KZ1K Seat
+	{
+	   Require :
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+
+    fixing Fix BigTank Welding
+	{
+	   Require :
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SmallSheetMetal; MetalWelding=6;Mechanics=7,
+	}
+
+}

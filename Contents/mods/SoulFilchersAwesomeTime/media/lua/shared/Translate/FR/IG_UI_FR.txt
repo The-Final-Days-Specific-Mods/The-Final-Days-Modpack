@@ -1,0 +1,31 @@
+IGUI_FR = {
+
+	--Beautifying Time
+
+    IGUI_Beard_ChinLong = "Menton Long",
+    IGUI_Beard_ChinSquare = "Menton Carré",
+    IGUI_Beard_ChinSquareLong = "Menton Carré Long",
+    IGUI_Beard_ChinstrapThin = "Barbe fine sans moustache",
+    IGUI_Beard_Hollywoodian = "Hollywoodien",
+    IGUI_Beard_Horseshoe = "Fer à cheval",
+    IGUI_Beard_Lemmy = "Souvarov",
+    IGUI_Beard_SoulPatch = "Barbichette",
+    IGUI_Hair_Chloe = "Chloe",
+    IGUI_Hair_Guile = "Guile",
+    IGUI_Hair_LeftPartingTall = "Raie à gauche",
+    IGUI_Hair_MohawkWide = "Crête Large",
+    IGUI_Hair_MohawkWideSpiked = "Crête à Pic Large",
+    IGUI_Hair_Power = "Afro",
+    IGUI_Hair_PowerBig = "Grande Afro",
+    IGUI_Hair_PowerParted = "Double Afro",
+    IGUI_Hair_RightPartingTall = "Raie à droite",
+    IGUI_Hair_Zack = "Zack",
+
+	-- Building Time
+
+	IGUI_perks_Masonry = "Maçonnerie",
+
+	--Exploring Time
+
+    IGUI_HotbarAttachment_Head = "Tête",
+}

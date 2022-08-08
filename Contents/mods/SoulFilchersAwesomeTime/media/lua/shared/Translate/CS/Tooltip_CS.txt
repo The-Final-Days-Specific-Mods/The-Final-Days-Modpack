@@ -1,0 +1,12 @@
+Tooltip_CS = {
+	-- Item tooltip
+
+	-- Crafting tooltip
+	Tooltip_craft_ConcreteFloorDesc = "Jednoduchá podlaha z betonu ",
+	Tooltip_craft_BrickFenceDesc	= "Poskytuje omezenou ochranu pøed hordou ",
+	Tooltip_craft_BrickOvenDesc	= "Používá se k pálení cihel ",
+	Tooltip_craft_DisplayCounterDesc	= "Vystav svou poslední sklizeò ",
+
+	-- Item tooltip
+	Tooltip_item_HandTruck = "Nelze bojovat když je vybaven.<br>Mùže pøepravovat pouze velké pøedmìty..",
+}

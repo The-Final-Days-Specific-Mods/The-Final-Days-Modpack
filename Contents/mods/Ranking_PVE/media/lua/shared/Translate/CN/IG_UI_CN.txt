@@ -1,0 +1,9 @@
+IGUI_CN = {
+  IGUI_jishawanjia = "",
+  IGUI_jishajiangshi = "",
+  IGUI_jiangshijishapaihangbang = "屠尸榜:",
+  IGUI_wanjiajishapaihangbang = "恶人榜:",
+  IGUI_sharenzuobiao = "当前坐标:", 
+  IGUI_dingshishuaxin = "等待服务器数据...",
+  IGUI_ranktitle = "PVE",
+}

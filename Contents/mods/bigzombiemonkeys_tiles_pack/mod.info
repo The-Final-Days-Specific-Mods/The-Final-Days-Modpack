@@ -1,0 +1,6 @@
+name=Bigzombiemonkeys Tile Pack
+id=BigZombieMonkeys_tile_pack
+description= bigzombiemonkeys tiles
+poster=poster.png
+pack=bigzombiemonkeys_tile_pack
+tiledef=monmouthcounty_tiledefinitions 7175

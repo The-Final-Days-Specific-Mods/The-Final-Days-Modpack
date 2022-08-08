@@ -1,0 +1,9 @@
+module Base
+{
+        model HappyMask_WorldItem
+    {
+        mesh = WorldItems/HappyMask_WorldItem,
+        texture = HappyMask,
+        scale = 1,
+    }
+}

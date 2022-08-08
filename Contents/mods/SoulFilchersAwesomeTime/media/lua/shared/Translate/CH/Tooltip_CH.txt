@@ -1,0 +1,12 @@
+Tooltip_CH = {
+	-- Item tooltip
+
+	-- Crafting tooltip
+	Tooltip_craft_ConcreteFloorDesc = "以混凝土製成的基本地板 ",
+	Tooltip_craft_BrickFenceDesc	= "不足以抵擋殭屍 ",
+	Tooltip_craft_BrickOvenDesc	= "燒磚的窯, 以木炭為燃料 ",
+	Tooltip_craft_DisplayCounterDesc	= "展示你最近的收成成果 ",
+
+	-- Item tooltip
+	Tooltip_item_HandTruck = "裝備於手上時無法戰鬥。<br>僅限運送較大的物品。",
+}

@@ -1,0 +1,9 @@
+module Base
+{
+        model PopSpaceHelmet_WorldItem
+    {
+        mesh = WorldItems/PopSpaceHelmet_WorldItem,
+        texture = PopSpaceHelmet,
+        scale = 1,
+    }
+}

@@ -1,0 +1,43 @@
+module Base
+{
+	
+		model KukriMachete
+	{
+		mesh = weapons/1handed/KukriMachete,
+		attachment world
+		{
+			offset = 0.0000 0.0000 -0.1300,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+
+	
+	    fixing Fix Kukri Machete
+    {
+       Require : KukriMachete,
+
+       Fixer : DuctTape=2,
+       Fixer : Scotchtape=3,
+    }
+
+	model PickAxeAmelora
+	{
+		mesh = Weapons/2Handed/PickAxeAmelora,
+
+		attachment world
+		{
+			offset = 0.0000 0.2400 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	
+	fixing Fix PickAxeAmelora
+	{
+	   Require : PickAxeAmelora,
+
+       Fixer : Woodglue=2; Woodwork=2,
+       Fixer : DuctTape=2,
+       Fixer : Glue=2,
+       Fixer : Scotchtape=4,
+	}
+}

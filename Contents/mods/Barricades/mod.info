@@ -1,0 +1,6 @@
+name=Barricades
+id=Barricades41
+description=Test
+pack=barricades
+tiledef=Barricades 128
+poster=poster.png

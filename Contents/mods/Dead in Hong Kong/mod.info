@@ -1,0 +1,8 @@
+name=Dead in Hong Kong
+poster=poster.png
+id=DeadinHongKong
+description=Welcome to Hong Kong!
+pack=hk
+pack=hk.floor
+fixed2x=true
+tiledef=hkc 614

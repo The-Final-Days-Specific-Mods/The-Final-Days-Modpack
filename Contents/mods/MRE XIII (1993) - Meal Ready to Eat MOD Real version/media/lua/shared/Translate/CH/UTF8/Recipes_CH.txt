@@ -1,0 +1,21 @@
+﻿Recipe_CH = {
+
+	-- MRE XIII (1993) - Meal Ready to Eat MOD
+	-- Translated by Cleave
+
+	Recipe_Open_MRE_Box = "打開箱裝即食口糧",
+	Recipe_Place_MRE_in_Box = "放置即食口糧",
+	Recipe_Open_MRE_package = "打開袋裝即食口糧",
+	Recipe_Heat_with_a_heater = "加熱",
+	Recipe_Insert_hot_sauce = "拌入辣醬",
+	Recipe_Make_Cuppa = "製作茶飲",
+	Recipe_Open_MRE_Accessory_Packet = "打開配料包",
+	Recipe_Pour_water = "灌水",
+
+	Recipe_Apply_Cheese_spread = "塗抹乾/幹/榦酪",
+	Recipe_Apply_Jelly = "塗抹果醬",
+	Recipe_Apply_Peanut_Butter = "塗抹花生醬",
+	Recipe_Put_of_MRE_box_on_pallet = "即食口糧放入貨架",
+	Recipe_Remove_MRE_box_from_pallet = "即食口糧從貨架中取齣",
+
+}

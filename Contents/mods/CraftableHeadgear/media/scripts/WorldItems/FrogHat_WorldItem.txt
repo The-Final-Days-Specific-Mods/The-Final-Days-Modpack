@@ -1,0 +1,9 @@
+module Base
+{
+        model FrogHat_WorldItem
+    {
+        mesh = WorldItems/FrogHat_WorldItem,
+        texture = FrogHat,
+        scale = 1,
+    }
+}

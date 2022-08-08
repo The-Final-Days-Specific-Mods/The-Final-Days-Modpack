@@ -1,0 +1,725 @@
+module CGBRecipes {
+  imports {
+      Base
+  }
+
+    recipe Make Anubis Mask
+	{
+	   Plank=5,
+	   Twigs=5,
+	   PaintYellow,
+	   Woodglue,
+
+	   Result:AnubisMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+    
+	recipe Make Asian Mask
+	{
+	   Plank=5,
+	   Twigs=2,
+	   BluePen,
+	   Woodglue,
+
+	   Result:AsianMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+        recipe Make Bender Helmet
+	{
+	   SheetMetal=2,
+	   Nails=25,
+	   ScrapMetal=5,
+	   Money=10,
+
+	   Result:Bender,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make BJBlazkowicz Helmet
+	{
+	   Plank=5,
+	   WoodenStick=8,
+	   WoodenMallet,
+
+	   Result:BJBlazkowicz,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Black Bamboo Hat
+	{
+	   Plank=2,
+	   UnusableWood=5,
+	   WoodenStick=8,
+	   Charcoal=2,
+
+	   Result:BlackBambooHat,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Blighted Beak Mask
+	{
+	   Plank=2,
+	   UnusableWood=5,
+
+	   Result:BlightedBeakMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Cadian Helmet
+	{
+	   Plank=2,
+	   UnusableWood=5,
+	   PaintGreen,
+	   Wire,
+
+	   Result:CadianHelmet,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Chocobo Hat
+	{
+	   Plank=2,
+	   LeatherStrips=5,
+	   Tarp,
+	   Wire,
+
+	   Result:Chocobo,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Chum Bucket
+	{
+	   PaintbucketEmpty,
+	   RedPen,
+
+	   Result:ChumBucket,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Clown Mask
+	{
+	   Wire,
+	   RedPen,
+	   Plank=2,
+
+	   Result:ClownMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+        
+        recipe Make Cyberman Helmet
+	{
+	   SheetMetal,
+	   Pipe=2,
+	   Nails=20,
+
+	   Result:Cyberman,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Dallas Mask
+	{
+	   Wire,
+	   RedPen,
+	   Plank=2,
+	   Sponge,
+
+	   Result:DallasMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Devil Mask
+	{
+	   RedPen,
+	   Plank,
+
+	   Result:DevilMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Doge
+	{
+	   Dogfood=15,
+	   Money=50,
+
+	   Result:Doge,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Dovahkiin Helmet
+	{
+	   SharpedStone=2,
+	   ScrapMetal=4,
+
+	   Result:DovahkiinMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make FeelsGoodMan Mask
+	{
+	   LemonGrass=5,
+	   LeatherStrips=10,
+	   HairDyeGreen=1,
+	   Log=1,
+
+	   Result:FeelsGoodManMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Forest Mask
+	{
+	   Plank,
+	   Crayons,
+
+	   Result:ForestMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Fox Cat Mask
+	{
+	   Plank,
+	   Crayons,
+
+	   Result:FoxCatMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Frog Hat
+	{
+	   Sheet=2,
+	   Crayons,
+	   CommonMallow=4,
+
+	   Result:FrogHat,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Gator Mask
+	{
+	   Plank=2,
+	   Crayons,
+	   CommonMallow=4,
+
+	   Result:GatorMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	recipe Make Gunslinger Hat
+	{
+	   Hat_Cowboy,
+	   Charcoal=2,
+
+	   Result:Gunslinger,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Hannya Mask
+	{
+	   Plank=2,
+	   Charcoal=2,
+	   Splint,
+
+	   Result:Gunslinger,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Happy Mask
+	{
+	   Plank=2,
+	   Crayons,
+
+	   Result:HappyMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Hazmat Hood
+	{
+	   Hat_GasMask,
+	   Vest_HighVis,
+
+	   Result:HazmatHelm,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Horned Helmet
+	{
+	   Pipe=2,
+	   Nails=10,
+	   SmallSheetMetal=2,
+
+	   Result:HornedHelmet,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Horse Mask
+	{
+	   Newspaper=2,
+	   Glue,
+
+	   Result:HorseMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Hound Helmet
+	{
+	   Pipe=2,
+	   Nails=10,
+	   SmallSheetMetal=2,
+
+	   Result:HoundHelm,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Kena Mask
+	{
+	   Log,
+	   HuntingKnife, 
+
+	   Result:KenaMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Kitsune Mask
+	{
+	   Log,
+	   RedPen, 
+
+	   Result:KitsuneMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make MarkVI Helmet
+	{
+	   SmallSheetMetal=2,
+	   Nails=15,
+       Wire,
+       PaintGreen,	   
+
+	   Result:MarkVI,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Mist Anbu Mask
+	{
+	   Log,
+	   RedPen, 
+
+	   Result:MistAnbuMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Mokujin Mask
+	{
+	   Log,
+	   TreeBranch, 
+
+	   Result:MokujinMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Neon Shades
+	{
+	   Glasses_Sun,
+	   LightBulb,
+	   Paperclip=5,
+	   Glue,
+
+	   Result:MokujinMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Novelty Bear Mask
+	{
+	   ToyBear,
+	   Thread,
+	   Twine,
+	   Glue,
+	   Pillow,
+
+	   Result:NoveltyBearMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Novelty Ghoul Mask
+	{
+	   GunPowder,
+	   Thread,
+	   Twine,
+	   Glue,
+	   Pillow,
+
+	   Result:NoveltyGhoulMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Oni Mask
+	{
+	   Log,
+	   RedPen,
+       Glue,	   
+
+	   Result:OniMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Paper Bag Mask
+	{
+	   SheetPaper2=4,
+	   Pen,
+       Glue,	   
+
+	   Result:PaperBagMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Peanut Butter Jelly Hat
+	{
+	   Thread,
+	   Twine,
+	   Glue,
+	   Pillow,	   
+
+	   Result:PeanutButterJellyHat,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Pirate Hat
+	{
+	   Hat_Cowboy,
+	   Twine,
+	   Glue,
+	   keep [Recipe.GetItemTypes.Scissors],	   
+
+	   Result:PirateHat,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Plague Leather Mask
+	{
+	   LeatherStrips=35,
+	   Twine,
+	   Glue,
+	   keep [Recipe.GetItemTypes.Scissors],	   
+
+	   Result:PlagueLeatherMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Lamprey's Plague Mask
+	{
+	   Charcoal=2,
+	   Twine,
+	   Glue,
+	   keep [Recipe.GetItemTypes.Scissors],
+       Thread,	   
+
+	   Result:PlagueMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Pogo Mask
+	{
+	   Cockroach=1,
+	   RippedSheets=15,
+	   keep [Recipe.GetItemTypes.Scissors],
+       Plank=2,	   
+
+	   Result:PogoFullMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Pop Space Helmet
+	{
+	   CrashHelmet,
+	   Crayons,
+	   keep [Recipe.GetItemTypes.Scissors],
+       JarLid=2,	   
+
+	   Result:PopSpaceHelmet,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Predator Helmet
+	{
+	   Nails=15,
+	   SmallSheetMetal=2,
+	   RippedSheets=5,
+       Charcoal=2,	   
+
+	   Result:Predator,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Red Oni Mask
+	{
+	   Log,
+	   RedPen,
+       Glue,	   
+
+	   Result:RedOniMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Richard Mask
+	{
+	   Egg=5,
+	   Sheet=2,
+       Glue,
+       Plasticbag,	   
+
+	   Result:RichardMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Samurai Half Mask
+	{
+	   Plank,
+	   RedPen,
+       Glue,	   
+
+	   Result:SamuraiHalfMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Shogun Helmet
+	{
+	   Plank,
+	   SheetMetal=1,
+       Glue,
+       HairDyeYellow,	   
+
+	   Result:ShogunHelmet,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Skull Mask
+	{
+	   Plank,
+	   Pen,
+       Glue,
+       Charcoal=5,	   
+
+	   Result:SkullMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Sombrero
+	{
+	   PepperJalapeno,
+       Hat_Cowboy,
+       WoodenStick=5,	   
+
+	   Result:Sombrero,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Steampunk Mask
+	{
+	   Hat_GasMask,
+       Glue,
+       BalaclavaFull,	   
+
+	   Result:SteampunkMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Subtle Disguise
+	{
+	   Glasses,
+       Carrots,	   
+
+	   Result:SubtleDisguise,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Thor Helmet
+	{
+	   Hat_CrashHelmet,
+       Glue,
+       PaintBlue,
+       PaintWhite,	   
+
+	   Result:ThorHelmet,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Tiki Mask
+	{
+	   Plank,
+       Glue,
+       PaintBlue,
+	   PaintRed,
+       PaintWhite,	   
+
+	   Result:TikiMask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+    recipe Make Toady Mask
+	{
+	   Plank,
+       RippedSheets=4,
+	   
+	   Result:Toady,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Toady Reaper Mask
+	{
+	   Plank,
+	   RippedSheetsDirty=20,
+	   
+	   Result:ToadyReaper,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Top Hat
+	{
+	   Hat_BaseballCap,
+       Glue,
+       keep [Recipe.GetItemTypes.Scissors],
+	   RippedSheets=2,
+       Charcoal=5,	   
+
+	   Result:TopHat,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Ushanka Hat
+	{
+	   Hat_BaseballCap,
+       WhiskeyFull,
+	   RippedSheets=2,	   
+
+	   Result:UshankaHat,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Vault Boy Mask
+	{
+	   PaintbucketEmpty,
+       Glue,
+       PaintYellow,
+	   Scotchtape,
+       DuctTape,	   
+
+	   Result:VaultBoyMask,
+	   SkillRequired:Tailoring=2,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Vendetta Mask
+	{
+	   Plank,
+       Glue,
+       DuctTape,	   
+
+	   Result:VendettaMask,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Warning Sign
+	{
+	   ScrapMetal=5,
+       RedPen,
+       DuctTape,	   
+
+	   Result:WarningSign,
+	   SkillRequired:Tailoring=1,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	recipe Make Wooden Mask
+	{
+	   Log,
+       Woodglue,
+       Twigs=10,	   
+
+	   Result:Wooden Mask,
+	   SkillRequired:Tailoring=0,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+}
+
+
+
+	

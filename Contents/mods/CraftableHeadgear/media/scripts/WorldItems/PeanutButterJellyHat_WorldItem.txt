@@ -1,0 +1,9 @@
+module Base
+{
+        model PeanutButterJellyHat_WorldItem
+    {
+        mesh = WorldItems/PeanutButterJellyHat_WorldItem,
+        texture = PeanutButterJellyHat,
+        scale = 1,
+    }
+}

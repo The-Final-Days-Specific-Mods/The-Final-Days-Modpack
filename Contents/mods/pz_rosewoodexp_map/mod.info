@@ -1,0 +1,5 @@
+name=Rosewood Expansion
+id=pz_rosewoodexp_map
+description=This mod adds an expansion to Rosewood.
+poster=poster.png
+require=DylansTiles,Diederiks Tile Palooza,tkTiles_01

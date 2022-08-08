@@ -1,0 +1,18 @@
+Sandbox_EN = {
+  Sandbox_BLTRandomZombies = "Random Zombies",
+
+  Sandbox_BLTRandomZombies_Crawler = "Crawler%",
+  Sandbox_BLTRandomZombies_Crawler_tooltip = "Percentage of Crawlers present in the world. This and other Zombie% must add up to 100.",
+
+	Sandbox_BLTRandomZombies_Shambler = "Shambler%",
+  Sandbox_BLTRandomZombies_Shambler_tooltip = "Percentage of Shamblers present in the world. This and other Zombie% must add up to 100.",
+
+	Sandbox_BLTRandomZombies_FastShambler = "FastShambler%",
+  Sandbox_BLTRandomZombies_FastShambler_tooltip = "Percentage of Fast Shamblers present in the world. This and other Zombie% must add up to 100.",
+  
+	Sandbox_BLTRandomZombies_Sprinter = "Sprinter%",
+  Sandbox_BLTRandomZombies_Sprinter_tooltip = "Percentage of Sprinters present in the world. This and other Zombie% must add up to 100.",
+
+  Sandbox_BLTRandomZombies_Frequency = "Frequency (milliseconds)",
+  Sandbox_BLTRandomZombies_Frequency_tooltip = "[ADVANCED OPTION] The interval in milliseconds between two updates. Higher number means less CPU usage, lower number means less correctness issues",
+}

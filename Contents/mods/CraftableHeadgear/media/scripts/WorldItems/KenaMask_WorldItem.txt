@@ -1,0 +1,9 @@
+module Base
+{
+        model KenaMask_WorldItem
+    {
+        mesh = WorldItems/KenaMask_WorldItem,
+        texture = KenaMask,
+        scale = 1,
+    }
+}

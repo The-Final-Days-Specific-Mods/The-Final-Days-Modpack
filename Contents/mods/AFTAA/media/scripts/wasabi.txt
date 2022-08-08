@@ -1,0 +1,22 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item Wasabi
+    {
+        HungerChange	=	-10,
+        Weight	=	0.2,
+        Type	=	Food,
+        DisplayName	=	Wasabi,
+        Icon	=	Wasabi,
+        Spice   =   true,
+        ThirstChange	=	20,
+        EvolvedRecipe = Soup:1;Stew:1;Pie:1;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Sandwich:1;Sandwich Baguette:1,
+        CantBeFrozen = TRUE,
+	  WorldStaticModel = Wasabi,
+    }
+
+}

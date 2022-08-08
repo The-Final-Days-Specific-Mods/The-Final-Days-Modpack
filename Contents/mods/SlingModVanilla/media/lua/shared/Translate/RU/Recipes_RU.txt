@@ -1,0 +1,11 @@
+Recipes_RU = {
+Recipe_Make_Rifle_Sling = "Сделать ремень для оружия",
+Recipe_Remove_Weapon_Slot = "Отвязать оружие",
+Recipe_Attach_Weapon_to_School_Bag = "Привязать оружие к школьному рюкзаку",
+Recipe_Attach_Weapon_to_Golf_Bag = "Привязать оружие к сумке для гольфа",
+Recipe_Attach_Weapon_to_Duffel_Bag = "Привязать оружие к спортивной сумке",
+Recipe_Attach_Weapon_to_Hiking_Bag = "Привязать оружие к походному рюкзаку",
+Recipe_Attach_Weapon_to_Big_Hiking_Bag = "Привязать оружие к большому походному рюкзаку",
+Recipe_Attach_Weapon_to_Large_Backpack = "Привязать оружие к туристическому рюкзаку",
+Recipe_Attach_Weapon_to_Military_Backpack = "Привязать оружие к армейскому рюкзаку",
+}

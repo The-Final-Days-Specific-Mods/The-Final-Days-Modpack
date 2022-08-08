@@ -1,0 +1,31 @@
+IGUI_CH = {
+
+	-- Beautifying Time
+
+	IGUI_Beard_ChinLong = "長山羊鬍",
+	IGUI_Beard_ChinSquare = "方形鬚",
+	IGUI_Beard_ChinSquareLong = "方形長鬚",
+	IGUI_Beard_ChinstrapThin = "薄下巴帶鬍",
+	IGUI_Beard_Hollywoodian = "好萊塢式",
+	IGUI_Beard_Horseshoe = "馬蹄鐵",
+	IGUI_Beard_Lemmy = "萊米",
+	IGUI_Beard_SoulPatch = "靈魂補丁",
+	IGUI_Hair_Chloe = "克洛伊",
+	IGUI_Hair_Guile = "蓋爾",
+	IGUI_Hair_LeftPartingTall = "高左分頭",
+	IGUI_Hair_MohawkWide = "寬莫霍克",
+	IGUI_Hair_MohawkWideSpiked = "寬釘莫霍克",
+	IGUI_Hair_Power = "力量頭",
+	IGUI_Hair_PowerBig = "大力量頭",
+	IGUI_Hair_PowerParted = "中分力量頭",
+	IGUI_Hair_RightPartingTall = "高右分頭",
+	IGUI_Hair_Zack = "扎克",
+
+	-- Building Time
+
+	IGUI_perks_Masonry = "石工",
+
+	-- Exploring Time
+
+	IGUI_HotbarAttachment_Head = "頭",
+}

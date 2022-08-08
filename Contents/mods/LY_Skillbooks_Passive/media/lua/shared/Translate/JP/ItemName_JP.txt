@@ -1,0 +1,13 @@
+ItemName_JP = {
+	ItemName_LY_Skillbooks.BookFitness1 = "書籍：持久力 Vol.1: (初級)",
+	ItemName_LY_Skillbooks.BookFitness2 = "書籍：持久力 Vol.2: (中級)",
+	ItemName_LY_Skillbooks.BookFitness3 = "書籍：持久力 Vol.3: (上級)",
+	ItemName_LY_Skillbooks.BookFitness4 = "書籍：持久力 Vol.4: (熟練)",
+	ItemName_LY_Skillbooks.BookFitness5 = "書籍：持久力 Vol.5: (匠)",
+	
+	ItemName_LY_Skillbooks.BookStrength1 = "書籍：筋力 Vol.1: (初級)",
+	ItemName_LY_Skillbooks.BookStrength2 = "書籍：筋力 Vol.2: (中級)",
+	ItemName_LY_Skillbooks.BookStrength3 = "書籍：筋力 Vol.3: (上級)",
+	ItemName_LY_Skillbooks.BookStrength4 = "書籍：筋力 Vol.4: (熟練)",
+	ItemName_LY_Skillbooks.BookStrength5 = "書籍：筋力 Vol.5: (匠)",
+}

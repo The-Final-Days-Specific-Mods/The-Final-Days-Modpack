@@ -1,0 +1,41 @@
+module Base
+{
+	model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+
+		attachment Bip01_L_Finger1
+		{
+			offset = -0.0460 -0.0310 0.0050,
+			rotate = 90.0000 180.0000 90.0000,
+			bone = Bip01_L_Finger1,
+		}
+
+		attachment Bip01_R_Finger0
+		{
+			offset = -0.0110 0.0080 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			bone = Bip01_R_Finger0,
+		}
+
+	}
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+
+		attachment Bip01_L_Finger1
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 180.0000 90.0000,
+			bone = Bip01_L_Finger1,
+		}
+
+		attachment Bip01_R_Finger0
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 180.0000 90.0000,
+			bone = Bip01_R_Finger0,
+		}
+
+	}
+}

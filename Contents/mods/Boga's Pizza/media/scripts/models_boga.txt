@@ -1,0 +1,252 @@
+module Base
+{
+	model WorldItem-PizzaDough
+    	{
+        	mesh    = WorldItem_PizzaDough,
+		texture = PizzaDough,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaDoughSlice
+    			{
+        			mesh    = WorldItem_PizzaDoughSlice,
+				texture = PizzaDoughSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaSauced
+    	{
+        	mesh    = WorldItem_PizzaSauced,
+		texture = PizzaSauced,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaSaucedSlice
+    			{
+        			mesh    = WorldItem_PizzaSaucedSlice,
+				texture = PizzaSaucedSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaBBQSauced
+    	{
+        	mesh    = WorldItem_PizzaBBQSauced,
+		texture = PizzaBBQSauced,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaBBQSaucedSlice
+    			{
+        			mesh    = WorldItem_PizzaBBQSaucedSlice,
+				texture = PizzaBBQSaucedSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaWhiteSauced
+    	{
+        	mesh    = WorldItem_PizzaWhiteSauced,
+		texture = PizzaWhiteSauced,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaWhiteSaucedSlice
+    			{
+        			mesh    = WorldItem_PizzaWhiteSaucedSlice,
+				texture = PizzaWhiteSaucedSlice,
+				scale   = 0.005,
+    			}
+
+
+	model WorldItem-PizzaCheese
+    	{
+        	mesh    = WorldItem_PizzaCheese,
+		texture = PizzaCheese,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaCheeseSlice
+    			{
+        			mesh    = WorldItem_PizzaCheeseSlice,
+				texture = PizzaCheeseSlice,
+				scale   = 0.005,
+    			}
+
+
+	model WorldItem-PizzaEtna
+    	{
+        	mesh    = WorldItem_PizzaEtna,
+		texture = PizzaEtna,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaEtnaSlice
+    			{
+        			mesh    = WorldItem_PizzaEtnaSlice,
+				texture = PizzaEtnaSlice,
+				scale   = 0.005,
+    			}
+
+
+	model WorldItem-PizzaHawaii
+    	{
+        	mesh    = WorldItem_PizzaHawaii,
+		texture = PizzaHawaii,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaHawaiiSlice
+    			{
+        			mesh    = WorldItem_PizzaHawaiiSlice,
+				texture = PizzaHawaiiSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaHamMushroom
+    	{
+        	mesh    = WorldItem_PizzaHamMushroom,
+		texture = PizzaHamMushroom,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaHamMushroomSlice
+    			{
+        			mesh    = WorldItem_PizzaHamMushroomSlice,
+				texture = PizzaHamMushroomSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaSeafood
+    	{
+        	mesh    = WorldItem_PizzaSeafood,
+		texture = PizzaSeafood,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaSeafoodSlice
+    			{
+        			mesh    = WorldItem_PizzaSeafoodSlice,
+				texture = PizzaSeafoodSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaNduja
+    	{
+        	mesh    = WorldItem_PizzaNduja,
+		texture = PizzaNduja,
+		scale   = 0.006,
+    	}
+
+
+			model WorldItem-PizzaNdujaSlice
+    			{
+        			mesh    = WorldItem_PizzaNdujaSlice,
+				texture = PizzaNdujaSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaPepperoni
+    	{
+        	mesh    = WorldItem_PizzaPepperoni,
+		texture = PizzaPepperoni,
+		scale   = 0.006,
+    	}
+
+
+			model WorldItem-PizzaPepperoniSlice
+    			{
+        			mesh    = WorldItem_PizzaPepperoniSlice,
+				texture = PizzaPepperoniSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaRumHam
+    	{
+        	mesh    = WorldItem_PizzaRumHam,
+		texture = PizzaRumHam,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaRumHamSlice
+    			{
+        			mesh    = WorldItem_PizzaRumHamSlice,
+				texture = PizzaRumHamSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-PizzaPineapple
+    	{
+        	mesh    = WorldItem_PizzaPineapple,
+		texture = PizzaPineapple,
+		scale   = 0.006,
+    	}
+
+			model WorldItem-PizzaPineappleSlice
+    			{
+        			mesh    = WorldItem_PizzaPineappleSlice,
+				texture = PizzaPineappleSlice,
+				scale   = 0.005,
+    			}
+
+	model WorldItem-NdujaSausage
+    	{
+        	mesh    = WorldItem_NdujaSausage,
+		texture = NdujaSausage,
+		scale   = 0.006,
+    	}
+
+	model WorldItem-NdujaSausageSlice
+	{
+		mesh    = WorldItem_NdujaSausageSlice,
+		texture = NdujaSausageSlice,
+		scale   = 0.00125,
+	}
+
+	model WorldItem-DicedPineapple
+	{
+		mesh    = WorldItem_DicedPineapple,
+		texture = DicedPineapple,
+		scale   = 0.0025,
+	}
+
+	model WorldItem-ChiliPepper
+    	{
+        	mesh    = WorldItem_ChiliPepper,
+		texture = ChiliPepper,
+		scale   = 0.0075,
+    	}
+
+	model WorldItem-RumFull
+    	{
+        	mesh    = WorldItem_RumBottle,
+		texture = RumBottle,
+		scale   = 0.012,
+    	}
+
+	model WorldItem-RumHam
+    	{
+        	mesh    = WorldItem_RumHam,
+		texture = RumHam,
+		scale   = 0.00475,
+    	}
+
+	model WorldItem-RumHamSlice
+    	{
+        	mesh    = WorldItem_HamSlice,
+		texture = Ham_HamSlice,
+		scale   = 0.25,
+    	}
+
+	model WorldItem-WhiteSauce
+    	{
+        	mesh    = WorldItem_WhiteSauce,
+		texture = WhiteSauce,
+		scale   = 0.004,
+    	}
+
+	model WorldItem-BBQSauce
+    	{
+        	mesh    = WorldItem_BBQSauce,
+		texture = BBQSauce,
+		scale   = 0.004,
+    	}
+}

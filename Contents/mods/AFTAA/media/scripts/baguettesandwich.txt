@@ -1,0 +1,26 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item BaguetteSandwich
+    {
+        DisplayCategory = Food,
+        HungerChange	=	-10,
+        Weight	=	0.2,
+        Carbohydrates = 42,
+        Proteins = 5.8,
+        Lipids = 8.5,
+        Calories = 360,
+        Type	=	Food,
+        DaysTotallyRotten	=	6,
+        DisplayName	=	Sandwich,
+        Icon	=	BaguetteSandwich,
+        DaysFresh	=	3,
+        StaticModel = BaguetteSandwich,
+	  WorldStaticModel = BaguetteSandwich_Ground,
+    }
+
+}

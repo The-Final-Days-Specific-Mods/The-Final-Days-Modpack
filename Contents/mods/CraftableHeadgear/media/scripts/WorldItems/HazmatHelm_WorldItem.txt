@@ -1,0 +1,9 @@
+module Base
+{
+        model HazmatHelm_WorldItem
+    {
+        mesh = WorldItems/HazmatHelm_WorldItem,
+        texture = HazmatHelm,
+        scale = 1,
+    }
+}

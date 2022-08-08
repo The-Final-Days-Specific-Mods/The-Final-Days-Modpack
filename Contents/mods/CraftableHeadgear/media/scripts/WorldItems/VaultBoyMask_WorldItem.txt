@@ -1,0 +1,9 @@
+module Base
+{
+        model VaultBoyMask_WorldItem
+    {
+        mesh = WorldItems/VaultBoyMask_WorldItem,
+        texture = VaultBoyMask,
+        scale = 1,
+    }
+}

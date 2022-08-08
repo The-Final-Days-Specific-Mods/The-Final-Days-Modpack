@@ -1,0 +1,9 @@
+module Base
+{
+        model BJBlazkowicz_WorldItem
+    {
+        mesh = WorldItems/BJBlazkowicz_WorldItem,
+        texture = BJBlazkowicz,
+        scale = 1,
+    }
+}

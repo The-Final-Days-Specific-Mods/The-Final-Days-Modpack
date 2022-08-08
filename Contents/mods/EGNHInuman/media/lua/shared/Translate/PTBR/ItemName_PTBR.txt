@@ -1,0 +1,9 @@
+ItemName_PTBR = {
+    ItemName_archer.Empilight = "Garrafa de Emperador",
+    ItemName_archer.Gin = "Garrafa de Gin",
+    ItemName_archer.PalePilsenBottle = "Garrafa de Pale Pilsen",
+    ItemName_archer.PalePilsenCan = "Lata de Pale Pilsen",
+    ItemName_archer.RedHorse = "Garrafa de Red Horse",
+    ItemName_archer.Soju = "Garrafa de Soju",
+    ItemName_archer.TequilaCuervo = "Garrafa de José Cuervo",
+}

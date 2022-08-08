@@ -1,0 +1,29 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item EggPoached
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		Type	=	Food,
+		DaysFresh	=	14,
+		DaysTotallyRotten	=	21,
+		DisplayName	=	Poached Egg,
+		Icon	=	EggPoached,
+		EvolvedRecipe = Stir fry Griddle Pan:10;Stir fry:10;Sandwich:10|Cooked;Sandwich Baguette:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+		FoodType    =   Egg,
+        Carbohydrates = 0.32,
+        Proteins = 5.55,
+        Lipids = 4.18,
+        Calories = 63,
+        IsCookable	        =	        true,
+        MinutesToBurn	    =	        10,
+        MinutesToCook	    =	        0,
+	  WorldStaticModel = EggPoached,
+	}
+
+}

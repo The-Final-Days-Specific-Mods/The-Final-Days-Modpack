@@ -1,0 +1,123 @@
+UI_FR = {
+
+-- Positive traits
+
+UI_trait_sneaky = "Sournois",
+UI_trait_sneakydesc = "(Se deplace plus discretement en se faufilant.)",
+
+UI_trait_lightfooted = "Pas leger",
+UI_trait_lightfooteddesc = "(Fait moins de bruit lors du deplacement.)",
+
+UI_trait_nimble = "Agile",
+UI_trait_nimbledesc = "(Se deplace plus rapidement avec une arme degainee et en visant.)",
+
+UI_trait_marathonrunner = "Marathonien",
+UI_trait_marathonrunnerdesc = "Peut courir (pas sprinter) un peu plus longtemps sans se fatiguer.",
+
+UI_trait_strongnimble = "Adaptatif",
+UI_trait_strongnimbledesc = "Peut se battre avec des armes de melee un peu plus longtemps sans se fatiguer.<br>(A une chance de depenser moins d'endurance en balancant des armes de melee.)",
+
+	UI_trait_ninjaway = "Voie du ninja",
+	UI_trait_ninjawaydesc = "Restaure de facon permanente une petite quantite d'endurance en se faufilant (ne bouge pas, ne marche pas ou ne court pas).",
+
+UI_trait_mushroomer = "Cueilleur de champignons",
+UI_trait_mushroomerdesc = "Augmente les chances de trouve des champignons dans le mode Recherche.<br>Connait une recette d'herbaliste:<br>Peut trouver des herbes medicales et confectionner des medicaments ainsi que des cataplasmes a partir d'eux.<br>(Peut identifier la nourriture empoisonnee.)",
+
+UI_trait_amforager = "Glaneur",
+UI_trait_amforagerdesc = "",
+
+UI_trait_amtrapper = "Trappeur",
+UI_trait_amtrapperdesc = "(Connait des recettes de piege.)",
+
+UI_trait_amcook = "Marmiton",
+UI_trait_amcookdesc = "",
+
+UI_trait_amelectrician = "Technicien",
+UI_trait_amelectriciandesc = "",
+
+UI_trait_ammechanic = "Mecanicien",
+UI_trait_ammechanicdesc = "",
+
+UI_trait_amcarpenter = "Charpentier",
+UI_trait_amcarpenterdesc = "",
+
+UI_trait_ammetalworker = "Metallurgiste",
+UI_trait_ammetalworkerdesc = "",
+
+UI_trait_durabile = "Durable",
+UI_trait_durabiledesc = "(Les armes de melee se cassent moins vite.)",
+
+UI_trait_shortbladefan = "Perceur",
+UI_trait_shortbladefandesc = "",
+
+UI_trait_shortbluntfan = "Ecraseur",
+UI_trait_shortbluntfandesc = "",
+
+UI_trait_cutter = "Abatteur",
+UI_trait_cutterdesc = "",
+
+UI_trait_spearman = "Lancier",
+UI_trait_spearmandesc = "",
+
+UI_trait_swordsman = "Epeiste",
+UI_trait_swordsmandesc = "",
+
+UI_trait_gunfan = "Tireur",
+UI_trait_gunfandesc = "",
+
+UI_trait_sharpshooter = "Tireur d'elite",
+UI_trait_sharpshooterdesc = "",
+
+UI_trait_taut = "Tendu",
+UI_trait_tautdesc = "",
+
+-- Negative traits
+
+UI_trait_slack = "Negligent",
+UI_trait_slackdesc = "",
+
+UI_trait_sensitivestomach = "Digestion sensible",
+UI_trait_sensitivestomachdesc = "Trop manger peut causer des douleurs a l'estomac et des nausees.",
+
+UI_trait_weathersensitive = "Sensible aux intemperies",
+UI_trait_weathersensitivedesc = "Maux de tete lorsque le temps change.<br>La tete peut egalement avoir mal lorsqu'il pleut ou qu'il neige.",
+
+UI_trait_sorelegstrait = "Jambes douloureuses",
+UI_trait_sorelegstraitdesc = "Les jambes commencent a faire mal en marchant, en courant, en faisant du fitness et en pietinant.<br>Lors du sprint, les jambes font beaucoup plus mal et expirent beaucoup plus vite.",
+
+	-- Weight traits
+
+UI_trait_cangrabmore = "Reins d'acier",
+UI_trait_cangrabmoredesc = "Porte plus de poids.<br>(bonus : plus 1-2 poids maximum selon la Force,<br>plus de Force, plus de bonus.)",
+
+UI_trait_cangrabless = "Muscles delicats",
+UI_trait_cangrablessdesc = "Porte moins de poids.<br>(penalite : moins 1-3 poids maximum selon la Force,<br>plus de Force, plus de penalite.)",
+
+-- Bleeding traits
+
+UI_trait_hbwounds = "Saignement abondant",
+UI_trait_hbwoundsdesc = "Les plaies saignent plus vite.<br>(+100% effet de saignement).",
+
+UI_trait_wbwounds = "Saignement lent",
+UI_trait_wbwoundsdesc = "Les plaies saignent moins vite.<br>(-50% effet de saignement).",
+	
+	-- Drowsiness traits	
+	
+UI_trait_owlperson = "Chouette",
+UI_trait_owlpersondesc = "Prefere etre eveille le soir.<br>(La somnolence s'accumule plus lentement en fin de soiree (19h00-23h00),<br>mais plus rapidement tot le matin (05h00-10h00)).",
+
+UI_trait_larkperson = "Leve-tot",
+UI_trait_larkpersondesc = "Prefere etre eveille le matin.<br>(La somnolence s'accumule plus lentement tot le matin (05h00-10h00),<br>mais plus rapidement tard le soir (19h00-23h00)).",
+
+	-- New	
+	
+	UI_trait_panicattacks = "Crises de panique",
+	UI_trait_panicattacksdesc = "Souffrent parfois d'attaques de panique.<be>Toute panique passe plus lentement.",
+	
+	UI_trait_MSTAllergic = "Allergique",
+	UI_trait_MSTAllergicdesc = "Eternue involontairement de temps en temps.",	
+	
+	UI_trait_MSTAlcoholic = "Alcoolique",
+	UI_trait_MSTAlcoholicdesc = "Tolere facilement une forte ivresse.<br>L'etat general s'aggravera si l'alcool n'a pas ete bu pendant une longue periode.",		
+
+}

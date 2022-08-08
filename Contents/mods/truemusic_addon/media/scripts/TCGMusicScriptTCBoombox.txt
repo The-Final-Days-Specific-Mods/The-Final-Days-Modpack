@@ -1,0 +1,153 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteDINGDONGAVANZADOBastatKasamaKita(Cassette1989)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette DINGDONG AVANZADO - Bastat Kasama Kita (Cassette_1989),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteFRANCISMAGALONAColdSummerNights(Cassette1990)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette FRANCIS MAGALONA - Cold Summer Nights (Cassette_1990),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteGELLIDEBELEN&ANDREWEMrDJ(Cassette1991)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette GELLI DE BELEN & ANDREW E. - Mr. DJ  (Cassette_1991),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteGINOPADILLAGustoKita(Cassette1990)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette GINO PADILLA - Gusto Kita (Cassette_1990),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteGINOPADILLAIBelieveInLove(Cassette1990)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette GINO PADILLA - I Believe In Love (Cassette_1990),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteJANNOGIBBSSana(Cassette1990)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette JANNO GIBBS - Sana (Cassette_1990),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteJOHNMELOHanapHanapKita(Cassette1992)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette JOHN MELO - Hanap-Hanap Kita (Cassette_1992),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMANILYNREYNESShakeItBaby(Cassette1992)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette MANILYN REYNES - Shake It Baby (Cassette_1992),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteMELISSAGIBBSBakitBaGanyan[HQAudioCassette1990]
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette MELISSA GIBBS - Bakit Ba Ganyan [HQ-Audio-Cassette_1990],
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteMICHELLERAMIREZHanggangKailan(Cassette1992)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette MICHELLE RAMIREZ - Hanggang Kailan (Cassette_1992),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassettePOPSFERNANDEZAloneInTheRain(Cassette1984)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette POPS FERNANDEZ - Alone In The Rain (Cassette_1984),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteRACHELALEJANDROKayTagal(Cassette1989)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette RACHEL ALEJANDRO - Kay Tagal (Cassette_1989),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteRACHELALEJANDROMrKupido(Cassette1989)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette RACHEL ALEJANDRO - Mr. Kupido (Cassette_1989),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteREYVALERABakaSakalingMahalinMoRin(Cassette1983)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette REY VALERA - Baka Sakaling Mahalin Mo Rin (Cassette_1983),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteSIDEAHoldOn(oncassette)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette SIDE A - Hold On (on cassette),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteZSAZSAPADILLAWhenI'mWithYou(Cassette1985)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette ZSAZSA PADILLA - When I'm With You (Cassette_1985),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+}

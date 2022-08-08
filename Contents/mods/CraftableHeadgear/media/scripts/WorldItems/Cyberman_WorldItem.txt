@@ -1,0 +1,9 @@
+module Base
+{
+        model Cyberman_WorldItem
+    {
+        mesh = WorldItems/Cyberman_WorldItem,
+        texture = Cyberman,
+        scale = 1,
+    }
+}

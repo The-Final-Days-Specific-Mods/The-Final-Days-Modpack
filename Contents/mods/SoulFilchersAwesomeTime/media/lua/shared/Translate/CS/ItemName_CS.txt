@@ -1,0 +1,35 @@
+ItemName_CS = {
+
+	--Beautifying Time
+
+    ItemName_Base.HairDyeAuburn = "Kaštanová barva na vlasy",
+    ItemName_Base.HairDyeAvocado = "Avokádová barva na vlasy",
+    ItemName_Base.HairDyeCherry = "Tøešòová barva na vlasy",
+    ItemName_Base.HairDyeCyan = "Azurová barva na vlasy",
+    ItemName_Base.HairDyeDarkBlue = "Tmavomodrá barva na vlasy",
+    ItemName_Base.HairDyeDarkBrown = "Tmavì hnìdá barva na vlasy",
+    ItemName_Base.HairDyeDarkTurquoise = "Smaragdová barva na vlasy",
+    ItemName_Base.HairDyeDeep Purple = "Tmavì fialová barva na vlasy",
+    ItemName_Base.HairDyeGrey = "Šedá barva na vlasy",
+    ItemName_Base.HairDyeLilac = "Levandulová barva na vlasy",
+    ItemName_Base.HairDyeLime = "Limetková barva na vlasy",
+    ItemName_Base.HairDyeMagenta = "Nachová barva na vlasy",
+    ItemName_Base.HairDyeOlive = "Olivová barva na vlasy",
+    ItemName_Base.HairDyeOrange = "Oranžová barva na vlasy",
+    ItemName_Base.HairDyePurple = "Fialová barva na vlasy",
+    ItemName_Base.HairDyeTurquoise = "Tyrkysová barva na vlasy",
+    ItemName_Base.HairDyeSnowWhite = "Snìhobílá barva na vlasy",
+
+	--Drinking Time
+
+    ItemName_Base.JarWater = "Sklenice s vodou",
+    ItemName_Base.PetrolCanWater = "Kanystr s vodou",
+    ItemName_Base.PopCanWater = "Plechovka s vodou",
+    ItemName_Base.PopCan2Water = "Plechovka s vodou",
+    ItemName_Base.PopCan3Water = "Plechovka s vodou",
+    ItemName_Base.RoastingPanWater = "Pekáè s vodou",
+    ItemName_Base.TinCanWater = "Plechovka s vodou",
+    ItemName_Base.WaterDishFull = "Plastová miska s vodou",
+
+	--Exploring Time
+}

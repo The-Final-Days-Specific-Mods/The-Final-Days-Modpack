@@ -1,0 +1,15 @@
+module Base
+{
+    
+    item monmouthcountymap
+    {
+    DisplayCategory = Cartography,
+        Type                =            Map,
+        DisplayName            =            Monmouth County Map,
+        Icon                =            Map,
+        Weight                =            0.1,
+        Map                 =           monmouthcountymap,
+    WorldStaticModel = Map,
+    }
+
+}

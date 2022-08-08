@@ -1,0 +1,377 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	model VinylBASILVALDEZSanaAyIkawNaNgaModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BASILVALDEZSanaAyIkawNaNga,
+		scale	=	0.0012,
+	}
+
+	item VinylBASILVALDEZSanaAyIkawNaNga
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl BASIL VALDEZ - Sana Ay Ikaw Na Nga,
+		WorldStaticModel = Tsarcraft.VinylBASILVALDEZSanaAyIkawNaNgaModel,
+	}
+
+	model VinylBreathlessbySharonCunetaModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/BreathlessbySharonCuneta,
+		scale	=	0.0012,
+	}
+
+	item VinylBreathlessbySharonCuneta
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Breathless by Sharon Cuneta,
+		WorldStaticModel = Tsarcraft.VinylBreathlessbySharonCunetaModel,
+	}
+
+	model VinylCan'tFindNoReasonbyLouieHerediaModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/Can'tFindNoReasonbyLouieHeredia,
+		scale	=	0.0012,
+	}
+
+	item VinylCan'tFindNoReasonbyLouieHeredia
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Can't Find No Reason by Louie Heredia,
+		WorldStaticModel = Tsarcraft.VinylCan'tFindNoReasonbyLouieHerediaModel,
+	}
+
+	model VinylIDon'tNeedToSayILoveYoubyMartinNieveraModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/IDon'tNeedToSayILoveYoubyMartinNievera,
+		scale	=	0.0012,
+	}
+
+	item VinylIDon'tNeedToSayILoveYoubyMartinNievera
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl I Don't Need To Say I Love You by Martin Nievera,
+		WorldStaticModel = Tsarcraft.VinylIDon'tNeedToSayILoveYoubyMartinNieveraModel,
+	}
+
+	model VinylIsn'tSheLovelybyRaymondLauchengcoModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/Isn'tSheLovelybyRaymondLauchengco,
+		scale	=	0.0012,
+	}
+
+	item VinylIsn'tSheLovelybyRaymondLauchengco
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Isn't She Lovely by Raymond Lauchengco,
+		WorldStaticModel = Tsarcraft.VinylIsn'tSheLovelybyRaymondLauchengcoModel,
+	}
+
+	model VinylJULIEVEGASomewhereInMyPast(LP)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/JULIEVEGASomewhereInMyPast(LP),
+		scale	=	0.0012,
+	}
+
+	item VinylJULIEVEGASomewhereInMyPast(LP)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl JULIE VEGA - Somewhere In My Past (LP),
+		WorldStaticModel = Tsarcraft.VinylJULIEVEGASomewhereInMyPast(LP)Model,
+	}
+
+	model VinylKUHLEDESMAIThinkI'mInLoveModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/KUHLEDESMAIThinkI'mInLove,
+		scale	=	0.0012,
+	}
+
+	item VinylKUHLEDESMAIThinkI'mInLove
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl KUH LEDESMA - I Think I'm In Love,
+		WorldStaticModel = Tsarcraft.VinylKUHLEDESMAIThinkI'mInLoveModel,
+	}
+
+	model VinylLEASALONGAIfOnly(Lp1987)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/LEASALONGAIfOnly(Lp1987),
+		scale	=	0.0012,
+	}
+
+	item VinylLEASALONGAIfOnly(Lp1987)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl LEA SALONGA - If Only (Lp_1987),
+		WorldStaticModel = Tsarcraft.VinylLEASALONGAIfOnly(Lp1987)Model,
+	}
+
+	model VinylLovingYoubyGerryParaisoModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/LovingYoubyGerryParaiso,
+		scale	=	0.0012,
+	}
+
+	item VinylLovingYoubyGerryParaiso
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Loving You by Gerry Paraiso,
+		WorldStaticModel = Tsarcraft.VinylLovingYoubyGerryParaisoModel,
+	}
+
+	model VinylMARTINNIEVERAEachDayWithYou(Lp1984)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/MARTINNIEVERAEachDayWithYou(Lp1984),
+		scale	=	0.0012,
+	}
+
+	item VinylMARTINNIEVERAEachDayWithYou(Lp1984)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl MARTIN NIEVERA - Each Day With You (Lp_1984),
+		WorldStaticModel = Tsarcraft.VinylMARTINNIEVERAEachDayWithYou(Lp1984)Model,
+	}
+
+	model VinylMARTINNIEVERAHowCanI(LP1984)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/MARTINNIEVERAHowCanI(LP1984),
+		scale	=	0.0012,
+	}
+
+	item VinylMARTINNIEVERAHowCanI(LP1984)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl MARTIN NIEVERA - How Can I (LP_1984),
+		WorldStaticModel = Tsarcraft.VinylMARTINNIEVERAHowCanI(LP1984)Model,
+	}
+
+	model VinylNEOCOLOURSMaybe(Lp1990)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/NEOCOLOURSMaybe(Lp1990),
+		scale	=	0.0012,
+	}
+
+	item VinylNEOCOLOURSMaybe(Lp1990)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl NEOCOLOURS - Maybe (Lp_1990),
+		WorldStaticModel = Tsarcraft.VinylNEOCOLOURSMaybe(Lp1990)Model,
+	}
+
+	model VinylNEOCOLOURSTuloyPaRin(onVinyl)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/NEOCOLOURSTuloyPaRin(onVinyl),
+		scale	=	0.0012,
+	}
+
+	item VinylNEOCOLOURSTuloyPaRin(onVinyl)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl NEOCOLOURS - Tuloy Pa Rin (on Vinyl),
+		WorldStaticModel = Tsarcraft.VinylNEOCOLOURSTuloyPaRin(onVinyl)Model,
+	}
+
+	model VinylNONOYZUNIGAHaveIReallyLostYou(LP1982)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/NONOYZUNIGAHaveIReallyLostYou(LP1982),
+		scale	=	0.0012,
+	}
+
+	item VinylNONOYZUNIGAHaveIReallyLostYou(LP1982)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl NONOY ZUNIGA - Have I Really Lost You (LP_1982),
+		WorldStaticModel = Tsarcraft.VinylNONOYZUNIGAHaveIReallyLostYou(LP1982)Model,
+	}
+
+	model VinylOGIEALCASIDDitoSaPusoKo(LP)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/OGIEALCASIDDitoSaPusoKo(LP),
+		scale	=	0.0012,
+	}
+
+	item VinylOGIEALCASIDDitoSaPusoKo(LP)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl OGIE ALCASID - Dito Sa Puso Ko (LP),
+		WorldStaticModel = Tsarcraft.VinylOGIEALCASIDDitoSaPusoKo(LP)Model,
+	}
+
+	model VinylPa'NoNgayonDiNaKitaMahalbyCristyMendozaModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/Pa'NoNgayonDiNaKitaMahalbyCristyMendoza,
+		scale	=	0.0012,
+	}
+
+	item VinylPa'NoNgayonDiNaKitaMahalbyCristyMendoza
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Pa'No Ngayon Di Na Kita Mahal by Cristy Mendoza,
+		WorldStaticModel = Tsarcraft.VinylPa'NoNgayonDiNaKitaMahalbyCristyMendozaModel,
+	}
+
+	model VinylRIcSegretoLovingYou(1982)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/RIcSegretoLovingYou(1982),
+		scale	=	0.0012,
+	}
+
+	item VinylRIcSegretoLovingYou(1982)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl RIc Segreto - Loving You (1982),
+		WorldStaticModel = Tsarcraft.VinylRIcSegretoLovingYou(1982)Model,
+	}
+
+	model VinylSHARONCUNETAEwan(1979)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/SHARONCUNETAEwan(1979),
+		scale	=	0.0012,
+	}
+
+	item VinylSHARONCUNETAEwan(1979)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl SHARON CUNETA - Ewan (1979),
+		WorldStaticModel = Tsarcraft.VinylSHARONCUNETAEwan(1979)Model,
+	}
+
+	model VinylSinceYouSaidGoodbyebyRicSegretoModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/SinceYouSaidGoodbyebyRicSegreto,
+		scale	=	0.0012,
+	}
+
+	item VinylSinceYouSaidGoodbyebyRicSegreto
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Since You Said Goodbye by Ric Segreto,
+		WorldStaticModel = Tsarcraft.VinylSinceYouSaidGoodbyebyRicSegretoModel,
+	}
+
+	model VinylVST&COMPANYIkawAngAkingMahal(Lp1978)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/VST&COMPANYIkawAngAkingMahal(Lp1978),
+		scale	=	0.0012,
+	}
+
+	item VinylVST&COMPANYIkawAngAkingMahal(Lp1978)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl VST & COMPANY - Ikaw Ang Aking Mahal (Lp_1978),
+		WorldStaticModel = Tsarcraft.VinylVST&COMPANYIkawAngAkingMahal(Lp1978)Model,
+	}
+
+	model VinylVST&COMPANYIpagpatawad(Lp1978)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/VST&COMPANYIpagpatawad(Lp1978),
+		scale	=	0.0012,
+	}
+
+	item VinylVST&COMPANYIpagpatawad(Lp1978)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl VST & COMPANY - Ipagpatawad (Lp_1978),
+		WorldStaticModel = Tsarcraft.VinylVST&COMPANYIpagpatawad(Lp1978)Model,
+	}
+
+	model VinylZSAZSAPADILLAIkawLamang(Lp1986)Model
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ZSAZSAPADILLAIkawLamang(Lp1986),
+		scale	=	0.0012,
+	}
+
+	item VinylZSAZSAPADILLAIkawLamang(Lp1986)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl ZSAZSA PADILLA - Ikaw Lamang (Lp_1986),
+		WorldStaticModel = Tsarcraft.VinylZSAZSAPADILLAIkawLamang(Lp1986)Model,
+	}
+
+	model VinylZSAZSAPADILLAMambobolaModel
+	{
+		mesh			=	WorldItems/TCCover,
+		texture			=	WorldItems/ZSAZSAPADILLAMambobola,
+		scale	=	0.0012,
+	}
+
+	item VinylZSAZSAPADILLAMambobola
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl ZSAZSA PADILLA - Mambobola,
+		WorldStaticModel = Tsarcraft.VinylZSAZSAPADILLAMambobolaModel,
+	}
+
+}

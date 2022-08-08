@@ -1,0 +1,13 @@
+ItemName_ES = {
+	ItemName_LY_Skillbooks.BookFitness1 = "Estado Físico Vol.1: Novato",
+	ItemName_LY_Skillbooks.BookFitness2 = "Estado Físico Vol.2: Intermediario",
+	ItemName_LY_Skillbooks.BookFitness3 = "Estado Físico Vol.3; Avanzado",
+	ItemName_LY_Skillbooks.BookFitness4 = "Estado Físico Vol.4: Experto",
+	ItemName_LY_Skillbooks.BookFitness5 = "Estado Físico Vol.5: Maestro",
+
+	ItemName_LY_Skillbooks.BookStrength1 = "Fuerza Vol.1: Novato",
+	ItemName_LY_Skillbooks.BookStrength2 = "Fuerza Vol.2: Intermediario",
+	ItemName_LY_Skillbooks.BookStrength3 = "Fuerza Vol.3: Avanzado",
+	ItemName_LY_Skillbooks.BookStrength4 = "Fuerza Vol.4: Experto",
+	ItemName_LY_Skillbooks.BookStrength5 = "Fuerza Vol.5: Maestro",
+}

@@ -1,0 +1,9 @@
+module Base
+{
+        model ChumBucket_WorldItem
+    {
+        mesh = WorldItems/ChumBucket_WorldItem,
+        texture = ChumBucket,
+        scale = 1,
+    }
+}

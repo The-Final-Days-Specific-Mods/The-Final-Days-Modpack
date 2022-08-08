@@ -1,0 +1,163 @@
+module Tsarcraft
+{
+	sound CassetteDINGDONGAVANZADOBastatKasamaKita(Cassette1989)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/DINGDONG AVANZADO - Bastat Kasama Kita (Cassette_1989).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteFRANCISMAGALONAColdSummerNights(Cassette1990)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/FRANCIS MAGALONA - Cold Summer Nights (Cassette_1990).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGELLIDEBELEN&ANDREWEMrDJ(Cassette1991)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/GELLI DE BELEN & ANDREW E. - Mr. DJ  (Cassette_1991).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGINOPADILLAGustoKita(Cassette1990)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/GINO PADILLA - Gusto Kita (Cassette_1990).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGINOPADILLAIBelieveInLove(Cassette1990)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/GINO PADILLA - I Believe In Love (Cassette_1990).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJANNOGIBBSSana(Cassette1990)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/JANNO GIBBS - Sana (Cassette_1990).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJOHNMELOHanapHanapKita(Cassette1992)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/JOHN MELO - Hanap-Hanap Kita (Cassette_1992).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMANILYNREYNESShakeItBaby(Cassette1992)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/MANILYN REYNES - Shake It Baby (Cassette_1992).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMELISSAGIBBSBakitBaGanyan[HQAudioCassette1990]
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/MELISSA GIBBS - Bakit Ba Ganyan [HQ-Audio-Cassette_1990].ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMICHELLERAMIREZHanggangKailan(Cassette1992)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/MICHELLE RAMIREZ - Hanggang Kailan (Cassette_1992).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePOPSFERNANDEZAloneInTheRain(Cassette1984)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/POPS FERNANDEZ - Alone In The Rain (Cassette_1984).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRACHELALEJANDROKayTagal(Cassette1989)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/RACHEL ALEJANDRO - Kay Tagal (Cassette_1989).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRACHELALEJANDROMrKupido(Cassette1989)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/RACHEL ALEJANDRO - Mr. Kupido (Cassette_1989).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteREYVALERABakaSakalingMahalinMoRin(Cassette1983)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/REY VALERA - Baka Sakaling Mahalin Mo Rin (Cassette_1983).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSIDEAHoldOn(oncassette)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/SIDE A - Hold On (on cassette).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteZSAZSAPADILLAWhenI'mWithYou(Cassette1985)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ZSAZSA PADILLA - When I'm With You (Cassette_1985).ogg,
+			distanceMax = 75,
+		}
+	}
+}

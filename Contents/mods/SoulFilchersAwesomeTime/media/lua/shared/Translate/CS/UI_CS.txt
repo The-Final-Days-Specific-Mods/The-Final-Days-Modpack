@@ -1,0 +1,7 @@
+UI_CS = {
+  UI_prof_Homeless = "Bezdomovec",
+
+  UI_trait_Scavenger = "Pátraè",
+  UI_trait_ScavengerDesc = "Hledání zásob je ménì ovlivnìné negativními podmínkami.",
+  --UI_profdesc_Homeless = "Umí improvizovat",
+}

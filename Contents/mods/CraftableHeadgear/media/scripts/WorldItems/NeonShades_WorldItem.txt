@@ -1,0 +1,9 @@
+module Base
+{
+        model NeonShades_WorldItem
+    {
+        mesh = WorldItems/NeonShades_WorldItem,
+        texture = NeonShades,
+        scale = 1,
+    }
+}

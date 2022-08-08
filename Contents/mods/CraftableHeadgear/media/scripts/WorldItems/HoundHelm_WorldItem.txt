@@ -1,0 +1,9 @@
+module Base
+{
+        model HoundHelm_WorldItem
+    {
+        mesh = WorldItems/HoundHelm_WorldItem,
+        texture = HoundHelm,
+        scale = 1,
+    }
+}

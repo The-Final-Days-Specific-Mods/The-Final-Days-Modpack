@@ -1,0 +1,123 @@
+UI_PL = {
+ 
+	-- Positive traits
+	
+	UI_trait_sneaky = "Dobry w skradaniu",
+	UI_trait_sneakydesc = "(Porusza sie bardziej niepozornie podczas skradania sie.)",
+
+	UI_trait_lightfooted = "Cichy jak kot",
+	UI_trait_lightfooteddesc = "(Robi mniej halasu podczas ruchu.)",
+		
+	UI_trait_nimble = "Zwinny",
+	UI_trait_nimbledesc = "(Porusza sie szybciej z wyciagnieta bronia/celowaniem.)",
+		
+	UI_trait_marathonrunner = "Biegacz maratonow",
+	UI_trait_marathonrunnerdesc = "Potrafi biegac (nie biegac) troche dluzej bez zmeczenia.",
+	
+	UI_trait_strongnimble = "Przystosowawczy",
+	UI_trait_strongnimbledesc = "Potrafi walczyc bronia biala dluzej bez meczenia sie.",
+
+	UI_trait_ninjaway = "Droga Ninja",
+	UI_trait_ninjawaydesc = "Na stale przywraca niewielka ilosc wytrzymalosci podczas skradania sie (nie porusza sie, nie chodzi ani nie biega).",
+	
+	UI_trait_mushroomer = "Grzybiarz",
+	UI_trait_mushroomerdesc = "Zwiekszona szansa na znalezienie grzybow w trybie szukania.<br>Zna receptury czasopisma 'Zielarza':<br>Potrafi znalezc ziola medyczne i wytwarzac z nich lekarstwa oraz oklady.<br>(Potrafi rozpoznac trujace jedzenie.)",
+	
+	UI_trait_amforager = "Zbieracz",
+	UI_trait_amforagerdesc = "",
+
+	UI_trait_amtrapper = "Traper",
+	UI_trait_amtrapperdesc = "(Wie jak wytwarzac pulapki.)",
+
+	UI_trait_amcook = "Poslugacz",
+	UI_trait_amcookdesc = "",
+
+	UI_trait_amelectrician = "Elektryk",
+	UI_trait_amelectriciandesc = "",
+
+	UI_trait_ammechanic = "Mechanik samochodowy",
+	UI_trait_ammechanicdesc = "",
+
+	UI_trait_amcarpenter = "Stolarz",
+	UI_trait_amcarpenterdesc = "",
+
+	UI_trait_ammetalworker = "Spawacz",
+	UI_trait_ammetalworkerdesc = "",
+
+	UI_trait_durabile = "Zachowawczy",
+	UI_trait_durabiledesc = "(Bronie biale niszcza sie wolniej.)",
+
+	UI_trait_shortbladefan = "Entuzjasta krotkich ostrz",
+	UI_trait_shortbladefandesc = "",
+
+	UI_trait_shortbluntfan = "Zgniatacz",
+	UI_trait_shortbluntfandesc = "",
+
+	UI_trait_cutter = "Siekacz",
+	UI_trait_cutterdesc = "",
+
+	UI_trait_spearman = "Szermierz",
+	UI_trait_spearmandesc = "",
+
+	UI_trait_swordsman = "Szablista",
+	UI_trait_swordsmandesc = "",
+
+	UI_trait_gunfan = "Strzelec",
+	UI_trait_gunfandesc = "",
+
+	UI_trait_sharpshooter = "Snajper",
+	UI_trait_sharpshooterdesc = "",
+	
+	UI_trait_taut = "Napiety",
+	UI_trait_tautdesc = "",	
+
+	-- Negative traits
+
+	UI_trait_slack = "Len",
+	UI_trait_slackdesc = "",
+	
+	UI_trait_sensitivestomach = "Wrazliwe trawienie",
+	UI_trait_sensitivestomachdesc = "Przejadanie sie powoduje bol brzucha i nudnosci.",		
+
+	UI_trait_weathersensitive = "Meteopata",
+	UI_trait_weathersensitivedesc = "Glowa boli, gdy zmienia sie pogoda.<br>Glowa moze tez bolec, gdy pada deszcz lub snieg.",
+
+	UI_trait_sorelegstrait = "Obolale nogi",
+	UI_trait_sorelegstraitdesc = "Nogi zaczynaja bolec podczas chodzenia, biegania, cwiczen fitness i tupania.<br>Podczas sprintu nogi bola znacznie bardziej i znacznie szybciej wydychaja powietrze.",
+	
+	-- Weight traits	
+	
+	UI_trait_cangrabmore = "Silne plecy",
+	UI_trait_cangrabmoredesc = "Nosi wieksza wage.<br>(bonus: plus 1-2 maks. waga w zaleznosci od sily,<br>wiecej sily, wiecej premii.)",
+	
+	UI_trait_cangrabless = "Slabe plecy",
+	UI_trait_cangrablessdesc = "Niesie mniejsza wage.<br>(kara: minus 1-3 maksymalna waga w zaleznosci od Sily,<br>wiecej Sily, wiecej kar.)",
+	
+	-- Bleeding traits	
+
+	UI_trait_hbwounds = "Bardzo krwawiace rany",
+	UI_trait_hbwoundsdesc = "Z twoich ran plynie wiecej krwi.<br>(+100% efektu krwawienia).",
+
+	UI_trait_wbwounds = "Slabo krwawiace rany",
+	UI_trait_wbwoundsdesc = "Rany krwawia mniej.<br>(-50% efektu krwawienia).",
+	
+	-- Drowsiness traits
+	
+	UI_trait_owlperson = "Sowa nocna",
+	UI_trait_owlpersondesc = "Woli nie zasnac wieczorami.<br>(Sennosc narasta wolniej poznym wieczorem (19:00-23:00),<br>ale szybciej wczesnym rankiem (05:00-10:00). jestem.)).",
+	
+	UI_trait_larkperson = "Ranny ptaszek",
+	UI_trait_larkpersondesc = "Woli nie spac rano.<br>(Sennosc narasta wolniej wczesnym rankiem (05:00-10:00),<br>ale szybciej poznym wieczorem (19:00-11:00) po poludniu.)).",
+
+	-- New	
+	
+	UI_trait_panicattacks = "Atak paniki",
+	UI_trait_panicattacksdesc = "Czasami cierpisz na ataki paniki.<br>Kazda panika mija wolniej.",
+	
+	UI_trait_MSTAllergic = "Uczulony",
+	UI_trait_MSTAllergicdesc = "Od czasu do czasu mimowolnie kicha.",	
+	
+	UI_trait_MSTAlcoholic = "Alkoholowy",
+	UI_trait_MSTAlcoholicdesc = "Latwo toleruje silne pijanstwo.<br>Ogolny stan pogorszy sie, jesli alkohol nie bedzie spozywany przez dluzszy czas.",	
+
+}

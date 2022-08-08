@@ -1,0 +1,123 @@
+UI_RU = {
+ 
+	-- Positive traits
+	
+	UI_trait_sneaky = "Скрытный",
+	UI_trait_sneakydesc = "(Незаметнее передвигается, когда крадется.)",
+
+	UI_trait_lightfooted = "Легконогий",
+	UI_trait_lightfooteddesc = "(Издает меньше звука во время передвижения.)",
+		
+	UI_trait_nimble = "Проворный",
+	UI_trait_nimbledesc = "(Быстрее передвигается с оружием на изготовке/прицеливании.)",
+
+	UI_trait_marathonrunner = "Марафонец",
+	UI_trait_marathonrunnerdesc = "Может бегать (без ускорения) немного дольше не уставая.",
+	
+	UI_trait_strongnimble = "Адаптивный",
+	UI_trait_strongnimbledesc = "Может драться холодным оружием немного дольше не уставая.<br>(Имеет шанс потратить меньше выносливости при взмахе холодным оружием.)",
+	
+	UI_trait_ninjaway = "Путь ниндзя",
+	UI_trait_ninjawaydesc = "Постоянно восстанавливает небольшое количество выносливости, когда крадется (не двигается, идет или бежит).",
+	
+	UI_trait_mushroomer = "Грибник",
+	UI_trait_mushroomerdesc = "Увеличенный шанс найти грибы в режиме поиска.<br>Знает рецепты Травника:<br>Может находить лечебные травы и создавать из них припарки.<br>(Распознаёт ядовитые грибы и ягоды.)",
+	
+	UI_trait_amforager = "Собиратель",
+	UI_trait_amforagerdesc = "",
+
+	UI_trait_amtrapper = "Зверолов",
+	UI_trait_amtrapperdesc = "(Знает рецепты ловушек.)",
+
+	UI_trait_amcook = "Поварёнок",
+	UI_trait_amcookdesc = "",
+
+	UI_trait_amelectrician = "Электротехник",
+	UI_trait_amelectriciandesc = "",
+
+	UI_trait_ammechanic = "Автослесарь",
+	UI_trait_ammechanicdesc = "",
+
+	UI_trait_amcarpenter = "Плотник",
+	UI_trait_amcarpenterdesc = "",
+
+	UI_trait_ammetalworker = "Металлосварщик",
+	UI_trait_ammetalworkerdesc = "",
+	
+	UI_trait_durabile = "Прочность",
+	UI_trait_durabiledesc = "(Оружие ближнего боя ломается медленнее.)",
+
+	UI_trait_shortbladefan = "Пронзатель",
+	UI_trait_shortbladefandesc = "",
+
+	UI_trait_shortbluntfan = "Дробитель",
+	UI_trait_shortbluntfandesc = "",
+
+	UI_trait_cutter = "Рубщик",
+	UI_trait_cutterdesc = "",
+
+	UI_trait_spearman = "Копейщик",
+	UI_trait_spearmandesc = "",
+
+	UI_trait_swordsman = "Мечник",
+	UI_trait_swordsmandesc = "",
+
+	UI_trait_gunfan = "Стрелок",
+	UI_trait_gunfandesc = "",
+
+	UI_trait_sharpshooter = "Снайпер",
+	UI_trait_sharpshooterdesc = "",
+	
+	UI_trait_taut = "Подтянутый",
+	UI_trait_tautdesc = "",
+
+	-- Negative traits
+
+	UI_trait_slack = "Вялый",
+	UI_trait_slackdesc = "",
+
+	UI_trait_sensitivestomach = "Чувствительное пищеварение",
+	UI_trait_sensitivestomachdesc = "Переедание вызывает боли в желудке и тошноту.",		
+	
+	UI_trait_weathersensitive = "Метеочувствительный",
+	UI_trait_weathersensitivedesc = "Испытывает головные боли при изменении погоды.<br>Так же голова может болеть во время идущего дождя или снега.",
+
+	UI_trait_sorelegstrait = "Больные ноги",
+	UI_trait_sorelegstraitdesc = "Ноги начинают болеть во время ходьбы, бега, занятия фитнесом и топтания.<br>При спринте ноги болят в разы сильнее и выдыхается значительно быстрее.",
+	
+	-- Weight traits
+	
+	UI_trait_cangrabmore = "Сильная спина",
+	UI_trait_cangrabmoredesc = "Может переносить больше веса.<br>(бонус: плюс 1-2 кг. к макс. весу в зависимости от показателя Силы,<br>чем больше Сила, тем больше бонус.)",
+	
+	UI_trait_cangrabless = "Слабая спина",
+	UI_trait_cangrablessdesc = "Может переносить меньше веса.<br>(штраф: минус 1-3 кг. к макс. весу в зависимости от показателя Силы,<br>чем больше Сила, тем больше штраф.)",	
+
+	-- Bleeding traits
+
+	UI_trait_hbwounds = "Сильно кровоточащие раны",
+	UI_trait_hbwoundsdesc = "Раны кровоточат сильнее.<br>(+100% к эффекту Кровотечения.)",
+
+	UI_trait_wbwounds = "Слабо кровоточащие раны",
+	UI_trait_wbwoundsdesc = "Раны кровоточат слабее.<br>(-50% к эффекту Кровотечения.)",
+
+	-- Drowsiness traits
+
+	UI_trait_owlperson = "Сова",
+	UI_trait_owlpersondesc = "Предпочитает бодрствовать по вечерам.<br>(Сонливость накапливается медленнее поздним вечером (19:00-23:00),<br>но быстрее ранним утром (05:00-10:00)).",
+	
+	UI_trait_larkperson = "Жаворонок",
+	UI_trait_larkpersondesc = "Предпочитает бодрствовать по утрам.<br>(Сонливость накапливается медленнее ранним утром (05:00-10:00),<br>но быстрее поздним вечером (19:00-23:00)).",
+	
+	-- New		
+	
+	UI_trait_panicattacks = "Панические атаки",
+	UI_trait_panicattacksdesc = "Иногда страдает от панических атак.<br>Любая паника проходит медленнее.",
+	
+	UI_trait_MSTAllergic = "Аллергик",
+	UI_trait_MSTAllergicdesc = "Непроизвольно чихает время от времени.",
+	
+	UI_trait_MSTAlcoholic = "Алкоголик",
+	UI_trait_MSTAlcoholicdesc = "Легче переносит сильное опьянение.<br>Общее состояние будет ухудшаться, если не употреблять алкоголь долгое время.",
+	
+}

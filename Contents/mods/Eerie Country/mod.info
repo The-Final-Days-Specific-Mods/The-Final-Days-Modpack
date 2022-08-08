@@ -1,0 +1,16 @@
+name=Eerie Country
+id=EerieCountry
+description=Survive explore and live in Eerie Country, a great place to live Z infection.
+poster=Logo.png
+pack=Atox
+pack=Flags
+pack=Pantano
+pack=Pantano.floor
+pack=spiffos
+pack=Texas
+pack=Texas.floor
+tiledef=Atox 751
+tiledef=Flags 752
+tiledef=Pantano 753
+tiledef=Spiffos 754
+tiledef=Texas 755

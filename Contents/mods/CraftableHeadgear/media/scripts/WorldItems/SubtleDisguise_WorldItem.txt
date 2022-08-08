@@ -1,0 +1,9 @@
+module Base
+{
+        model SubtleDisguise_WorldItem
+    {
+        mesh = WorldItems/SubtleDisguise_WorldItem,
+        texture = SubtleDisguise,
+        scale = 1,
+    }
+}

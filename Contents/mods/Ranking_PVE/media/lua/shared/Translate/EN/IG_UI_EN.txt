@@ -1,0 +1,9 @@
+IGUI_EN = {
+  IGUI_jishawanjia = "",
+  IGUI_jishajiangshi = "",
+  IGUI_jiangshijishapaihangbang = "Zombiekills:",
+  IGUI_wanjiajishapaihangbang = "Playerkills:",
+  IGUI_sharenzuobiao = "Position:",
+  IGUI_dingshishuaxin = "Loading...",
+  IGUI_ranktitle = "PVE", 
+}

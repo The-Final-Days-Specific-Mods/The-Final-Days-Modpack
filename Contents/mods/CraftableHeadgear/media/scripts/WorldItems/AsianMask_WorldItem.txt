@@ -1,0 +1,9 @@
+module Base
+{
+        model AsianMask_WorldItem
+    {
+        mesh = WorldItems/AsianMask_WorldItem,
+        texture = AsianMask,
+        scale = 1,
+    }
+}

@@ -1,0 +1,24 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item EggScrambled
+	{
+		HungerChange	=	-20,
+		Weight	=	0.1,
+		Type	=	Food,
+		DaysFresh	=	14,
+		DaysTotallyRotten	=	21,
+		DisplayName	=	Scrambled Eggs,
+		Icon	=	EggScrambled,
+        Carbohydrates = 0.52,
+        Proteins = 10.55,
+        Lipids = 6.18,
+        Calories = 120,
+		WorldStaticModel = EggScrambled,
+	}
+
+}

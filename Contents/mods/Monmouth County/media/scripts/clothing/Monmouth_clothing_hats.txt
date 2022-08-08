@@ -1,0 +1,83 @@
+module MonmouthClothing
+{
+    item Hat_VisorMoobys
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Mooby's Visor,
+        ClothingItem = Hat_VisorMoobys,
+        BodyLocation = Hat,
+        Icon = MoobysVisor_Icon,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Weight = 0.3,
+    }
+	item Hat_BaseballCapFraz_Reverse
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Fraz's Cap,
+        ClothingItem = Hat_BaseballCapFraz_Reverse,
+        BodyLocation = Hat,
+        Icon = FrazsCap,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Weight = 0.3,
+    }
+	item Hat_Silent_Bob
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Silent Bob's Cap,
+        ClothingItem = Hat_Silent_Bob,
+        BodyLocation = Hat,
+        Icon = SilentBobsCap,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Weight = 0.3,
+    }
+	item Hat_JaysBeanie
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Jay's Beanie,
+        ClothingItem = Hat_JaysBeanie,
+        BodyLocation = Hat,
+        Icon = JaysCap_Icon,
+        CanHaveHoles = false,
+        ChanceToFall = 60,
+        Weight = 0.3,
+    }
+    item Hat_BunnyEarsAmelora
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bunny Ears,
+		ClothingItem = Hat_BunnyEarsAmelora,
+		BodyLocation = Hat,
+		Icon = RabbitearsAmelora,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		ChanceToFall = 10,
+		WorldStaticModel = BunnyEarsWhite_Ground,
+	}
+    item Helmet_Judge
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Judge's Helmet,
+		ClothingItem = Helmet_Judge,
+		BodyLocation = Hat,
+		Icon = Helmet_Judge,
+		CanHaveHoles = false,
+		BloodLocation = Head,
+		BiteDefense = 100,
+		ScratchDefense = 100,
+		ChanceToFall = 5,
+		Insulation = 0.25,
+		WaterResistance = 0.2,
+		WorldStaticModel = Judge_Helmet_Ground,
+	}
+}
+
+

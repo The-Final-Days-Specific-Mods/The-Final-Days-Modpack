@@ -1,0 +1,712 @@
+module Vehicle Repairs 
+
+/*******VRO Vehicle Repair Lists*******/
+
+{
+    imports 
+	{
+        Base
+    }
+	
+/************************ Gas Tank ************************/
+
+	fixing Fix Gas Tank Welding
+	{
+	   Require : SmallGasTank1;NormalGasTank1;BigGasTank1;SmallGasTank2;NormalGasTank2;BigGasTank2;SmallGasTank3;NormalGasTank3;BigGasTank3;SmallGasTank8;NormalGasTank8;BigGasTank8;SmallCycleGasTank;CycleGasTank;ATAMotoBMWGasTank;ATAMotoHarleyGasTank;KZ1KgasTank,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.8,
+
+       Fixer : SheetMetal;MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=3,
+	   Fixer : MetalParts=2;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=3,
+	}
+	
+	fixing Fix Gas Tank
+	{
+	   Require : SmallGasTank1;NormalGasTank1;BigGasTank1;SmallGasTank2;NormalGasTank2;BigGasTank2;SmallGasTank3;NormalGasTank3;BigGasTank3;SmallGasTank8;NormalGasTank8;BigGasTank8;SmallCycleGasTank;CycleGasTank;ATAMotoBMWGasTank;ATAMotoHarleyGasTank;KZ1KgasTank,
+	   ConditionModifier : 0.2,
+
+       Fixer : Glue=2; Mechanics=2,
+       Fixer : DuctTape=2; Mechanics=2,
+	}
+
+/************************ Trailer ************************/
+
+	fixing Fix Trailer Welding
+	{
+		Require : TrailerTrunk1;TrailerTrunk2;TrailerTrunk3;FRTrailerTrunk1;FRTrailerTrunk2;FRTrailerTrunk3;FRXLCargoTrunk1;FRXLCargoTrunk2;FRXLCargoTrunk3;FRXLCargoTrunk8;FRCargoTrunk1;FRCargoTrunk2;FRCargoTrunk3;FRCargoTrunk8;IsoContainerTrunkDoor2;IsoContainerTankerTrunkDoor2;TrailerFirstTrunk;TrailerSecondTrunk,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 1.2,
+
+		Fixer : SheetMetal=2;MetalWelding=2;Mechanics=3,
+		Fixer : SmallSheetMetal=4;MetalWelding=2;Mechanics=3,
+		Fixer : MetalParts=6;MetalWelding=3;Mechanics=3,
+	    Fixer : ScrapMetal=6;MetalWelding=3;Mechanics=3,
+	
+	}
+	
+	fixing Fix Trailer
+    {
+    	Require : TrailerTrunk1;TrailerTrunk2;TrailerTrunk3;FRTrailerTrunk1;FRTrailerTrunk2;FRTrailerTrunk3;FRXLCargoTrunk1;FRXLCargoTrunk2;FRXLCargoTrunk3;FRXLCargoTrunk8;FRCargoTrunk1;FRCargoTrunk2;FRCargoTrunk3;FRCargoTrunk8;IsoContainerTrunkDoor2;IsoContainerTankerTrunkDoor2;TrailerFirstTrunk;TrailerSecondTrunk,
+        GlobalItem : Screws=10,
+    	ConditionModifier : 0.7,
+
+    	Fixer : SheetMetal=2;Mechanics=3,
+    	Fixer : SmallSheetMetal=4;Mechanics=3,
+
+    }
+
+    fixing Fix Trailer Lids Welding
+	{
+		Require : M101A3Cover1_Item;FRSideContainer1;FRSideContainer2;FRSideContainer3;FRSideContainer8,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 1.0,
+
+		Fixer : SheetMetal;MetalWelding=2;Mechanics=3,
+		Fixer : SmallSheetMetal=2;MetalWelding=2;Mechanics=3,
+		Fixer : MetalParts=4;MetalWelding=2;Mechanics=3,
+	    Fixer : ScrapMetal=4;MetalWelding=2;Mechanics=3,
+
+	}
+
+	fixing Fix Trailer Lids
+    {
+    	Require : M101A3Cover1_Item;FRSideContainer1;FRSideContainer2;FRSideContainer3;FRSideContainer8,
+    	GlobalItem : Screws=10,
+    	ConditionModifier : 0.5,
+
+    	Fixer : SheetMetal;Mechanics=3,
+    	Fixer : SmallSheetMetal=2;Mechanics=3,
+
+    }
+	
+/************************ Hood ************************/
+
+	fixing Fix Hood Welding
+	{
+	   Require : EngineDoor1;EngineDoor2;EngineDoor3;EngineDoor8;ECTO1EngineDoor2;SL500HardTop3;W460EngineDoor2;K5HoodSC2;P30HoodSC2;CrownVictoriaHoodSC2;CapriceHoodSC2;G30HoodSC2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal=2;MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=4;MetalWelding=3;Mechanics=3,
+	   Fixer : MetalParts=6;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=6;MetalWelding=3;Mechanics=3,
+	}
+
+    fixing Fix Hood
+	{
+	   Require : EngineDoor1;EngineDoor2;EngineDoor3;EngineDoor8;ECTO1EngineDoor2;SL500HardTop3;W460EngineDoor2;K5HoodSC2;P30HoodSC2;CrownVictoriaHoodSC2;CapriceHoodSC2;G30HoodSC2,
+	   GlobalItem : Screws=10,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal=2;Mechanics=3,
+	   Fixer : SmallSheetMetal=4;Mechanics=3,
+	}
+
+	fixing Fix Military Hood Welding
+	{
+	   Require : EngineM113Door8;EngineV100Door1;EngineV100Door2;EngineV100Door3;EngineV100Door8;V100EngineDoor2;M998EngineDoor2;M12EngineDoor2;EngineM113Door1;EngineM113Door2;EngineM113Door3;M151A2EngineDoor2;M35A2EngineDoor2;M923EngineDoor2;M923HardCover1_Item;Int4700Hood2,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal=4;MetalWelding=4;Mechanics=6,
+       Fixer : SmallSheetMetal=8;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalParts=12;MetalWelding=4;Mechanics=6,
+	   Fixer : ScrapMetal=12;MetalWelding=4;Mechanics=6,
+	}
+
+    fixing Fix Military Hood
+	{
+	   Require : EngineM113Door8;EngineV100Door1;EngineV100Door2;EngineV100Door3;EngineV100Door8;V100EngineDoor2;M998EngineDoor2;M12EngineDoor2;EngineM113Door1;EngineM113Door2;EngineM113Door3;M151A2EngineDoor2;M35A2EngineDoor2;M923EngineDoor2;M923HardCover1_Item;Int4700Hood2,
+	   GlobalItem : Screws=16,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal=4;Mechanics=5,
+	   Fixer : SmallSheetMetal=8;Mechanics=5,
+	}
+
+/************************ Trunk ************************/
+
+	fixing Fix Trunk Welding
+	{
+	   Require : SmallTrunk1;NormalTrunk1;BigTrunk1;SmallTrunk2;NormalTrunk2;BigTrunk2;SmallTrunk3;NormalTrunk3;VanSeatsTrunk2;BigTrunk3;FRTinyTrunk1;FRTinyTrunk2;FRTinyTrunk3;FRTinyTrunk8;FRSmallTrunk1;FRSmallTrunk2;FRSmallTrunk3;FRSmallTrunk8;FRNormalTrunk1;FRNormalTrunk2;FRNormalTrunk3;FRNormalTrunk8;FRBigTrunk1;FRBigTrunk2;FRBigTrunk3;FRBigTrunk8;FRLargeTrunk1;FRLargeTrunk2;FRLargeTrunk3;FRLargeTrunk8;ECTO1Trunk2;W460Trunk2;W4602Trunk2;W4604Trunk2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.4,
+
+       Fixer : SheetMetal=2;MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=4;MetalWelding=3;Mechanics=3,
+	   Fixer : MetalParts=6;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=6;MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix Trunk
+	{
+	   Require : SmallTrunk1;NormalTrunk1;BigTrunk1;SmallTrunk2;NormalTrunk2;BigTrunk2;SmallTrunk3;NormalTrunk3;VanSeatsTrunk2;BigTrunk3;FRTinyTrunk1;FRTinyTrunk2;FRTinyTrunk3;FRTinyTrunk8;FRSmallTrunk1;FRSmallTrunk2;FRSmallTrunk3;FRSmallTrunk8;FRNormalTrunk1;FRNormalTrunk2;FRNormalTrunk3;FRNormalTrunk8;FRBigTrunk1;FRBigTrunk2;FRBigTrunk3;FRBigTrunk8;FRLargeTrunk1;FRLargeTrunk2;FRLargeTrunk3;FRLargeTrunk8;ECTO1Trunk2;W460Trunk2;W4602Trunk2;W4604Trunk2,
+	   GlobalItem : Screws=10,
+	   ConditionModifier : 0.8,
+
+       Fixer : SheetMetal=2;Mechanics=2,
+       Fixer : SmallSheetMetal=4;Mechanics=2,
+	}
+
+	fixing Fix Trunk Welding Military
+	{
+	   Require : M998Trunk2;M998Extra2;M101A3Trunk2;M101A3Extra2;P19ASmallTrunk1;P19ASmallTrunk2;P19ASmallTrunk3;M12Trunk2;M12Extra2;ATSMegaTrunk;M151A2Trunk2;M151A2Extra2;M35A2Trunk2;M923Trunk2;M923Flatbed2;M923Extra2,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.4,
+
+       Fixer : SheetMetal=2;MetalWelding=4;Mechanics=6,
+       Fixer : SmallSheetMetal=4;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalParts=6;MetalWelding=4;Mechanics=6,
+	   Fixer : ScrapMetal=6;MetalWelding=4;Mechanics=6,
+	}
+
+	fixing Fix Trunk Military
+	{
+	   Require : M998Trunk2;M998Extra2;M101A3Trunk2;M101A3Extra2;P19ASmallTrunk1;P19ASmallTrunk2;P19ASmallTrunk3;M12Trunk2;M12Extra2;ATSMegaTrunk;M151A2Trunk2;M151A2Extra2;M35A2Trunk2,
+	   GlobalItem : Screws=16,
+	   ConditionModifier : 0.8,
+
+       Fixer : SheetMetal=2;Mechanics=4,
+       Fixer : SmallSheetMetal=4;Mechanics=4,
+	}
+	
+/************************ Trunk Door ************************/
+
+    fixing Fix Trunk Door Welding
+    {
+       Require : TrunkDoor1;TrunkDoor2;TrunkDoor3;TrunkDoor8;ECTO1TrunkDoor2;SL500TrunkDoor3;W460TrunkDoor2;K5TrunkLidSC2;CrownVictoriaTrunkLidSC2;CapriceTrunkLidSC2,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 0.8,
+
+       Fixer : SheetMetal;MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=3,
+	   Fixer : MetalParts=2;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=3,
+    }
+
+    fixing Fix Trunk Door
+	{
+       Require : TrunkDoor1;TrunkDoor2;TrunkDoor3;TrunkDoor8;ECTO1TrunkDoor2;SL500TrunkDoor3;W460TrunkDoor2;K5TrunkLidSC2;CrownVictoriaTrunkLidSC2;CapriceTrunkLidSC2,
+	   GlobalItem : Screws=10,
+	   ConditionModifier : 0.3,
+
+       Fixer : SheetMetal;Mechanics=2,
+	   Fixer : SmallSheetMetal=2;Mechanics=2,
+	}
+
+	fixing Fix Trunk Door Welding Military
+	{
+	   Require : M998TrunkDoor2;M101A3TrunkDoor2;M101A3TrunkDoorTwo2;P19ABigTrunk1;P19ABigTrunk2;P19ABigTrunk3;M12TrunkDoor2;M35A2tailgate2;M923Tailgate2;M923Trunkdoor2;FR_VehicleArmory,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal=2;MetalWelding=4;Mechanics=6,
+       Fixer : SmallSheetMetal=4;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalParts=6;MetalWelding=4;Mechanics=6,
+	   Fixer : ScrapMetal=6;MetalWelding=4;Mechanics=6,
+	}
+
+	fixing Fix Trunk Door Military
+	{
+	   Require : M998TrunkDoor2;M101A3TrunkDoor2;M101A3TrunkDoorTwo2;P19ABigTrunk1;P19ABigTrunk2;P19ABigTrunk3;M12TrunkDoor2;M35A2tailgate2;M923Tailgate2;M923Trunkdoor2;FR_VehicleArmory,
+	   GlobalItem : Screws=16,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal=2;Mechanics=4,
+	   Fixer : SmallSheetMetal=4;Mechanics=4,
+	}
+
+/************************ Doors ************************/
+
+	fixing Fix Door Welding
+	{
+	   Require : FrontCarDoor1;FrontCarDoor2;FrontCarDoor3;RearCarDoor1;RearCarDoor2;RearCarDoor3;RearCarDoorDouble1;RearCarDoorDouble2;RearCarDoorDouble3;FrontCarDoor8;RearCarDoor8;RearCarDoorDouble8;ECTO1CarFrontDoor2;ECTO1CarRearDoor2;V100ToolboxLid2;IFAVDoor2;SL500Door3;W460CarFrontDoor2;W460CarRearDoor2;K5DoorSC2;P30DoorSC2;P30RearDoorsSC2;CrownVictoriaDoorSC2;CrownVictoriaRearDoorSC2;CapriceDoorSC2;CapriceRearDoorSC2;G30FrontDoorSC2;G30RearDoorsSC2;G30SideDoorSC2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.8,
+
+       Fixer : SheetMetal;MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=3,
+	   Fixer : MetalParts=2;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=3,
+	}
+	
+	fixing Fix Door 
+	{
+	   Require : FrontCarDoor1;FrontCarDoor2;FrontCarDoor3;RearCarDoor1;RearCarDoor2;RearCarDoor3;RearCarDoorDouble1;RearCarDoorDouble2;RearCarDoorDouble3;FrontCarDoor8;RearCarDoor8;RearCarDoorDouble8;ECTO1CarFrontDoor2;ECTO1CarRearDoor2;V100ToolboxLid2;IFAVDoor2;SL500Door3;W460CarFrontDoor2;W460CarRearDoor2;K5DoorSC2;P30DoorSC2;P30RearDoorsSC2;CrownVictoriaDoorSC2;CrownVictoriaRearDoorSC2;CapriceDoorSC2;CapriceRearDoorSC2;G30FrontDoorSC2;G30RearDoorsSC2;G30SideDoorSC2,
+	   GlobalItem : Screws=10,
+	   ConditionModifier : 0.3,
+
+       Fixer : SheetMetal;Mechanics=2,
+	   Fixer : SmallSheetMetal=2;Mechanics=2,
+	}
+
+	fixing Fix Door Welding Military
+	{
+	   Require : FrontM113Door8;RearM113Door8;RearV100Door2;FrontLeftV100Door1;FrontLeftV100Door2;FrontLeftV100Door3;FrontRightV100Door1;FrontRightV100Door2;FrontRightV100Door3;FrontLeftV100Door8;FrontRightV100Door8;ECTO1CarFrontDoorArmor1_Item;ECTO1CarRearDoorArmor1_Item;M998CarFrontDoor2;M998CarRearDoor2;P19ARoofHatch1;P19ARoofHatch2;P19ARoofHatch3;M12LeftDoor2;M12RightDoor2;SemiTruckArmorFront_Item2;SemiTruckArmorRear_Item2;SemiTruckArmorDoor_Item2;FrontM113Door1;FrontM113Door2;FrontM113Door3;RearM113Door1;RearM113Door2;RearM113Door3;XM93FrontDoor;XM93TopHatch;M151A2LeftDoor2;M151A2RightDoor2;M998BackCover1_Item;M998BackCover2_Item;IFAVSideCovers2;M35A2Extra2;M35A2Door2;M35A2HardCover1_Item;M923Door2;FireCoachFrontDoor2;Int4700FrontDoor2;Int4700RearDoor2,
+	   
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal=2;MetalWelding=4;Mechanics=5,
+       Fixer : SmallSheetMetal=4;MetalWelding=4;Mechanics=5,
+	   Fixer : MetalParts=6;MetalWelding=4;Mechanics=5,
+	   Fixer : ScrapMetal=6;MetalWelding=4;Mechanics=5,
+	}
+
+	fixing Fix Door Military
+	{
+	   Require : FrontM113Door8;RearM113Door8;RearV100Door2;FrontLeftV100Door1;FrontLeftV100Door2;FrontLeftV100Door3;FrontRightV100Door1;FrontRightV100Door2;FrontRightV100Door3;FrontLeftV100Door8;FrontRightV100Door8;ECTO1CarFrontDoorArmor1_Item;ECTO1CarRearDoorArmor1_Item;M998CarFrontDoor2;M998CarRearDoor2;P19ARoofHatch1;P19ARoofHatch2;P19ARoofHatch3;M12LeftDoor2;M12RightDoor2;SemiTruckArmorFront_Item2;SemiTruckArmorRear_Item2;SemiTruckArmorDoor_Item2;FrontM113Door1;FrontM113Door2;FrontM113Door3;RearM113Door1;RearM113Door2;RearM113Door3;XM93FrontDoor;XM93TopHatch;M151A2LeftDoor2;M151A2RightDoor2;M998BackCover1_Item;M998BackCover1_Item;IFAVSideCovers2;M35A2Extra2;M35A2Door2;M35A2HardCover1_Item;M923Door2;FireCoachFrontDoor2;Int4700FrontDoor2;Int4700RearDoor2,
+	   
+	   GlobalItem : Screws=16,
+	   ConditionModifier : 0.4,
+
+       Fixer : SheetMetal=2;Mechanics=5,
+	   Fixer : SmallSheetMetal=4;Mechanics=5,
+	}
+
+/************************ Glove Boxes ************************/
+
+    fixing Fix Glove box
+	{
+	   Require : GloveBox1;GloveBox2;GloveBox3;GloveBox8;M113GloveBox8;M113GloveBox1;M113GloveBox2;M113GloveBox3,
+	   ConditionModifier : 0.8,
+
+	   Fixer : DuctTape=2;Mechanics=2;Tailoring=1,
+       Fixer : Glue=2;Mechanics=2;Tailoring=1,
+	}
+	
+	fixing Fix Glove Box Welding
+	{
+		Require : GloveBox1;GloveBox2;GloveBox3;GloveBox8;M113GloveBox8;M113GloveBox1;M113GloveBox2;M113GloveBox3,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 1.4,
+
+		Fixer : SmallSheetMetal;MetalWelding=2;Mechanics=2,
+	}
+	
+/************************ Seats ************************/
+
+    fixing Fix Car seat
+	{
+	   Require : NormalCarSeat1;BigCarSeat1;SportCarSeat1;NormalCarSeat2;BigCarSeat2;SportCarSeat2;NormalCarSeat3;BigCarSeat3;SportCarSeat3;NormalCarSeat8;BigCarSeat8;SportCarSeat8;CycleSeat;CycleSeatSidecar;ECTO1CarSeatfl2;ECTO1CarSeatfr2;ECTO1CarSeatrl2;ECTO1CarSeatrr2;M998CarSeat2;M12CarSeat2;ATAMotoBMWSeat;ATAMotoBMWSeatCustom;ATAMotoHarleySeat;ATAMotoQuadSeat;XM93Seat;M151A2CarSeatFront2;M151A2CarSeatRear2;TheTigerSeat1;TheTigerSeat2;TheTigerSeat3;M35A2CarSeat2;W460CarSeatFront2;W460CarSeatRear2;K5FrontSeatSC2;P30FrontSeatSC2;CrownVictoriaFrontSeatSC2;CrownVictoriaRearSeatSC2;CapriceFrontSeatSC2;CapriceRearSeatSC2;G30FrontSeatSC2;M923RearSeat2;M923FrontSeat2;FireCoachSeat2;KZ1Kseat;Int4700Seat2,
+	   ConditionModifier : 0.8,
+
+       Fixer : DuctTape=4;Tailoring=1;Mechanics=1,
+       Fixer : Glue=2;Tailoring=1;Mechanics=1,
+	   Fixer : Sheet;Tailoring=1;Mechanics=1,
+	   Fixer : Spring;Tailoring=1;Mechanics=1,
+	   Fixer : RippedSheets=4;Tailoring=1;Mechanics=1,
+	   Fixer : DenimStrips=4;Tailoring=1;Mechanics=1,
+	   Fixer : LeatherStrips=4;Tailoring=1;Mechanics=1,
+	   Fixer : Thread=5;Tailoring=1;Mechanics=1,
+	}
+
+/************************ Tires ************************/
+
+	fixing Fix Tire
+	{
+	   Require : OldTire1;NormalTire1;ModernTire1;OldTire2;NormalTire2;ModernTire2;OldTire3;NormalTire3;ModernTire3;NormalTire8;ModernTire8;OldTire8;OldScooterTire;OldATVTire;OldCartTire;OldCycleTire;ECTO1tire1_Item;ECTO1tire2_Item;ATAMotoHarleyOldTire;ATAMotoHarleyNormalTire;ATAMotoHarleyModernTire;ATAMotoBMWModernTire;ATAMotoBMWNormalTire;ATAMotoBMWOldTire;W460WideTire2;W460NormalTire2;KZ1KmodernTire;KZ1KnormalTire;KZ1KoldTire,
+	   ConditionModifier : 0.3,
+
+	   Fixer : Glue=2;Tailoring=1;Mechanics=2,
+       Fixer : Woodglue=3;Tailoring=1;Mechanics=2,
+       Fixer : DuctTape=4;Tailoring=1;Mechanics=2,
+	}
+
+	fixing Fix Military Tire
+	{
+	   Require :V100Tire1;V100Tire2;V100Tire3;V101Tire2;V102Tire2;V103Tire2;V103Axle2;M113Tire8;ECTO1tire1_Item;M12Tire2;BRDM2Tire;M923Axle2;DoubleOldTire2;DoubleNormalTire2;DoubleModernTire2;AxleOldTire2;AxleNormalTire2;AxleModernTire2,
+	   ConditionModifier : 0.5,
+
+	   Fixer : Glue=4;Tailoring=1;Mechanics=3,
+       Fixer : Woodglue=6;Tailoring=1;Mechanics=3,
+       Fixer : DuctTape=4;Tailoring=1;Mechanics=3,
+	}   
+
+/************************ Brakes ************************/
+
+	fixing Fix Brake Welding
+	{
+	   Require : OldBrake1;NormalBrake1;ModernBrake1;OldBrake2;NormalBrake2;ModernBrake2;OldBrake3;NormalBrake3;ModernBrake3;OldBrake8;NormalBrake8;ModernBrake8;OldScooterBrake;NormalScooterBrake;ModernScooterBrake;OldCycleBrake;NormalCycleBrake;ModernCycleBrake;OldCartBrake;NormalCartBrake;ModernCartBrake,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.6,
+
+       Fixer : SmallSheetMetal;MetalWelding=2;Mechanics=3,
+	   Fixer : MetalParts=2;MetalWelding=2;Mechanics=3,
+	   Fixer : ScrapMetal=2;MetalWelding=2;Mechanics=3,
+	}
+
+		fixing Fix Military Brake Welding
+	{
+	   Require : OldM113Brake8;NormalM113Brake8;ModernM113Brake8;OldM113Brake1;NormalM113Brake1;ModernM113Brake1;OldM113Brake2;NormalM113Brake2;ModernM113Brake2;OldM113Brake3;NormalM113Brake3;ModernM113Brake3,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+
+       Fixer : SmallSheetMetal=2;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalParts=6;MetalWelding=4;Mechanics=6,
+	   Fixer : ScrapMetal=6;MetalWelding=4;Mechanics=6,
+	}
+
+/************************ Batteries ************************/
+
+	fixing Fix Battery
+	{
+	   Require : CarBattery1;CarBattery2;CarBattery3;CarBattery8;CycleBattery,
+	   ConditionModifier : 0.8,
+	   
+	   Fixer : ElectronicsScrap=3;Mechanics=2;Electricity=2,
+	   Fixer : Wire=3;Mechanics=2;Electricity=2,
+	   Fixer : ElectricWire=3;Mechanics=2;Electricity=2,
+	}
+
+/************************ Suspension ************************/
+
+	fixing Fix Suspension Welding
+	{
+	   Require : NormalSuspension1;ModernSuspension1;NormalSuspension2;ModernSuspension2;NormalSuspension3;ModernSuspension3;NormalSuspension8;ModernSuspension8;NormalScooterSuspension;ModernScooterSuspension;NormalCycleSuspension;ModernCycleSuspension;NormalCartSuspension;ModernCartSuspension,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.0,
+
+       Fixer : MetalPipe;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalBar;MetalWelding=3;Mechanics=4,
+       Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=4,
+	   Fixer : Spring;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalParts=2;MetalWelding=3;Mechanics=4,
+	   Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=4,
+	}
+
+	fixing Fix Military Suspension Welding
+	{
+	   Require : NormalM113Suspension8;ModernM113Suspension8;leafSuspension2;NormalM113Suspension1;ModernM113Suspension1;NormalM113Suspension2;ModernM113Suspension2;NormalM113Suspension3;ModernM113Suspension3,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+
+       Fixer : MetalPipe;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalBar;MetalWelding=4;Mechanics=6,
+       Fixer : SmallSheetMetal=2;MetalWelding=4;Mechanics=6,
+	   Fixer : MetalParts=4;MetalWelding=4;Mechanics=6,
+	   Fixer : ScrapMetal=4;MetalWelding=4;Mechanics=6,
+	   Fixer : Spring;MetalWelding=4;Mechanics=6,
+	}
+
+/************************ Muffler ************************/
+
+	fixing Fix Muffler Welding
+	{
+	   Require : OldCarMuffler1;NormalCarMuffler1;ModernCarMuffler1;OldCarMuffler2;NormalCarMuffler2;ModernCarMuffler2;OldCarMuffler3;NormalCarMuffler3;ModernCarMuffler3;OldCarMuffler8;NormalCarMuffler8;ModernCarMuffler8;OldScooterMuffler;NormalScooterMuffler;ModernScooterMuffler;OldCycleMuffler;NormalCycleMuffler;ModernCycleMuffler;OldCartMuffler;NormalCartMuffler;ModernCartMuffler;M12Muffler2;ATAMotoBMWCustomMuffler;ATAMotoBMWClassicMuffler;ATAMotoHarleyMuffler;M998Muffler1_Item;M998Muffler2_Item;M35A2Muffler1_Item;M923Muffler1_Item;KZ1Kmuffler,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.8,
+
+       Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalParts=4;MetalWelding=3;Mechanics=4,
+	   Fixer : ScrapMetal=4;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalPipe;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalBar;MetalWelding=3;Mechanics=4,
+	}
+	
+/************************ Windows ************************/
+
+	fixing Fix Window Welding
+	{
+	   Require : FrontWindow1;RearWindow1;FrontWindow2;RearWindow2;FrontWindow3;RearWindow3;FrontWindow8;RearWindow8;ECTO1RearWindshield2;ECTO1Windshield2;ECTO1SideWindow2;SL500SideWindow3;W460SideWindow2;K5SideWindowSC2;P30SideWindowSC2;P30RearWindowSC2;CrownVictoriaFrontSideWindowSC2;CrownVictoriaRearSideWindowSC2;CapriceFrontSideWindowSC2;CapriceRearSideWindowSC2;G30RearWindowsSC2;G30SideWindowSC2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.0,
+      
+       Fixer : SheetMetal;MetalWelding=3;Mechanics=2,
+	   Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=2,
+	}
+
+	fixing Fix Window
+	{
+	   Require : FrontWindow1;RearWindow1;FrontWindow2;RearWindow2;FrontWindow3;RearWindow3;FrontWindow8;RearWindow8;ECTO1RearWindshield2;ECTO1Windshield2;ECTO1SideWindow2;SL500SideWindow3;W460SideWindow2;K5SideWindowSC2;P30SideWindowSC2;P30RearWindowSC2;CrownVictoriaFrontSideWindowSC2;CrownVictoriaRearSideWindowSC2;CapriceFrontSideWindowSC2;CapriceRearSideWindowSC2;G30RearWindowsSC2;G30SideWindowSC2,
+	   ConditionModifier : 0.4,
+      
+       Fixer : DuctTape=4;Mechanics=1,
+	   Fixer : Sheet;Mechanics=1,
+	   Fixer : RippedSheets=3;Mechanics=1,
+	   Fixer : Glue=4;Mechanics=1,
+	}
+
+	fixing Fix Military Windows Welding
+	{
+	   Require : V100Window1;V100Window2;V100Window3;V100Window8;WindowV100;M113FrontWindow8;ECTO1WindshieldArmor1_Item;ECTO1WindshieldRearArmor1_Item;M12Window2;ATA_Bus_Protection_windows_left_Item;ATA_Bus_Protection_windows_right_Item;ATA_Bus_Protection_windows_front_Item;ATA_Bus_Protection_door_rear_Item;ATA_Bus_Protection_door_Item;M151A2Windshield2;M151A2SideWindow2;M151A2WindshieldArmor1_Item;M151A2CabArmor1_Item;M35A2SideWindow2;M923SideWindow2;M923Gunport2;FireCoachFrontSideWindowDoor2;FireCoachRearSideWindowDoor2;Int4700SideWindow2;Int4700RearWindow2;Int4700FrontWindow2,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 1.0,
+	   
+	   Fixer : SheetMetal=2;MetalWelding=4;Mechanics=5,
+	   Fixer : SmallSheetMetal=4;MetalWelding=4;Mechanics=5,
+	}	
+		
+/************************ Windshields ************************/
+
+	fixing Fix Windshield Welding
+	{
+	   Require : Windshield1;RearWindshield1;Windshield2;RearWindshield2;Windshield3;RearWindshield3;Windshield8;RearWindshield8;IFAVWindshield2;M35A2Windshield2;SL500Windshield3;W460RearWindshield2;W460Windshield2;K5WindshieldSC2;P30WindshieldSC2;CrownVictoriaFrontWindshieldSC2;CrownVictoriaRearWindshieldSC2;CapriceFrontWindshieldSC2;CapriceRearWindshieldSC2;M923Windshield2;FireCoachWindshield2;KZ1Kwindshield3;Int4700Windshield2,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.0,
+  
+       Fixer : SheetMetal;MetalWelding=3;Mechanics=2,
+	   Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=2,
+	}
+
+    fixing Fix Windshield
+    {
+   	   Require : Windshield1;RearWindshield1;Windshield2;RearWindshield2;Windshield3;RearWindshield3;Windshield8;RearWindshield8;IFAVWindshield2;M35A2Windshield2;SL500Windshield3;W460RearWindshield2;W460Windshield2;K5WindshieldSC2;P30WindshieldSC2;CrownVictoriaFrontWindshieldSC2;CrownVictoriaRearWindshieldSC2;CapriceFrontWindshieldSC2;CapriceRearWindshieldSC2;M923Windshield2;FireCoachWindshield2;KZ1Kwindshield3;Int4700Windshield2,
+   	   ConditionModifier : 0.4,
+
+       Fixer : Glue=4;Mechanics=1,
+   	}
+
+/************************ Lights ************************/
+
+	fixing Fix Light
+	{
+		Require : LightBulb,
+		ConditionModifier : 0.3,
+		
+	   Fixer : ElectronicsScrap=2;Electricity=2;Mechanics=2,
+	   Fixer : LightBulb;Electricity=2;Mechanics=2,
+	   Fixer : Wire=2;Mechanics=2;Electricity=2,
+	   Fixer : ElectricWire=2;Mechanics=2;Electricity=2,
+	   Fixer : MetalParts=2;Electricity=2;Mechanics=2,
+	   Fixer : ScrapMetal=2;Electricity=2;Mechanics=2,
+	}
+
+/************************ Heater ************************/
+
+	fixing Fix Heater
+	{
+	   Require : Heater,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 0.8,
+
+       Fixer : ElectronicsScrap=2;Electricity=3;MetalWelding=3;Mechanics=4,
+	   Fixer : Wire=3;Electricity=3;MetalWelding=3;Mechanics=4,
+	   Fixer : ElectricWire=3;Electricity=3;MetalWelding=3;Mechanics=4,
+	   Fixer : MetalParts=2;Electricity=3;MetalWelding=3;Mechanics=4,
+	   Fixer : ScrapMetal=2;Electricity=3;MetalWelding=3;Mechanics=4,
+     
+	}
+
+/************************ Tread's Water Tank Trucks ************************/
+	
+	fixing Fix TruckBed Welding
+	{
+	   Require : FRSideContainer_RS1;FRSideContainer_RS2;FRSideContainer_RS3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.0,
+
+       Fixer : SheetMetal;MetalWelding=2;Mechanics=3,
+	   Fixer : SmallSheetMetal=2;MetalWelding=2;Mechanics=3,
+	   Fixer : MetalParts=2;MetalWelding=3;Mechanics=3,
+	   Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix TruckBed
+	{
+	   Require : FRSideContainer_RS1;FRSideContainer_RS2;FRSideContainer_RS3,
+       GlobalItem : Screws=10,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal;Mechanics=2,
+       Fixer : SmallSheetMetal=2;Mechanics=2,
+	}
+	
+/************************ Roof Racks ************************/
+
+	fixing Fix Roof Rack Welding
+	{
+		Require : mercroofrack1;mercroofrack2;mercroofrack3;cruiserRoofrack1;cruiserRoofrack2;cruiserRoofrack3;ECTO1Roofrack1_Item;M998Roofrack1_Item;ATA_Bus_Roof_Rack;ATA_Bus_Roof_Box_Item;W460Roofrack1_Item,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 1.0,
+
+		Fixer : SheetMetal;MetalWelding=2;Mechanics=2,
+		Fixer : SmallSheetMetal=2;MetalWelding=2;Mechanics=2,
+		Fixer : MetalParts=2;MetalWelding=2;Mechanics=2,
+	    Fixer : ScrapMetal=2;MetalWelding=2;Mechanics=2,
+		Fixer : MetalPipe;MetalWelding=2;Mechanics=2,
+	    Fixer : MetalBar;MetalWelding=2;Mechanics=2,
+
+	}
+
+	fixing Fix Roof Rack
+    {
+    	Require : mercroofrack1;mercroofrack2;mercroofrack3;cruiserRoofrack1;cruiserRoofrack2;cruiserRoofrack3;ECTO1Roofrack1_Item;M998Roofrack1_Item;ATA_Bus_Roof_Rack;ATA_Bus_Roof_Box_Item;W460Roofrack1_Item,
+    	GlobalItem : Screws=10,
+    	ConditionModifier : 0.5,
+
+    	Fixer : SheetMetal;Mechanics=2,
+    	Fixer : SmallSheetMetal=2;Mechanics=2,
+		Fixer : Wire=3;Mechanics=2,
+	    Fixer : ElectricWire=3;Mechanics=2,
+		Fixer : RippedSheets=2;Mechanics=2,
+		Fixer : DuctTape=4;Mechanics=2,
+
+    }
+
+/************************ Misc ************************/
+
+	fixing Fix TowBar Welding
+	{
+		Require : TowBar,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 0.8,
+
+		Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=2,
+		Fixer : MetalParts=2;MetalWelding=3;Mechanics=2,
+	    Fixer : ScrapMetal=2;MetalWelding=3;Mechanics=2,
+		Fixer : MetalPipe;MetalWelding=3;Mechanics=2,
+	    Fixer : MetalBar;MetalWelding=3;Mechanics=2,
+
+	}
+
+	fixing Fix Bullbar Welding
+	{
+		Require : ECTO1Bullbar1_Item;M998Bullbar1_Item;M998Bullbar2_Item;M998TrunkBarrier1_Item;M998TrunkBarrier2_Item;SemiTruckBullbar_Item2;ATA_Bus_Kengur_3_Item;ATA_Bus_Kengur_2_Item;ATA_Bus_Kengur_1_Item;M151A2Bumper1_Item;IFAVFrontBumper2;IFAVWindshieldFrame2;M35A2Bumper1_Item;M35A2Grille1_Item;W460Bumper1_Item;W460Bullbar2_Item;W460Bullbar3_Item;W460BumperRear1_Item;K5Bullbar2;M923Bumper1_Item;M923Bumper2_Item;FJ75Bullbar2;Int4700Bullbar2,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 0.8,
+
+		Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=3,
+		Fixer : MetalParts=4;MetalWelding=3;Mechanics=3,
+	    Fixer : ScrapMetal=4;MetalWelding=3;Mechanics=3,
+		Fixer : MetalPipe;MetalWelding=3;Mechanics=3,
+	    Fixer : MetalBar;MetalWelding=3;Mechanics=3,
+
+	}
+
+    fixing Fix Periscope Welding
+	{
+		Require : M113FrontWindow1;M113FrontWindow2;M113FrontWindow3;M923SpareMount1_Item,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 0.8,
+
+		Fixer : SmallSheetMetal=2;MetalWelding=3;Mechanics=3,
+		Fixer : MetalParts=4;MetalWelding=3;Mechanics=3,
+	    Fixer : ScrapMetal=4;MetalWelding=3;Mechanics=3,
+		Fixer : MetalPipe;MetalWelding=3;Mechanics=3,
+
+	}
+
+    fixing Fix Saddlebags
+    {
+    	Require : ATAMotoBagBMW1;ATAMotoBagBMW2;ATAMotoHarleyBag;ATAMotoHarleyHolster,
+    	ConditionModifier : 0.5,
+
+        Fixer : DuctTape=4;Tailoring=1;Mechanics=1,
+        Fixer : Thread=5;Tailoring=1;Mechanics=1,
+        Fixer : LeatherStrips=4;Tailoring=1;Mechanics=1,
+        Fixer : Woodglue=3;Tailoring=1;Mechanics=1,
+        Fixer : Glue=2;Tailoring=1;Mechanics=1,
+    }
+
+    fixing Fix Saddlebags Hard
+    {
+    	Require : KZ1KsidestorageLid;KZ1KstorageLid;KZ1Kextra3;KZ1Ksidestorage3;KZ1Kstorage3,
+    	ConditionModifier : 0.5,
+
+        Fixer : DuctTape=4;Mechanics=2,
+        Fixer : Screws=5;Mechanics=2,
+        Fixer : SmallSheetMetal;Mechanics=2,
+        Fixer : Woodglue=3;Mechanics=2,
+        Fixer : Glue=2;Mechanics=2,
+        Fixer : MetalParts=2;Mechanics=2,
+        Fixer : ScrapMetal=2;Mechanics=2,
+    }
+
+    fixing Fix SoftTops
+    {
+    	Require : M151A2Tarp1_Item;M101A3Tarp1_Item;IFAVFrontTop2;IFAVRearTop2;M35A2Tarp1_Item;M35A2Tarp2_Item;M35A2Tarp3_Item;M35A2SoftCover2_Item;SL500SoftTop3;M923SoftCover2_Item;CJ7softtop2,
+    	ConditionModifier : 0.5,
+
+        Fixer : Tarp;Tailoring=2;Mechanics=1,
+        Fixer : DuctTape=4;Tailoring=2;Mechanics=1,
+        Fixer : Thread=5;Tailoring=2;Mechanics=1,
+        Fixer : LeatherStrips=4;Tailoring=2;Mechanics=1,
+        Fixer : DenimStrips=4;Tailoring=2;Mechanics=1,
+        Fixer : Woodglue=3;Tailoring=2;Mechanics=1,
+        Fixer : Glue=2;Tailoring=2;Mechanics=1,
+        Fixer : Sheet=2;Tailoring=2;Mechanics=1,
+        Fixer : RippedSheets=4;Tailoring=2;Mechanics=1,
+    }
+
+    fixing Fix Armour Welding
+	{
+		Require : M151A2BarrierLeft1_Item;M151A2BarrierRight1_Item;M998CarFrontDoorArmor1_Item;M998CarRearDoorArmor1_Item;M998WindshieldArmor1_Item;M998WindshieldArmor2_Item;TankGasTank1;TankGasTank2;TankGasTank3;M35A2WindshieldArmor1_Item;M35A2DoorArmor1_Item;W460CarFrontDoorArmor1_Item;W460CarRearDoorArmor1_Item;W460WindshieldArmor1_Item;W460WindshieldRearArmor1_Item;W460WindowArmor1_Item;SCInteriorArmory;M923WindshieldArmor1_Item;M923DoorArmor1_Item;M923GuntruckArmor1_Item;FJ75WindshieldArmor2;FJ75DoorArmor2;FireCoachWindshieldArmor2;FireCoachWindowArmor2;FireCoachDoorArmor2,
+		GlobalItem : BlowTorch=10,
+		ConditionModifier : 1.0,
+
+		Fixer : SheetMetal=2;MetalWelding=5;Mechanics=5,
+		Fixer : SmallSheetMetal=4;MetalWelding=5;Mechanics=5,
+		Fixer : MetalParts=6;MetalWelding=5;Mechanics=5,
+	    Fixer : ScrapMetal=6;MetalWelding=5;Mechanics=5,
+		Fixer : MetalPipe;MetalWelding=5;Mechanics=5,
+	    Fixer : MetalBar;MetalWelding=5;Mechanics=5,
+
+	}
+
+    fixing Fix MudFlaps Welding
+	{
+		Require : M35A2Mudflaps1_Item;W460Mudflaps1_Item;W460Bodykit1_Item;W460Extra2;BlazerWheelSC2;CapriceWheelSC2;CrownVictoriaWheelSC2;P30RearWheelSC2;P30FrontWheelSC2;M923Mudflaps1_Item;Int4700FrontWheel2;Int4700RearWheel2,
+		GlobalItem : BlowTorch=5,
+		ConditionModifier : 0.9,
+
+		Fixer : SmallSheetMetal;MetalWelding=2;Mechanics=2,
+		Fixer : MetalParts=2;MetalWelding=2;Mechanics=2,
+	    Fixer : ScrapMetal=2;MetalWelding=2;Mechanics=2,
+	}
+
+    fixing Fix MudFlaps
+	{
+		Require : M35A2Mudflaps1_Item;W460Mudflaps1_Item;W460Bodykit1_Item;W460Extra2;BlazerWheelSC2;CapriceWheelSC2;CrownVictoriaWheelSC2;P30RearWheelSC2;P30FrontWheelSC2;M923Mudflaps1_Item;Int4700FrontWheel2;Int4700RearWheel2,
+		GlobalItem : Screws=5,
+		ConditionModifier : 0.4,
+
+		Fixer : SmallSheetMetal;Mechanics=2,
+		Fixer : MetalParts=2;Mechanics=2,
+	    Fixer : ScrapMetal=2;Mechanics=2,
+		Fixer : DuctTape=2;Mechanics=2,
+	    Fixer : Glue=2;Mechanics=2,
+    }
+
+    fixing Fix Panels Welding
+	{
+		Require : M923FlatbedStakes1_Item,
+	    GlobalItem : BlowTorch=5,
+		ConditionModifier : 0.9,
+
+		Fixer : SmallSheetMetal;MetalWelding=2;Mechanics=2,
+		Fixer : MetalParts=2;MetalWelding=2;Mechanics=2,
+	    Fixer : ScrapMetal=2;MetalWelding=2;Mechanics=2,
+	    Fixer : MetalPipe;MetalWelding=2;Mechanics=2,
+        Fixer : MetalBar;MetalWelding=2;Mechanics=2,
+	}
+
+    fixing Fix Panels
+	{
+		Require : M923FlatbedStakes1_Item,
+		GlobalItem : Screws=10,
+		ConditionModifier : 0.4,
+
+		Fixer : SmallSheetMetal;Mechanics=2,
+		Fixer : MetalParts=2;Mechanics=2,
+	    Fixer : ScrapMetal=2;Mechanics=2,
+		Fixer : DuctTape=2;Mechanics=2,
+	    Fixer : Glue=2;Mechanics=2,
+    }
+
+    fixing Fix Tank Containers
+	{
+	   Require : 250Tank1;250Tank2;250Tank3;250Tank8;500Tank1;500Tank2;500Tank3;500Tank8;1000Tank1;1000Tank2;1000Tank3;1000Tank8;500FuelTankRS1;500FuelTankRS2;500FuelTankRS3;1000FuelTankRS1;1000FuelTankRS2;1000FuelTankRS3;250PropaneTank1;250PropaneTank2;250PropaneTank3;250PropaneTank8;500PropaneTank1;500PropaneTank2;500PropaneTank3;500PropaneTank8;1000PropaneTank1;1000PropaneTank2;1000PropaneTank3;1000PropaneTank8,
+	   GlobalItem : BlowTorch=10,
+	   ConditionModifier : 0.8,
+
+       Fixer : SheetMetal=2;MetalWelding=4;Mechanics=3,
+       Fixer : SmallSheetMetal=4;MetalWelding=4;Mechanics=3,
+	   Fixer : MetalParts=8;MetalWelding=4;Mechanics=3,
+	   Fixer : ScrapMetal=8;MetalWelding=4;Mechanics=3,
+	}
+
+}

@@ -1,0 +1,9 @@
+module Base
+{
+        model HannyaMask_WorldItem
+    {
+        mesh = WorldItems/HannyaMask_WorldItem,
+        texture = HannyaMask,
+        scale = 1,
+    }
+}

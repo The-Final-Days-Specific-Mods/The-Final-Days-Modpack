@@ -1,0 +1,68 @@
+module Base
+{
+
+    imports 
+    {
+        Base
+    }
+
+    item MuffinTray
+    {
+        DisplayCategory = Cooking,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=   Muffin Tray,
+        Icon	=	Muffintray,
+        MetalValue = 60,
+        WorldStaticModel = Tray_Muffin,
+    }
+
+    item BakingTray_Muffin
+    {
+        HungerChange	=	-30,
+        Weight	=	1.5,
+        Type	=	Food,
+        DaysTotallyRotten	=	10,
+        DisplayName	=	Muffin Baking Tray,
+        Icon	=	Muffintray_Batter,
+        DaysFresh	=	3,
+        Carbohydrates = 50.45,
+        Proteins = 54.53,
+        Lipids = 52.61,
+        Calories = 520,
+        IsCookable	        =	        true,
+        MinutesToBurn	    =	        60,
+        MinutesToCook	    =	        30,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+        ReplaceOnUse    =   Muffintray,
+        CantEat = TRUE,
+        WorldStaticModel = BakingTray_Muffin,
+    }
+
+    item BakingTray_Muffin_Recipe
+    {
+        HungerChange	=	-30,
+        Weight	=	1.5,
+        Type	=	Food,
+        DaysTotallyRotten	=	10,
+        DisplayName	=	Muffin Baking Tray,
+        Icon	=	Muffintray_Batter,
+        DaysFresh	=	3,
+        Carbohydrates = 50.45,
+        Proteins = 54.53,
+        Lipids = 52.61,
+        Calories = 520,
+        IsCookable	        =	        true,
+        MinutesToBurn	    =	        60,
+        MinutesToCook	    =	        30,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+        ReplaceOnUse    =   Muffintray,
+        CantEat = TRUE,
+        WorldStaticModel = BakingTray_Muffin,
+    }
+
+}

@@ -1,0 +1,26 @@
+module MonmouthFoods
+{
+	imports
+	{
+		Base
+	}
+	
+	item ZombieBombs
+	{
+		DisplayCategory = Food,
+		HungerChange = -2,
+		UnhappyChange = 70,
+		Weight = 0.3,
+		Type = Food,
+		DisplayName	= Zombi Bombs,
+		Icon = ZombiBombs,
+        Carbohydrates = 5,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 30,
+        Packaged = TRUE,
+        CantBeFrozen = TRUE,
+        WorldStaticModel = ZombiBombs,
+        CustomEatSound = EatingCrispy,
+	}
+}

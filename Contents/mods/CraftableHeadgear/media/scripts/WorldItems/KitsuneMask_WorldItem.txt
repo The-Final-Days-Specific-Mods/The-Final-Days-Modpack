@@ -1,0 +1,9 @@
+module Base
+{
+        model KitsuneMask_WorldItem
+    {
+        mesh = WorldItems/KitsuneMask_WorldItem,
+        texture = KitsuneMask,
+        scale = 1,
+    }
+}

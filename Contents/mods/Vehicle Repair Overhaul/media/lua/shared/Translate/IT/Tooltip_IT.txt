@@ -1,0 +1,3 @@
+Tooltip_IT = {
+	Tooltip_FixAFlat = "La bomboletta spray per riparare il pneumatico.",
+}

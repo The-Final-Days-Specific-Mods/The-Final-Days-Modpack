@@ -1,0 +1,34 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item Gravy
+    {
+        Type				=		Food,
+        DisplayName			=		Gravy,
+        Icon				=		Gravy,
+        Weight				=		0.2,
+        HungerChange 		=		-7,
+        Carbohydrates = 5,
+        Proteins = 2,
+        Lipids = 6,
+        Calories = 79,
+	  WorldStaticModel = Gravy,
+    }
+
+    item GravyMix
+    {
+        Type				= Drainable,
+        DisplayCategory = Cooking,
+        DisplayName			= Gravy Mix,
+        Icon				= GravyMix,
+        Weight				= 0.1,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+	  WorldStaticModel = GravyMix,
+    }
+
+}

@@ -1,0 +1,34 @@
+ItemName_EN = {
+
+	--Beautifying Time
+
+    ItemName_Base.HairDyeAuburn = "Auburn Hair Dye",
+    ItemName_Base.HairDyeAvocado = "Avocado Hair Dye",
+    ItemName_Base.HairDyeCherry = "Cherry Hair Dye",
+    ItemName_Base.HairDyeCyan = "Cyan Hair Dye",
+    ItemName_Base.HairDyeDarkBlue = "Dark Blue Hair Dye",
+    ItemName_Base.HairDyeDarkBrown = "Dark Brown Hair Dye",
+    ItemName_Base.HairDyeDarkTurquoise = "Dark Turquoise Hair Dye",
+    ItemName_Base.HairDyeDeep Purple = "Deep Purple Hair Dye",
+    ItemName_Base.HairDyeGrey = "Grey Hair Dye",
+    ItemName_Base.HairDyeLilac = "Lilac Hair Dye",
+    ItemName_Base.HairDyeLime = "Lime Hair Dye",
+    ItemName_Base.HairDyeMagenta = "Magenta Hair Dye",
+    ItemName_Base.HairDyeOlive = "Olive Hair Dye",
+    ItemName_Base.HairDyeOrange = "Orange Hair Dye",
+    ItemName_Base.HairDyePurple = "Purple Hair Dye",
+    ItemName_Base.HairDyeTurquoise = "Turquoise Hair Dye",
+
+	--Drinking Time
+
+    ItemName_Base.JarWater = "Jar with Water",
+    ItemName_Base.PetrolCanWater = "Gas Can with Water",
+    ItemName_Base.PopCanWater = "Pop Can with Water",
+    ItemName_Base.PopCan2Water = "Pop Can with Water",
+    ItemName_Base.PopCan3Water = "Pop Can with Water",
+    ItemName_Base.RoastingPanWater = "Roasting Pan with Water",
+    ItemName_Base.TinCanWater = "Tin Can with Water",
+    ItemName_Base.WaterDishFull = "Water Dish with Water",
+
+	--Exploring Time
+}

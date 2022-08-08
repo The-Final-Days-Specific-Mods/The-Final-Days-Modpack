@@ -1,0 +1,297 @@
+module filcher
+{
+	imports
+	{
+		Base
+	}
+
+/************************Containers************************/
+
+
+/************************Recipes - Miscellaneous************************/
+
+    item HairDyeAuburn
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Auburn Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 150,
+        ColorGreen = 58,
+        ColorBlue = 9,
+        WorldStaticModel = HairDyeRedStrawberryBlond,
+    }
+
+    item HairDyeAvocado
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Avocado Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 141,
+        ColorGreen = 199,
+        ColorBlue = 1,
+        WorldStaticModel = HairDyeGreen,
+    }
+
+    item HairDyeCaribbeanBlue
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Caribbean Blue Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 4,
+        ColorGreen = 126,
+        ColorBlue = 146,
+        WorldStaticModel = HairDyeBlue,
+    }
+
+    item HairDyeCherry
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Cherry Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 255,
+        ColorGreen = 45,
+        ColorBlue = 101,
+        WorldStaticModel = HairDyeRedStrawberryBlond,
+    }
+
+    item HairDyeCyan
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Cyan Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 59,
+        ColorGreen = 235,
+        ColorBlue = 229,
+        WorldStaticModel = HairDyeBlue,
+    }
+
+    item HairDyeDarkBlue
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Dark Blue Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 66,
+        ColorGreen = 83,
+        ColorBlue = 207,
+        WorldStaticModel = HairDyeBlue,
+    }
+
+    item HairDyeDarkBrown
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Dark Brown Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 101,
+        ColorGreen = 67,
+        ColorBlue = 23,
+        WorldStaticModel = HairDyeBlackDarkBrown,
+    }
+
+    item HairDyeDarkTurquoise
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Dark Turquoise Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 0,
+        ColorGreen = 153,
+        ColorBlue = 102,
+        WorldStaticModel = HairDyeBlue,
+    }
+
+    item HairDyeDeepPurple
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Deep Purple Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 102,
+        ColorGreen = 51,
+        ColorBlue = 152,
+        WorldStaticModel = HairDyePurple,
+    }
+
+    item HairDyeGrey
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Grey Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 142,
+        ColorGreen = 141,
+        ColorBlue = 136,
+        WorldStaticModel = HairDyeBlackWhite,
+    }
+
+    item HairDyeLightBlonde
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Light Blonde Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 255,
+        ColorGreen = 214,
+        ColorBlue = 114,
+        WorldStaticModel = HairDyeYellowBlond,
+    }
+
+    item HairDyeLilac
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Lilac Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 218,
+        ColorGreen = 176,
+        ColorBlue = 234,
+        WorldStaticModel = HairDyePurple,
+    }
+
+    item HairDyeLime
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Lime Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 168,
+        ColorGreen = 255,
+        ColorBlue = 80,
+        WorldStaticModel = HairDyeGreen,
+    }
+
+    item HairDyeMagenta
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Magenta Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 166,
+        ColorGreen = 31,
+        ColorBlue = 86,
+        WorldStaticModel = HairDyePurple,
+    }
+
+    item HairDyeOlive
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Olive Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 110,
+        ColorGreen = 152,
+        ColorBlue = 55,
+        WorldStaticModel = HairDyeGreen,
+    }
+
+    item HairDyeOrange
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Orange Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 255,
+        ColorGreen = 153,
+        ColorBlue = 0,
+        WorldStaticModel = HairDyeOrange,
+    }
+
+    item HairDyePurple
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Purple Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 183,
+        ColorGreen = 63,
+        ColorBlue = 228,
+        WorldStaticModel = HairDyePurple,
+    }
+
+    item HairDyeSnowWhite
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Snow White Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 245,
+        ColorGreen = 245,
+        ColorBlue = 245,
+        WorldStaticModel = HairDyeBlackWhite,
+    }
+
+    item HairDyeTurquoise
+    {
+        Weight	=	1,
+        Type	=	Drainable,
+        UseWhileEquipped	=	FALSE,
+        UseDelta	=	0.5,
+        DisplayName	=	Turquoise Hair Dye,
+        Icon	=	HairDye,
+        HairDye = TRUE,
+        ColorRed = 12,
+        ColorGreen = 212,
+        ColorBlue = 168,
+        WorldStaticModel = HairDyeBlue,
+    }
+}

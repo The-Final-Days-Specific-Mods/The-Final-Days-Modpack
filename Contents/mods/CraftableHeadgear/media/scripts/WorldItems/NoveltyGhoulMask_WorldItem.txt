@@ -1,0 +1,9 @@
+module Base
+{
+        model NoveltyGhoulMask_WorldItem
+    {
+        mesh = WorldItems/NoveltyGhoulMask_WorldItem,
+        texture = NoveltyGhoulMask,
+        scale = 1,
+    }
+}

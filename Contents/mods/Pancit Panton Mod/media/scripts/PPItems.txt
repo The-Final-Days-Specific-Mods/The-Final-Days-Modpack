@@ -1,0 +1,334 @@
+module pancit {
+
+    imports { Base }
+
+
+    /*============= BASE NOODLE =============*/
+
+    item ChowMeinNoodles
+    {
+        Weight		        =   0.5,
+        Type		        =   Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =   Pancit Panton,
+        Icon		        =   Ramen,
+        
+        Carbohydrates 	    =   450,
+        Proteins 	        =   7,
+        Lipids 		        =   2,
+        Calories 	        =   390,
+
+        HungerChange	    =	-10,
+        ThirstChange	    =	5,
+        BoredomChange	    =	5,
+        UnhappyChange	    =	10,
+        
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+
+	    WorldStaticModel    =   ChowMeinNoodles,
+        EatType             =   2hand,
+        CustomEatSound      =   EatingCrispy,
+    }
+
+    item BowlPancitPanton
+    {
+        Weight		        =	1,
+        Type		        =	Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =	Bowl of Pancit Panton,
+        Icon		        =	FriedRice,
+        
+        Carbohydrates	    =	150,
+        Proteins	        =	7,
+        Lipids		        =	13,
+        Calories	        =	450,
+
+        UnhappyChange	    =	-5,
+
+        DaysFresh	        =	5,
+        DaysTotallyRotten	=	30,
+        
+        ReplaceOnUse	    =	Bowl,
+
+        StaticModel	        =	Bowl,
+        WorldStaticModel    =   BowlGround,
+        EatType		        =	2handbowl,
+
+    }
+
+
+    item ChowMeinWaterPot
+    {
+        Weight		        =   3,
+        Type		        =   Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =   Pancit Panton in Cooking Pot,
+        Icon		        =   Pot_Water,
+
+        Carbohydrates 	    =   450,
+        Proteins 	        =   7.33,
+        Lipids 		        =   13.5,
+        Calories 	        =   390,
+
+        IsCookable	        =   true,
+        MinutesToBurn       =   90,
+        MinutesToCook       =   10,
+
+        HungerChange	    =	-10,
+        ThirstChange        =   -20,
+        BoredomChange       =   10,
+        UnhappyChange       =   20,
+
+        DaysFresh	        =	5,
+        DaysTotallyRotten	=	30,
+
+        ReplaceOnUse        =   Pot,
+
+        BadInMicrowave      =   false,
+        GoodHot 	        =   true,
+
+        StaticModel	        =   CookingPot,
+	    WorldStaticModel    =   CookingPotRice_Ground,
+        EatType		        =	Pot,
+        CookingSound        =   BoilingFood,
+    }
+
+
+    item PancitPot
+    {
+        Weight		        =   3,
+        Type		        =   Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =   Pancit Panton,
+        Icon		        =   PotFull,
+
+        Carbohydrates 	    =   450,
+        Proteins 	        =   7.33,
+        Lipids 		        =   13.5,
+        Calories 	        =   390,
+
+        IsCookable	        =   true,
+        MinutesToBurn       =   90,
+        MinutesToCook       =   10,
+
+        HungerChange	    =	-20,
+        BoredomChange       =   10,
+        UnhappyChange       =   20,
+
+        DaysFresh	        =	5,
+        DaysTotallyRotten	=	30,
+
+        ReplaceOnUse        =   Pot,
+
+        BadInMicrowave      =   false,
+        GoodHot 	        =   true,
+
+        StaticModel	        =   CookingPot,
+	    WorldStaticModel    =   CookingPotRice_Ground,
+        EatType		        =	Pot,
+        CookingSound        =   BoilingFood,
+    }
+
+    item ChowMeinWaterPan
+    {
+        Weight		        =   2,
+        Type		        =   Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =   Pancit Panton in Saucepan,
+        Icon		        =   SaucepanFilled,
+
+        Carbohydrates 	    =   450,
+        Proteins 	        =   7.33,
+        Lipids 		        =   13.5,
+        Calories 	        =   390,
+
+        IsCookable	        =   true,
+        MinutesToBurn       =   90,
+        MinutesToCook       =   30,
+
+        HungerChange	    =	-10,
+        ThirstChange        =   -20,
+        BoredomChange       =   10,
+        UnhappyChange       =   20,
+
+        DaysFresh	        =	5,
+        DaysTotallyRotten	=	30,
+
+        ReplaceOnUse        =   Pot,
+
+        BadInMicrowave      =   false,
+        GoodHot 	        =   true,
+
+	    WorldStaticModel    =   SaucePanRice,
+        EatType		        =	Pot,
+        CookingSound        =   BoilingFood,
+    }
+
+
+    item PancitPan
+    {
+        Weight		        =   2,
+        Type		        =   Food,
+        FoodType    	    =	NoExplicit,
+        DisplayName	        =   Pancit Panton,
+        Icon		        =   SaucepanFilled,
+
+        Carbohydrates 	    =   450,
+        Proteins 	        =   7.33,
+        Lipids 		        =   13.5,
+        Calories 	        =   390,
+
+        IsCookable	        =   true,
+        MinutesToBurn       =   90,
+        MinutesToCook       =   10,
+
+        HungerChange	    =	-20,
+        BoredomChange       =   10,
+        UnhappyChange       =   20,
+
+        DaysFresh	        =	5,
+        DaysTotallyRotten	=	30,
+
+        ReplaceOnUse        =   Pot,
+
+        BadInMicrowave      =   false,
+        GoodHot 	        =   true,
+
+	    WorldStaticModel    =   SaucePanRice,
+        EatType		        =	Pot,
+        CookingSound        =   BoilingFood,
+    }
+
+
+    
+
+    /*============= NOODLE FLAVORS =============*/
+
+    item OriginalPack
+    {
+        Weight		        =   0.5,
+        Type		        =   Normal,
+        DisplayName	        =   Pancit Panton Original,
+        Icon		        =   PPOriginalPack,
+        StaticModel	        =   Ramen,
+	    WorldStaticModel    =   PancitPantonOriginal,
+    }
+
+    item SpicyPack
+    {
+        Weight		        =   0.5,
+        Type		        =   Normal,
+        DisplayName	        =   Pancit Panton Extra Hot,
+        Icon		        =   PPSpicyPack,
+        StaticModel	        =   Ramen,
+	    WorldStaticModel    =   PancitPantonSpicy,
+    }
+
+    item CalamansiPack
+    {
+        Weight		        =   0.5,
+        Type		        =   Normal,
+        DisplayName	        =   Pancit Panton Calamansi,
+        Icon		        =   PPCalamansiPack,
+        StaticModel	        =   Ramen,
+	    WorldStaticModel    =   PancitPantonCalamansi,
+    }
+
+    item ChilimansiPack
+    {
+        Weight		        =   0.5,
+        Type		        =   Normal,
+        DisplayName	        =   Pancit Panton Chilimansi,
+        Icon		        =   PPChilimansiPack,
+        StaticModel	        =   Ramen,
+	    WorldStaticModel    =   PancitPantonChilimansi,
+    }
+
+    item SweetSpicyPack
+    {
+        Weight		        =   0.5,
+        Type		        =   Normal,
+        DisplayName	        =   Pancit Panton Sweet & Spicy,
+        Icon		        =   PPSweetSpicyPack,
+        StaticModel	        =   Ramen,
+	    WorldStaticModel    =   PancitPantonSweetSpicy,
+    }
+
+    item OriginalFlavoring
+    {
+        Weight		        =   0.1,
+        Type		        =   Food,
+        DisplayName	        =   Pancit Panton Original Flavoring,
+        Icon		        =   PPOriginalFlavor,
+        
+        Spice               =   True,
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Sandwich:5,
+
+        ThirstChange	    =	1,
+        UnhappyChange	    =	1,
+        WorldStaticModel    =   PancitPantonFlavoring,
+    }
+
+    item SpicyFlavoring
+    {
+        Weight		        =   0.1,
+        Type		        =   Food,
+        DisplayName	        =   Pancit Panton Extra Hot Flavoring,
+        Icon		        =   PPSpicyFlavor,
+        
+        Spice               =   True,
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Sandwich:5,
+
+        ThirstChange	    =	1,
+        UnhappyChange	    =	1,
+        WorldStaticModel    =   PancitPantonFlavoring,
+    }
+
+    item CalamansiFlavoring
+    {
+        Weight		        =   0.1,
+        Type		        =   Food,
+        DisplayName	        =   Pancit Panton Calamansi Flavoring,
+        Icon		        =   PPCalamansiFlavor,
+        
+        Spice               =   True,
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Sandwich:5,
+
+        ThirstChange	    =	1,
+        UnhappyChange	    =	1,
+        WorldStaticModel    =   PancitPantonFlavoring,
+    }
+
+    item ChilimansiFlavoring
+    {
+        Weight		        =   0.1,
+        Type		        =   Food,
+        DisplayName	        =   Pancit Panton Chilimansi Flavoring,
+        Icon		        =   PPChilimansiFlavor,
+        
+        Spice               =   True,
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Sandwich:5,
+
+        ThirstChange	    =	1,
+        UnhappyChange	    =	1,
+        WorldStaticModel    =   PancitPantonFlavoring,
+    }
+
+    item SweetSpicyFlavoring
+    {
+        Weight		        =   0.1,
+        Type		        =   Food,
+        DisplayName	        =   Pancit Panton Sweet & Spicy Flavoring,
+        Icon		        =   PPSweetSpicyFlavor,
+        
+        Spice               =   True,
+        EvolvedRecipe       =   PancitPot:15;PancitPan:15;Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Sandwich:5,
+
+        ThirstChange	    =	1,
+        UnhappyChange	    =	1,
+        WorldStaticModel    =   PancitPantonFlavoring,
+    }
+
+
+
+}

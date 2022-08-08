@@ -1,0 +1,27 @@
+Sandbox_EN = {
+	Sandbox_ScentOfBlood = "Scent of Blood",
+	
+	Sandbox_ScentOfBlood_dbandageModifier = "Dirty Bandage Modifier",
+	Sandbox_ScentOfBlood_dbandageModifier_tooltip = "When player have a dirty bandage, zombies in this radius will be called to the player's direction. These stack PER injury.",
+	
+	Sandbox_ScentOfBlood_scratchModifier = "Scratch Attraction Modifier",
+	Sandbox_ScentOfBlood_sbleedModifier = "Bleeding Scratch Attraction Modifier",
+	Sandbox_ScentOfBlood_scratchModifier_tooltip = "When scratched or when a scratch is covered by a dirty bandage, zombies in this radius will be called to the player's direction. These stack PER injury.",
+	Sandbox_ScentOfBlood_sbleedModifier_tooltip = "Stacks with each individual scratch, bleeding increases radius. Set to 0 to disable.",
+	
+	Sandbox_ScentOfBlood_cutModifier = "Laceration Attraction Modifier",
+	Sandbox_ScentOfBlood_cbleedModifier = "Bleeding Laceration Attraction Modifier",
+	Sandbox_ScentOfBlood_cutModifier_tooltip = "When lacerated or when a laceration is covered by a dirty bandage, zombies in this radius will be called to the player's direction. These stack PER injury.",
+	Sandbox_ScentOfBlood_cbleedModifier_tooltip = "Stacks with each individual laceration, bleeding increases radius. Set to 0 to disable.",
+	
+	Sandbox_ScentOfBlood_biteModifier = "Bite Attraction Modifier",
+	Sandbox_ScentOfBlood_bbleedModifier = "Bleeding Bite Attraction Modifier",
+	Sandbox_ScentOfBlood_biteModifier_tooltip = "When bitten or when a bite is covered by a dirty bandage, zombies in this radius will be called to the player's direction. These stack PER injury.",
+	Sandbox_ScentOfBlood_bbleedModifier_tooltip = "Stacks with each individual bite, bleeding increases radius. Set to 0 to disable.",
+
+	Sandbox_ScentOfBlood_dwoundModifier = "Deep Wound Attraction Modifier",
+	Sandbox_ScentOfBlood_dbleedModifier = "Bleeding Deep Wound Attraction Modifier",
+	Sandbox_ScentOfBlood_dwoundModifier_tooltip = "When deep wounded or when a deep wound is covered by a dirty bandage, zombies in this radius will be called to the player's direction. These stack PER injury.",
+	Sandbox_ScentOfBlood_dbleedModifier_tooltip = "Stacks with each individual deep wound, bleeding increases radius. Set to 0 to disable.",
+
+}

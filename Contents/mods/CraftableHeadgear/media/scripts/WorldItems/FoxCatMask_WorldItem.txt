@@ -1,0 +1,9 @@
+module Base
+{
+        model FoxCatMask_WorldItem
+    {
+        mesh = WorldItems/FoxCatMask_WorldItem,
+        texture = FoxCatMask,
+        scale = 1,
+    }
+}

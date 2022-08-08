@@ -1,0 +1,9 @@
+module Base
+{
+        model TikiMask_WorldItem
+    {
+        mesh = WorldItems/TikiMask_WorldItem,
+        texture = TikiMask,
+        scale = 1,
+    }
+}

@@ -1,0 +1,9 @@
+module Base
+{
+        model BlackBambooHat_WorldItem
+    {
+        mesh = WorldItems/BlackBambooHat_WorldItem,
+        texture = BlackBambooHat,
+        scale = 1,
+    }
+}

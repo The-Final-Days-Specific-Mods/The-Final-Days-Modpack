@@ -1,0 +1,12 @@
+Tooltip_FR = {
+	-- Item tooltip
+
+	-- Crafting tooltip
+	Tooltip_craft_ConcreteFloorDesc = "Un simple sol en béton",
+	Tooltip_craft_BrickFenceDesc	= "Une clôture en briques",
+	Tooltip_craft_BrickOvenDesc	= "Utilisé pour cuire des briques",
+	Tooltip_craft_DisplayCounterDesc	= "Exposez votre dernière récolte ",
+
+	-- Item tooltip
+	Tooltip_item_HandTruck = "Ne peut pas se battre avec cet objet en main.<br>Ne transporte que des objets volumineux.",
+}

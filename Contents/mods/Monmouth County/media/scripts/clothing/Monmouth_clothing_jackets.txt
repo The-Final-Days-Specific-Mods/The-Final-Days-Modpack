@@ -1,0 +1,66 @@
+module MonmouthClothing
+{
+    item Jacket_Dead_Apes
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dead Apes Leather Jacket,
+        ClothingItem = Jacket_Dead_Apes,
+        BodyLocation = Jacket,
+        Icon = Deadapes_Jacket_Icon,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+	item Jacket_SilentBobsCoat
+    {
+        DisplayCategory = Clothing,	
+        Type = Clothing,
+        DisplayName = Silent Bob's Coat,
+        ClothingItem = Jacket_SilentBobsCoat,
+        BodyLocation = Jacket,
+        Icon = SilentBobsCoat,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+	}
+    item JacketLong_Jays
+    {
+        DisplayCategory = Clothing,		
+        Type = Clothing,
+        DisplayName = Jay's Jacket,
+        ClothingItem = JacketLong_Jays,
+        BodyLocation = Jacket,
+        Icon = JacketLongJay,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.65,
+        WindResistance = 0.35,
+        FabricType = Leather,
+        WaterResistance = 0.45,
+        Weight = 2,
+        WorldStaticModel = Jacket_Ground,			
+    }		
+}
+

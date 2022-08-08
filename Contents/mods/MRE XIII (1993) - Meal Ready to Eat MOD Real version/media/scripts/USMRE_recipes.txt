@@ -1,0 +1,1205 @@
+
+/*** MRE XIII (1993) - Meal Ready to Eat MOD Real version ***/
+
+/*** 2022-01-04 Version 4.03 ***/
+
+module USMRE
+
+{
+	imports
+	{
+	Base
+	}
+	
+	recipe Open MRE Box
+		{
+		MREbox,
+		Result:MREmenu01=1,
+    	OnCreate:OnOpenMREBox,
+		Time:12.0,
+		Category:Cooking,
+		}
+
+	recipe Place MRE in Box
+		{
+		MREmenu01,
+		MREmenu02,
+		MREmenu03,
+		MREmenu04,
+		MREmenu05,
+		MREmenu06,
+		MREmenu07,
+		MREmenu08,
+		MREmenu09,
+		MREmenu10,
+		MREmenu11,
+		MREmenu12,
+		Result:MREbox,
+		Time:12.0,
+		OnGiveXP:NoXP_OnGiveXP,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu01,
+		Result:MREPorkwithRiceinBBQSauce,
+    	OnCreate:OnOpenMREPorkwithRiceinBBQSauce,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu02,
+		Result:MRECornedBeefHash,
+    	OnCreate:OnOpenMRECornedBeefHash,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu03,
+		Result:MREChickenStew,
+    	OnCreate:OnOpenMREChickenStew,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu04,
+		Result:MREOmeletwithHam,
+    	OnCreate:OnOpenMREOmeletwithHam,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu05,
+		Result:MRESpaghettiwithMeatSauce,
+    	OnCreate:OnOpenMRESpaghettiwithMeatSauce,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu06,
+		Result:MREChickenalaKing,
+    	OnCreate:OnOpenMREChickenalaKing,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu07,
+		Result:MREBeefStew,
+    	OnCreate:OnOpenMREBeefStew,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu08,
+		Result:MREHamSlice,
+    	OnCreate:OnOpenMREHamSlice,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu09,
+		Result:MREMeatballswithTomatoSauce,
+    	OnCreate:OnOpenMREMeatballswithTomatoSauce,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu10,
+		Result:MRETunawithNoodles,
+    	OnCreate:OnOpenMRETunawithNoodles,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu11,
+		Result:MREChickenwithRice,
+    	OnCreate:OnOpenMREChickenwithRice,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE package
+		{
+		MREmenu12,
+		Result:MREEscallopedPotatoeswithHam,
+    	OnCreate:OnOpenMREEscallopedPotatoeswithHam,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+
+	recipe Heat with a heater
+		{
+		MREPorkwithRiceinBBQSauce,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREPorkwithRiceinBBQSauceHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRECornedBeefHash,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRECornedBeefHashHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenStew,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenStewHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREOmeletwithHam,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREOmeletwithHamHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRESpaghettiwithMeatSauce,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRESpaghettiwithMeatSauceHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenalaKing,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenalaKingHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREBeefStew,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREBeefStewHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREHamSlice,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREHamSliceHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREMeatballswithTomatoSauce,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREMeatballswithTomatoSauceHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRETunawithNoodles,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRETunawithNoodlesHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenwithRice,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenwithRiceHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREEscallopedPotatoeswithHam,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREEscallopedPotatoeswithHamHot,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+
+	recipe Heat with a heater
+		{
+		MREPorkwithRiceinBBQSauceS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREPorkwithRiceinBBQSauceHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRECornedBeefHashS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRECornedBeefHashHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenStewS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenStewHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREOmeletwithHamS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREOmeletwithHamHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRESpaghettiwithMeatSauceS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRESpaghettiwithMeatSauceHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenalaKingS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenalaKingHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREBeefStewS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREBeefStewHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREHamSliceS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREHamSliceHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREMeatballswithTomatoSauceS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREMeatballswithTomatoSauceHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MRETunawithNoodlesS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MRETunawithNoodlesHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREChickenwithRiceS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREChickenwithRiceHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+	recipe Heat with a heater
+		{
+		MREEscallopedPotatoeswithHamS,
+		MREFlamelessRationHeater,
+		Water=1,
+		Result:MREEscallopedPotatoeswithHamHotS,
+		Time:50.0,
+		Category:Cooking,
+		}
+
+
+	recipe Insert hot sauce
+		{
+		MREPorkwithRiceinBBQSauce,
+		MREHotSource,
+		Result:MREPorkwithRiceinBBQSauceS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRECornedBeefHash,
+		MREHotSource,
+		Result:MRECornedBeefHashS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenStew,
+		MREHotSource,
+		Result:MREChickenStewS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREOmeletwithHam,
+		MREHotSource,
+		Result:MREOmeletwithHamS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRESpaghettiwithMeatSauce,
+		MREHotSource,
+		Result:MRESpaghettiwithMeatSauceS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenalaKing,
+		MREHotSource,
+		Result:MREChickenalaKingS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREBeefStew,
+		MREHotSource,
+		Result:MREBeefStewS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREHamSlice,
+		MREHotSource,
+		Result:MREHamSliceS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREMeatballswithTomatoSauce,
+		MREHotSource,
+		Result:MREMeatballswithTomatoSauceS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRETunawithNoodles,
+		MREHotSource,
+		Result:MRETunawithNoodlesS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenwithRice,
+		MREHotSource,
+		Result:MREChickenwithRiceS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREEscallopedPotatoeswithHam,
+		MREHotSource,
+		Result:MREEscallopedPotatoeswithHamS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+
+	recipe Insert hot sauce
+		{
+		MREPorkwithRiceinBBQSauceHot,
+		MREHotSource,
+		Result:MREPorkwithRiceinBBQSauceHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRECornedBeefHashHot,
+		MREHotSource,
+		Result:MRECornedBeefHashHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenStewHot,
+		MREHotSource,
+		Result:MREChickenStewHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREOmeletwithHamHot,
+		MREHotSource,
+		Result:MREOmeletwithHamHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRESpaghettiwithMeatSauceHot,
+		MREHotSource,
+		Result:MRESpaghettiwithMeatSauceHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenalaKingHot,
+		MREHotSource,
+		Result:MREChickenalaKingHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREBeefStewHot,
+		MREHotSource,
+		Result:MREBeefStewHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREHamSliceHot,
+		MREHotSource,
+		Result:MREHamSliceHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREMeatballswithTomatoSauceHot,
+		MREHotSource,
+		Result:MREMeatballswithTomatoSauceHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MRETunawithNoodlesHot,
+		MREHotSource,
+		Result:MRETunawithNoodlesHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREChickenwithRiceHot,
+		MREHotSource,
+		Result:MREChickenwithRiceHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Insert hot sauce
+		{
+		MREEscallopedPotatoeswithHamHot,
+		MREHotSource,
+		Result:MREEscallopedPotatoeswithHamHotS,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Apply Jelly
+		{
+		MRECrackers,
+		MREJelly,
+		Result:MRECrackersJelly,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Apply Peanut Butter
+		{
+		MRECrackers,
+		MREPeanutButter,
+		Result:MRECrackersPeanutButter,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Apply Cheese spread
+		{
+		MRECrackers,
+		MRECheesespread,
+		Result:MRECrackersCheesespread,
+		Time:1.0,
+		Category:Cooking,
+		}
+
+	recipe Pour water
+		{
+		Water=1,
+		MREFreezedriedfruit,
+		Result:MREFruit,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE Accessory Packet
+		{
+		MREAccessoryPacketA,
+		Result:MRECoffee,
+		OnCreate:OnOpenMREAccessoryPacketA,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+	recipe Open MRE Accessory Packet
+		{
+		MREAccessoryPacketB,
+		Result:MRECoffee,
+		OnCreate:OnOpenMREAccessoryPacketB,
+		Time:2.0,
+		Category:Cooking,
+		}
+
+/*** Mugl ***/
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy Mugl,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy Mugl,
+		MRECocoa,
+		Result:MRECuppaCocoa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy Mugl,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy Mugl,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** MugRed ***/
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugRed,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugRed,
+		MRECocoa,
+		Result:MRECuppaCocoaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugRed,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugRed,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** MugWhite ***/
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugWhite,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugWhite,
+		MRECocoa,
+		Result:MRECuppaCocoaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugWhite,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugWhite,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** MugSpiffo ***/
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugSpiffo,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugSpiffo,
+		MRECocoa,
+		Result:MRECuppaCocoaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugSpiffo,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		Water=2,
+		destroy MugSpiffo,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** WaterMug ***/
+
+	recipe Make Cuppa
+		{
+		destroy WaterMug,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMug,
+		MRECocoa,
+		Result:MRECuppaCocoa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMug,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMug,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppa,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** WaterMugRed ***/
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugRed,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugRed,
+		MRECocoa,
+		Result:MRECuppaCocoaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugRed,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugRed,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaRed,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** WaterMugWhite ***/
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugWhite,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugWhite,
+		MRECocoa,
+		Result:MRECuppaCocoaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugWhite,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugWhite,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaWhite,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+/*** WaterMugSpiffo ***/
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugSpiffo,
+		MRECoffee,
+		MRECreamSubstitute,
+		MRESugar,
+		Result:MRECuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugSpiffo,
+		MRECocoa,
+		Result:MRECuppaCocoaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugSpiffo,
+		MREBevBasewithSugar,
+		Result:MREBevBasewithSugarCuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+	recipe Make Cuppa
+		{
+		destroy WaterMugSpiffo,
+		MRESugarFreeBevBase,
+		Result:MRESugarFreeBevBaseCuppaSpiffo,
+		Time:10.0,
+		Category:Cooking,
+		}
+
+
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=1,
+		Result:MREboxPallet01,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=2,
+		Result:MREboxPallet02,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=3,
+		Result:MREboxPallet03,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=4,
+		Result:MREboxPallet04,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=5,
+		Result:MREboxPallet05,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=6,
+		Result:MREboxPallet06,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=7,
+		Result:MREboxPallet07,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=8,
+		Result:MREboxPallet08,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=9,
+		Result:MREboxPallet09,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=10,
+		Result:MREboxPallet10,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=11,
+		Result:MREboxPallet11,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Put of MRE box on pallet
+		{
+		MREbox=12,
+		Result:MREboxPallet12,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet01,
+		Result:MREbox=1,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet02,
+		Result:MREbox=2,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet03,
+		Result:MREbox=3,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet04,
+		Result:MREbox=4,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet05,
+		Result:MREbox=5,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet06,
+		Result:MREbox=6,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet07,
+		Result:MREbox=7,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet08,
+		Result:MREbox=8,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet09,
+		Result:MREbox=9,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet10,
+		Result:MREbox=10,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet11,
+		Result:MREbox=11,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+	recipe Remove MRE box from pallet
+		{
+		MREboxPallet12,
+		Result:MREbox=12,
+		Time:20.0,
+		Category:Cooking,
+		}
+
+}
+

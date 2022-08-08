@@ -1,0 +1,9 @@
+module Base
+{
+        model PlagueMask_WorldItem
+    {
+        mesh = WorldItems/PlagueMask_WorldItem,
+        texture = PlagueMask,
+        scale = 1,
+    }
+}

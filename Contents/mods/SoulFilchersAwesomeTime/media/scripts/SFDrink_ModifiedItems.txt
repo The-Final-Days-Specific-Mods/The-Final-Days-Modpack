@@ -1,0 +1,152 @@
+module Base
+{
+
+    item EmptyJar
+	{
+		Type		=	Normal,
+		CanStoreWater	=	TRUE,
+		ReplaceOnUseOn	=	WaterSource-JarWater,
+		RainFactor	=	1,
+		DisplayName	=	Empty Jar,
+		Icon		=	JarEmpty2,
+		Weight		=	0.2,
+		Tooltip 	= Tooltip_Jar,
+		SurvivalGear 	= TRUE,
+		WorldStaticModel = EmptyJar,
+	}
+
+	item EmptyPetrolCan
+	{
+	    DisplayCategory = VehicleMaintenance,
+		Weight	=	1.6,
+		CanStoreWater	=	TRUE,
+		ReplaceOnUseOn	=	WaterSource-PetrolCanWater,
+		Type	=	Normal,
+		DisplayName	=	Empty Gas Can,
+		Icon	=	Petrol,
+		StaticModel = GasCan,
+		SurvivalGear = TRUE,
+		ReplaceInSecondHand = Bag_GasCan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GasCan_RHand holdingbagright,
+        WorldStaticModel = GasCan_Ground,
+        Tags = EmptyPetrol,
+        ReplaceTypes = PetrolSource PetrolCan,
+	}
+
+    item FountainCup
+    {
+	DisplayCategory 	= WaterContainer,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Fountain Cup,
+        Icon	=	FountainCup,
+		CanStoreWater	=	TRUE,
+		ReplaceOnUseOn	=	WaterSource-FountainCupWater,
+		ReplaceTypes		= WaterSource FountainCupWater,
+        RainFactor = 0.2,
+	Tooltip = Tooltip_item_RainFromGroundOnlyPurifyMicrowave,
+    }
+
+    item PopEmpty
+    {
+        Weight		=	0.1,
+	CanStoreWater	=	TRUE,
+	ReplaceOnUseOn	=	WaterSource-PopCanWater,
+        Type		=	Normal,
+        DisplayName	=	Empty Pop Can,
+        Icon		=	PopEmpty,
+        MetalValue 	= 	10,
+        WorldStaticModel = PopCanDietWorld,
+    }
+
+    item Pop2Empty
+    {
+        Weight	=	0.1,
+	CanStoreWater	=	TRUE,
+	ReplaceOnUseOn	=	WaterSource-Pop2CanWater,
+        Type	=	Normal,
+        DisplayName	=	Empty Pop Can,
+        Icon	=	PopCan2Empty,
+        MetalValue = 10,
+        WorldStaticModel = PopCanRedWorld,
+    }
+
+    item Pop3Empty
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+	CanStoreWater	=	TRUE,
+	ReplaceOnUseOn	=	WaterSource-Pop3CanWater,
+        DisplayName	=	Empty Pop Can,
+        Icon	=	PopCan3Empty,
+        MetalValue = 10,
+        WorldStaticModel = PopCanFizzWorld,
+    }
+
+	item RoastingPan
+	{
+		Weight		=	1.3,
+		CanStoreWater	=	TRUE,
+		ReplaceOnUseOn	=	WaterSource-RoastingPanWater,
+		Type		=	Normal,
+		DisplayName	=	Roasting Pan,
+		Icon		=	Roastingpan,
+		MetalValue 	=	60,
+		RainFactor	=	0.5,
+		Tooltip		=	Tooltip_item_RainFromGround,
+		StaticModel	=	RoastingPan,
+		WorldStaticModel = RoastingPan,
+	}
+
+    item TinCanEmpty
+    {
+        Weight		= 0.2,
+	CanStoreWater	=	TRUE,
+        Type 		= Normal,
+        DisplayName	=	Empty Tin Can,
+	ReplaceOnUseOn	=	WaterSource-TinCanWater,
+        Icon		= TinCanEmpty,
+	RainFactor	=	1,
+        MetalValue	= 20,
+	Tooltip		=	Tooltip_item_RainFromGround,
+        StaticModel	= CanOpen,
+	WorldStaticModel = CanOpen,
+    }
+
+    item WaterDish
+    {
+        Weight		=	0.1,
+	CanStoreWater	=	TRUE,
+        Type		=	Normal,
+        DisplayName	=	Water Dish,
+	ReplaceOnUseOn	=	WaterSource-WaterDishFull,
+        Icon		=	WaterDish,
+        MetalValue 	=	20,
+	RainFactor	=	0.5,
+	Tooltip		=	Tooltip_item_RainFromGround,
+	StaticModel	=	WaterDish,
+        WorldStaticModel =	WaterDish,
+    }
+
+    item WaterPaintbucket
+    {
+        Type 		= Drainable,
+        DisplayName 	= Paint Bucket With Water,
+        Icon 		= SFPaintbucketWater,
+        Weight 		= 4.0,
+	WeightEmpty	=	1.0,
+        ReplaceOnDeplete = PaintbucketEmpty,
+        UseWhileEquipped = FALSE,
+        UseDelta 	= 0.04,
+        ReplaceOnUseOn 	= WaterSource-WaterPaintbucket,
+        IsWaterSource 	= TRUE,
+        CanStoreWater 	= TRUE,
+        RainFactor 	= 1,
+        EatType 	= Bucket,
+	IsCookable	= TRUE,
+	Tooltip		=	Tooltip_item_RainFromGround,
+	StaticModel	= Bucket,
+        EatType = Bucket,
+        WorldStaticModel = PaintTinEmpty_Ground,
+    }
+}

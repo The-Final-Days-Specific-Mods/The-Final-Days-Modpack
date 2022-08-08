@@ -1,0 +1,9 @@
+module Base
+{
+        model PogoFullMask_WorldItem
+    {
+        mesh = WorldItems/PogoFullMask_WorldItem,
+        texture = PogoFullMask,
+        scale = 1,
+    }
+}

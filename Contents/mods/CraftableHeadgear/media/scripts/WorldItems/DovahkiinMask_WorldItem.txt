@@ -1,0 +1,9 @@
+module Base
+{
+        model DovahkiinMask_WorldItem
+    {
+        mesh = WorldItems/DovahkiinMask_WorldItem,
+        texture = DovahkiinMask,
+        scale = 1,
+    }
+}

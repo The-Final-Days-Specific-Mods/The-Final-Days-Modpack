@@ -1,0 +1,71 @@
+module pancit {
+
+    imports { Base }
+
+    /*===================== COOKING NOODLES =====================*/
+
+	recipe Place Pancit Panton in Cooking Pot
+	{
+	   ChowMeinNoodles;10,
+	   destroy WaterPot,
+
+	   Result:ChowMeinWaterPot,
+	   Time:80.0,
+	   OnCreate:Recipe.OnCreate.AddBaseIngredientToCookingVessel,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+	recipe Place Pancit Panton in Saucepan
+	{
+	   ChowMeinNoodles;10,
+	   destroy WaterSaucepan,
+
+	   Result:ChowMeinWaterPan,
+	   Time:80.0,
+	   OnCreate:Recipe.OnCreate.AddBaseIngredientToCookingVessel,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    recipe Make 4 Bowls of Pancit Panton
+	{
+	   PancitPot/PancitPan,
+	   Bowl=4,
+
+	   Result:pancit.BowlPancitPanton=4,
+	   OnCreate:PP_Make4Bowls,
+	   Time:160.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    recipe Make 2 Bowls of Pancit Panton
+	{
+	   PancitPot/PancitPan,
+	   Bowl=2,
+
+	   Result:pancit.BowlPancitPanton=2,
+	   OnCreate:PP_Make2Bowls,
+	   Time:160.0,
+	   Category:Cooking,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+    /*===================== NOODLE PACKS =====================*/
+
+	recipe Open Pancit Panton Pack
+	{
+		OriginalPack/SpicyPack/CalamansiPack/ChilimansiPack/SweetSpicyPack,
+		
+		Result:pancit.ChowMeinNoodles=1,
+		OnCreate:PP_OpenNoodlePack,
+		Time:80.0,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Sound:ClothesRipping,
+		AnimNode:RipSheets,
+	}
+
+
+}

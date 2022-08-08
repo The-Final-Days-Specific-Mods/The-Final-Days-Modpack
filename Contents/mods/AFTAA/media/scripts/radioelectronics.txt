@@ -1,0 +1,45 @@
+module Radio
+{
+	imports
+    {
+        Base
+    }
+
+        item RadioReceiver
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Radio Receiver,
+        Icon	=	Receiver,
+        ColorRed = 65,
+        ColorGreen = 105,
+        ColorBlue = 225,
+        WorldStaticModel = RadioReceiver,
+    }
+
+    item RadioTransmitter
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Radio Transmitter,
+        Icon	=	Receiver,
+        ColorRed = 220,
+        ColorGreen = 20,
+        ColorBlue = 60,
+        WorldStaticModel = RadioTransmitter,
+    }
+
+    item ScannerModule
+    {
+        DisplayCategory = Electronics,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Scanner Module,
+        Icon	=	ScannerChip,
+        WorldStaticModel = ScannerModule,
+    }
+
+
+}

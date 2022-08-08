@@ -1,0 +1,9 @@
+module Base
+{
+        model HorseMask_WorldItem
+    {
+        mesh = WorldItems/HorseMask_WorldItem,
+        texture = HorseMask,
+        scale = 1,
+    }
+}

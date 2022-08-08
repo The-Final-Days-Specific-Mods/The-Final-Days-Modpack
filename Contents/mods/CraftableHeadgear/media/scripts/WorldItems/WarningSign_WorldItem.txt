@@ -1,0 +1,9 @@
+module Base
+{
+        model WarningSign_WorldItem
+    {
+        mesh = WorldItems/WarningSign_WorldItem,
+        texture = WarningSign,
+        scale = 1,
+    }
+}

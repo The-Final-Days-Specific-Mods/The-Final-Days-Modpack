@@ -1,0 +1,7 @@
+Tooltip_CN = {
+--
+	Tooltip_OilPan 				= "需要加热以准备使用.",
+	Tooltip_WaterPan			= "需要加热.",
+	
+	
+} 	

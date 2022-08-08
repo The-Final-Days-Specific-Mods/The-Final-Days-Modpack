@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\PopSpaceHelmet</m_MaleModel>
+	<m_FemaleModel>static\clothes\PopSpaceHelmet</m_FemaleModel>
+	<m_GUID>6e8164e8-5ecb-4fd5-85b6-659a45d42948</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>PopSpaceHelmet</textureChoices>
+</clothingItem>

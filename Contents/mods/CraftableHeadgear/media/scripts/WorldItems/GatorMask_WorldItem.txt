@@ -1,0 +1,9 @@
+module Base
+{
+        model GatorMask_WorldItem
+    {
+        mesh = WorldItems/GatorMask_WorldItem,
+        texture = GatorMask,
+        scale = 1,
+    }
+}

@@ -1,0 +1,59 @@
+module MonmouthClothing
+{
+    item Moobys_Shirt
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Mooby's Uniform,
+		ClothingItem = Moobys_Shirt,
+		BodyLocation = Shirt,
+		Icon = Moobys_Uniform_Icon,
+		BloodLocation = Shirt,
+        Insulation = 0.25,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	    item Tshirt_Black_Fraz
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Fraz T-Shirt,
+        ClothingItem = Tshirt_Black_Fraz,
+        BodyLocation = Tshirt,
+        Icon = TshirtFraz,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+		    item Tshirt_Black_SilentBob
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Silent Bob's Tshirt,
+        ClothingItem = Tshirt_Black_SilentBob,
+        BodyLocation = Tshirt,
+        Icon = SilentBobTshirt,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+		    item Tshirt_Berserker	
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Berserker T-Shirt,
+        ClothingItem = Tshirt_Berserker,
+        BodyLocation = Tshirt,
+        Icon = BerserkerT_Icon,
+        BloodLocation = Shirt,
+        Insulation = 0.5,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+}

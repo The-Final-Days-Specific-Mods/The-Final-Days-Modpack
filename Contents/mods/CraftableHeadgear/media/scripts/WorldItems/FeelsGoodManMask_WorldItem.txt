@@ -1,0 +1,9 @@
+module Base
+{
+        model FeelsGoodManMask_WorldItem
+    {
+        mesh = WorldItems/FeelsGoodManMask_WorldItem,
+        texture = FeelsGoodManMask,
+        scale = 1,
+    }
+}

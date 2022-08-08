@@ -1,0 +1,41 @@
+module MonmouthRecipes {
+  imports {
+      Base
+  }
+
+    recipe Make Judge's Helmet
+	{
+	   Glue,
+	   PaintGreen,
+	   Glasses_Sun,
+	   LeatherStrips=2,
+	   Scalpel,
+
+	   Result:Helmet_Judge,
+	   SkillRequired:Tailoring=3,
+	   Time:50.0,
+	   Category:Tailoring,
+	}
+	
+	    recipe Create Toddy's Hammer
+	{
+	   BlowTorch=2,
+	   Hammer,
+	   SmallSheetMetal=2,
+	   Nails=6,
+	   Screws=4,
+       keep WeldingMask,
+
+	   Result:Hammer_Toddy,
+	   Time:250.0,
+        OnCreate:Recipe.OnCreate.CreateHammer_Toddy,
+        Category:Welding,
+        SkillRequired:MetalWelding=2,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding50,
+	}
+
+}
+
+
+
+	

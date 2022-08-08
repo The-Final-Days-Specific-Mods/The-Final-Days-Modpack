@@ -1,0 +1,8 @@
+Recipes_EN = {
+  	Recipe_Make_4_Bowls_of_Pancit_Panton = "Make 4 Bowls of Pancit Panton",
+    Recipe_Make_2_Bowls_of_Pancit_Panton = "Make 2 Bowls of Pancit Panton",
+    Recipe_Place_Pancit_Panton_in_Cooking_Pot = "Place Pancit Panton in Cooking Pot",
+    Recipe_Place_Pancit_Panton_in_Saucepan = "Place Pancit Panton in Saucepan",
+    Recipe_Prepare_Pancit_Panton = "Prepare Pancit Panton",
+    Recipe_Open_Pancit_Panton_Pack = "Open Pancit Panton Pack",
+}

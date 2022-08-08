@@ -1,0 +1,9 @@
+module Base
+{
+        model ClownMask_WorldItem
+    {
+        mesh = WorldItems/ClownMask_WorldItem,
+        texture = ClownMask,
+        scale = 1,
+    }
+}

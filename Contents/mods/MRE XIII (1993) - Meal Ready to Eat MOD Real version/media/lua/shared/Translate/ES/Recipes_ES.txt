@@ -1,0 +1,20 @@
+Recipe_ES = {
+
+	-- MRE XIII (1993) - Meal Ready to Eat MOD
+	-- Translated by Kovi16YT
+
+	Recipe_Apply_Cheese_spread = "Poner Queso de Untar",
+	Recipe_Apply_Jelly = "Poner Gelatina",
+	Recipe_Apply_Peanut_Butter = "Poner Mantequilla de Cacahuete",
+	Recipe_Heat_with_a_heater = "Calentar con el Calentador",
+	Recipe_Insert_hot_sauce = "Echar Salsa Picante",
+	Recipe_Make_Cuppa = "Hazer Taza",
+	Recipe_Open_MRE_Accessory_Packet = "Abrir Paquete de Accesorios",
+	Recipe_Open_MRE_Box = "Abrir Caja",
+	Recipe_Open_MRE_package = "Abrir Paquete",
+	Recipe_Place_MRE_in_Box = "Poner en Caja",
+	Recipe_Pour_water = "Tirar Agua",
+	Recipe_Put_of_MRE_box_on_pallet = "Poner Caja en PalÅE,
+	Recipe_Remove_MRE_box_from_pallet = Quitar Caja de PalÅE",
+
+}

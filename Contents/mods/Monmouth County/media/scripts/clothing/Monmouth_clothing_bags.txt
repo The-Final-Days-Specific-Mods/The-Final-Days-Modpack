@@ -1,0 +1,31 @@
+module MonmouthClothing 
+{
+  imports 
+	{
+    Base
+	}
+	
+    item Bag_ALICEpack_Spike
+    {
+        DisplayCategory = Bag,
+        Type = Container,
+        DisplayName = Spike's Alice Pack,
+        ClothingItem = Bag_ALICEpack_Spike,
+        CanBeEquipped = Back,
+        WeightReduction	=	90,
+        Weight	=	1.8,
+        Capacity	=	30,
+        Icon = AliceBag_Spike,
+        OpenSound = OpenBag,
+        CloseSound = CloseBag,
+        PutInSound = PutItemInBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.98,
+        CanHaveHoles = false,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_ALICEpack_Army_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_ALICEpack_Army_RHand holdingbagright,
+        WorldStaticModel = ALICE_Pack_Ground,
+    }
+
+}

@@ -1,0 +1,20 @@
+Recipe_RU = {
+
+	-- MRE XIII (1993) - Meal Ready to Eat MOD
+	-- Russian translation by Admiral.Slowpoke
+
+	Recipe_Open_MRE_Box = "Открыть коробку с ИРП",
+	Recipe_Place_MRE_in_Box = "Положить ИРП в коробку",
+	Recipe_Open_MRE_package = "Открыть пакет ИРП",
+	Recipe_Heat_with_a_heater = "Разогреть с помощью беспламенного разогревателя",
+	Recipe_Insert_hot_sauce = "Налить острый соус",
+	Recipe_Make_Cuppa = "Сделать напиток",
+	Recipe_Open_MRE_Accessory_Packet = "Открыть дополнительный пакет",
+	Recipe_Pour_water = "Налить воды",
+	Recipe_Apply_Cheese_spread = "Намазать плавленный сыр",
+	Recipe_Apply_Jelly = "Намазать желе",
+	Recipe_Apply_Peanut_Butter = "Намазать арахисовое масло",
+	Recipe_Put_of_MRE_box_on_pallet = "Положить коробку с ИРП на поддон",
+	Recipe_Remove_MRE_box_from_pallet = "Убрать коробку с ИРП с поддона",
+}
+

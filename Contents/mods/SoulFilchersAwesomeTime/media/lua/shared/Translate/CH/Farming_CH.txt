@@ -1,0 +1,8 @@
+Farming_CH = {
+	-- vegetables name (type of seed)
+	Farming_Beets = "²¢µæ",
+	Farming_Cauliflowers = "ªá·¦µæ",
+	Farming_Corn = "¥É¦Ì",
+	Farming_Lemongrass = "ÂfÂc­»­T",
+	Farming_Wheat = "¤p³Á",
+}

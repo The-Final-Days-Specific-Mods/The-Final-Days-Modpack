@@ -1,0 +1,9 @@
+module Base
+{
+        model NoveltyBearMask_WorldItem
+    {
+        mesh = WorldItems/NoveltyBearMask_WorldItem,
+        texture = NoveltyBearMask,
+        scale = 1,
+    }
+}

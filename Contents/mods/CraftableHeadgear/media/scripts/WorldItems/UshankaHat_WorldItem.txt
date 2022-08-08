@@ -1,0 +1,9 @@
+module Base
+{
+        model UshankaHat_WorldItem
+    {
+        mesh = WorldItems/UshankaHat_WorldItem,
+        texture = UshankaHat,
+        scale = 1,
+    }
+}

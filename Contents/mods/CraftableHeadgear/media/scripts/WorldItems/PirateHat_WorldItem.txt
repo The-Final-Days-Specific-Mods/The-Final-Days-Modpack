@@ -1,0 +1,9 @@
+module Base
+{
+        model PirateHat_WorldItem
+    {
+        mesh = WorldItems/PirateHat_WorldItem,
+        texture = PirateHat,
+        scale = 1,
+    }
+}

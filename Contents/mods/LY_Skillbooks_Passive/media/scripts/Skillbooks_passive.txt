@@ -1,0 +1,157 @@
+module LY_Skillbooks
+{
+	imports
+	{
+		Base
+	}
+
+   	item BookFitness1
+    {
+	    DisplayCategory = SkillBook,
+        NumberOfPages =	220,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Fitness Vol.1: Beginner,
+        Icon = skillbook_fitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+	    StaticModel = Book,
+	    WorldStaticModel = BookClosedGround,
+    }
+
+	item BookFitness2
+    {
+        DisplayCategory = SkillBook,
+	    NumberOfPages =	260,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Fitness Vol.2:  Intermediate,
+        Icon = skillbook_fitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+	    StaticModel = Book,
+	    WorldStaticModel = BookClosedGround,
+    }
+
+	item BookFitness3
+    {
+        DisplayCategory = SkillBook,
+	    NumberOfPages = 300,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Fitness Vol.3:  Advanced,
+        Icon = skillbook_fitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+    	WorldStaticModel = BookClosedGround,
+    }
+
+	item BookFitness4
+    {
+        DisplayCategory = SkillBook,
+	    NumberOfPages = 340,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Fitness Vol.4:  Expert,
+        Icon = skillbook_fitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+    	WorldStaticModel = BookClosedGround,
+    }
+
+	item BookFitness5
+    {
+        DisplayCategory = SkillBook,
+	    NumberOfPages = 380,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Fitness Vol.5:  Master,
+        Icon = skillbook_fitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+	    StaticModel = Book,
+	    WorldStaticModel = BookClosedGround,
+    }
+
+    item BookStrength1
+    {
+    	DisplayCategory = SkillBook,
+        NumberOfPages = 220,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Strength Vol.1: Beginner,
+        Icon = skillbook_strength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+	    StaticModel = Book,
+	    WorldStaticModel = BookClosedGround,
+    }
+
+	item BookStrength2
+    {
+        DisplayCategory = SkillBook,
+	    NumberOfPages = 260,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Strength Vol.2: Intermediate,
+        Icon = skillbook_strength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+	    WorldStaticModel = BookClosedGround,
+    }
+
+	item BookStrength3
+    {
+        DisplayCategory = SkillBook,
+    	NumberOfPages = 300,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Strength Vol.3: Advanced,
+        Icon = skillbook_strength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+    	WorldStaticModel = BookClosedGround,
+    }
+
+	item BookStrength4
+    {
+        DisplayCategory = SkillBook,
+    	NumberOfPages = 340,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName = Strength Vol.4: Expert,
+        Icon = skillbook_strength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+        WorldStaticModel = BookClosedGround,
+    }
+
+	item BookStrength5
+    {
+        DisplayCategory = SkillBook,
+    	NumberOfPages	=	380,
+        Weight = 0.8,
+        Type = Literature,
+        DisplayName	= Strength Vol.5: Master,
+        Icon = skillbook_strength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+    	StaticModel = Book,
+    	WorldStaticModel = BookClosedGround,
+    }
+}

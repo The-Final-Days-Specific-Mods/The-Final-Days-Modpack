@@ -1,0 +1,9 @@
+module Base
+{
+        model Benders_WorldItem
+    {
+        mesh = WorldItems/Benders_WorldItem,
+        texture = Bender,
+        scale = 1,
+    }
+}

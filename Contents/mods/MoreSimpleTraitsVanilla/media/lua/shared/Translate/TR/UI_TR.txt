@@ -1,0 +1,123 @@
+UI_TR = {
+
+-- Positive traits
+
+	UI_trait_sneaky = "Gizli",
+	UI_trait_sneakydesc = "(Gizlice girerken daha dikkat cekmeden hareket eder.)",
+
+	UI_trait_lightfooted = "Dikkatli",
+	UI_trait_lightfooteddesc = "(Hareket ederken daha az ses c?kar?r.)",
+
+	UI_trait_nimble = "Cevik",
+	UI_trait_nimbledesc = "(Silah cekik iken ve nisan al?rken daha h?zl? hareket eder.)",
+
+	UI_trait_marathonrunner = "Maraton kosucusu",
+	UI_trait_marathonrunnerdesc = "Yorulmadan biraz daha uzun kosabilir (kosamaz).",
+
+	UI_trait_strongnimble = "Y?lmaz",
+	UI_trait_strongnimbledesc = "Yorulmadan yak?n dovus silahlar?yla daha uzun sure savas?r.<br>(Savurdugunda -%20 daha az yorulma.)",
+
+	UI_trait_ninjaway = "Ninjan?n yolu",
+	UI_trait_ninjawaydesc = "Gizlendiginde biraz daha h?zl? dayan?kl?l?k yenilemesi.",
+
+	UI_trait_mushroomer = "Mantar Toplay?c?s?",
+	UI_trait_mushroomerdesc = "Arast?rma modundayken mantar bulma sans? artar.<br>Bitki uzman? tarifini bilir:<br> Sifal? bitkiler bulabilir ve onlardan ilac ve lapa yapabilir.<br>(Zehirli yiyecekleri ay?rt edebilir.)",
+
+	UI_trait_amforager = "Arast?rmac?",
+	UI_trait_amforagerdesc = "",
+
+	UI_trait_amtrapper = "Tuzakc?",
+	UI_trait_amtrapperdesc = "(Tuzak tariflerini bilir.)",
+
+	UI_trait_amcook = "Sef",
+	UI_trait_amcookdesc = "",
+
+	UI_trait_amelectrician = "Elektrik teknisyeni",
+	UI_trait_amelectriciandesc = "",
+
+	UI_trait_ammechanic = "Araba tamircisi",
+	UI_trait_ammechanicdesc = "",
+
+	UI_trait_amcarpenter = "Marangozcu",
+	UI_trait_amcarpenterdesc = "",
+
+	UI_trait_ammetalworker = "Metal iscisi",
+	UI_trait_ammetalworkerdesc = "",
+
+	UI_trait_durabile = "Dayan?kl?",
+	UI_trait_durabiledesc = "(Yak?n dovus silahlar? daha yavas k?r?l?r.)",
+
+	UI_trait_shortbladefan = "Delici",
+	UI_trait_shortbladefandesc = "",
+
+	UI_trait_shortbluntfan = "Ezici",
+	UI_trait_shortbluntfandesc = "",
+
+	UI_trait_cutter = "Kesici",
+	UI_trait_cutterdesc = "",
+
+	UI_trait_spearman = "M?zrakc?",
+	UI_trait_spearmandesc = "",
+
+	UI_trait_swordsman = "K?l?c ustas?",
+	UI_trait_swordsmandesc = "",
+
+	UI_trait_gunfan = "At?c?",
+	UI_trait_gunfandesc = "",
+
+	UI_trait_sharpshooter = "Keskin nisanci",
+	UI_trait_sharpshooterdesc = "",
+
+	UI_trait_taut = "Gergin",
+	UI_trait_tautdesc = "",
+
+	-- Negative traits
+
+	UI_trait_slack = "Gevsek",
+	UI_trait_slackdesc = "",
+	
+	UI_trait_sensitivestomach = "Hassas sindirim",
+	UI_trait_sensitivestomachdesc = "As?r? yemek mide agr?s?na ve mide bulant?s?na neden olur.",
+
+	UI_trait_weathersensitive = "Havay? hisseden",
+	UI_trait_weathersensitivedesc = "Hava degistiginde bas agr?r.<br>Yagmur veya kar yagd?g?nda da bas agr?yabilir.",
+
+	UI_trait_sorelegstrait = "Bitkin bacaklar",
+	UI_trait_sorelegstraitdesc = "Yururken,Kosarken,fitness yaparken ve ezerken bacaklar?n agr?r.<br>Depar atarken, bacaklar?n daha h?zl? agr?r ve daha h?zl? yorulur.<br>",
+
+	-- Weight traits
+	
+	UI_trait_cangrabmore = "Guclu s?rt",
+	UI_trait_cangrabmoredesc = "Daha fazla ag?rl?k tas?r.<br>(bonus: art? Kuvvete bagl? olarak maksimum 1-2 ag?rl?k,<br>daha fazla Mukavemet, daha fazla bonus.)",
+
+	UI_trait_cangrabless = "Zay?f s?rt",
+	UI_trait_cangrablessdesc = "Daha az ag?rl?k tas?r.<br>(ceza: Kuvvete bagl? olarak eksi 1-3 maksimum ag?rl?k,<br>daha fazla Kuvvet, daha fazla ceza.)",
+
+	-- Bleeding traits
+
+	UI_trait_hbwounds= "Ag?r kanayan yaralar",
+	UI_trait_hbwoundsdesc = "Yaralar? daha h?zl? kanar.<br>(+100% Kanama etkisi ).",
+
+	UI_trait_wbwounds = "Zay?f kanayan yaralar",
+	UI_trait_wbwoundsdesc = "Yaralar? daha yavas kanar.<br>(-50% Kanama etkisi).",
+
+	-- Drowsiness traits
+
+	UI_trait_owlperson = "Baykus",
+	UI_trait_owlpersondesc = "Aksamlar? uyan?k kalmay? tercih eder.<br>(Uyusukluk aksam gec saatlerde (19:00 - 23:00) daha yavas birikir,<br>ancak sabah?n erken saatlerinde (05:00 - 10:00) daha h?zl?d?r. ogleden sonra))).)",
+	
+	UI_trait_larkperson = "Toygarl?k",
+	UI_trait_larkpersondesc = "	Sabahlar? uyan?k olmay? tercih eder.<br>(Uyku hali sabah?n erken saatlerinde (05:00 - 10:00 aras?) daha yavas birikir,<br>aksam gec saatlerde (19:00 - 23:00) daha h?zl? birikir ogleden sonra.)).",
+
+	-- New
+
+	UI_trait_panicattacks = "Panik ataklar",
+	UI_trait_panicattacksdesc = "Bazen panik atak gecirdiginde ac? ceker.<br>Panik etkisi daha yavas azal?r.",
+	
+	UI_trait_MSTAllergic = "Alerjik",
+	UI_trait_MSTAllergicdesc = "Zaman zaman istemsiz haps?rma.",	
+	
+	UI_trait_MSTAlcoholic = "Alkollu",
+	UI_trait_MSTAlcoholicdesc = "Guclu sarhoslugu kolayca tolere eder.<br>Alkol uzun sure icilmezse genel durum kotulesir.",	
+
+}

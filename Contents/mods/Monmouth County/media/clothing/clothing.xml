@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Monmouth Outfits -->
+<outfitManager>
+
+<m_MaleOutfits> <m_Name>MonmouthDeadApeBiker</m_Name>
+		<m_Guid>8240a983-374a-4508-9823-3a8edf6d4419</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Dead Ape Skin -->
+			<itemGUID>0a29039c-08d9-49d4-8d58-3864421e6c4b</itemGUID>
+		</m_items>			
+		<m_items> <!-- Baggy Jeans -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Rock TShirt -->
+			<itemGUID>9f206e28-4fd0-4213-8b89-6eb02d784186</itemGUID> 
+		</m_items>
+		<m_items> <!-- Dead Apes Leather Jacket -->
+			<itemGUID>b4e92fc0-6213-4c95-b237-d0479f6ea3b3</itemGUID>
+		</m_items>
+		<m_items> <!-- Bandana -->
+			<itemGUID>0b210a48-3044-4f17-b35a-57d1d119363b</itemGUID>
+		</m_items>	 	
+</m_MaleOutfits>
+
+<m_MaleOutfits> <m_Name>MoobysOutfit</m_Name>
+		<m_Guid>e562704d-acc6-4504-be04-f161c227b2f8</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Trousers -->
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+			<subItems>
+				<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+			</subItems>	
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Trainers -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			<subItems>
+				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Moobys Uniform -->
+			<itemGUID>47c3d03b-3e1f-45eb-83e3-6aa970b525b3</itemGUID> 
+		</m_items>
+		<m_items> <!-- Moobys Visor -->
+			<itemGUID>83d824a2-edb8-4730-a42c-2f38c90b8517</itemGUID>
+		</m_items>	 	
+</m_MaleOutfits>
+
+<m_FemaleOutfits> <m_Name>MoobysOutfit</m_Name>
+		<m_Guid>e562704d-acc6-4504-be04-f161c227b2f8</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>	
+		<m_items> <!-- Trousers -->
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+			<subItems>
+				<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Trainers -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			<subItems>
+				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Moobys Uniform -->
+			<itemGUID>47c3d03b-3e1f-45eb-83e3-6aa970b525b3</itemGUID> 
+		</m_items>
+		<m_items> <!-- Moobys Visor -->
+			<itemGUID>83d824a2-edb8-4730-a42c-2f38c90b8517</itemGUID>
+		</m_items>	
+</m_FemaleOutfits>
+
+<m_MaleOutfits> <m_Name>LobsterZed</m_Name>
+		<m_Guid>108b4e9a-c42d-498d-97ca-424246ed1a3a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Male Red Zed Skin -->
+			<itemGUID>a75ba671-6313-4942-93ee-f9783a2e7f97</itemGUID>
+		</m_items>			
+		<m_items> <!-- Suit Trousers -->
+			<itemGUID>52acd769-424a-4cbb-b02a-441cb723b747</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Shoes -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+		</m_items>
+		<m_items> <!-- Suit Jacket -->
+			<itemGUID>eecd5923-4944-4b33-9c4c-66045ea6984e</itemGUID> 
+		</m_items>
+		<m_items> <!-- Formal Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+		</m_items>	
+		<m_items> <!-- Bow Tie -->
+			<itemGUID>ab416002-d83f-486e-94a7-049a16eb641f</itemGUID>
+		</m_items>			
+</m_MaleOutfits>
+
+<m_FemaleOutfits> <m_Name>LobsterZed</m_Name>
+		<m_Guid>108b4e9a-c42d-498d-97ca-424246ed1a3a</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Female Red Zed Skin -->
+			<itemGUID>8f4863fc-8962-44e4-a8fa-0c392af593a4</itemGUID>
+		</m_items>					
+		<m_items> <!-- Skirt -->
+			<itemGUID>560a4435-e634-4e40-85e9-6104ece6b056</itemGUID>
+		</m_items>
+		<m_items> <!-- Formal Shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+		</m_items>		
+		<m_items> <!-- Black Shoes -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items> <!-- Necklace -->
+			<itemGUID>83bc7ff3-3c43-4306-abee-ac8b708cbea7</itemGUID>
+			<subItems>
+				<itemGUID>fde08693-6d3e-4897-a1f8-3d4eda1bc711</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Earings -->
+			<itemGUID>eb1e345b-9993-4b70-b021-6d1d18a176b1</itemGUID>
+			<subItems>
+				<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			</subItems>
+		</m_items>
+</m_FemaleOutfits>
+
+<m_MaleOutfits> <m_Name>FlappyFraz</m_Name>
+		<m_Guid>8240a983-374a-4508-9823-3a8edf6d4419</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Level 1 Zombie -->
+			<itemGUID>47547b60-fe64-48df-b576-d9c56fdb6c5e</itemGUID>
+		</m_items>
+		<m_items> <!-- Fraz's Cap -->
+			<itemGUID>0dd0f39a-6d34-4736-9fc8-6d997be50679</itemGUID>
+		</m_items>		
+		<m_items> <!-- Fraz Shorts -->
+			<itemGUID>2c448737-2f95-4139-8b9c-8b352ccfa1d7</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Trainers -->
+			<itemGUID>f9d05f39-ccf2-46ca-977a-12707c47d082</itemGUID>
+		</m_items>
+		<m_items> <!-- Fraz T-Shirt -->
+			<itemGUID>0dfd1d54-49d7-4807-b24e-76e1149c431a</itemGUID> 
+		</m_items> 	
+		<m_items> <!-- Art Glove -->
+			<itemGUID>d162dd69-8822-4505-94f9-17b4ad3b79f6</itemGUID>
+		</m_items>
+</m_MaleOutfits>
+<m_MaleOutfits> <m_Name>SilentBob</m_Name>
+		<m_Guid>407379ef-a60b-4883-b4d3-d0f2c56adc7e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Silent Bob Skin -->
+			<itemGUID>4ffa4023-d703-4276-bf38-e87bb088031e</itemGUID>
+		</m_items>			
+		<m_items> <!-- Baggy Jeans -->
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Trainers -->
+			<itemGUID>f9d05f39-ccf2-46ca-977a-12707c47d082</itemGUID>
+		</m_items>
+		<m_items> <!-- Silent Bobs Jacket -->
+			<itemGUID>678b98bc-4083-44a7-abf5-680f8d429820</itemGUID>
+		</m_items>
+		<m_items> <!-- Silent Bobs Hat -->
+			<itemGUID>165ffd42-71ba-4240-92b0-4b18b02ea5a8</itemGUID>
+		</m_items>	 
+		<m_items> <!-- Silent Bobs T-shirt -->
+			<itemGUID>dba57a72-3a88-40da-b6c6-ae37c139afb3</itemGUID>
+		</m_items>	 		
+</m_MaleOutfits>
+<m_MaleOutfits> <m_Name>KevinSmithJay</m_Name>
+		<m_Guid>dc52b09a-7e75-49aa-8694-b4c09468fcfa</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_items> <!-- Jay's Skin -->
+			<itemGUID>bbd259b4-4360-4ca1-b677-f220c532548e</itemGUID>
+		</m_items>			
+		<m_items> <!-- Jay's Joggers -->
+			<itemGUID>805c08db-e58d-44cc-9d9d-5107d04bfcd8</itemGUID>
+		</m_items>
+		<m_items> <!-- Socks -->
+			<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+		</m_items>
+		<m_items> <!-- Army Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Berserker T-Shirt -->
+			<itemGUID>04a76b76-a405-47c4-b046-7b2883b4539b</itemGUID> 
+		</m_items>
+		<m_items> <!-- Jay's Jacket -->
+			<itemGUID>4437af96-84ab-4307-b1a9-9d6df070b8fd</itemGUID>
+		</m_items>
+		<m_items> <!-- Jay's Beanie -->
+			<itemGUID>e3ee7524-c627-4668-9b94-63af70b8ca8a</itemGUID>
+		</m_items>	 		
+</m_MaleOutfits>
+</outfitManager>

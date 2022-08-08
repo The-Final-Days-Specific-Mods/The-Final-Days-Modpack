@@ -1,0 +1,18 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item CarvingFork
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Carving Fork,
+        Icon	=	CarvingFork,
+        MetalValue = 20,
+	  WorldStaticModel = CarvingFork,
+    }
+
+}

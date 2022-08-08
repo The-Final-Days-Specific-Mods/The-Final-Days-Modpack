@@ -1,0 +1,9 @@
+module Base
+{
+        model Sombrero_WorldItem
+    {
+        mesh = WorldItems/Sombrero_WorldItem,
+        texture = Sombrero,
+        scale = 1,
+    }
+}

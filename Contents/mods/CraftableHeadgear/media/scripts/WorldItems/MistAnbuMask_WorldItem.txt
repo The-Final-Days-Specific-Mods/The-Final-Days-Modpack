@@ -1,0 +1,9 @@
+module Base
+{
+        model MistAnbuMask_WorldItem
+    {
+        mesh = WorldItems/MistAnbuMask_WorldItem,
+        texture = MistAnbuMask,
+        scale = 1,
+    }
+}

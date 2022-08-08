@@ -1,0 +1,13 @@
+ItemName_RU = {
+	ItemName_LY_Skillbooks.BookFitness1 = "Книга 'Фитнес' Том 1: Для чайников",
+	ItemName_LY_Skillbooks.BookFitness2 = "Книга 'Фитнес' Том 2: Средний",
+	ItemName_LY_Skillbooks.BookFitness3 = "Книга 'Фитнес' Том 3: Продвинутый",
+	ItemName_LY_Skillbooks.BookFitness4 = "Книга 'Фитнес' Том 4: Эксперт",
+	ItemName_LY_Skillbooks.BookFitness5 = "Книга 'Фитнес' Том 5: Мастер",
+
+	ItemName_LY_Skillbooks.BookStrength1 = "Книга 'Сила' Том 1: Для чайников",
+	ItemName_LY_Skillbooks.BookStrength2 = "Книга 'Сила' Том 2: Средний",
+	ItemName_LY_Skillbooks.BookStrength3 = "Книга 'Сила' Том 3: Продвинутый",
+	ItemName_LY_Skillbooks.BookStrength4 = "Книга 'Сила' Том 4: Эксперт",
+	ItemName_LY_Skillbooks.BookStrength5 = "Книга 'Сила' Том 5: Мастер",
+}

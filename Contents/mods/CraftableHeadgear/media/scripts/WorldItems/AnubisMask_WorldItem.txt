@@ -1,0 +1,9 @@
+module Base
+{
+        model AnubisMask_WorldItem
+    {
+        mesh = WorldItems/AnubisMask_WorldItem,
+        texture = AnubisMask,
+        scale = 1,
+    }
+}

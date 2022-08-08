@@ -1,0 +1,234 @@
+module Base
+{
+
+/************************Food************************/
+
+    item FountainCupWater
+    {
+        Weight	=	0.6,
+	WeightEmpty	=	0.1,
+	UseDelta	=	0.125,
+        Type	=	Drainable,
+        DisplayName	=   Fountain Cup with Water,
+        Icon	=	FountainCup,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	ReplaceOnUseOn	=	WaterSource-FountainCupWater,
+        RainFactor = 0.1,
+        Tooltip = Tooltip_item_RainFromGround,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+    }
+
+    item JarWater
+    {
+        Weight		=	0.8,
+	WeightEmpty	=	0.2,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.1,
+	ReplaceOnDeplete	=	EmptyJar,
+        Type		=	Drainable,
+        DisplayName	=	Jar with Water,
+	ReplaceOnUseOn	=	WaterSource-JarWater,
+        Icon		=	JarWater,
+	RainFactor	=	1,
+	IsCookable	=	TRUE,
+	Tooltip		=	Tooltip_item_RainFromGround,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+        StaticModel	=	EmptyJar,
+	WorldStaticModel = EmptyJar,
+    }
+
+    item PetrolCanWater
+    {
+        Weight		=	5,
+	WeightEmpty	=	1.6,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.0125,
+	ReplaceOnDeplete	=	EmptyPetrolCan,
+        Type		=	Drainable,
+        DisplayName	=	Gas Can with Water,
+	ReplaceOnUseOn	=	WaterSource-PetrolCanWater,
+	Icon	=	Petrol,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+	StaticModel = GasCan,
+	SurvivalGear = TRUE,
+	ReplaceInSecondHand = Bag_GasCan_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_GasCan_RHand holdingbagright,
+        WorldStaticModel = GasCan_Ground,
+    }
+
+    item PlasticCupWater
+    {
+        Type	=	Drainable,
+        DisplayName	= Plastic Cup with Water,
+        Icon		= PlasticCupWater,
+        Weight		= 0.4,
+	WeightEmpty	=	0.1,
+	UseDelta	=	0.166,
+        WorldStaticModel = PlasticCup_Ground,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	ReplaceOnUseOn	=	WaterSource-PlasticCupWater,
+        RainFactor = 0.1,
+        Tooltip = Tooltip_item_RainFromGround,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+    }
+
+    item PopCanWater
+    {
+        Weight		=	0.8,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.12,
+	ReplaceOnDeplete	=	PopEmpty,
+        Type		=	Drainable,
+        DisplayName	=	Pop Can with Water,
+	ReplaceOnUseOn	=	WaterSource-PopCanWater,
+        Icon		=	PopEmpty,
+        MetalValue 	= 	10,
+	IsCookable	=	TRUE,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+        StaticModel 	= PopCanDiet,
+        WorldStaticModel = PopCanDietWorld,
+    }
+
+    item Pop2CanWater
+    {
+        Weight		=	0.8,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.12,
+	ReplaceOnDeplete	=	Pop2Empty,
+        Type		=	Drainable,
+        DisplayName	=	Pop Can with Water,
+	ReplaceOnUseOn	=	WaterSource-Pop2CanWater,
+        Icon		=	PopCan2Empty,
+        MetalValue 	= 	10,
+	IsCookable	=	TRUE,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+        StaticModel 	= PopCanDiet,
+        WorldStaticModel = PopCanRedWorld,
+    }
+
+    item Pop3CanWater
+    {
+        Weight		=	0.8,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.12,
+	ReplaceOnDeplete	=	Pop3Empty,
+        Type		=	Drainable,
+        DisplayName	=	Pop Can with Water,
+	ReplaceOnUseOn	=	WaterSource-Pop3CanWater,
+        Icon		=	PopCan3Empty,
+        MetalValue 	= 	10,
+	IsCookable	=	TRUE,
+	CustomContextMenu = Drink,
+	CustomEatSound = DrinkingFromBottle,
+        StaticModel 	= PopCanDiet,
+        WorldStaticModel = PopCanFizzWorld,
+    }
+
+	item RoastingPanWater
+	{
+		Weight		=	3,
+		WeightEmpty	=	1.3,
+		IsWaterSource	=	TRUE,
+		CanStoreWater	=	TRUE,
+        	Type		=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.05,
+		ReplaceOnUseOn	=	WaterSource-RoastingPanWater,
+		ReplaceOnDeplete	=	RoastingPan,
+		DisplayName	=	Roasting Pan with Water,
+		Icon		=	Roastingpan_Water,
+		MetalValue 	=	60,
+		RainFactor 	=	0.5,
+		IsCookable	=	TRUE,
+		Tooltip		=	Tooltip_item_RainFromGround,
+		StaticModel	=	RoastingPan,
+		WorldStaticModel = RoastingPan,
+	}
+
+    item TinCanWater
+    {
+        Weight		=	0.8,
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.1,
+	ReplaceOnDeplete	=	TinCanEmpty,
+        Type		=	Drainable,
+        DisplayName	=	Tin Can with Water,
+	ReplaceOnUseOn	=	WaterSource-TinCanWater,
+        Icon		=	SFTinCanWater,
+        MetalValue 	=	20,
+	RainFactor	=	1,
+	IsCookable	=	TRUE,
+	Tooltip		=	Tooltip_item_RainFromGround,
+	CustomContextMenu = Drink,
+	CustomEatSound 	= DrinkingFromBottle,
+        StaticModel	= CanOpen,
+	WorldStaticModel = CanOpen,
+    }
+
+    item WaterDishFull
+    {
+	IsWaterSource	=	TRUE,
+	CanStoreWater	=	TRUE,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.5,
+	ReplaceOnDeplete	=	WaterDish,
+	IsCookable	=	TRUE,
+        Weight		=	0.4,
+        Type		=	Drainable,
+        DisplayName	=	Water Dish,
+	ReplaceOnUseOn	=	WaterSource-WaterDishFull,
+        Icon		=	SFWaterDishFull,
+        MetalValue 	=	20,
+	RainFactor	=	0.5,
+	Tooltip		=	Tooltip_item_RainFromGround,
+	StaticModel	=	WaterDish,
+        WorldStaticModel = WaterDish,
+    }
+
+	item WaterGallon
+	{
+		IsWaterSource	=	TRUE,
+		Weight	=	10,
+		CanStoreWater	=	TRUE,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.004,
+		DisplayName	=	Water Gallon,
+		ReplaceOnDeplete	=	WaterGallonEmpty,
+		ReplaceOnUseOn	=	WaterSource-WaterGallon,
+		Icon	=	SFWaterGallonFull,
+		CustomContextMenu = Drink,
+		CustomEatSound = PZ_DrinkingFromBottle,
+	}
+
+	item WaterGallonEmpty
+	{
+		Weight	=	0.5,
+		CanStoreWater	=	TRUE,
+		Type	=	Normal,
+		DisplayName	=	Empty Water Gallon,
+		ReplaceOnUseOn	=	WaterSource-WaterGallon,
+		Icon	=	SFWaterGallon,
+	}
+
+}

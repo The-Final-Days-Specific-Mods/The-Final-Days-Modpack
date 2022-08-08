@@ -1,0 +1,5 @@
+name=Two Weapons on Back
+id=TwoWeaponsOnBack
+description=Sling mod with vanilla position.
+require=GEARCORE
+poster=poster.png

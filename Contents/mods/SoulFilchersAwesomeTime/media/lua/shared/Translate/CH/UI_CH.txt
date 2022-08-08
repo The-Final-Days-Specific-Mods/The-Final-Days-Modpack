@@ -1,0 +1,7 @@
+UI_CH = {
+	UI_prof_Homeless = "遊民",
+
+	UI_trait_Scavenger = "清道夫",
+	UI_trait_ScavengerDesc = "搜索時受到較少負面狀態的影響。",
+	-- UI_profdesc_Homeless = "懂得如何即興製作",
+}

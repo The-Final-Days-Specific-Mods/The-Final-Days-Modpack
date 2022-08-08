@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\SamuraiHalfMask</m_MaleModel>
+	<m_FemaleModel>static\clothes\SamuraiHalfMask</m_FemaleModel>
+	<m_GUID>38f0415f-d539-4424-a3ad-17891b2a8aa0</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>SamuraiHalfMask</textureChoices>
+</clothingItem>

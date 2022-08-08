@@ -1,0 +1,104 @@
+VERSION = 1,
+
+option ValhallaAegis.SanitizeFilenamesForWindows = {
+	type = boolean, default = false,
+	page = ValhallaAegis, translation = VA_SanitizeFilenamesForWindows,
+}
+option ValhallaAegis.EnableItemTransferProtection = {
+	type = boolean, default = true,
+	page = ValhallaAegis, translation = VA_EnableItemTransferProtection,
+}
+option ValhallaAegis.BlockedItemsForTransfer = {
+	type = string, default = Base.ATMReceiver,
+	page = ValhallaAegis, translation = VA_BlockedItemsForTransfer,
+}
+option ValhallaAegis.EnableEventCoordinationTools = {
+	type = boolean, default = false,
+	page = ValhallaAegis, translation = VA_EnableEventCoordinationTools,
+}
+option ValhallaAegis.EnableTrapSetLogging = {
+	type = boolean, default = false,
+	page = ValhallaAegis, translation = VA_EnableTrapSetLogging,
+}
+option ValhallaAegis.EnableTrapSetKicking = {
+	type = boolean, default = false,
+	page = ValhallaAegis, translation = VA_EnableTrapSetKicking,
+}
+
+
+option ValhallaAegis.BlockAllPickups = {
+	type = boolean, default = false,
+	page = ValhallaMP, translation = VA_BlockAllPickups,
+}
+option ValhallaAegis.BlockAllDisassembly = {
+	type = boolean, default = false,
+	page = ValhallaMP, translation = VA_BlockAllDisassembly,
+}
+option ValhallaAegis.EnableMovPickupLogging = {
+	type = boolean, default = true,
+	page = ValhallaMP, translation = VA_EnableMovPickupLogging,
+}
+
+
+option ValhallaAegis.EnableContainerProtection = {
+	type = boolean, default = true,
+	page = ValhallaCP, translation = VA_EnableContainerProtection,
+}
+option ValhallaAegis.AllowContainerPickup = {
+	type = boolean, default = true,
+	page = ValhallaCP, translation = VA_AllowContainerPickup,
+}
+option ValhallaAegis.EnableSHClaimThrottling = {
+	type = boolean, default = true,
+	page = ValhallaCP, translation = VA_EnableSHClaimThrottling,
+}
+option ValhallaAegis.SHDestructionTimerMin = {
+	type = integer, min = 1, max = 3600, default = 180,
+	page = ValhallaCP, translation = VA_SHDestructionTimerMin,
+}
+option ValhallaAegis.EnableSHOwnerCheck = {
+	type = boolean, default = false,
+	page = ValhallaCP, translation = VA_EnableSHOwnerCheck,
+}
+
+
+option ValhallaAegis.EnableVehicleOwnership = {
+	type = boolean, default = true,
+	page = ValhallaVO, translation = VA_EnableVehicleOwnership,
+}
+option ValhallaAegis.VehicleOwnershipClaimNo = {
+	type = integer, min = 1, max = 10, default = 5,
+	page = ValhallaVO, translation = VA_VehicleOwnershipClaimNo,
+}
+option ValhallaAegis.AllowVehicleManageFromCell = {
+	type = boolean, default = false,
+	page = ValhallaVO, translation = VA_AllowVehicleManageFromCell,
+}
+option ValhallaAegis.AllowPastOwnerReclaim = {
+	type = boolean, default = false,
+	page = ValhallaVO, translation = VA_AllowPastOwnerReclaim,
+}
+option ValhallaAegis.AllowVehicleReleaseAfterDays = {
+	type = integer, min = 1, max = 30, default = 6,
+	page = ValhallaVO, translation = VA_AllowVehicleReleaseAfterDays,
+}
+option ValhallaAegis.AllowVehicleWindowSmashing = {
+	type = boolean, default = false,
+	page = ValhallaVO, translation = VA_AllowVehicleWindowSmashing,
+}
+option ValhallaAegis.AllowVehicleTowing = {
+	type = boolean, default = true,
+	page = ValhallaVO, translation = VA_AllowVehicleTowing,
+}
+option ValhallaAegis.AllowDoorAndTrunkAccess = {
+	type = boolean, default = true,
+	page = ValhallaVO, translation = VA_AllowDoorAndTrunkAccess,
+}
+option ValhallaAegis.AllowStealingFromVehicleContainers = {
+	type = boolean, default = true,
+	page = ValhallaVO, translation = VA_AllowStealingFromVehicleContainers,
+}
+option ValhallaAegis.AllowSiphonGas = {
+	type = boolean, default = true,
+	page = ValhallaVO, translation = VA_AllowSiphonGas,
+}

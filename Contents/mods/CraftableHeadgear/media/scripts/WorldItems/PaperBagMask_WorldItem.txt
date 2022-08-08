@@ -1,0 +1,9 @@
+module Base
+{
+        model PaperBagMask_WorldItem
+    {
+        mesh = WorldItems/PaperBagMask_WorldItem,
+        texture = PaperBagMask,
+        scale = 1,
+    }
+}

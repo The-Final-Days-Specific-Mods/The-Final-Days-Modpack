@@ -1,0 +1,55 @@
+module Base
+{
+	recipe 注射 药剂
+	{
+		RewardMedic1/RewardMedic2/RewardMedic3/RewardMedic4/RewardMedic5/RewardMedic6,
+		Result 		: SutureNeedleHolder,
+		RemoveResultItem 		: TRUE,
+		Time 		: 80,
+		Category 		: 药剂,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.zhusheyaojiabcd,
+	}
+	item RewardMedic1
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂A-提升体格,
+		Icon 		= RewardMedic1,
+	}
+	item RewardMedic2
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂B-提升力量,
+		Icon 		= RewardMedic1,
+	}
+	item RewardMedic3
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂C-随机提升一项技能,
+		Icon 		= RewardMedic1,
+	}
+	item RewardMedic4
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂D-提升所有技能,
+		Icon 		= RewardMedic1,
+	}
+	item RewardMedic6
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂F-自杀,
+		Icon 		= RewardMedic1,
+	}
+	item RewardMedic5
+	{
+		Weight 		= 0.1,
+		Type 		= Normal,
+		DisplayName 		= 基因药剂E-治愈,
+		Icon 		= RewardMedic1,
+	}
+}

@@ -1,0 +1,9 @@
+module Base
+{
+        model WoodenMask_WorldItem
+    {
+        mesh = WorldItems/WoodenMask_WorldItem,
+        texture = WoodenMask,
+        scale = 1,
+    }
+}

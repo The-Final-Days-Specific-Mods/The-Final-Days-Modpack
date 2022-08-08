@@ -1,0 +1,9 @@
+module Base
+{
+        model MarkVI_WorldItem
+    {
+        mesh = WorldItems/MarkVI_WorldItem,
+        texture = MarkVI,
+        scale = 1,
+    }
+}

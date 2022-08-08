@@ -1,0 +1,378 @@
+   module Base
+{
+	imports
+    {
+        Base
+    }
+
+    /****************************** Mugs with Liquid Models *******************************/
+
+    /* Water Mugs */
+
+    model WaterMug
+    {
+        mesh = WorldItems/WaterMug,
+        texture = WorldItems/WaterMug,
+
+    }
+    model WaterMugRed
+    {
+        mesh = WorldItems/WaterMug,
+        texture = WorldItems/WaterMugRed,
+    }
+
+    model WaterMugWhite
+    {
+        mesh = WorldItems/WaterMug,
+        texture=WorldItems/WaterMugWhite,
+    }
+
+    model WaterMugSpiffo
+    {
+        mesh = WorldItems/WaterMug,
+        texture=WorldItems/WaterMugYellowSpiffo,
+    }
+
+    /* Hot Drink Mugs */
+
+    model HotDrinkMug
+    {
+        mesh = WorldItems/WaterMug,
+        texture = WorldItems/HotDrinkMug,
+
+    }
+    model HotDrinkMugRed
+    {
+        mesh = WorldItems/WaterMug,
+        texture = WorldItems/HotDrinkMugRed,
+    }
+
+    model HotDrinkMugWhite
+    {
+        mesh = WorldItems/WaterMug,
+        texture=WorldItems/HotDrinkMugWhite,
+    }
+
+    model HotDrinkMugYellowSpiffo
+    {
+        mesh = WorldItems/WaterMug,
+        texture=WorldItems/HotDrinkMugYellowSpiffo,
+    }
+
+
+    /****************************** Bellybutton Jewellery Models *******************************/
+
+	model BellyButton_DangleGold
+	{
+		mesh = WorldItems/BellyButtonDangle,
+		texture = WorldItems/bellybuttongold,
+	}
+	
+	model BellyButton_DangleGoldRuby
+	{
+		mesh = WorldItems/BellyButtonDangle,
+		texture = WorldItems/bellybuttongoldruby,
+	}
+
+	model BellyButton_DangleSilver
+	{
+		mesh = WorldItems/BellyButtonDangle,
+		texture = WorldItems/bellybuttonsilver,
+	}
+
+	model BellyButton_DangleSilverDiamond
+	{
+		mesh = WorldItems/BellyButtonDangle,
+		texture = WorldItems/bellybuttonsilverdiamond,
+	}
+
+    model BellyButton_RingGold
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttongold,
+
+    }
+
+    model BellyButton_RingGoldDiamond
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttongolddiamond,
+
+    }
+
+	model BellyButton_RingGoldRuby
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttongoldruby,
+
+    }
+
+	model BellyButton_RingSilver
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttonsilver,
+
+    }
+
+	model BellyButton_RingSilverAmethyst
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttonsilveramethyst,
+
+    }
+
+	model BellyButton_RingSilverDiamond
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttonsilverdiamond,
+
+    }
+
+	model BellyButton_RingSilverRuby
+    {
+
+        mesh = WorldItems/BellyButtonRing,
+        texture = WorldItems/bellybuttonsilverruby,
+
+    }
+
+    model BellyButton_StudGold
+    {
+        mesh = WorldItems/BellyButtonStud,
+        texture= WorldItems/bellybuttongold,
+    }
+
+	model BellyButton_StudGoldDiamond
+    {
+        mesh = WorldItems/BellyButtonStud,
+        texture= WorldItems/bellybuttongolddiamond,
+    }
+
+	model BellyButton_StudSilver
+    {
+        mesh = WorldItems/BellyButtonStud,
+        texture= WorldItems/bellybuttonsilver,
+    }
+
+	model BellyButton_StudSilverDiamond
+    {
+        mesh = WorldItems/BellyButtonStud,
+        texture= WorldItems/bellybuttonsilverdiamond,
+    }
+
+    /****************************** Radio Module Models *******************************/
+
+    model RadioReceiver {
+
+        mesh = WorldItems/CircuitBoard,
+        texture = WorldItems/RadioReceiver,
+
+    }
+
+    model RadioTransmitter {
+
+        mesh = WorldItems/CircuitBoard,
+        texture = WorldItems/RadioTransmitter,
+
+    }
+
+    model ScannerModule {
+
+        mesh = WorldItems/ScannerModule,
+        texture = WorldItems/ScannerModule,
+
+    }
+
+    /****************************** Trap *******************************/
+
+    model TrapCrate
+    {
+        mesh = WorldItems/TrapCrate,
+	  texture = WorldItems/TrapCrate,
+        scale = 0.4,
+    }
+
+    /****************************** Poached Egg *******************************/
+
+    model EggPoached
+    {
+        mesh = WorldItems/EggPoached,
+	  texture = WorldItems/EggPoached,
+        scale = 0.4,
+    }
+
+    /****************************** Muffin Tray *******************************/
+
+    model Tray_Muffin
+    {
+        mesh = WorldItems/TrayMuffinEmpty,
+	  texture = WorldItems/TrayMuffin,
+        scale = 0.3,
+    }
+
+    model BakingTray_Muffin
+    {
+        mesh = WorldItems/BakingTray_Muffin,
+	  texture = WorldItems/TrayMuffin,
+        scale = 0.3,
+    }
+
+    /****************************** Smore *******************************/
+
+    model Smore
+    {
+        mesh = WorldItems/Smore,
+	  texture = WorldItems/Smore,
+    }
+
+    /****************************** Wasabi *******************************/
+
+    model Wasabi
+    {
+        mesh = WorldItems/Wasabi,
+	  texture = WorldItems/Wasabi,
+    }
+
+    /****************************** PaperNapkins  *******************************/
+
+    model PaperNapkins
+    {
+        mesh = WorldItems/PaperNapkins,
+	  texture = WorldItems/SheetOfPaper,
+    }
+
+    /****************************** Seaweed *******************************/
+
+    model Seaweed
+    {
+        mesh = WorldItems/Seaweed,
+	  texture = WorldItems/Seaweed,
+    }
+
+    /****************************** Sushi *******************************/
+
+    model SushiFish
+    {
+        mesh = WorldItems/SushiFish,
+	  texture = WorldItems/SushiFish,
+    }
+
+    model SushiEgg
+    {
+        mesh = WorldItems/SushiEgg,
+	  texture = WorldItems/SushiEgg,
+    }
+
+    /****************************** Straw *******************************/
+
+    model Straw
+    {
+        mesh = WorldItems/Straw,
+	  texture = WorldItems/Straw,
+    }
+
+    /****************************** PlasticTray *******************************/
+
+    model PlasticTray
+    {
+	  mesh = WorldItems/PlasticTray,
+	  texture = WorldItems/PlasticTray,
+    }
+
+    /****************************** EggScrambled *******************************/
+
+    model EggScrambled
+    {
+        mesh = WorldItems/EggScrambled,
+	  texture = WorldItems/EggScrambled,
+    }
+
+    /****************************** CarvingFork *******************************/
+
+    model CarvingFork
+    {
+        mesh = WorldItems/CarvingFork,
+	  texture = WorldItems/CarvingForkSpatula,
+    }
+
+    /****************************** Spatula *******************************/
+
+    model Spatula
+    {
+        mesh = WorldItems/Spatula,
+	  texture = WorldItems/CarvingForkSpatula,
+    }
+
+    /****************************** KitchenTongs *******************************/
+
+    model KitchenTongs
+    {
+        mesh = WorldItems/KitchenTongs,
+	  texture = WorldItems/CarvingForkSpatula,
+    }
+
+    /****************************** FountainCup *******************************/
+
+    model FountainCup
+    {
+        mesh = WorldItems/FountainCup,
+	  texture = WorldItems/FountainCup,
+    }
+
+    /****************************** BaguetteSandwich *******************************/
+
+    model BaguetteSandwich
+    {
+        mesh = BaguetteSandwich,
+	  texture = WorldItems/BaguetteSandwich,
+	  scale = 0.4,
+    }
+
+    model BaguetteSandwich_Ground
+    {
+        mesh = WorldItems/Baguette,
+	  texture = WorldItems/BaguetteSandwich,
+	  scale = 0.4,
+    }
+
+    /****************************** Sling *******************************/
+
+    model Sling
+    {
+        mesh = WorldItems/Sling,
+	  texture = WorldItems/Sling,
+	  scale = 0.4,
+    }
+
+    /****************************** FiberglassStock *******************************/
+
+    model FiberglassStock
+    {
+        mesh = WorldItems/FiberglassStock,
+	  texture = WorldItems/FiberglassStock,
+	  scale = 0.4,
+    }
+
+    /****************************** Gravy and GravyMix*******************************/
+
+    model Gravy
+    {
+        mesh = WorldItems/Gravy,
+	  texture = WorldItems/Gravy,
+	  scale = 0.4,
+    }
+
+    model GravyMix
+    {
+        mesh = WorldItems/SeedPacket,
+	  texture = WorldItems/GravyMix,
+	  scale = 0.7,
+    }
+
+}

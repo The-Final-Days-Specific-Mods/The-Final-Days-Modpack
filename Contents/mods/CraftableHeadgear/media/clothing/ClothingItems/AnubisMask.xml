@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\AnubisMask</m_MaleModel>
+	<m_FemaleModel>static\clothes\AnubisMaskFemale</m_FemaleModel>
+	<m_GUID>d7d8bbf6-2e1a-4391-9faa-62e9ee3443aa</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>AnubisMask</textureChoices>
+</clothingItem>

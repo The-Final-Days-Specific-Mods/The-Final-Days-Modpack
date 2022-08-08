@@ -1,0 +1,45 @@
+/****************************** Official Models That Needed Fixing *******************************/
+
+/****************************** Base Module *******************************/
+
+   module Base
+{
+	imports
+    {
+        Base
+    }
+
+    model Crayfish_Ground
+    {
+        mesh = WorldItems/Crayfish,
+	    /* This model had its texture set to be the same as the lobster's, however, since lobster is food it has multiple textures depending on if it's raw, cooked, burnt or rotten. This was set to use "lobster.png" which doesn't exist and should be set to "lobsterRaw.png" instead. */
+	    texture = WorldItems/LobsterRaw,
+        scale = 0.4,
+    }
+
+    model RawOnionRings_Ground
+    {
+        mesh = WorldItems/OnionRings,
+	    texture = WorldItems/RawOnionRings,
+        scale = 0.4,
+    }
+
+}
+
+/****************************** Camping Module *******************************/
+
+module camping
+{
+	imports
+    {
+        Base
+    }
+
+    model CampingTentKit {
+
+        mesh = WorldItems/TentKit,
+        texture = WorldItems/CampingTentKit,
+	    scale = 0.3,
+
+    }
+}

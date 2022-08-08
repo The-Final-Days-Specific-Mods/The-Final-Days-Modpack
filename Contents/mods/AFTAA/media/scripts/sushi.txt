@@ -1,0 +1,24 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item SushiFish
+	{
+		HungerChange	=	-12,
+		Weight	=	0.1,
+		Type	=	Food,
+		DaysTotallyRotten	=	4,
+		DisplayName	=	Fish Sushi,
+		Icon	=	SushiFish,
+		DaysFresh	=	2,
+        Carbohydrates = 5,
+        Proteins = 10,
+        Lipids = 0,
+        Calories = 19,
+		WorldStaticModel = SushiFish,
+	}
+
+}

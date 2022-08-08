@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+	<male>
+		<name>LeftPartingTall</name>
+		<model>skinned/hair/m_hair_leftpartingtall</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group04" style="LeftParting" />
+		<alternate category="Group05" style="LeftParting" />
+		<level>1</level>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>RightPartingTall</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</male>
+	<male>
+		<name>MohawkWide</name>
+		<model>skinned/hair/m_hair_mohawkwide</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkWide" />
+		<alternate category="Group01" style="MohawkWide" />
+		<alternate category="Group02" style="MohawkWide" />
+		<alternate category="Group04" style="MohawkWide" />
+		<alternate category="Group05" style="MohawkWide" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+	</male>
+	<male>
+		<name>MohawkWideSpiked</name>
+		<model>skinned/hair/m_hair_mohawkwidespiked</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkWide" />
+		<alternate category="Group01" style="MohawkWide" />
+		<alternate category="Group02" style="MohawkWide" />
+		<alternate category="Group04" style="MohawkWide" />
+		<alternate category="Group05" style="MohawkWide" />
+		<level>1</level>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>MohawkWide</trimChoices>
+	</male>
+	<male>
+		<name>RightPartingTall</name>
+		<model>skinned/hair/m_hair_rightpartingtall</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group04" style="RightParting" />
+		<alternate category="Group05" style="RightParting" />
+		<level>1</level>
+		<trimChoices>LeftParting</trimChoices>
+		<trimChoices>LeftPartingTall</trimChoices>
+		<trimChoices>RightParting</trimChoices>
+		<trimChoices>Short</trimChoices>
+		<trimChoices>CrewCut</trimChoices>
+		<trimChoices>CentreParting</trimChoices>
+		<trimChoices>Picard</trimChoices>
+		<trimChoices>Baldspot</trimChoices>
+		<trimChoices>Hat</trimChoices>
+		<trimChoices>Messy</trimChoices>
+		<trimChoices>Cornrows</trimChoices>
+		<trimChoices>Fresh</trimChoices>
+		<trimChoices>GreasedBack</trimChoices>
+	</male>
+	<male>
+		<name>Guile</name>
+		<model>skinned/hair/m_hair_guile</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkWide" />
+		<alternate category="Group01" style="MohawkWide" />
+		<alternate category="Group02" style="MohawkWide" />
+		<alternate category="Group04" style="MohawkWide" />
+		<alternate category="Group05" style="MohawkWide" />
+		<level>2</level>
+		<trimChoices>Donny</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkFlat</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+	</male>
+	<female>
+		<name>Chloe</name>
+		<model>skinned/hair/f_hair_chloe</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="Hat" />
+		<alternate category="Group01" style="Hat" />
+		<alternate category="Group02" style="Hat" />
+		<alternate category="Group04" style="Hat" />
+		<alternate category="Group05" style="Chloe" />
+		<level>2</level>
+		<trimChoices>Bob</trimChoices>
+		<trimChoices>OverEye</trimChoices>
+		<trimChoices>CentrePartingLong</trimChoices>
+		<trimChoices>Rachel</trimChoices>
+		<trimChoices>MohawkFan</trimChoices>
+		<trimChoices>MohawkSpike</trimChoices>
+		<trimChoices>LibertySpikes</trimChoices>
+		<trimChoices>Braids</trimChoices>
+		<trimChoices>Buffont</trimChoices>
+		<trimChoices>Grungey02</trimChoices>
+		<trimChoices>GrungeyBehindEars</trimChoices>
+		<trimChoices>Grungey</trimChoices>
+	</female>
+	<female>
+		<name>Power</name>
+		<model>skinned/hair/f_hair_power</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="PonyTail" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group04" style="PonyTail" />
+		<alternate category="Group05" style="PonyTail" />
+		<level>3</level>
+	</female>
+	<female>
+		<name>PowerBig</name>
+		<model>skinned/hair/f_hair_powerbig</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="PonyTail" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group04" style="PonyTail" />
+		<alternate category="Group05" style="PonyTail" />
+		<level>3</level>
+		<trimChoices>Long2</trimChoices>
+		<trimChoices>Kate</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+		<trimChoices>Power</trimChoices>
+		<trimChoices>PowerParted</trimChoices>
+	</female>
+	<female>
+		<name>PowerParted</name>
+		<model>skinned/hair/f_hair_powerparted</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="PonyTail" />
+		<alternate category="Group01" style="PonyTail" />
+		<alternate category="Group02" style="PonyTail" />
+		<alternate category="Group04" style="PonyTail" />
+		<alternate category="Group05" style="PonyTail" />
+		<level>3</level>
+		<trimChoices>Long2</trimChoices>
+		<trimChoices>Kate</trimChoices>
+		<trimChoices>LongBraids</trimChoices>
+		<trimChoices>LongBraids02</trimChoices>
+		<trimChoices>Power</trimChoices>
+		<trimChoices>PowerBig</trimChoices>
+	</female>
+	<female>
+		<name>MohawkWide</name>
+		<model>skinned/hair/m_hair_mohawkwide</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkWide" />
+		<alternate category="Group01" style="MohawkWide" />
+		<alternate category="Group02" style="MohawkWide" />
+		<alternate category="Group04" style="MohawkWide" />
+		<alternate category="Group05" style="MohawkWide" />
+		<level>1</level>
+		<trimChoices>Demi</trimChoices>
+	</female>
+	<female>
+		<name>MohawkWideSpiked</name>
+		<model>skinned/hair/m_hair_mohawkwidespiked</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="MohawkWide" />
+		<alternate category="Group01" style="MohawkWide" />
+		<alternate category="Group02" style="MohawkWide" />
+		<alternate category="Group04" style="MohawkWide" />
+		<alternate category="Group05" style="MohawkWide" />
+		<level>1</level>
+		<trimChoices>MohawkWide</trimChoices>
+	</female>
+</hairStyles>

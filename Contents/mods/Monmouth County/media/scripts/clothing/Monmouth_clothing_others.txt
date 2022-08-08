@@ -1,0 +1,61 @@
+module MonmouthClothing {
+  imports {
+      Base
+  }
+    item Skin_White_Zed_M_DeadApe
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_White_Zed_M_DeadApe,
+		BodyLocation = TankTop,
+    }
+	item Skin_Red_Zed_M_RedZed
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_Red_Zed_M_RedZed,
+		BodyLocation = TankTop,
+    }
+	item Skin_Red_Zed_F_RedZed
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_Red_Zed_F_RedZed,
+		BodyLocation = TankTop,
+    }
+	item Skin_Level1_Zed_M
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_Level1_Zed_M,
+		BodyLocation = TankTop,
+    }
+	item Skin_M_ZomJay
+    {
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_M_ZomJay,
+		BodyLocation = TankTop,
+    }
+	item Skin_M_ZomSilentBob
+	{
+       DisplayCategory = Accessory,		
+		Type = Clothing,
+		ClothingItem = Skin_M_ZomSilentBob,
+		BodyLocation = TankTop,
+    }
+	item Glove_Single_Art
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Single Art Glove,
+		ClothingItem = Glove_Single_Art,
+		BodyLocation = Hands,
+		BloodLocation = Hands,
+		Icon = SingleArtGlove,
+		Weight = 0.1,
+        Insulation = 0.25,
+        WindResistance = 0.3,
+        WorldStaticModel = Gloves_Ground,
+	}
+}

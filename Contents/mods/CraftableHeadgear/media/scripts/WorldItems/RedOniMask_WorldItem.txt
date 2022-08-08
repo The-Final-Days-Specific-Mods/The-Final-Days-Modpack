@@ -1,0 +1,9 @@
+module Base
+{
+        model RedOniMask_WorldItem
+    {
+        mesh = WorldItems/RedOniMask_WorldItem,
+        texture = RedOniMask,
+        scale = 1,
+    }
+}

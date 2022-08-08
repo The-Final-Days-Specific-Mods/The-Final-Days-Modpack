@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+	ContextMenu_OpenJacket = "Wear Open",
+	ContextMenu_CloseJacket = "Wear Closed"
+}

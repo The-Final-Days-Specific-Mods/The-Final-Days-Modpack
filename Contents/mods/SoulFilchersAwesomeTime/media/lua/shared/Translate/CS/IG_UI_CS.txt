@@ -1,0 +1,31 @@
+IGUI_CS = {
+
+	--Beautifying Time
+
+    IGUI_Beard_ChinLong = "Dlouhá bradka",
+    IGUI_Beard_ChinSquare = "Hranatá bradka",
+    IGUI_Beard_ChinSquareLong = "Hranatá bradka dlouhá",
+    IGUI_Beard_ChinstrapThin = "Tenká bradka",
+    IGUI_Beard_Hollywoodian = "Hollywoodský",
+    IGUI_Beard_Horseshoe = "Podkova",
+    IGUI_Beard_Lemmy = "Lemmy",
+    IGUI_Beard_SoulPatch = "Soul Patch",
+    IGUI_Hair_Chloe = "Chloe",
+    IGUI_Hair_Guile = "Guile",
+    IGUI_Hair_LeftPartingTall = "Pìšinka nalevo vysoká",
+    IGUI_Hair_MohawkWide = "Široký Mohawk",
+    IGUI_Hair_MohawkWideSpiked = "Široký špièatý Mohawk",
+    IGUI_Hair_Power = "Power",
+    IGUI_Hair_PowerBig = "Power Big",
+    IGUI_Hair_PowerParted = "Power Parted",
+    IGUI_Hair_RightPartingTall = "Pìšinka napravo vysoká",
+    IGUI_Hair_Zack = "Zack",
+
+	--Building Time
+
+	IGUI_perks_Masonry = "Zednictví",
+
+	--Exploring Time
+
+    IGUI_HotbarAttachment_Head = "Hlava",
+}

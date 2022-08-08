@@ -1,0 +1,23 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item FiberglassStock
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Fiberglass Stock,
+        Icon = RifleFibreglassStock,
+        Weight = 1,
+        WeightModifier = -0.5,
+        HitChanceModifier = 8,
+        MountOn = HuntingRifle; VarmintRifle,
+        PartType = Stock,
+        Tooltip = Tooltip_FiberglassStock,
+	  WorldStaticModel = FiberglassStock,
+    }
+
+}

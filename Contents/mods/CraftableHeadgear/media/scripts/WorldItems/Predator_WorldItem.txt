@@ -1,0 +1,9 @@
+module Base
+{
+        model Predator_WorldItem
+    {
+        mesh = WorldItems/Predator_WorldItem,
+        texture = Predator,
+        scale = 1,
+    }
+}

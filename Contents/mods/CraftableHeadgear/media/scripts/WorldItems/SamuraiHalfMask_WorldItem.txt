@@ -1,0 +1,9 @@
+module Base
+{
+        model SamuraiHalfMask_WorldItem
+    {
+        mesh = WorldItems/SamuraiHalfMask_WorldItem,
+        texture = SamuraiHalfMask,
+        scale = 1,
+    }
+}

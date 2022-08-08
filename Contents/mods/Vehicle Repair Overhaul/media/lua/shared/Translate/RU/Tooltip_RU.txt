@@ -1,0 +1,3 @@
+Tooltip_RU = {
+	Tooltip_FixAFlat = "ремонт автомобильных шин.",
+}

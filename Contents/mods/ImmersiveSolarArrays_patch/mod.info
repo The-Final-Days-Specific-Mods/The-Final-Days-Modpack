@@ -1,0 +1,5 @@
+name=ImmersiveSolarArrays_patch
+poster=poster.png
+id=ISA_patch
+description=Immersive Solar Arrays Patch
+require=ISA

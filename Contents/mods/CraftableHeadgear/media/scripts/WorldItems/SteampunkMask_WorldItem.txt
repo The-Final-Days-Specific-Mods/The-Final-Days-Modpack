@@ -1,0 +1,9 @@
+module Base
+{
+        model SteampunkMask_WorldItem
+    {
+        mesh = WorldItems/SteampunkMask_WorldItem,
+        texture = SteampunkMask,
+        scale = 1,
+    }
+}

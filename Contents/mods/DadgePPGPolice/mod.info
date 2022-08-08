@@ -1,0 +1,5 @@
+name=Dadge Steals PPG to Police
+id=DadgePPGPolice
+description=Converts the rare PPG Pacecar to a Sheriff Interceptor
+poster=poster.png
+require=ATA_Dadge

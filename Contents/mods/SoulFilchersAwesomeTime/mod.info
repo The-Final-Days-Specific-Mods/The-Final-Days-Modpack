@@ -1,0 +1,7 @@
+name=Soul Filcher's Awesome Time
+id=AwesomeTime
+description=Mod pack made for servers.
+poster=poster.png
+pack=sfbuild
+pack=SFFarm
+tiledef=sfbuild 1985

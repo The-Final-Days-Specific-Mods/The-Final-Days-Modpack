@@ -1,0 +1,9 @@
+module Base
+{
+        model Gunslinger_WorldItem
+    {
+        mesh = WorldItems/Gunslinger_WorldItem,
+        texture = Gunslinger,
+        scale = 1,
+    }
+}

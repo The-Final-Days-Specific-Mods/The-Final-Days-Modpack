@@ -1,0 +1,17 @@
+UI_FR = {
+	--DRESSING TIME
+	UI_ClothingType_Ads = "Pub",
+	UI_ClothingType_Belt = "Ceinture",
+	UI_ClothingType_Billboard = "Tableau",
+	UI_ClothingType_Black = "Noir",
+	UI_ClothingType_Church = "Religieux",
+	UI_ClothingType_Election = "Élection",
+	UI_ClothingType_ShirtUntucked = "T-shirt déplié",
+	UI_ClothingType_Tartan = "Tartan",
+	UI_ClothingType_Tinted = "Teinté",
+
+	--FORAGING TIME
+  UI_prof_Homeless = "Mendiant",
+
+  UI_trait_Scavenger = "Dégustateur",
+}

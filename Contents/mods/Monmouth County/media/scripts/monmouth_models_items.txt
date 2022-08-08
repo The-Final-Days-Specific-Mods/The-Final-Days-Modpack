@@ -1,0 +1,8 @@
+module Base
+{
+	model Judge_Helmet_Ground
+	{
+		mesh = WorldItems/WorldItem_Helmet_Judge,
+		texture = clothes\hat\Helmet_Judge,
+	}
+}

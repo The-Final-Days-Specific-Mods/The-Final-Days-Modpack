@@ -1,0 +1,5 @@
+ItemName_RU = {
+	ItemName_FixAFlat.FixAFlat = "спрей для ремонта шин",
+	ItemName_TW.MetalParts = "куски металлолома",
+	ItemName_TW.Spring = "металлическая пружина",
+}

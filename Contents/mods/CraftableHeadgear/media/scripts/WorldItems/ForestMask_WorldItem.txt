@@ -1,0 +1,9 @@
+module Base
+{
+        model ForestMask_WorldItem
+    {
+        mesh = WorldItems/ForestMask_WorldItem,
+        texture = ForestMask,
+        scale = 1,
+    }
+}

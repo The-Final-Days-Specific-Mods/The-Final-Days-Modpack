@@ -1,0 +1,9 @@
+module Base
+{
+        model DallasMask_WorldItem
+    {
+        mesh = WorldItems/DallasMask_WorldItem,
+        texture = DallasMask,
+        scale = 1,
+    }
+}

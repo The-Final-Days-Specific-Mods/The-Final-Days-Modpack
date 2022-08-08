@@ -1,0 +1,21 @@
+[English]--
+
+Welcome to Hong Kong!
+
+The map is based on of "Yau Ma Tei" in Hong Kong.
+
+Because of the biochemical attack in the area, the citizens have turned into zombies.
+
+The Hong Kong government has decided to enclose the entire epidemic area, and the citizens inside the wall can only find a way to survive.
+
+How many days can you survive?
+
+[中文]--
+
+歡迎來到香港！
+
+地圖設定在香港「油麻地」的地區，因為區內受到生化襲擊，市民都變成喪屍，港府決定將整個疫區圍封，牆內市民只能自己想辦法繼續生存。
+
+在香港這類高密集的環境當中，你可以預見到處都會有大量殭屍。
+
+Map Coordinates(地圖座標): 41,24

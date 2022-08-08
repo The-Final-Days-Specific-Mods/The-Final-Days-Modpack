@@ -1,0 +1,21 @@
+Version 2.13
+-Minor bugfix, bandages not tracking.
+
+Version 2.12
+- Dirty Bandages are more forgiving, swarms during the night should happen less often.
+
+Version 2.11
+- Modified the default sandbox values.
+
+Version 2.1
+- Each wound type now has their own radius as well as their corresponding bleeding and dirty bandage, all configurable in the sandbox setting.
+- Wounds stack so be careful when setting high numbers.
+- Major code refactoring.
+
+Version 2.0
+- Added the option to configure the distance at which Zombies can track bleeding players. (Default 10 meters)
+- Fix zombies being able to track non-bleeding injuries through non dirty bandages.
+
+Version 1.0
+*Mod created by OgreLeg
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\ChumBucket</m_MaleModel>
+	<m_FemaleModel>static\clothes\ChumBucket</m_FemaleModel>
+	<m_GUID>3bdb0e56-99c4-4154-bcaa-72f6a9dfffc5</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group02</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>ChumBucket</textureChoices>
+</clothingItem>

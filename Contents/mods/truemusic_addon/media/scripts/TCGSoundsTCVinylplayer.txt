@@ -1,0 +1,233 @@
+module Tsarcraft
+{
+	sound VinylBASILVALDEZSanaAyIkawNaNga
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/BASIL VALDEZ - Sana Ay Ikaw Na Nga.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBreathlessbySharonCuneta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Breathless by Sharon Cuneta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylCan'tFindNoReasonbyLouieHeredia
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Can't Find No Reason by Louie Heredia.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylIDon'tNeedToSayILoveYoubyMartinNievera
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/I Don't Need To Say I Love You by Martin Nievera.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylIsn'tSheLovelybyRaymondLauchengco
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Isn't She Lovely by Raymond Lauchengco.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJULIEVEGASomewhereInMyPast(LP)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/JULIE VEGA - Somewhere In My Past (LP).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKUHLEDESMAIThinkI'mInLove
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/KUH LEDESMA - I Think I'm In Love.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylLEASALONGAIfOnly(Lp1987)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/LEA SALONGA - If Only (Lp_1987).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylLovingYoubyGerryParaiso
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Loving You by Gerry Paraiso.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylMARTINNIEVERAEachDayWithYou(Lp1984)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/MARTIN NIEVERA - Each Day With You (Lp_1984).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylMARTINNIEVERAHowCanI(LP1984)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/MARTIN NIEVERA - How Can I (LP_1984).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNEOCOLOURSMaybe(Lp1990)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/NEOCOLOURS - Maybe (Lp_1990).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNEOCOLOURSTuloyPaRin(onVinyl)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/NEOCOLOURS - Tuloy Pa Rin (on Vinyl).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNONOYZUNIGAHaveIReallyLostYou(LP1982)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/NONOY ZUNIGA - Have I Really Lost You (LP_1982).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylOGIEALCASIDDitoSaPusoKo(LP)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/OGIE ALCASID - Dito Sa Puso Ko (LP).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylPa'NoNgayonDiNaKitaMahalbyCristyMendoza
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Pa'No Ngayon Di Na Kita Mahal by Cristy Mendoza.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRIcSegretoLovingYou(1982)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/RIc Segreto - Loving You (1982).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSHARONCUNETAEwan(1979)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/SHARON CUNETA - Ewan (1979).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSinceYouSaidGoodbyebyRicSegreto
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Since You Said Goodbye by Ric Segreto.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylVST&COMPANYIkawAngAkingMahal(Lp1978)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/VST & COMPANY - Ikaw Ang Aking Mahal (Lp_1978).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylVST&COMPANYIpagpatawad(Lp1978)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/VST & COMPANY - Ipagpatawad (Lp_1978).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylZSAZSAPADILLAIkawLamang(Lp1986)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/ZSAZSA PADILLA - Ikaw Lamang (Lp_1986).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylZSAZSAPADILLAMambobola
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/ZSAZSA PADILLA - Mambobola.ogg,
+			distanceMax = 75,
+		}
+	}
+}

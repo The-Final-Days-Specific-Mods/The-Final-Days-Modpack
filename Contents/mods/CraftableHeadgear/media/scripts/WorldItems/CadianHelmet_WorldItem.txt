@@ -1,0 +1,9 @@
+module Base
+{
+        model CadianHelmet_WorldItem
+    {
+        mesh = WorldItems/CadianHelmet_WorldItem,
+        texture = CadianHelmet,
+        scale = 1,
+    }
+}

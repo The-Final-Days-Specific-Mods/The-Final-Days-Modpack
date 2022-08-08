@@ -1,0 +1,36 @@
+ItemName_CH = {
+
+	-- Beautifying Time
+
+	ItemName_Base.HairDyeAuburn = "¬V¾v¾¯(¨ª½Å)",
+	ItemName_Base.HairDyeAvocado = "¬V¾v¾¯(¹T±ù)",
+	ItemName_Base.HairDyeCherry = "¬V¾v¾¯(Äå®ç)",
+	ItemName_Base.HairDyeCyan = "¬V¾v¾¯(«C)",
+	ItemName_Base.HairDyeDarkBlue = "¬V¾v¾¯(²`ÂÅ)",
+	ItemName_Base.HairDyeDarkBrown = "¬V¾v¾¯(²`´Ä)",
+	ItemName_Base.HairDyeDarkTurquoise = "¬V¾v¾¯(²`ºñªQ)",
+	ItemName_Base.HairDyeDeepPurple = "¬V¾v¾¯(²`µµ)",
+	ItemName_Base.HairDyeGrey = "¬V¾v¾¯(¦Ç)",
+	ItemName_Base.HairDyeLightBlonde = "¬V¾v¾¯(²Lª÷)",
+	ItemName_Base.HairDyeLilac = "¬V¾v¾¯(²Hµµ)",
+	ItemName_Base.HairDyeLime = "¬V¾v¾¯(¿Ã¥úºñ)",
+	ItemName_Base.HairDyeMagenta = "¬V¾v¾¯(¬v¬õ)",
+	ItemName_Base.HairDyeOlive = "¬V¾v¾¯(¾ñÆV)",
+	ItemName_Base.HairDyeOrange = "¬V¾v¾¯(¾í)",
+	ItemName_Base.HairDyePurple = "¬V¾v¾¯(µµ)",
+	ItemName_Base.HairDyeTurquoise = "¬V¾v¾¯(ºñªQ)",
+	ItemName_Base.HairDyeSnowWhite = "¬V¾v¾¯(³·¥Õ)",
+
+	-- Drinking Time
+
+	ItemName_Base.JarWater = "¬Á¼þÅø(¤ô)",
+	ItemName_Base.PetrolCanWater = "¨TªoÅø(¤ô)",
+	ItemName_Base.PopCanWater = "¨T¤ôÅø(¤ô)",
+	ItemName_Base.PopCan2Water = "¨T¤ôÅø(¤ô)",
+	ItemName_Base.PopCan3Water = "¨T¤ôÅø(¤ô)",
+	ItemName_Base.RoastingPanWater = "¯N½L(¤ô)",
+	ItemName_Base.TinCanWater = "¾TÅø(¤ô)",
+	ItemName_Base.WaterDishFull = "¤ô¬Ö(¤ô)",
+
+	-- Exploring Time
+}

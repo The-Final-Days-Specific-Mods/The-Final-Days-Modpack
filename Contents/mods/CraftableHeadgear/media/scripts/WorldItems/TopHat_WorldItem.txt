@@ -1,0 +1,9 @@
+module Base
+{
+        model TopHat_WorldItem
+    {
+        mesh = WorldItems/TopHat_WorldItem,
+        texture = TopHat,
+        scale = 1,
+    }
+}

@@ -1,0 +1,21 @@
+﻿Recipe_JP = {
+
+	-- 2021-09-23 Version 4.01
+
+	-- MRE XIII (1993) - Meal Ready to Eat MOD
+
+	Recipe_Open_MRE_Box = "箱を開ける",
+	Recipe_Place_MRE_in_Box = "箱に入れる",
+	Recipe_Open_MRE_package = "袋を開ける",
+	Recipe_Heat_with_a_heater = "温める",
+	Recipe_Insert_hot_sauce = "入れる",
+	Recipe_Make_Cuppa = "飲み物を作る",
+	Recipe_Open_MRE_Accessory_Packet = "開ける",
+	Recipe_Pour_water = "水を注ぐ",
+	Recipe_Apply_Cheese_spread = "クラッカーに塗る",
+	Recipe_Apply_Jelly = "クラッカーに塗る",
+	Recipe_Apply_Peanut_Butter = "クラッカーに塗る",
+	Recipe_Put_of_MRE_box_on_pallet = "パレットに載せる",
+	Recipe_Remove_MRE_box_from_pallet = "パレットから出す",
+
+}

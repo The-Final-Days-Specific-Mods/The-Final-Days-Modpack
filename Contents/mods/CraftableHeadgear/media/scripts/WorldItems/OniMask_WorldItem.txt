@@ -1,0 +1,9 @@
+module Base
+{
+        model OniMask_WorldItem
+    {
+        mesh = WorldItems/OniMask_WorldItem,
+        texture = OniMask,
+        scale = 1,
+    }
+}

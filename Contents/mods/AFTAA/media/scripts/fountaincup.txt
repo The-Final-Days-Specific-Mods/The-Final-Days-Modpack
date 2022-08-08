@@ -1,0 +1,17 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item FountainCup
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=   Fountain Cup,
+        Icon	=	FountainCup,
+	  WorldStaticModel = FountainCup,
+    }
+
+}

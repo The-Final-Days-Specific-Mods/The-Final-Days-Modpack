@@ -1,0 +1,122 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+    item Lobster
+	{
+		HungerChange	=	-40,
+		Weight	=	0.4,
+		Type	=	Food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	60,
+		DisplayName	=	Lobster,
+		Icon	=	Lobster,
+		DaysFresh	=	2,
+		MinutesToCook	=	30,
+		EvolvedRecipe = Soup:20;Stew:20;Pie:10;Stir fry Griddle Pan:20;Stir fry:20;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Burger:20;Salad:20|Cooked;Roasted Vegetables:20;RicePot:20;RicePan:20;PastaPot:20;PastaPan:20,
+		FoodType    =   Fish,
+        Carbohydrates = 0,
+        Proteins = 28,
+        Lipids = 7,
+        Calories = 120,
+        BadInMicrowave = true,
+        GoodHot = true,
+	  /* This was missing the WorldStaticModel line. */
+	  WorldStaticModel = Lobster,
+	}
+
+    item Icing
+	{
+		HungerChange	=	-10,
+		Weight	=	0.1,
+		UnhappyChange	=	-10,
+        DaysFresh	=	4,
+        DaysTotallyRotten	=	8,
+		AlwaysWelcomeGift	=	true,
+		Type	=	Food,
+		DisplayName	=	Icing,
+		Icon	=	Icing,
+        Carbohydrates = 80,
+        Proteins = 16,
+        Lipids = 44,
+        Calories = 110,
+	  /* This was missing the _Ground suffix. */
+        WorldStaticModel = Icing_Ground,
+	}
+
+    item TofuFried
+    {
+        Type				=		Food,
+        DisplayName			=		Fried Tofu,
+        Icon				=		TofuFried,
+        Weight				=		0.3,
+        HungerChange 		=		-15,
+        DaysFresh 			=		6,
+        DaysTotallyRotten 	=	 	14,
+        EvolvedRecipe       =       Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Burger:15;Salad:15;RicePot:15;RicePan:15,
+        FoodType            =       Vegetables,
+        Carbohydrates = 3,
+        Proteins = 5,
+        Lipids = 1,
+        Calories = 35,
+	  /* This had no model or texture. Will use the Tofu model and a new texture. */
+	  WorldStaticModel = TofuFried_Ground,
+    }
+
+    item OnionRings
+    {
+        HungerChange	=	-5,
+        Weight	=	0.1,
+        Type	=	Food,
+        DaysTotallyRotten	=	7,
+        DisplayName	=	Onion Rings,
+        EvolvedRecipe = Soup:5;Stew:5;Pie:5;Stir fry Griddle Pan:5;Stir fry:5;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5;Taco:5;Burrito:5,
+        FoodType    =   Vegetables,
+        Icon	=	Rings,
+        DaysFresh	=	4,
+        Carbohydrates = 12,
+        Proteins = 1,
+        Lipids = 3,
+        Calories = 30,
+	  /* This uses the same model and texture as the fried onion rings. Will use the Fried onion rings model and a new texture. Odd naming convention used for new texture so as to avoid changing to many vanilla files (fried onion rings will still have model name "onionrings") */
+        WorldStaticModel = RawOnionRings_Ground,
+    }
+
+    item Cornmeal
+	{
+		Weight	=	1,
+		Type	=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	=	0.25,
+		DisplayName	=	Cornmeal,
+		Icon	=	Cornmeal,
+		WorldStaticModel = Cornflour_Ground,
+		/* I believe this is deprecated/not used in game in favour of using corn flour? Currently using cornflour model and texture just in case. */
+	}
+
+}
+
+
+module camping
+{
+	imports
+    {
+        Base
+    }
+
+    item CampingTentKit
+	{
+	    DisplayCategory = Camping,
+		Type				=		Normal,
+		DisplayName			=	 Tent Kit,
+		Icon				=		TentKit,
+		Weight				=		3.0,
+		/* This was missing the WorldStaticModel line because it had a model but no texture. */
+		WorldStaticModel = camping.CampingTentKit,
+	}
+}

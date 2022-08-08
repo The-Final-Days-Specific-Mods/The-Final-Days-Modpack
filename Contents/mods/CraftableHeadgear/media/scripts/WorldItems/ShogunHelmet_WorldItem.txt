@@ -1,0 +1,9 @@
+module Base
+{
+        model ShogunHelmet_WorldItem
+    {
+        mesh = WorldItems/ShogunHelmet_WorldItem,
+        texture = ShogunHelmet,
+        scale = 1,
+    }
+}

@@ -1,0 +1,80 @@
+module Base
+{
+
+	item Distiller
+	{
+	Weight = 5,
+	CanStoreWater = TRUE,
+	RainFactor = 1,
+	Type = Normal,
+	ReplaceOnUseOn	=	WaterSource-DistillerWater,
+	DisplayName = Distiller,
+	Icon = Distiller,
+	Metalvalue = 50,
+	SurvivalGear = TRUE,
+	EatType = Pot,
+	IsCookable	=	TRUE,
+	WorldStaticModel = DistillerGround,
+	}
+
+	recipe Distill Gasohol
+	{
+        Heat:-0.22,
+	Sugar = 1,
+	Corn = 20,
+	Water = 20,
+        CanBeDoneFromFloor:true,
+	keep DistillerWater,
+	destroy EmptyPetrolCan,
+        Category:Survivalist,
+	Result:PetrolCan,
+        Time:1000.0,
+	}
+
+	recipe Distill Gasohol (Strawberries)
+	{
+        Heat:-0.22,
+	Strewberrie = 20,
+	Corn = 30,
+	Water = 20,
+        CanBeDoneFromFloor:true,
+	keep DistillerWater,
+	destroy EmptyPetrolCan,
+        Category:Survivalist,
+	Result:PetrolCan,
+        Time:2000.0,
+	}
+
+	recipe Create Distiller
+	{
+	Pot = 1,
+	SheetMetal = 1,
+	BlowTorch = 10,
+	MetalPipe = 1,
+        Category:Welding,
+	Result:Distiller = 1,
+        SkillRequired:MetalWelding=10;Cooking=10,
+        Time:2000.0,
+	}
+
+	item DistillerWater
+	{
+	Weight = 7,
+	IsWaterSource	=	TRUE,
+	CanStoreWater = TRUE,
+	Type	=	Drainable,
+	RainFactor = 1,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	=	0.04,
+	ReplaceOnDeplete	=	Distiller,
+	DisplayName = Distiller with water,
+	ReplaceOnUseOn	=	WaterSource-DistillerWater,
+	Icon = Distiller,
+	Metalvalue = 50,
+	IsCookable	=	TRUE,
+	SurvivalGear = TRUE,
+	EatType = Pot,
+	WorldStaticModel = DistillerGround,
+	}
+
+}

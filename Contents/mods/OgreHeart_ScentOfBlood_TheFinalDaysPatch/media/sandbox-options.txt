@@ -1,0 +1,47 @@
+VERSION = 1,
+
+option ScentOfBlood.dbandageModifier
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_dbandageModifier, description = Sandbox_ScentOfBlood_dbandageModifier_tooltip,
+}
+option ScentOfBlood.scratchModifier
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_scratchModifier, description = Sandbox_ScentOfBlood_scratchModifier_tooltip,
+}
+option ScentOfBlood.sbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_sbleedModifier, description = Sandbox_ScentOfBlood_sbleedModifier_tooltip,
+}
+option ScentOfBlood.cutModifier
+{
+	type = integer, min = 0, max = 100, default = 2,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_cutModifier, description = Sandbox_ScentOfBlood_cutModifier_tooltip,
+}
+option ScentOfBlood.cbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_cbleedModifier, description = Sandbox_ScentOfBlood_cbleedModifier_tooltip,
+}
+option ScentOfBlood.biteModifier
+{
+	type = integer, min = 0, max = 100, default = 10,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_biteModifier, description = Sandbox_ScentOfBlood_biteModifier_tooltip,
+}
+option ScentOfBlood.bbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_bbleedModifier, description = Sandbox_ScentOfBlood_bbleedModifier_tooltip,
+}
+option ScentOfBlood.dwoundModifier
+{
+	type = integer, min = 0, max = 100, default = 7,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_dwoundModifier, description = Sandbox_ScentOfBlood_dwoundModifier_tooltip,
+}
+option ScentOfBlood.dbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 10,
+	page = ScentOfBlood, translation = Sandbox_ScentOfBlood_dbleedModifier, description = Sandbox_ScentOfBlood_dbleedModifier_tooltip,
+}

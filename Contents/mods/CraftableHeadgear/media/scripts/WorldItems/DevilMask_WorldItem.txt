@@ -1,0 +1,9 @@
+module Base
+{
+        model DevilMask_WorldItem
+    {
+        mesh = WorldItems/DevilMask_WorldItem,
+        texture = DevilMask,
+        scale = 1,
+    }
+}

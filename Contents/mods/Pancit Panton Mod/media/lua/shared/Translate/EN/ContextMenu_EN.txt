@@ -1,0 +1,4 @@
+ContextMenu_EN = {
+    ContextMenu_EvolvedRecipe_PancitPot = "Noodles",
+    ContextMenu_EvolvedRecipe_PancitPan = "Noodles",
+}

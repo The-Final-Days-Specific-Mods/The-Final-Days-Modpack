@@ -1,0 +1,9 @@
+module Base
+{
+        model VendettaMask_WorldItem
+    {
+        mesh = WorldItems/VendettaMask_WorldItem,
+        texture = VendettaMask,
+        scale = 1,
+    }
+}

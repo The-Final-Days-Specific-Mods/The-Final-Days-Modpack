@@ -1,0 +1,8 @@
+Farming_ES = {
+	-- Translation by Alapma from Steam
+	Farming_Beets = "Remolacha",
+	Farming_Cauliflowers = "Coliflor",
+	Farming_Corn = "Maíz",
+	Farming_Lemongrass = "Citronela",
+	Farming_Wheat = "Trigo",
+}

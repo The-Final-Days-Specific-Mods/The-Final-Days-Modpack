@@ -1,0 +1,8 @@
+Farming_FR = {
+  -- vegetables name (type of seed)
+  Farming_Beets = "Betteraves",
+  Farming_Cauliflowers = "Choux-fleurs",
+  Farming_Corn = "Maïs",
+  Farming_Lemongrass = "Citronnelle",
+  Farming_Wheat = "Blé",
+}

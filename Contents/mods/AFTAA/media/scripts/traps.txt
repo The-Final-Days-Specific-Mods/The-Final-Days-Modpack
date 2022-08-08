@@ -1,0 +1,77 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+
+/************************Traps************************/
+    item TrapSnare
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Snare Trap,
+        Icon	=	TrapSnare,
+        Trap    =   true,
+	  WorldStaticModel = TrapSnare,
+    }
+
+    item TrapCage
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Cage Trap,
+        Icon	=	TrapCage,
+        Trap    =   true,
+        MetalValue = 10,
+	  WorldStaticModel = TrapCage,
+    }
+
+    item TrapMouse
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Mouse Trap,
+        Icon	=	Mousetrap,
+        Trap    =   true,
+        MetalValue = 2,
+	  WorldStaticModel = TrapMouse,
+    }
+
+    item TrapBox
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Trap Box,
+        Icon	=	TrapBox,
+        Trap    =   true,
+	  WorldStaticModel = TrapBox,
+    }
+
+    item TrapCrate
+    {
+        DisplayCategory = Trapping,
+        Weight	=	1,
+        Type	=	Normal,
+        DisplayName	=	Trap Crate,
+        Icon	=	TrapCrate,
+        Trap    =   true,
+	  WorldStaticModel = TrapCrate,
+    }
+
+    item TrapStick
+    {
+        DisplayCategory = Trapping,
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Stick Trap,
+        Icon	=	TrapStick,
+        Trap    =   true,
+	  WorldStaticModel = TrapStick,
+    }
+
+}

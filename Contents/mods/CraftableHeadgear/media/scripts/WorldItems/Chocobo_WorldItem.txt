@@ -1,0 +1,9 @@
+module Base
+{
+        model Chocobo_WorldItem
+    {
+        mesh = WorldItems/Chocobo_WorldItem,
+        texture = Chocobo,
+        scale = 1,
+    }
+}

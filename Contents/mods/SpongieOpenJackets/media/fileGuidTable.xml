@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fileGuidTable>
+
+	<!--Regular Jacket model-->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_WhiteOPEN.xml</path>
+		<guid>d9d60d23-OPEN-4a97-8e74-9e7b3c35d620</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_RangerOPEN.xml</path>
+		<guid>ccff1f69-OPEN-4f0d-a3d1-814d38d73bae</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PoliceOPEN.xml</path>
+		<guid>c280861d-OPEN-4914-ac94-99de18700c68</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyCamoDesertOPEN.xml</path>
+		<guid>eb8d1f35-OPEN-4c9c-a308-aba2aa040f90</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ArmyCamoGreenOPEN.xml</path>
+		<guid>b0d642f6-OPEN-456c-aeb0-1b190b29a364</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_BlackOPEN.xml</path>
+		<guid>9e094ca7-OPEN-4c7d-ae70-597fa4c8a330</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_ChefOPEN.xml</path>
+		<guid>7837ebe5-OPEN-46af-9e4d-723a0c2a5988</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_CoatArmyOPEN.xml</path>
+		<guid>b3c4c9cf-OPEN-4b4b-b13d-30efd77b3626</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_FiremanOPEN.xml</path>
+		<guid>56e0b193-OPEN-4061-9a73-167f6b253ec7</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Jacket_VarsityOPEN.xml</path>
+		<guid>f756aca5-OPEN-4ee5-bc34-d0327347a2d0</guid>
+	</files>
+	
+	<!--Long Jacket Model-->
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_DoctorOPEN.xml</path>
+		<guid>d66bd59d-OPEN-4cea-9474-a3b69c67f71d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_RandomOPEN.xml</path>
+		<guid>a8f1dbc6-OPEN-40d1-8a1a-adbcd33f5b41</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaOPEN.xml</path>
+		<guid>c423a3bb-OPEN-40cc-bb27-ba615a51941f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_SantaGreenOPEN.xml</path>
+		<guid>1cb0dd48-OPEN-435e-8677-2b9fa6d8e3f3</guid>
+	</files>
+	
+	<!--Biker Jacket Model-->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherBarrelDogsOPEN.xml</path>
+		<guid>32f1b190-OPEN-416a-bab4-22703c1580de</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherIronRodentOPEN.xml</path>
+		<guid>ee3467ff-OPEN-4038-b8db-0242b0672ab4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_LeatherWildRaccoonsOPEN.xml</path>
+		<guid>e2c3dc8a-OPEN-445d-9ea7-6b8f1f1fa69f</guid>
+	</files>
+	
+	<!--Suit Jacket Model-->
+	<files>
+		<path>media/clothing/clothingItems/Suit_JacketOPEN.xml</path>
+		<guid>eecd5923-OPEN-4b33-9c4c-66045ea6984e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Suit_JacketTINTOPEN.xml</path>
+		<guid>e284f0ef-OPEN-4357-982f-98bcf728a238</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/WeddingJacketOPEN.xml</path>
+		<guid>0e10adb3-OPEN-42bd-abe9-d860ee432cd6</guid>
+	</files>
+	
+	<!--Bowling Shirt-->
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingBlueOPEN.xml</path>
+		<guid>bd61ce74-OPEN-4f1c-8332-e881648907d9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingBrownOPEN.xml</path>
+		<guid>bf98d676-OPEN-4ea0-8f4e-75ed16041678</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingGreenOPEN.xml</path>
+		<guid>36b68334-OPEN-4392-9e50-04e3e8a50731</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingLimeGreenOPEN.xml</path>
+		<guid>151cefee-OPEN-47e6-8c57-53c669eda6a0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingPinkOPEN.xml</path>
+		<guid>08d0cabd-OPEN-4fe1-8a96-0b0f1259a5e4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_BowlingWhiteOPEN.xml</path>
+		<guid>3b980c2c-OPEN-4bc1-925b-1e4fe0e39605</guid>
+	</files>
+	
+	<!--Boiler Suit-->
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_BlueRedOPEN.xml</path>
+		<guid>217d1ff0-OPEN-4a4e-9a89-08a7e01a42ff</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_FlyingOPEN.xml</path>
+		<guid>25b7d5d3-OPEN-4aaa-8fe7-a8563871621c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_PrisonerKhakiOPEN.xml</path>
+		<guid>b9b611ea-OPEN-4e00-986c-b7bcc7bcdcbe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_PrisonerOPEN.xml</path>
+		<guid>a35d155b-OPEN-45f1-aba2-be181072b487</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Boilersuit_YellowOPEN.xml</path>
+		<guid>29dd624b-OPEN-455f-b8ae-26c867e2c790</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BoilersuitOPEN.xml</path>
+		<guid>559ed514-OPEN-497c-a2a0-b7e1ec77f8ef</guid>
+	</files>
+	
+	<!--Shell Suit-->
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_BlackOPEN.xml</path>
+		<guid>34d41504-OPEN-4c08-a07c-e4a71d790374</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_BlueOPEN.xml</path>
+		<guid>2bf22c9a-OPEN-48f5-b4e1-2f3f2346a540</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_GreenOPEN.xml</path>
+		<guid>a2dbc813-OPEN-4916-b85d-df16b04d103d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_PinkOPEN.xml</path>
+		<guid>73dca55c-OPEN-40f2-a3bf-0b9e0093701e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_TealOPEN.xml</path>
+		<guid>9c6991a9-OPEN-4137-964d-933f661b7655</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Shellsuit_WhiteOPEN.xml</path>
+		<guid>68b29f86-OPEN-47d2-a6eb-c1aee7e5df12</guid>
+	</files>
+	
+</fileGuidTable>

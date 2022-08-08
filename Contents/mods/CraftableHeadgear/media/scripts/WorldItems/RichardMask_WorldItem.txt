@@ -1,0 +1,9 @@
+module Base
+{
+        model RichardMask_WorldItem
+    {
+        mesh = WorldItems/RichardMask_WorldItem,
+        texture = RichardMask,
+        scale = 1,
+    }
+}

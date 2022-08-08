@@ -1,0 +1,10 @@
+Items_RU = {
+	DisplayNameRifle_Sling = "Ремень для оружия",
+	DisplayNameSchool_Bag = "Школьный рюкзак",
+	DisplayNameGolf_Bag = "Сумка для гольфа",
+	DisplayNameDuffel_Bag = "Спортивная сумка",
+	DisplayNameHiking_Bag = "Походный рюкзак",
+	DisplayNameBig_Hiking_Bag = "Большой походный рюкзак",
+	DisplayNameLarge_Backpack = "Туристический рюкзак",
+	DisplayNameMilitary_Backpack = "Армейский рюкзак",
+}

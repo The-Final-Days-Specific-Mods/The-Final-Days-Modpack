@@ -1,0 +1,173 @@
+module Base
+{
+	imports
+    {
+        Base
+    }
+	item BellyButton_DangleGold
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Dangle Gold,
+		ClothingItem = BellyButton_DangleGold,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonDangleGold,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_DangleGold,
+	}
+    item BellyButton_DangleGoldRuby
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Dangle Gold Ruby,
+		ClothingItem = BellyButton_DangleGoldRuby,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonDangleGoldRuby,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+        WorldStaticModel = BellyButton_DangleGoldRuby,
+	}
+    item BellyButton_DangleSilver
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Dangle Silver,
+		ClothingItem = BellyButton_DangleSilver,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonDangleSilver,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_DangleSilver,
+	}
+    item BellyButton_DangleSilverDiamond
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Dangle Silver Diamond,
+		ClothingItem = BellyButton_DangleSilverDiamond,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonDangleSilverDiamond,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_DangleSilverDiamond,
+	}
+    item BellyButton_RingGold
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Gold,
+		ClothingItem = BellyButton_RingGold,
+		BodyLocation = BellyButton,
+		Icon = NoseRing_Gold,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingGold,
+	}
+    item BellyButton_RingGoldDiamond
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Gold Diamond,
+		ClothingItem = BellyButton_RingGoldDiamond,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonRingGoldDiamond,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingGoldDiamond,
+	}
+    item BellyButton_RingGoldRuby
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Gold Ruby,
+		ClothingItem = BellyButton_RingGoldRuby,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonRingGoldRuby,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+        WorldStaticModel = BellyButton_RingGoldRuby,
+	}
+    item BellyButton_RingSilver
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Silver,
+		ClothingItem = BellyButton_RingSilver,
+		BodyLocation = BellyButton,
+		Icon = NoseRing_Silver,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingSilver,
+	}
+    item BellyButton_RingSilverAmethyst
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Silver Amethyst,
+		ClothingItem = BellyButton_RingSilverAmethyst,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonRingSilverAmethyst,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingSilverAmethyst,
+	}
+    item BellyButton_RingSilverDiamond
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Silver Diamond,
+		ClothingItem = BellyButton_RingSilverDiamond,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonRingSilverDiamond,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingSilverDiamond,
+	}
+    item BellyButton_RingSilverRuby
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Ring Silver Ruby,
+		ClothingItem = BellyButton_RingSilverRuby,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonRingSilverRuby,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_RingSilverRuby,
+	}
+    item BellyButton_StudGold
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Stud Gold,
+		ClothingItem = BellyButton_StudGold,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonStudGold,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+        WorldStaticModel = BellyButton_StudGold,
+	}
+    item BellyButton_StudGoldDiamond
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Stud Gold Diamond,
+		ClothingItem = BellyButton_StudGoldDiamond,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonStudGoldDiamond,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_StudGoldDiamond,
+	}
+    item BellyButton_StudSilver
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Stud Silver,
+		ClothingItem = BellyButton_StudSilver,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonStudSilver,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_StudSilver,
+	}
+    item BellyButton_StudSilverDiamond
+	{
+		Type = Clothing,
+		DisplayName = Belly Button Stud Silver Diamond,
+		ClothingItem = BellyButton_StudSilverDiamond,
+		BodyLocation = BellyButton,
+		Icon = BellyButtonStudSilverDiamond,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = BellyButton_StudSilverDiamond,
+	}
+
+}

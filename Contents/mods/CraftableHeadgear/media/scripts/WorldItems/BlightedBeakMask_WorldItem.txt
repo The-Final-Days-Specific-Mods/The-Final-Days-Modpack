@@ -1,0 +1,9 @@
+module Base
+{
+        model BlightedBeakMask_WorldItem
+    {
+        mesh = WorldItems/BlightedBeakMask_WorldItem,
+        texture = BlightedBeakMask,
+        scale = 1,
+    }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\RedOniMask</m_MaleModel>
+	<m_FemaleModel>static\clothes\RedOniMask</m_FemaleModel>
+	<m_GUID>0a2cf3e2-cf85-462c-be18-e05d9dc7ec8c</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>RedOniMask</textureChoices>
+</clothingItem>

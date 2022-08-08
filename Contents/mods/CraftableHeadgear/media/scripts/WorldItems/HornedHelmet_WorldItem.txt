@@ -1,0 +1,9 @@
+module Base
+{
+        model HornedHelmet_WorldItem
+    {
+        mesh = WorldItems/HornedHelmet_WorldItem,
+        texture = HornedHelmet,
+        scale = 1,
+    }
+}

@@ -1,0 +1,8 @@
+Farming_PTBR = {
+  -- vegetables name (type of seed)
+  Farming_Beets = "Beterrabas",
+  Farming_Cauliflowers = "Couve Flor",
+  Farming_Corn = "Milho",
+  Farming_Lemongrass = "Capim Limão",
+  Farming_Wheat = "Trigo",
+}

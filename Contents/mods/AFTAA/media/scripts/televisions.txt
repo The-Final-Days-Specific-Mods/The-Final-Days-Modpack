@@ -1,0 +1,85 @@
+module Radio
+{
+	imports
+    {
+        Base
+    }
+
+/****************************** Televisions (Custom Icons) *******************************/
+
+	item TvAntique
+	{
+	    DisplayCategory = Communications,
+		Type			= Radio,
+		Icon			= TVAntique,
+		Weight          	= 10.0,
+
+		DisplayName		= Antique Television,
+        
+		UseDelta		= 0.014, 
+		UseWhileEquipped	= FALSE,
+		DisappearOnUse		= FALSE,
+		TwoWay			= FALSE,
+		TransmitRange		= 0,
+		MicRange		= 0,
+		BaseVolumeRange		= 10,
+		IsPortable		= FALSE,
+		IsTelevision		= TRUE,
+		MinChannel		= 200,
+		MaxChannel		= 1000000,
+		UsesBattery		= FALSE,
+		IsHighTier		= FALSE,
+		WorldObjectSprite	= appliances_television_01_8,
+	}
+	item TvWideScreen
+	{
+	    DisplayCategory = Communications,
+		Type			= Radio,
+		Icon			= TVWideScreen,
+		Weight          	= 10.0,
+
+		DisplayName		= Premium Technologies Television,
+        
+		UseDelta		= 0.007, 
+		UseWhileEquipped	= FALSE,
+		DisappearOnUse		= FALSE,
+		TwoWay			= FALSE,
+		TransmitRange		= 0,
+		MicRange		= 0,
+		BaseVolumeRange		= 15,
+		IsPortable		= FALSE,
+		IsTelevision		= TRUE,
+		MinChannel		= 200,
+		MaxChannel		= 1000000,
+		UsesBattery		= FALSE,
+		IsHighTier		= FALSE,
+		WorldObjectSprite	= appliances_television_01_0,
+		AcceptMediaType = 1,
+	}
+	item TvBlack
+	{
+	    DisplayCategory = Communications,
+		Type			= Radio,
+		Icon			= TVBlack,
+		Weight          	= 10.0,
+
+		DisplayName		= ValuTech Television,
+        
+		UseDelta		= 0.009, 
+		UseWhileEquipped	= FALSE,
+		DisappearOnUse		= FALSE,
+		TwoWay			= FALSE,
+		TransmitRange		= 0,
+		MicRange		= 0,
+		BaseVolumeRange		= 12,
+		IsPortable		= FALSE,
+		IsTelevision		= TRUE,
+		MinChannel		= 200,
+		MaxChannel		= 1000000,
+		UsesBattery		= FALSE,
+		IsHighTier		= FALSE,
+		WorldObjectSprite	= appliances_television_01_4,
+		AcceptMediaType = 1,
+	}
+
+}

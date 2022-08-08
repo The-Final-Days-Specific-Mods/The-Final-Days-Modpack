@@ -1,0 +1,123 @@
+UI_IT = {
+
+-- Positive traits
+
+UI_trait_sneaky = "Furtivo",
+UI_trait_sneakydesc = "(Si muove in modo meno appariscente quando si intrufola.)",
+
+UI_trait_lightfooted = "Passo Leggero",
+UI_trait_lightfooteddesc = "(Fa meno rumore durante lo spostamento.)",
+
+UI_trait_nimble = "Destrezza",
+UI_trait_nimbledesc = "(Movimento piu veloce in modalita Mira.)",
+
+UI_trait_marathonrunner = "Corridore",
+UI_trait_marathonrunnerdesc = "Puo correre (non correre) un po' piu a lungo senza stancarsi.",
+
+UI_trait_strongnimble = "Adattivo",
+UI_trait_strongnimbledesc = "Puo combattere con le armi da mischia un po' piu a lungo senza stancarsi.<br>(Ha la possibilita di spendere meno resistenza quando brandisce le armi da mischia.)",
+
+	UI_trait_ninjaway = "Via del Ninja",
+	UI_trait_ninjawaydesc = "Ripristina permanentemente una piccola quantita di resistenza mentre ti muovi furtivamente (non si muove, cammina o corre).",
+
+UI_trait_mushroomer = "Cercatore di Funghi",
+UI_trait_mushroomerdesc = "Aumenta la possibilita di trovare funghi in modalita ricerca.<br>Conosce le Erbe:<br>Puoi trovare erbe medicinali ed ottenere rimedi e impasti da esse.<br>(Puo identificare i cibi velenosi.)",
+
+UI_trait_amforager = "Raccoglitore",
+UI_trait_amforagerdesc = "",
+
+UI_trait_amtrapper = "Bracconiere",
+UI_trait_amtrapperdesc = "(Puo costruire trappole.)",
+
+UI_trait_amcook = "Sguattero",
+UI_trait_amcookdesc = "",
+
+UI_trait_amelectrician = "Tecnico-Elettricista",
+UI_trait_amelectriciandesc = "",
+
+UI_trait_ammechanic = "Meccanico",
+UI_trait_ammechanicdesc = "",
+
+UI_trait_amcarpenter = "Carpentiere",
+UI_trait_amcarpenterdesc = "",
+
+UI_trait_ammetalworker = "Saldatore",
+UI_trait_ammetalworkerdesc = "",
+
+UI_trait_durabile = "Durevole",
+UI_trait_durabiledesc = "(Le armi da mischia si rompono meno.)",
+
+UI_trait_shortbladefan = "Perforante",
+UI_trait_shortbladefandesc = "",
+
+UI_trait_shortbluntfan = "Frantumatore",
+UI_trait_shortbluntfandesc = "",
+
+UI_trait_cutter = "Tagliente",
+UI_trait_cutterdesc = "",
+
+UI_trait_spearman = "Lanciere",
+UI_trait_spearmandesc = "",
+
+UI_trait_swordsman = "Spadaccino",
+UI_trait_swordsmandesc = "",
+
+UI_trait_gunfan = "Tiratore",
+UI_trait_gunfandesc = "",
+
+UI_trait_sharpshooter = "Cecchino",
+UI_trait_sharpshooterdesc = "",
+
+	UI_trait_taut = "Teso",
+	UI_trait_tautdesc = "",
+
+	-- Negative traits
+
+	UI_trait_slack = "Lento",
+	UI_trait_slackdesc = "",
+	
+	UI_trait_sensitivestomach = "Digestione sensibile",
+	UI_trait_sensitivestomachdesc = "L'eccesso di cibo causa mal di stomaco e nausea.",		
+
+	UI_trait_weathersensitive = "Sensibile alle condizioni meteorologiche",
+	UI_trait_weathersensitivedesc = "Mal di testa quando il tempo cambia.<br>Anche la testa puo far male quando piove o nevica.",
+
+	UI_trait_sorelegstrait = "Gambe doloranti",
+	UI_trait_sorelegstraitdesc = "Le gambe iniziano a far male mentre si cammina, si corre, si fa fitness e si calpesta.<br>Quando si scatta, le gambe fanno molto piu male ed espirano molto piu velocemente.",
+	
+	-- Weight traits	
+	
+	UI_trait_cangrabmore = "Schiena forte",
+	UI_trait_cangrabmoredesc = "Porta piu peso.<br>(bonus: piu 1-2 peso massimo a seconda della forza,<br>piu forza, piu bonus.)",
+	
+	UI_trait_cangrabless = "Schiena debole",
+	UI_trait_cangrablessdesc = "Porta meno peso.<br>(penalita: meno 1-3 peso massimo a seconda della forza,<br>piu forza, piu penalita.)",
+	
+	-- Bleeding traits	
+
+	UI_trait_hbwounds = "Ferite fortemente sanguinanti",
+	UI_trait_hbwoundsdesc = "Le ferite sanguinano di piu.<br>(+100% effetto sanguinamento).",
+
+	UI_trait_wbwounds = "Ferite debolmente sanguinanti",
+	UI_trait_wbwoundsdesc = "Le ferite sanguinano di meno.<br>(-50% effetto sanguinamento).",
+
+	-- Drowsiness traits
+	
+	UI_trait_owlperson = "Gufo",
+	UI_trait_owlpersondesc = "Preferisce essere sveglio la sera.<br>(La sonnolenza si accumula piu lentamente a tarda sera (19:00-23:00),<br>ma piu velocemente al mattino presto (05:00-10:00))",
+	
+	UI_trait_larkperson = "Allodola",
+	UI_trait_larkpersondesc = "Preferisce essere sveglio al mattino.<br>(La sonnolenza si accumula piu lentamente al mattino presto (05:00-10:00),<br>ma piu velocemente in tarda serata (19:00-23:00)).",
+
+	-- New	
+	
+	UI_trait_panicattacks = "Attacco di panico",
+	UI_trait_panicattacksdesc = "A volte soffro di attacchi di panico.<br>Ogni panico passa piu lentamente.",
+	
+	UI_trait_MSTAllergic = "Allergico",
+	UI_trait_MSTAllergicdesc = "Di tanto in tanto starnutisce involontariamente.",	
+	
+	UI_trait_MSTAlcoholic = "Alcolico",
+	UI_trait_MSTAlcoholicdesc = "Tollera facilmente una forte ubriachezza.<br>Le condizioni generali peggioreranno se l'alcol non viene bevuto per molto tempo.",	
+
+}
