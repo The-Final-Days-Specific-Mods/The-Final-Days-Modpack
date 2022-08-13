@@ -1,3 +1,6 @@
+VECRECOIL = 100 -- For Fire Rate Between Shots Penalty
+VEC_AIMTIME = 50 -- For Aiming Time Penalty 
+
 --------------------------------------------------------------------------
 --  DISTANCE UTILITY FROM SUPERB-SURVIVORS (by Nolan Richie)		--
 --------------------------------------------------------------------------
@@ -18,8 +21,8 @@ function DebugSay(lvl,text)
 	local level = (GUNFIGHTER.OPTIONS.options.dropdown17)
 	if (lvl <= level) then
 		getSpecificPlayer(0):addLineChatElement(text)
-	--	getSpecificPlayer(0):Say(text)
-	--	getTextManager():DrawString(UIFont.Medium, 100, 100, text, 1, 1, 1, 1.0);
+		getSpecificPlayer(0):Say(text)
+		getTextManager():DrawString(UIFont.Medium, 100, 100, text, 1, 1, 1, 1.0);
 	end
 end
 
@@ -2192,6 +2195,7 @@ function WeaponStatus(weapon)
 		----------------------
 		if (GUNFIGHTER.OPTIONS.options.box10 == true) then
 			weapon:setCondition(weapon:getConditionMax())
+
 		end
 
 		----------------------
@@ -2201,13 +2205,14 @@ function WeaponStatus(weapon)
 			local	penalized = weapon:getModData().aimingpenalized		-- MAKE SURE ONLY APPLIED ONCE
 			local	penalty = 0
 			local	aim	= weapon:getAimingTime()
+			local recoildelay = weapon:getRecoilDelay()
 			local	weight	= round(weapon:getWeight(),2)
 			local	length = weapon:getModData().OAL
 			if	length == nil then
 				length = 0
 			end
-
-			penalty = (weight/2) + ( ((1+length)*(1+length)*(1+length)*(1+length)*(1+length)*(1+length)) / 250 )	-- BASIC PENALTY BY LENGTH
+			
+			penalty = VEC_AIMTIME + (weight/2) + ( ((1+length)*(1+length)*(1+length)*(1+length)*(1+length)*(1+length)) / 250 )	-- BASIC PENALTY BY LENGTH
 
 			if (weapon:isRequiresEquippedBothHands() or weapon:isTwoHandWeapon()) then	-- ADDITIONAL MODIFIER FOR CONVERSION
 				if	(string.find(weapon:getType(), "Fold")) then
@@ -2239,8 +2244,9 @@ function WeaponStatus(weapon)
 			if	(attacker:getVehicle()) and (penalized == nil) then
 				DebugSay(3,"Vehicle AimTime Penalty "..tostring(round(penalty), 2).."Length "..tostring(length))
 				weapon:setAimingTime(aim - penalty)
+				weapon:setRecoilDelay(VECRECOIL)
 				weapon:getModData().aimingpenalized = penalty
-			elseif	(attacker:getVehicle() == nil) and (penalized ~= nil) then
+			elseif ((attacker:getVehicle() == nil) or (attacker:getVehicle() == null)) and (penalized ~= nil) then
 				weapon:setAimingTime(aim + penalized)
 				weapon:getModData().aimingpenalized = nil
 
@@ -2347,8 +2353,21 @@ function calcRecoilDelay(weapon)
 		elseif	ammo	== "Base.WaterAmmo" then		calc	= 0
 		end
 
+		local attacker	= getSpecificPlayer(0)
+		local weapon	= nil
 
-		weapon:setRecoilDelay(calc)
+		if attacker ~= nil then				-- PREVENT RESPAWN ERRORS
+			weapon	= attacker:getPrimaryHandItem()
+		end
+		
+		local penalized = weapon:getModData().aimingpenalized
+
+		if ((attacker:getVehicle() == nil) or (attacker:getVehicle() == null)) and (penalized == nil) then
+			weapon:setRecoilDelay(calc)
+		else
+			weapon:setRecoilDelay(VECRECOIL)
+			DebugSay(3, "Penalized")
+		end
 
 		weapon:attachWeaponPart(weapon:getModData().TempScope)
 		weapon:attachWeaponPart(weapon:getModData().TempCanon)
@@ -2697,9 +2716,21 @@ function AutoTransform()
 		------------------------------------
 		--  ELIMINATE AUTO 1st SHOT LAG	  --
 		------------------------------------
-		if	(weapon:getFireMode() == "Auto" or weapon:getFireMode() == "Auto[H]" or weapon:getFireMode() == "[6]Rotary") and weapon:getRecoilDelay() ~= 0 then
+		local penalized = weapon:getModData().aimingpenalized
+		if	(weapon:getFireMode() == "Auto" or weapon:getFireMode() == "Auto[H]" or weapon:getFireMode() == "[6]Rotary") and weapon:getRecoilDelay() ~= 0 and (((attacker:getVehicle() == nil) or (attacker:getVehicle() == null)) and (penalized == nil or penalized == null)) then
 			weapon:setRecoilDelay(0)
 			DebugSay(3,"Delay 0")
+		-- else
+		-- 	tmp001 = 0
+		-- 	tmp002 = 0
+			
+		-- 	if ((attacker:getVehicle() == nil) or (attacker:getVehicle() == null)) then 
+		-- 		tmp001="true" else tmp001="false" 
+		-- 	end
+		-- 	if (penalized == nil or penalized == null) then 
+		-- 		tmp002="true" else tmp002="false" 
+		-- 	end
+		-- 	DebugSay(3,"Recoil"..weapon:getRecoilDelay().." : getVehicle "..tmp001.." : penalized "..tmp002)
 		end
 
 		------------------------------------
@@ -2965,7 +2996,9 @@ local function SendHit(attacker,weapon)
 	--  FULL AUTO / RECOIL DELAY FIX  --
 	------------------------------------
 	if (weapon:isAimedFirearm()) and (not weapon:isAimedHandWeapon()) then
-		if	weapon:getFireMode() == "FullAuto" or		-- WTF ?
+		if  ((attacker:getVehicle()) and (penalized == nil)) then 
+			weapon:setRecoilDelay(VECRECOIL)
+		elseif	(weapon:getFireMode() == "FullAuto" or		-- WTF ?
 			weapon:getFireMode() == "Auto" or
 			weapon:getFireMode() == "Auto[H]" or
 			weapon:getFireMode() == "Burst" or		-- OBSOLETE
@@ -2974,9 +3007,9 @@ local function SendHit(attacker,weapon)
 			weapon:getFireMode() == "[H2]Burst" or
 			weapon:getFireMode() == "[H3]Burst" or
 			weapon:getFireMode() == "[3]Rotary" or		-- NOT USED MAYBE
-			weapon:getFireMode() == "[6]Rotary" then
+			weapon:getFireMode() == "[6]Rotary") then
 			weapon:setRecoilDelay(0)
-		else	
+		else
 			calcRecoilDelay(weapon)
 		end
 	end
@@ -3067,7 +3100,15 @@ local function ApplyRecoil()
 					elseif mode == "Auto" then Delay = Delay * 1.5
 					end
 
-					attacker:setBeenMovingFor(Moving + Delay)
+					local penalized = gun:getModData().aimingpenalized
+					if ((((attacker:getVehicle() == nil) or (attacker:getVehicle() == null)) and (penalized == nil or penalized == null))) then
+						attacker:setBeenMovingFor(Moving + Delay)
+						DebugSay(3,"Added Non-Vehicle Delay: "..(Moving + Delay))
+					else 
+						attacker:setBeenMovingFor((Moving + Delay) * 160)
+						DebugSay(3,"Added Delay: "..((Moving + Delay) * 160))
+					end
+					
 			--		attacker:getModData().CheckFired = gun:getCurrentAmmoCount()
 					attacker:getModData().CheckFired = nil
 				----------------------
@@ -3115,7 +3156,9 @@ local function DynamicRangeModifier(attacker, target, weapon, damage)
 			---------------------
 			if (GUNFIGHTER.OPTIONS.options.dropdown7 > 1) then
 				local scriptItem = weapon:getScriptItem()
-				if weapon:getFireMode() == "Auto" then
+				if  ((attacker:getVehicle()) and (penalized == nil)) then 
+					weapon:setRecoilDelay(VECRECOIL)
+				elseif weapon:getFireMode() == "Auto" then
 					weapon:setRecoilDelay(0)
 				else	calcRecoilDelay(weapon)
 				end
