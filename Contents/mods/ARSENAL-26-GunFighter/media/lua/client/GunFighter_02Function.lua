@@ -2207,7 +2207,13 @@ function WeaponStatus(weapon)
 				length = 0
 			end
 
-			penalty = (weight/2) + ( ((1+length)*(1+length)*(1+length)*(1+length)*(1+length)*(1+length)) / 250 )	-- BASIC PENALTY BY LENGTH
+			-- [ START FINAL DAYS CHANGE ] --
+			-- BEFORE -- 
+			-- penalty = (weight/2) + ( ((1+length)*(1+length)*(1+length)*(1+length)*(1+length)*(1+length)) / 250 )	-- BASIC PENALTY BY LENGTH
+			
+			-- AFTER --
+			penalty = (weight) + ( ((1+length)*(1+length)*(1+length)*(1+length)*(1+length)*(1+length)) / 150 )	-- BASIC PENALTY BY LENGTH
+			-- [ END FINAL DAYS CHANGE ] --
 
 			if (weapon:isRequiresEquippedBothHands() or weapon:isTwoHandWeapon()) then	-- ADDITIONAL MODIFIER FOR CONVERSION
 				if	(string.find(weapon:getType(), "Fold")) then
