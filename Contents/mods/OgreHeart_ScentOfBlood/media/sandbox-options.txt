@@ -1,0 +1,47 @@
+VERSION = 1,
+
+option ScentOfBlood.scratchModifier
+{
+	type = integer, min = 0, max = 100, default = 2,
+	page = ScentOfBlood, translation = ScentOfBlood_scratchModifier, description = ScentOfBlood_scratchDescrip,
+}
+option ScentOfBlood.sbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 2,
+	page = ScentOfBlood, translation = ScentOfBlood_sbleedModifier,
+}
+option ScentOfBlood.cutModifier
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = ScentOfBlood, translation = ScentOfBlood_cutModifier,
+}
+option ScentOfBlood.cbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 8,
+	page = ScentOfBlood, translation = ScentOfBlood_cbleedModifier,
+}
+option ScentOfBlood.biteModifier
+{
+	type = integer, min = 0, max = 100, default = 5,
+	page = ScentOfBlood, translation = ScentOfBlood_biteModifier,
+}
+option ScentOfBlood.bbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 10,
+	page = ScentOfBlood, translation = ScentOfBlood_bbleedModifier,
+}
+option ScentOfBlood.dwoundModifier
+{
+	type = integer, min = 0, max = 100, default = 15,
+	page = ScentOfBlood, translation = ScentOfBlood_dwoundModifier,
+}
+option ScentOfBlood.dbleedModifier
+{
+	type = integer, min = 0, max = 100, default = 20,
+	page = ScentOfBlood, translation = ScentOfBlood_dbleedModifier,
+}
+option ScentOfBlood.dirtModifier
+{
+	type = integer, min = 0, max = 100, default = 50,
+	page = ScentOfBlood, translation = ScentOfBlood_dirtModifier,
+}

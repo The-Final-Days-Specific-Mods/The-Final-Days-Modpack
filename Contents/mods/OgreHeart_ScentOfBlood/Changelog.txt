@@ -1,5 +1,17 @@
-Version 2.13
--Minor bugfix, bandages not tracking.
+Version 2.22
+- Dead PLAYER bodies should no longer attract zombies.
+- Minor code changes to prevent code running unecessarily.
+- Renamed Modifier in sandbox setting to Range.
+
+Version 2.21
+- Tag fixes, removal of B40.
+- Poster/Preview Update
+
+Version 2.2
+- Dirty Bandage attraction can be disabled entirely and/or their percentage of attraction can be modified in the sandbox settings. (default 50%)
+- No more ghost step sounds should be heard when wounded.
+- Fix to the DeepWound when being bandaged but not sewn attracting zombies incorrectly.
+- Swapped DeepWound and DeepWoundBleeding defaults with each other.
 
 Version 2.12
 - Dirty Bandages are more forgiving, swarms during the night should happen less often.

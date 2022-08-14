@@ -53,7 +53,7 @@ module Base
 	MetalPipe = 1,
         Category:Welding,
 	Result:Distiller = 1,
-        SkillRequired:MetalWelding=10;Cooking=10,
+        SkillRequired:MetalWelding=10;Cooking=10;Farming=10,
         Time:2000.0,
 	}
 
