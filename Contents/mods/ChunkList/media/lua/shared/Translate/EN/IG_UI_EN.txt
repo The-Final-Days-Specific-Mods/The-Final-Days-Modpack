@@ -1,0 +1,9 @@
+IG_UI_EN = {
+    IGUI_CL_BeginList = "Begin a chunk list",
+    IGUI_CL_ListName = "What should the dumped list be called?",
+    IGUI_CL_BeginListTip = "Starts a chunk backup list",
+    IGUI_CL_NeedToDumpTip = "You need to end the selection first",
+    IGUI_CL_DumpList = "Dump current chunk list",
+    IGUI_CL_DumpListTip = "Dump the current batch in a file",
+    IGUI_CL_NeedToStartTip = "You need to start a selection first",
+}

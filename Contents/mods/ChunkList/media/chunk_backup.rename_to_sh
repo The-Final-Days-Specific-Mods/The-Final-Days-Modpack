@@ -1,0 +1,33 @@
+SAVEDIR="$1"
+LISTFILE="$2"
+FILENAME="$(basename -s .txt $2)"
+BACKUPNAME="$(date +%Y%m%d_%H%M%S)_$FILENAME"
+BACKUPROOT="$1_chunks"
+BACKUPDIR="$BACKUPROOT/$BACKUPNAME"
+
+if [ -z "$SAVEDIR" ]; 
+then
+	echo "no save directory given. use chunk_backup_start.sh"
+else
+	if [ -z "$LISTFILE" ]; 
+	then
+		echo "no list file given. use chunk_backup_start.sh"
+	else
+		echo "processing $LISTFILE ($FILENAME)"
+		echo "creating backup directory: $BACKUPDIR"
+		
+		mkdir -p "$BACKUPDIR/isoregiondata/"
+		
+		while read -r line; 
+		do 
+			[[ -e "$SAVEDIR/map_$line.bin" ]] && cp "$SAVEDIR/map_$line.bin" "$BACKUPDIR"
+			[[ -e "$SAVEDIR/isoregiondata/datachunk_$line.bin" ]] && cp "$SAVEDIR/isoregiondata/datachunk_$line.bin" "$BACKUPDIR/isoregiondata"			
+		done < "$LISTFILE"
+		
+		cd "$BACKUPDIR"
+		
+		tar cfj "$BACKUPROOT/$BACKUPNAME.tar.bz2" -C "$BACKUPROOT" "$BACKUPNAME"
+		
+		rm -r "$BACKUPDIR"
+	fi
+fi

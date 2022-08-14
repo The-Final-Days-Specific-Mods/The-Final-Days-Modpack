@@ -1,0 +1,31 @@
+ZOMBOIDDIR="/ABSOLUTE/PATH/TP/PZSERVER/Zomboid"
+SAVEDIR="$ZOMBOIDDIR/Saves/Multiplayer/servertest"
+LISTDIR="$ZOMBOIDDIR/Lua/chunk_lists/removal"
+
+if [ -d "$SAVEDIR" ];
+then
+	echo "save directory found: $SAVEDIR"
+
+	if [ -d "$LISTDIR" ];
+	then
+		echo "list directory found: $LISTDIR"
+	else
+		echo "list directory does not exist: $LISTDIR"
+		echo "creating."
+
+		mkdir -p "$LISTDIR"
+	fi
+
+	if [ -d "$LISTDIR" ];
+	then
+		echo "using list directory"
+
+		find "$LISTDIR" -name "*.txt*" -type f -exec bash $ZOMBOIDDIR/chunk_remove.sh "$SAVEDIR" "{}" \;
+	else
+		echo "unable to create list directory: $LISTDIR"
+		echo "exiting."
+	fi
+else
+	echo "save directory not found: $SAVEDIR"
+	echo "exiting."
+fi
