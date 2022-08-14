@@ -28,6 +28,34 @@ option BLTRandomZombies.Sprinter
 	translation = BLTRandomZombies_Sprinter,
 }
 
+option BLTRandomZombies.Fragile
+{
+	type = double, min = 0, max = 100, default = 0,
+	page = BLTRandomZombies,
+	translation = BLTRandomZombies_Fragile,
+}
+
+option BLTRandomZombies.NormalTough
+{
+	type = double, min = 0, max = 100, default = 100,
+	page = BLTRandomZombies,
+	translation = BLTRandomZombies_NormalTough,
+}
+
+option BLTRandomZombies.Tough
+{
+	type = double, min = 0, max = 100, default = 0,
+	page = BLTRandomZombies,
+	translation = BLTRandomZombies_Tough,
+}
+
+option BLTRandomZombies.Smart
+{
+	type = double, min = 0, max = 100, default = 0,
+	page = BLTRandomZombies,
+	translation = BLTRandomZombies_Smart,
+}
+
 option BLTRandomZombies.Frequency
 {
 	type = integer, min = 1000, max = 60000, default = 7500,

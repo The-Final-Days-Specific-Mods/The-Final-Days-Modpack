@@ -8,6 +8,10 @@ local SPEED_FAST_SHAMBLER = 2
 local SPEED_SHAMBLER = 3
 -- local SPEED_RANDOM = 4
 
+local COGNITION_SMART = 1
+local COGNITION_DEFAULT = 3
+local COGNITION_RANDOM = 4
+
 function Lib.findField(o, fname)
   for i = 0, getNumClassFields(o) - 1 do
     local f = getClassField(o, i)
@@ -25,7 +29,12 @@ function Lib.makeDistribution()
   if not (type(SandboxVars.BLTRandomZombies.Crawler) == "number" and
     type(SandboxVars.BLTRandomZombies.Shambler) == "number" and
     type(SandboxVars.BLTRandomZombies.FastShambler) == "number" and
-    type(SandboxVars.BLTRandomZombies.Sprinter) == "number") then
+    type(SandboxVars.BLTRandomZombies.Sprinter) == "number" and
+    type(SandboxVars.BLTRandomZombies.Fragile) == "number" and
+    type(SandboxVars.BLTRandomZombies.NormalTough) == "number" and
+    type(SandboxVars.BLTRandomZombies.Tough) == "number" and
+    type(SandboxVars.BLTRandomZombies.Smart) == "number")
+  then
     error("config value is not a number")
   end
 
@@ -34,7 +43,14 @@ function Lib.makeDistribution()
     SandboxVars.BLTRandomZombies.FastShambler +
     SandboxVars.BLTRandomZombies.Sprinter
     ~= 100 then
-    error("does not sum up to 100")
+    error("Crawler, Shambler, FastShambler and Sprinter do not add up to 100")
+  end
+
+  if SandboxVars.BLTRandomZombies.Fragile +
+    SandboxVars.BLTRandomZombies.NormalTough +
+    SandboxVars.BLTRandomZombies.Tough
+    ~= 100 then
+    error("Fragile, NormalTough and Tough do not add up to 100")
   end
 
   local distribution = {}
@@ -45,6 +61,14 @@ function Lib.makeDistribution()
     distribution.Shambler + math.floor(100 * SandboxVars.BLTRandomZombies.FastShambler)
   distribution.Sprinter =
     distribution.FastShambler + math.floor(100 * SandboxVars.BLTRandomZombies.Sprinter)
+
+  distribution.Fragile = math.floor(100 * SandboxVars.BLTRandomZombies.Fragile)
+  distribution.NormalTough =
+    distribution.Fragile + math.floor(100 * SandboxVars.BLTRandomZombies.NormalTough)
+  distribution.Tough =
+    distribution.NormalTough + math.floor(100 * SandboxVars.BLTRandomZombies.Tough)
+
+  distribution.Smart = math.floor(100 * SandboxVars.BLTRandomZombies.Smart)
 
   return distribution
 end
@@ -117,33 +141,69 @@ function Lib.hashCheck()
   if not fw then
     error("could not get file writer to " .. (filename or "nil"))
   end
-  local zcnt = {}
+  local zcnt = {
+    Crawler = 0,
+    CrawlerSmart = 0,
+    Shambler = 0,
+    ShamblerSmart = 0,
+    FastShambler = 0,
+    FastShamblerSmart = 0,
+    Sprinter = 0,
+    SprinterSmart = 0,
+    total = 0,
+  }
   local distribution = Lib.makeDistribution()
 
   for i=-2^15, 2^15 do
     local h = hash(i)
     local slice = hashToSlice(h)
+    local hh = hash(h)
+    local slice2 = hashToSlice(hh)
+    local hhh = hash(hh)
+    -- local slice3 = hashToSlice(hhh)
     if slice < distribution.Crawler then
-      zcnt.Crawler = (zcnt.Crawler or 0) + 1
+      zcnt.Crawler = zcnt.Crawler + 1
+      if slice2 < distribution.Smart then
+        zcnt.CrawlerSmart = zcnt.CrawlerSmart + 1
+      end
     elseif slice < distribution.Shambler then
-      zcnt.Shambler = (zcnt.Shambler or 0) + 1
+      zcnt.Shambler = zcnt.Shambler + 1
+      if slice2 < distribution.Smart then
+        zcnt.ShamblerSmart = zcnt.ShamblerSmart + 1
+      end
     elseif slice < distribution.FastShambler then
-      zcnt.FastShambler = (zcnt.FastShambler or 0) + 1
+      zcnt.FastShambler = zcnt.FastShambler + 1
+      if slice2 < distribution.Smart then
+        zcnt.FastShamblerSmart = zcnt.FastShamblerSmart + 1
+      end
     else
-      zcnt.Sprinter = (zcnt.Sprinter or 0) + 1
+      zcnt.Sprinter = zcnt.Sprinter + 1
+      if slice2 < distribution.Smart then
+        zcnt.SprinterSmart = zcnt.SprinterSmart + 1
+      end
     end
-    zcnt.total = (zcnt.total or 0) + 1
+    zcnt.total = zcnt.total + 1
 
-    fw:write(string.format("%d -> %d -> %s\r\n", i, h, tostring(slice)))
+    fw:write(string.format("%d -> %d -> %d -> %d -> %s\r\n", i, h, hh, hhh, tostring(slice)))
   end
   fw:write(string.format(
              "crawler:%.2f%% (%d), shambler:%.2f%%, fastshambler:%.2f%%, sprinter:%.2f%% (%d)\r\n",
-             (zcnt.Crawler or 0)*100/zcnt.total,
-             (zcnt.Crawler or 0),
-             (zcnt.Shambler or 0)*100/zcnt.total,
-             (zcnt.FastShambler or 0)*100/zcnt.total,
-             (zcnt.Sprinter or 0)*100/zcnt.total,
-             (zcnt.Sprinter or 0)))
+             zcnt.Crawler*100/zcnt.total,
+             zcnt.Crawler,
+             zcnt.Shambler*100/zcnt.total,
+             zcnt.FastShambler*100/zcnt.total,
+             zcnt.Sprinter*100/zcnt.total,
+             zcnt.Sprinter))
+  fw:write(string.format(
+             "[smart] crawler:%.2f%% (%d), shambler:%.2f%% (%d), fastshambler:%.2f%% (%d), sprinter:%.2f%% (%d)\r\n",
+             zcnt.CrawlerSmart*100/zcnt.Crawler,
+             zcnt.CrawlerSmart,
+             zcnt.ShamblerSmart*100/zcnt.Shambler,
+             zcnt.ShamblerSmart,
+             zcnt.FastShamblerSmart*100/zcnt.FastShambler,
+             zcnt.FastShamblerSmart,
+             zcnt.SprinterSmart*100/zcnt.Sprinter,
+             zcnt.SprinterSmart))
   fw:close()
   print("wrote to " .. filename)
 
@@ -155,7 +215,9 @@ function Lib.hashCheck()
   local zs = getCell():getZombieList()
   for i=0, zs:size() - 1 do
     local zid = zombieID(zs:get(i))
-    fw:write(string.format("%d -> %d\r\n", zid, hashToSlice(zid)))
+    local hh = hash(zid)
+    local hhh = hash(zid)
+    fw:write(string.format("%d -> %d -> %d\r\n", zid, hashToSlice(zid), hashToSlice(hh), hashToSlice(hhh)))
   end
   fw:close()
   print("wrote to " .. filename)
@@ -185,10 +247,13 @@ function Lib.z(id)
   DebugContextMenu.OnSelectedZombieWalk(getPlayer():getSquare())
 
   local distribution = Lib.makeDistribution()
+  local cognition =
+    Lib.findField(IsoZombie.new(nil), "public int zombie.characters.IsoZombie.cognition")
   local speedType =
     Lib.findField(IsoZombie.new(nil), "public int zombie.characters.IsoZombie.speedType")
 
-  local slice = hashToSlice(zombieID(z))
+  local zid = zombieID(z)
+  local slice = hashToSlice(zid)
   local slicename
   if slice < distribution.Crawler then
     slicename = "Crawler"
@@ -200,6 +265,26 @@ function Lib.z(id)
     slicename = "Sprinter"
   end
 
+  local hh = hash(zid)
+  local slice2 = hashToSlice(hh)
+  local slice2name
+  if slice2 < distribution.Smart then
+    slice2name = "Smart"
+  else
+    slice2name = "Normal"
+  end
+
+  local hhh = hash(hh)
+  local slice3 = hashToSlice(hhh)
+  local slice3name
+  if slice3 < distribution.Fragile then
+    slice3name = "Fragile"
+  elseif slice3 < distribution.NormalTough then
+    slice3name = "NormalTough"
+  else
+    slice3name = "Tough"
+  end
+
   local l = DebugLog.log
   local f = string.format
   l(f('zombieID: %s', tostring(zombieID(z))))
@@ -207,15 +292,19 @@ function Lib.z(id)
   l(f('onlineID: %s', tostring(z:getOnlineID())))
   l(f('isRemoteZombie: %s', tostring(z:isRemoteZombie())))
   l(f('slice: %s (%d)', slicename, slice))
+  l(f('slice2: %s (%d)', slice2name, slice2))
+  l(f('slice3: %s (%d)', slice3name, slice3))
+  l(f('health: %.2f', z:getHealth()))
+  l(f('cognition: %d', getClassFieldVal(z, cognition)))
   l(f('speedType: %d', getClassFieldVal(z, speedType)))
-  l(f('isBecomeCrawler: %s', tostring(z:isBecomeCrawler())))
-  l(f('isCrawling: %s', tostring(z:isCrawling())))
-  l(f('crawlerType: %s', tostring(z:getCrawlerType())))
-  l(f('isCanWalk: %s', tostring(z:isCanWalk())))
+  -- l(f('isBecomeCrawler: %s', tostring(z:isBecomeCrawler())))
+  -- l(f('isCrawling: %s', tostring(z:isCrawling())))
+  -- l(f('crawlerType: %s', tostring(z:getCrawlerType())))
+  -- l(f('isCanWalk: %s', tostring(z:isCanWalk())))
   l(f('isKnockedDown: %s', tostring(z:isKnockedDown())))
-  l(f('isFakeDead: %s', tostring(z:isFakeDead())))
+  -- l(f('isFakeDead: %s', tostring(z:isFakeDead())))
   l(f('wasFakeDead: %s', tostring(z:wasFakeDead())))
-  l(f('isHitLegsWhileOnFloor: %s', tostring(z:isHitLegsWhileOnFloor())))
+  -- l(f('isHitLegsWhileOnFloor: %s', tostring(z:isHitLegsWhileOnFloor())))
 end
 
 function Lib.zcheck()
@@ -234,9 +323,13 @@ function Lib.zcheck()
   local cnt = 0
   local zcnt = {
     Crawler = 0,
+    CrawlerSmart = 0,
     Shambler = 0,
+    ShamblerSmart = 0,
     FastShambler = 0,
+    FastShamblerSmart = 0,
     Sprinter = 0,
+    SprinterSmart = 0,
     remote = 0,
     duplicateID = 0,
   }
@@ -249,26 +342,39 @@ function Lib.zcheck()
 
     local id = zombieID(z)
     local slice = hashToSlice(id)
+    local slice2 = hashToSlice(hash(id))
     if slice < distribution.Crawler then
       zcnt.Crawler = zcnt.Crawler + 1
+      if slice2 < distribution.Smart then
+        zcnt.CrawlerSmart = zcnt.CrawlerSmart + 1
+      end
       if not z:isCrawling() then
         l(f('id=%s expected crawling (crawler)', id))
         cnt = cnt + 1
       end
     elseif slice < distribution.Shambler then
       zcnt.Shambler = zcnt.Shambler + 1
+      if slice2 < distribution.Smart then
+        zcnt.ShamblerSmart = zcnt.ShamblerSmart + 1
+      end
       if z:isCrawling() then
         l(f('id=%s expected not crawling (shambler)', id))
         cnt = cnt + 1
       end
     elseif slice < distribution.FastShambler then
       zcnt.FastShambler = zcnt.FastShambler + 1
+      if slice2 < distribution.Smart then
+        zcnt.FastShamblerSmart = zcnt.FastShamblerSmart + 1
+      end
       if z:isCrawling() then
         l(f('id=%s expected not crawling (fastshambler)', id))
         cnt = cnt + 1
       end
     else
       zcnt.Sprinter = zcnt.Sprinter + 1
+      if slice2 < distribution.Smart then
+        zcnt.SprinterSmart = zcnt.SprinterSmart + 1
+      end
       if z:isCrawling() then
         l(f('id=%s expected not crawling (sprinter)', id))
         cnt = cnt + 1
@@ -299,6 +405,11 @@ function Lib.zcheck()
       zcnt.Shambler*100/sz,
       zcnt.FastShambler*100/sz,
       zcnt.Sprinter*100/sz, zcnt.Sprinter))
+  l(f("[smart] crawler:%.2f%% (%d), shambler:%.2f%%, fastshambler:%.2f%%, sprinter:%.2f%% (%d)",
+      zcnt.CrawlerSmart*100/zcnt.Crawler, zcnt.CrawlerSmart,
+      zcnt.ShamblerSmart*100/zcnt.Shambler,
+      zcnt.FastShamblerSmart*100/zcnt.FastShambler,
+      zcnt.SprinterSmart*100/sz, zcnt.Sprinter))
   l(f("remote:%.2f%% (%d), duplicate ids: %d, max online id:%d, min online id:%d",
       zcnt.remote*100/sz, zcnt.remote, zcnt.duplicateID, maxOnlineID, minOnlineID))
   l(f("found %d/%d potential inconsistencies (%.2f%%)",
@@ -381,18 +492,40 @@ local function shouldBeStanding(z)
     and not z:wasFakeDead()
 end
 
-local function updateSpeed(zombie, target_speed, speedType)
-  local actual_speed = getClassFieldVal(zombie, speedType)
+local function updateSpeed(zombie, targetSpeed, actualSpeed)
+  local didChange = false
 
-  if actual_speed ~= target_speed then
-    getSandboxOptions():set("ZombieLore.Speed", target_speed)
+  if actualSpeed ~= targetSpeed then
+    getSandboxOptions():set("ZombieLore.Speed", targetSpeed)
     zombie:makeInactive(true)
     zombie:makeInactive(false)
     getSandboxOptions():set("ZombieLore.Speed", SPEED_FAST_SHAMBLER)
+    didChange = true
   end
+
+  return didChange
 end
 
-local function updateZombie(zombie, distribution, speedType)
+local function updateCognition(zombie, targetCognition, actualCognition, cognition)
+  local didChange = false
+
+  if targetCognition == COGNITION_SMART and actualCognition ~= COGNITION_SMART  then
+    didChange = true
+    getSandboxOptions():set("ZombieLore.Cognition", COGNITION_SMART)
+    zombie:DoZombieStats()
+    getSandboxOptions():set("ZombieLore.Cognition", COGNITION_DEFAULT)
+  elseif targetCognition == COGNITION_DEFAULT and actualCognition == COGNITION_SMART then
+    didChange = true
+    getSandboxOptions():set("ZombieLore.Cognition", COGNITION_RANDOM)
+    while getClassFieldVal(zombie, cognition) == COGNITION_SMART do
+      zombie:DoZombieStats()
+    end
+    getSandboxOptions():set("ZombieLore.Cognition", COGNITION_DEFAULT)
+  end
+  return didChange
+end
+
+local function updateZombie(zombie, distribution, speedType, cognition)
   -- IsoZombie::Hit(Vehicle...) suggests that stagger, knockdown and crawling
   -- states are managed by client
 
@@ -403,38 +536,111 @@ local function updateZombie(zombie, distribution, speedType)
   -- IsoZombie::resetForReuse/0
   -- IsoZombie::shouldBecomeCrawler/0
   -- VirtualZombieManager::createRealZombieAlways/3
-  local slice = hashToSlice(zombieID(zombie))
 
+  local modData = zombie:getModData()
+  local speedTypeVal = getClassFieldVal(zombie, speedType)
+  local cognitionVal = getClassFieldVal(zombie, cognition)
+  local crawlingVal = zombie:isCrawling()
+  local square = zombie:getCurrentSquare()
+  local squareXVal = square and square:getX() or 0
+  local squareYVal = square and square:getY() or 0
+
+  -- NOTE(belette) we have to include X and Y in the check to catch zombies that have been recycled
+  -- from _intended_ default state (i.e. RZ happened to assign it to default bucket) to _unintended_
+  -- default state (i.e. RZ would not assign it to the default bucket, even though it's the same zombie)
+  -- see IsoZombie::resetForReuse and VirtualZombieManager::createRealZombieAlways for more info
+  local shouldSkip = speedTypeVal == modData.BLTspeed and
+      cognitionVal == modData.BLTcog and
+      crawlingVal == modData.BLTcrawl and
+      math.abs(squareXVal - modData.BLTx) <= 20 and
+      math.abs(squareYVal - modData.BLTy) <= 20
+
+  if shouldSkip then
+    return true
+  end
+
+  local zid = zombieID(zombie)
+
+  -- local function check(result)
+  --   if shouldSkip and result then
+  --     print(debugstacktrace(),
+  --           crawlingVal, modData.BLTcrawl,
+  --           speedTypeVal, modData.BLTspeed,
+  --           cognitionVal, modData.BLTcog,
+  --           squareXVal, modData.BLTx,
+  --           squareYVal, modData.BLTy,
+  --           hashToSlice(zid), hashToSlice(hash(zid)))
+  --   end
+  -- end
+
+  local slice = hashToSlice(zid)
+
+  -- update speeds
   if slice < distribution.Crawler then
     if not zombie:isCrawling() then
       -- go to crawl (calls DoZombieStats() internally)
       zombie:toggleCrawling()
-
       -- from ZombieOnGroundState:execute/1
       zombie:setCanWalk(false);
-
       -- on your belly, sir
       zombie:setFallOnFront(true)
     end
   elseif slice < distribution.Shambler then
-    updateSpeed(zombie, SPEED_SHAMBLER, speedType)
+    updateSpeed(zombie, SPEED_SHAMBLER, speedTypeVal)
     if zombie:isCrawling() and shouldBeStanding(zombie) then
       zombie:toggleCrawling()
       zombie:setCanWalk(true);
     end
   elseif slice < distribution.FastShambler then
-    updateSpeed(zombie, SPEED_FAST_SHAMBLER, speedType)
+    updateSpeed(zombie, SPEED_FAST_SHAMBLER, speedTypeVal)
     if zombie:isCrawling() and shouldBeStanding(zombie) then
       zombie:toggleCrawling()
       zombie:setCanWalk(true);
     end
   else
-    updateSpeed(zombie, SPEED_SPRINTER, speedType)
+    updateSpeed(zombie, SPEED_SPRINTER, speedTypeVal)
     if zombie:isCrawling() and shouldBeStanding(zombie) then
       zombie:toggleCrawling()
       zombie:setCanWalk(true);
     end
   end
+
+  -- update cognition
+  if distribution.Smart > 0 then
+    zid = hash(zid)
+    local slice2 = hashToSlice(zid)
+    if slice2 < distribution.Smart then
+      updateCognition(zombie, COGNITION_SMART, cognitionVal, cognition)
+    else
+      updateCognition(zombie, COGNITION_DEFAULT, cognitionVal, cognition)
+    end
+  end
+
+  -- update toughness
+  if distribution.NormalTough ~= 100 then
+    if not zombie:getAttackedBy() then
+      zid = hash(zid)
+      local slice3 = hashToSlice(zid)
+      local health = 0.1 * ZombRand(4)
+      if slice3 < distribution.Fragile  then
+        health = health + 0.5
+      elseif slice3 < distribution.NormalTough then
+        health = health + 1.5
+      else
+        health = health + 3.5
+      end
+      zombie:setHealth(health)
+    end
+  end
+
+  modData.BLTspeed = getClassFieldVal(zombie, speedType)
+  modData.BLTcog = getClassFieldVal(zombie, cognition)
+  modData.BLTcrawl = zombie:isCrawling()
+  modData.BLTx = squareXVal
+  modData.BLTy = squareYVal
+
+  -- return shouldSkip
+  return false
 end
 
 local tickFrequency = 10
@@ -478,15 +684,14 @@ local function updateAllZombies()
   --     end
   --     tickString = string.format("%s%.2f", tickString, v)
   --   end
-
   --   DebugLog.log(
-  --     string.format("BLTRandomZombies.diff: %dms", diff))
+  --     string.format("BLTRandomZombies.diff: %.2fms", diff))
   --   DebugLog.log(
-  --     string.format("BLTRandomZombies.tick_time: %dms", tickMs))
+  --     string.format("BLTRandomZombies.tick_time: %.2fms", tickMs))
   --   DebugLog.log(
   --     string.format("BLTRandomZombies.tick_last_times: %s", tickString))
   --   DebugLog.log(
-  --     string.format("BLTRandomZombies.tick_avg_time: %dms", avgTickMs))
+  --     string.format("BLTRandomZombies.tick_avg_time: %.2fms", avgTickMs))
   --   DebugLog.log(
   --     string.format("BLTRandomZombies.tick_freq: %d", tickFrequency))
   -- end
@@ -496,16 +701,29 @@ local function updateAllZombies()
 
   -- Lib.time("update_" .. sz, function ()
   local distribution = Lib.makeDistribution()
+  local bob = IsoZombie.new(nil)
+  local cognition =
+    Lib.findField(bob, "public int zombie.characters.IsoZombie.cognition")
   local speedType =
-    Lib.findField(IsoZombie.new(nil), "public int zombie.characters.IsoZombie.speedType")
+    Lib.findField(bob, "public int zombie.characters.IsoZombie.speedType")
   local client = isClient()
   for i = 0, sz - 1 do
     local z = zs:get(i)
     if not (client and z:isRemoteZombie()) then
-      updateZombie(z, distribution, speedType)
+      updateZombie(z, distribution, speedType, cognition)
     end
   end
   -- end)
 end
 
-Events.OnTick.Add(updateAllZombies)
+function Lib.enable()
+  local prevTickMs = lastTicks[((lastTicksIdx + 3) % 5) + 1]
+  last = getTimestampMs() - prevTickMs*tickCount
+  Events.OnTick.Add(updateAllZombies)
+end
+
+function Lib.disable()
+  Events.OnTick.Remove(updateAllZombies)
+end
+
+Lib.enable()
