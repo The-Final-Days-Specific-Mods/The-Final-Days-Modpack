@@ -1,0 +1,7 @@
+name=Fort Knox linked to Eerie Country
+id=FortKnoxLinked
+description=v 1.0
+
+poster=preview.png
+pack=fortknox
+tiledef=customtiles 2800

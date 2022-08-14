@@ -1,0 +1,7 @@
+name=Research Facility, KY
+id=rbr
+description=The Research Facility / Secret Base rebuilt from the ground up in the style of Black Mesa.
+poster=poster.png
+pack=secretbasepack
+tiledef=secretbasetiles 5001
+require=Diederiks Tile Palooza

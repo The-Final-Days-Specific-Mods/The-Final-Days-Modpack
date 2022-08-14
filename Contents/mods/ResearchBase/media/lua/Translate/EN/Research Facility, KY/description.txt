@@ -1,0 +1,17 @@
+ The Research Facility
+ <LINE> <LINE>
+ The Research Facility is a scientific research facility located near Rosewood, KY. 
+ The facility was initially established several decades ago as a military research agency 
+ before becoming a public-private enterprise in the last decade. 
+ The facility conducts advanced research in the areas of high tech aerospace engineering, 
+ plant sciences and advanced biomedical research. 
+ The facility contains a several large research facilities, a sattlite launch platform, 
+ a small military outpost and a company town to house the employees of the facility. 
+
+ <LINE> <LINE>
+ WARNING: The following message is transmitted at the request of local authorities. 
+ At 9:47am a disaster of unknown type has occured the knox county research facility. 
+ An immediate evacuation order has been issued for all residents within a 75 mile radius of the facility,
+ on site military has been dispatched to provide assistance. The facility has been placed on a full lockdown,
+ and local residents are not to approach or attempt to interact with any member of the facility.
+ 

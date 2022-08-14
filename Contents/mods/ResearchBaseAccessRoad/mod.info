@@ -1,0 +1,7 @@
+name=Research Facility, KY (Access Road)
+id=rbrA2
+description=Adds a paved access road connecting Rosewood, KY to the Research Facility.
+poster=poster.png
+pack=secretbasepack
+tiledef=secretbasetiles 5001
+require=rbr
