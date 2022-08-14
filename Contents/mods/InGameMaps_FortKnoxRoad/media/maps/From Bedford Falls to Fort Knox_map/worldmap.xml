@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0">
+<cell x="45" y="38">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="192" y="112" />
+<point x="193" y="0" />
+<point x="201" y="0" />
+<point x="201" y="285" />
+<point x="300" y="286" />
+<point x="300" y="300" />
+<point x="193" y="300" />
+<point x="193" y="112" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+<cell x="45" y="39">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="300" y="0" />
+<point x="300" y="2" />
+<point x="201" y="3" />
+<point x="201" y="300" />
+<point x="193" y="300" />
+<point x="193" y="0" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+<cell x="45" y="40">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="168" y="134" />
+<point x="168" y="122" />
+<point x="186" y="122" />
+<point x="186" y="134" />
+</coordinates>
+</geometry>
+<properties>
+<property name="building" value="forest" />
+</properties>
+</feature>
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="201" y="0" />
+<point x="201" y="300" />
+<point x="193" y="300" />
+<point x="193" y="0" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+<cell x="45" y="41">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="201" y="0" />
+<point x="201" y="300" />
+<point x="193" y="300" />
+<point x="193" y="0" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+<cell x="45" y="42">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="201" y="0" />
+<point x="201" y="300" />
+<point x="193" y="300" />
+<point x="193" y="0" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+<cell x="45" y="43">
+<feature>
+<geometry type="Polygon">
+<coordinates>
+<point x="201" y="0" />
+<point x="201" y="300" />
+<point x="193" y="300" />
+<point x="193" y="0" />
+</coordinates>
+</geometry>
+<properties>
+<property name="highway" value="primary" />
+</properties>
+</feature>
+</cell>
+</world>

@@ -1,0 +1,5 @@
+name=InGameMaps [Fort Knox Road]
+id=InGameMaps_FortKnoxRoad
+description=Add In-Game maps for Fort Knox Road
+poster=poster.png
+require=FortKnoxRoad,InGameMaps

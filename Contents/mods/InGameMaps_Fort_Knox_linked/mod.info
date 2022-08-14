@@ -1,0 +1,5 @@
+name=InGameMaps [Fort Knox Linked to Eerie Country]
+id=InGameMaps_FortKnoxLinked
+description=Add In-Game maps for Fort Knox Linked to Eerie Country
+poster=poster.png
+require=FortKnoxLinked,InGameMaps
