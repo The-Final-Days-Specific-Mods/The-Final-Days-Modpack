@@ -1,0 +1,29 @@
+module Base
+{
+	item trelaimap
+	{
+			DisplayCategory = Cartography,
+			Type 		= Map,
+			DisplayName 	= Trelai Map,
+			Icon 		= Map,
+			Weight 		= 0.1,
+			Map 		= trelaimap,
+			SurvivalGear = TRUE,
+        	WorldStaticModel = Map,
+	}
+
+	
+	
+	item TrelaiGoldBar
+	{
+		Weight		= 5.0,
+		Type		= Moveable,
+		DisplayName 	= Gold Bar,
+        Icon 		= TGoldBar.png,
+		WorldObjectSprite = trelai_tiles_07_46,
+		DisplayCategory = Furniture,
+	}
+
+}
+
+	
