@@ -26,17 +26,17 @@ function Lib.makeDistribution()
     error("no BLTRandomZombies key in config")
   end
 
-  if not (type(SandboxVars.BLTRandomZombies.Crawler) == "number" and
-    type(SandboxVars.BLTRandomZombies.Shambler) == "number" and
-    type(SandboxVars.BLTRandomZombies.FastShambler) == "number" and
-    type(SandboxVars.BLTRandomZombies.Sprinter) == "number" and
-    type(SandboxVars.BLTRandomZombies.Fragile) == "number" and
-    type(SandboxVars.BLTRandomZombies.NormalTough) == "number" and
-    type(SandboxVars.BLTRandomZombies.Tough) == "number" and
-    type(SandboxVars.BLTRandomZombies.Smart) == "number")
-  then
-    error("config value is not a number")
-  end
+  -- if not (type(SandboxVars.BLTRandomZombies.Crawler) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.Shambler) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.FastShambler) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.Sprinter) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.Fragile) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.NormalTough) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.Tough) == "number" and
+  --   type(SandboxVars.BLTRandomZombies.Smart) == "number")
+  -- then
+  --   error("config value is not a number")
+  -- end
 
   if SandboxVars.BLTRandomZombies.Crawler +
     SandboxVars.BLTRandomZombies.Shambler +

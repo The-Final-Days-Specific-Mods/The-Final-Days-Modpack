@@ -2355,10 +2355,6 @@ function calcRecoilDelay(weapon)
 
 		local attacker	= getSpecificPlayer(0)
 		local penalized = nil
-
-		if attacker ~= nil then				-- PREVENT RESPAWN ERRORS
-			weapon	= attacker:getPrimaryHandItem()
-		end
 		
 		if (weapon) and (instanceof(weapon,"HandWeapon")) and (weapon:isAimedFirearm()) and attacker:isAiming() and (not isFlamer(weapon)) then
 			local penalized = weapon:getModData().aimingpenalized
