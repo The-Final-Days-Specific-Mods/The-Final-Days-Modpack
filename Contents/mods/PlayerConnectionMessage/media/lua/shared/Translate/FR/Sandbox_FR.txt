@@ -1,0 +1,23 @@
+Sandbox_FR = {
+
+    Sandbox_PlayerConnectionMessage = "Message de connexion du joueur",
+
+    Sandbox_PlayerConnectionMessage_connectedMessageColorRed = "Message de connexion Couleur RGB (Rouge)",
+    Sandbox_PlayerConnectionMessage_connectedMessageColorRed_tooltip = "Définissez la valeur Rouge du message de connexion de 0.0 à 1.0",
+
+    Sandbox_PlayerConnectionMessage_connectedMessageColorGreen = "Message de connexion Couleur RGB (Vert)",
+    Sandbox_PlayerConnectionMessage_connectedMessageColorGreen_tooltip = "Définissez la valeur Vert du message de connexion de 0.0 à 1.0",
+
+    Sandbox_PlayerConnectionMessage_connectedMessageColorBlue = "Message de connexion Couleur RGB (Bleu)",
+    Sandbox_PlayerConnectionMessage_connectedMessageColorBlue_tooltip = "Définissez la valeur Bleu du message de connexion de 0.0 à 1.0",
+
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorRed = "Message de déconnexion Couleur RGB (Rouge)",
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorRed_tooltip = "Définissez la valeur Rouge du message de déconnexion de 0.0 à 1.0",
+
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorGreen = "Message de déconnexion Couleur RGB (Vert)",
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorGreen_tooltip = "Définissez la valeur Vert du message de déconnexion de 0.0 à 1.0",
+
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorBlue = "Message de déconnexion Couleur RGB (Bleu)",
+    Sandbox_PlayerConnectionMessage_disconnectedMessageColorBlue_tooltip = "Définissez la valeur Bleu du message de déconnexion de 0.0 à 1.0",
+
+}

@@ -1,0 +1,6 @@
+IGUI_EN = {
+    
+    IGUI_PlayerConnectionMessage_Connected = "%1 is connected!",
+    IGUI_PlayerConnectionMessage_Disconnected = "%1 is disconnected!",
+
+}

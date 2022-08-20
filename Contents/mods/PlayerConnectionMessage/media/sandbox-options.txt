@@ -1,0 +1,62 @@
+VERSION = 1,
+
+option PlayerConnectionMessage.hideAdmin = {
+	type = boolean,
+	default = false,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_hideAdmin,
+}
+
+option PlayerConnectionMessage.connectedMessageColorRed = {
+	type = double,
+	default = 0,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_connectedMessageColorRed,
+}
+
+option PlayerConnectionMessage.connectedMessageColorGreen = {
+	type = double,
+	default = 0.7,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_connectedMessageColorGreen,
+}
+
+option PlayerConnectionMessage.connectedMessageColorBlue = {
+	type = double,
+	default = 1,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_connectedMessageColorBlue,
+}
+
+option PlayerConnectionMessage.disconnectedMessageColorRed = {
+	type = double,
+	default = 1,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_disconnectedMessageColorRed,
+}
+
+option PlayerConnectionMessage.disconnectedMessageColorGreen = {
+	type = double,
+	default = 0.3,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_disconnectedMessageColorGreen,
+}
+
+option PlayerConnectionMessage.disconnectedMessageColorBlue = {
+	type = double,
+	default = 0,
+	min = 0,
+	max = 1,
+	page = PlayerConnectionMessage,
+	translation = PlayerConnectionMessage_disconnectedMessageColorBlue,
+}
