@@ -19,21 +19,10 @@ if ModOptions and ModOptions.getInstance then
       optFailThreshold.tooltip = "UI_AutoMechanics_Tooltip_FailThreshold";
       optVerbose.tooltip       = "UI_Tooltip_Verbose";
 
-      optWaitTicks[1] = getText("UI_AutoMechanics_WaitTicks_0")
-      optWaitTicks[2] = getText("UI_AutoMechanics_WaitTicks_1")
-      optWaitTicks[3] = getText("UI_AutoMechanics_WaitTicks_2")
-      optWaitTicks[4] = getText("UI_AutoMechanics_WaitTicks_3")
-      optWaitTicks[5] = getText("UI_AutoMechanics_WaitTicks_4")
-      optWaitTicks[6] = getText("UI_AutoMechanics_WaitTicks_5")
       optWaitTicks[7] = getText("UI_AutoMechanics_WaitTicks_10")
-      optWaitTicks[8] = getText("UI_AutoMechanics_WaitTicks_20")
       
-      optFailThreshold[1] = getText("UI_AutoMechanics_FailThreshold_0")
       optFailThreshold[2] = getText("UI_AutoMechanics_FailThreshold_20")
-      optFailThreshold[3] = getText("UI_AutoMechanics_FailThreshold_40")
-      optFailThreshold[4] = getText("UI_AutoMechanics_FailThreshold_60")
-      optFailThreshold[5] = getText("UI_AutoMechanics_FailThreshold_80")
-      optFailThreshold[6] = getText("UI_AutoMechanics_FailThreshold_100")
+
   end
 end
 
