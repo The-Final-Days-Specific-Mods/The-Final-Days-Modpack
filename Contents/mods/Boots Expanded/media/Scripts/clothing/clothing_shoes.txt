@@ -151,7 +151,7 @@ module Base
 		DisplayName = Riding Boots,
 		ClothingItem = Shoes_RidingBoots,
 		BodyLocation = Shoes,
-		BloodLocation = Shoes;LowerLegs,
+		BloodLocation = Shoes;LowerLegs;UpperLegs,
 		Icon = BootsRiding,
 		StompPower = 5.0,
 		ConditionLowerChanceOneIn = 2,

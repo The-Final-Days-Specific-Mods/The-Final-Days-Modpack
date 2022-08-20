@@ -1,8 +1,6 @@
 require 'Items/ProceduralDistributions'
 
 --BedroomDresser
-table.insert(ProceduralDistributions.list.BedroomDresser.items, "Shoes_JungleBoots");
-table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.005);
 
 table.insert(ProceduralDistributions.list.BedroomDresser.items, "Shoes_GothBoots");
 table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.1);
@@ -28,8 +26,6 @@ table.insert(ProceduralDistributions.list.BedroomDresser.items, 0.5);
 
 
 --DresserGeneric
-table.insert(ProceduralDistributions.list.DresserGeneric.items, "Shoes_JungleBoots");
-table.insert(ProceduralDistributions.list.DresserGeneric.items, 0.005);
 
 table.insert(ProceduralDistributions.list.DresserGeneric.items, "Shoes_GothBoots");
 table.insert(ProceduralDistributions.list.DresserGeneric.items, 0.05);
@@ -101,8 +97,6 @@ table.insert(ProceduralDistributions.list.WardrobeWoman.items, 0.5);
 
 
 --WardrobeMan
-table.insert(ProceduralDistributions.list.WardrobeMan.items, "Shoes_JungleBoots");
-table.insert(ProceduralDistributions.list.WardrobeMan.items, 0.005);
 
 table.insert(ProceduralDistributions.list.WardrobeMan.items, "Shoes_StrappedBoots");
 table.insert(ProceduralDistributions.list.WardrobeMan.items, 0.2);
@@ -127,7 +121,7 @@ table.insert(ProceduralDistributions.list.WardrobeMan.items, 0.2);
 
 --ClosetShelfGeneric
 table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "Shoes_JungleBoots");
-table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.1);
+table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.001);
 
 table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, "Shoes_GothBoots");
 table.insert(ProceduralDistributions.list.ClosetShelfGeneric.items, 0.5);
@@ -247,6 +241,16 @@ table.insert(ProceduralDistributions.list.Locker.items, 0.5);
 
 table.insert(ProceduralDistributions.list.Locker.items, "Shoes_Hitops");
 table.insert(ProceduralDistributions.list.Locker.items, 0.5);
+
+
+--Army storage
+table.insert(ProceduralDistributions.list.ArmySurplusFootwear.items, "Shoes_JungleBoots");
+table.insert(ProceduralDistributions.list.ArmySurplusFootwear.items, 30);
+
+table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, "Shoes_JungleBoots");
+table.insert(ProceduralDistributions.list.ArmyStorageOutfit.items, 5);
+
+
 
 
 table.insert(ProceduralDistributions.list.Locker.items, "Shoes_StrappedBoots");

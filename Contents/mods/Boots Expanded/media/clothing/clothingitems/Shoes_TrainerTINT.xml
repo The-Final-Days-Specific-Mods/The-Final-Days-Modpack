@@ -22,7 +22,10 @@
 	<textureChoices>sneakers_green</textureChoices>
 	<textureChoices>sneakers_blue</textureChoices>
 	<textureChoices>sneakers_white</textureChoices>
+	<textureChoices>sneakers_whitered</textureChoices>
 	<textureChoices>sneakers_king</textureChoices>
 	<textureChoices>sneakers_neon</textureChoices>
 	<textureChoices>sneakers_nurse</textureChoices>
+	<textureChoices>allstargreen</textureChoices>
+	<textureChoices>allstarorange</textureChoices>
 </clothingItem>	

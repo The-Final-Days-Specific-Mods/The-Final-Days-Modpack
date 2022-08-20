@@ -46,5 +46,24 @@
 	<path>media/clothing/clothingItems/Shoes_JungleBoots.xml</path>
 	<guid>494fedc3-2f83-4728-9af8-a5cbae6815d9</guid>
 	</files>
+	
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_Steelettos.xml</path>
+	<guid>5c11f414-c82d-43f5-b808-ee8ad01b06ed</guid>
+	</files>
+	
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_OldRocks.xml</path>
+	<guid>6035c9c4-6539-49bf-836c-c067dea08fe6</guid>
+	</files>
+	
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_KneeHighs.xml</path>
+	<guid>f30715fd-5106-4d40-baee-e8d346176a64</guid>
+	</files>
+
 
 </fileGuidTable>
