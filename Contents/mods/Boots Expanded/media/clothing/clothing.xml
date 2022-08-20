@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>GothGirl1</m_Name>
+		<m_Guid>e2fc27ad-5851-4fdf-adc4-7785f1913969</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_Top>false</m_Top>
+		<!-- Glasses-->
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<!--Silver Nosering-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d59c01dd-6b0c-4686-af83-01dddc4b25ce</itemGUID>
+		</m_items>
+		<!--Silver Earring-->
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+		</m_items>
+		<!--Necklace Choker-->
+		<m_items>
+			<probability>0.6</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<!--Black Corset-->
+		<m_items>
+			<itemGUID>f85c6f0a-8c41-4afb-a73c-0688cadbcf44</itemGUID>
+			<subItems>
+				<!--Red Corset-->
+				<itemGUID>8c3209b7-0920-4ad3-9d20-176604c8232f</itemGUID>
+			</subItems>
+		</m_items>
+		<!--Miniskirt-->
+		<m_items>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<!--Fishnets-->
+		<m_items>
+			<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+		</m_items>
+		<!--Goth Boots-->
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+				<!--Dr Martens Boots-->
+				<itemGUID>32c5d63d-c893-46ed-8db9-bd3d1c123bae</itemGUID>
+			</subItems>
+			<subItems>
+				<!--Converse Boots-->
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<!--Military Boots-->
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	
+</outfitManager>

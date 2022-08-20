@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<!--NEW SHOES-->
+
+	<files>
+	<path>media/clothing/clothingItems/Shoes_FancyBoots.xml</path>
+	<guid>80342b14-290b-444b-adf8-48ef14f86317</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Shoes_Hitops.xml</path>
+	<guid>5523648d-37ee-402b-8c57-f1051aff99d8</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_ConverseSnickers.xml</path>
+	<guid>c1eb5b88-32d2-425d-904e-21c8fa54f639</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_ConverseBoots.xml</path>
+	<guid>6880b591-aa68-4991-9617-afdb196689b5</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_HikingBoots.xml</path>
+	<guid>8f6ce11a-dbb6-458b-8ffb-7f41e9aabf09</guid>
+	</files>
+		
+	<files>
+	<path>media/clothing/clothingItems/Shoes_DrMartens.xml</path>
+	<guid>32c5d63d-c893-46ed-8db9-bd3d1c123bae</guid>
+	</files>
+			
+	<files>
+	<path>media/clothing/clothingItems/Shoes_StrappedBoots.xml</path>
+	<guid>4995767e-b252-440b-a90a-48193045e7c1</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Shoes_GothBoots.xml</path>
+	<guid>606b0b11-a1b9-420d-98bb-9ccc536bf666</guid>
+	</files>
+			
+	<files>
+	<path>media/clothing/clothingItems/Shoes_JungleBoots.xml</path>
+	<guid>494fedc3-2f83-4728-9af8-a5cbae6815d9</guid>
+	</files>
+
+</fileGuidTable>
